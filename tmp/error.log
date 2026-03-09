@@ -1,0 +1,125 @@
+[Mon Mar 09 08:42:33 2026] [notice] Apache/2.2.22 (Win32) PHP/5.2.17 configured -- resuming normal operations
+[Mon Mar 09 08:42:33 2026] [notice] Server built: Jan 28 2012 11:16:39
+[Mon Mar 09 08:42:33 2026] [notice] Parent: Created child process 11192
+[Mon Mar 09 08:42:33 2026] [notice] Child 11192: Child process is running
+[Mon Mar 09 08:42:33 2026] [notice] Child 11192: Acquired the start mutex.
+[Mon Mar 09 08:42:33 2026] [notice] Child 11192: Starting 64 worker threads.
+[Mon Mar 09 08:42:33 2026] [notice] Child 11192: Starting thread to listen on port 80.
+[Mon Mar 09 08:42:34 2026] [error] [client 127.0.0.1] File does not exist: D:/Program Files/EBS Printers/EBS-Editor/www/favicon.ico, referer: http://localhost/
+[Mon Mar 09 08:42:34 2026] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\include\\file_operations.php on line 4, referer: http://localhost/
+[Mon Mar 09 08:42:35 2026] [error] [client 127.0.0.1] PHP Notice:  Undefined index:  EBS-2500_Editor_Version in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\index.php on line 146, referer: http://localhost/
+[Mon Mar 09 08:42:35 2026] [error] [client 127.0.0.1] PHP Notice:  Undefined index:  lbl_projectsGenerated in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\index.php on line 354, referer: http://localhost/
+[Mon Mar 09 08:42:35 2026] [error] [client 127.0.0.1] PHP Notice:  Undefined index:  wtitle_projectsGenerator in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\index.php on line 575, referer: http://localhost/
+[Mon Mar 09 08:42:35 2026] [error] [client 127.0.0.1] PHP Notice:  Undefined index:  menu_projectsGenerator in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\index.php on line 575, referer: http://localhost/
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\include\\file_operations.php on line 4, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\include\\file_operations.php on line 4, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] PHP Notice:  Constant EDITOR_FOR_WINDOWS already defined in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\include\\global_vars.php on line 16, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\include\\file_operations.php on line 4, referer: http://localhost/include/list_projects.php?mode=editor&wmode=const
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\include\\file_operations.php on line 4, referer: http://localhost/include/projectSaveAs.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] PHP Notice:  Constant EDITOR_FOR_WINDOWS already defined in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\include\\global_vars.php on line 16, referer: http://localhost/include/projectSaveAs.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant SORT_NATURAL - assumed 'SORT_NATURAL' in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\include\\projectNew_frame.php on line 11, referer: http://localhost/include/projectSaveAs.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant SORT_FLAG_CASE - assumed 'SORT_FLAG_CASE' in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\include\\projectNew_frame.php on line 11, referer: http://localhost/include/projectSaveAs.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] PHP Warning:  sort() expects parameter 2 to be long, string given in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\include\\projectNew_frame.php on line 11, referer: http://localhost/include/projectSaveAs.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]       1 [main] ebs-www-manager 8196 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] cygwin warning:, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]   MS-DOS style path detected: C:\\ProgramData/EBS/Editor/tmp/ebs_editor.backup, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]   Preferred POSIX equivalent is: /cygdrive/c/ProgramData/EBS/Editor/tmp/ebs_editor.backup, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]   CYGWIN environment variable option "nodosfilewarning" turns off this warning., referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]   Consult the user's guide for more details about POSIX paths:, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]       1 [main] ebs-www-manager 8532 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]       1 [main] ebs-www-manager 6628 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]       1 [main] ebs-www-manager 11140 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]       1 [main] ebs-www-manager 13156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]     384 [main] ebs-www-manager 9356 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]   19758 [main] ebs-www-manager 9796 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1]       1 [main] ebs-www-manager 5660 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:42:36 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:42:38 2026] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in D:\\Program Files\\EBS Printers\\EBS-Editor\\www\\include\\file_operations.php on line 4, referer: http://localhost/include/list_projects_frame.php?mode=editor&remote=0
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1]       1 [main] ebs-www-manager 4912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/include/list_projects_frame.php?mode=editor&remote=0
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/include/list_projects_frame.php?mode=editor&remote=0
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1] cygwin warning:, referer: http://localhost/include/list_projects_frame.php?mode=editor&remote=0
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1]   MS-DOS style path detected: C:\\ProgramData/EBS/Editor/projects/ADRESSE.prj, referer: http://localhost/include/list_projects_frame.php?mode=editor&remote=0
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1]   Preferred POSIX equivalent is: /cygdrive/c/ProgramData/EBS/Editor/projects/ADRESSE.prj, referer: http://localhost/include/list_projects_frame.php?mode=editor&remote=0
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1]   CYGWIN environment variable option "nodosfilewarning" turns off this warning., referer: http://localhost/include/list_projects_frame.php?mode=editor&remote=0
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1]   Consult the user's guide for more details about POSIX paths:, referer: http://localhost/include/list_projects_frame.php?mode=editor&remote=0
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1]     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames, referer: http://localhost/include/list_projects_frame.php?mode=editor&remote=0
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1]       1 [main] ebs-www-manager 16264 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1] cygwin warning:, referer: http://localhost/index.php
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1]   MS-DOS style path detected: C:\\ProgramData/EBS/Editor/tmp/editor/editor.msg, referer: http://localhost/index.php
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1]   Preferred POSIX equivalent is: /cygdrive/c/ProgramData/EBS/Editor/tmp/editor/editor.msg, referer: http://localhost/index.php
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1]   CYGWIN environment variable option "nodosfilewarning" turns off this warning., referer: http://localhost/index.php
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1]   Consult the user's guide for more details about POSIX paths:, referer: http://localhost/index.php
+[Mon Mar 09 08:42:39 2026] [error] [client 127.0.0.1]     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1]       3 [main] ebs-www-manager 8552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1] cygwin warning:, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1]   MS-DOS style path detected: C:\\ProgramData/EBS/Editor/tmp/ebs_editor.backup, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1]   Preferred POSIX equivalent is: /cygdrive/c/ProgramData/EBS/Editor/tmp/ebs_editor.backup, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1]   CYGWIN environment variable option "nodosfilewarning" turns off this warning., referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1]   Consult the user's guide for more details about POSIX paths:, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1]     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1]       1 [main] ebs-www-manager 14756 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1] cygwin warning:, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1]   MS-DOS style path detected: C:\\ProgramData/EBS/Editor/tmp/editor/editor.msg, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1]   Preferred POSIX equivalent is: /cygdrive/c/ProgramData/EBS/Editor/tmp/editor/editor.msg, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1]   CYGWIN environment variable option "nodosfilewarning" turns off this warning., referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1]   Consult the user's guide for more details about POSIX paths:, referer: http://localhost/index.php
+[Mon Mar 09 08:42:52 2026] [error] [client 127.0.0.1]     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1]       3 [main] ebs-www-manager 15112 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1] cygwin warning:, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1]   MS-DOS style path detected: C:\\ProgramData/EBS/Editor/tmp/ebs_editor.backup, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1]   Preferred POSIX equivalent is: /cygdrive/c/ProgramData/EBS/Editor/tmp/ebs_editor.backup, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1]   CYGWIN environment variable option "nodosfilewarning" turns off this warning., referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1]   Consult the user's guide for more details about POSIX paths:, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1]     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1]       1 [main] ebs-www-manager 5532 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1] cygwin warning:, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1]   MS-DOS style path detected: C:\\ProgramData/EBS/Editor/tmp/editor/editor.msg, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1]   Preferred POSIX equivalent is: /cygdrive/c/ProgramData/EBS/Editor/tmp/editor/editor.msg, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1]   CYGWIN environment variable option "nodosfilewarning" turns off this warning., referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1]   Consult the user's guide for more details about POSIX paths:, referer: http://localhost/index.php
+[Mon Mar 09 08:43:07 2026] [error] [client 127.0.0.1]     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1]      81 [main] ebs-www-manager 14188 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1] cygwin warning:, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1]   MS-DOS style path detected: C:\\ProgramData/EBS/Editor/tmp/ebs_editor.backup, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1]   Preferred POSIX equivalent is: /cygdrive/c/ProgramData/EBS/Editor/tmp/ebs_editor.backup, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1]   CYGWIN environment variable option "nodosfilewarning" turns off this warning., referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1]   Consult the user's guide for more details about POSIX paths:, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1]     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1]       1 [main] ebs-www-manager 15632 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1] cygwin warning:, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1]   MS-DOS style path detected: C:\\ProgramData/EBS/Editor/tmp/editor/editor.msg, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1]   Preferred POSIX equivalent is: /cygdrive/c/ProgramData/EBS/Editor/tmp/editor/editor.msg, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1]   CYGWIN environment variable option "nodosfilewarning" turns off this warning., referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1]   Consult the user's guide for more details about POSIX paths:, referer: http://localhost/index.php
+[Mon Mar 09 08:43:22 2026] [error] [client 127.0.0.1]     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1]       2 [main] ebs-www-manager 16076 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1] cygwin warning:, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1]   MS-DOS style path detected: C:\\ProgramData/EBS/Editor/tmp/ebs_editor.backup, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1]   Preferred POSIX equivalent is: /cygdrive/c/ProgramData/EBS/Editor/tmp/ebs_editor.backup, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1]   CYGWIN environment variable option "nodosfilewarning" turns off this warning., referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1]   Consult the user's guide for more details about POSIX paths:, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1]     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1]       1 [main] ebs-www-manager 1552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1] the public mailing list cygwin@cygwin.com, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1] cygwin warning:, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1]   MS-DOS style path detected: C:\\ProgramData/EBS/Editor/tmp/editor/editor.msg, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1]   Preferred POSIX equivalent is: /cygdrive/c/ProgramData/EBS/Editor/tmp/editor/editor.msg, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1]   CYGWIN environment variable option "nodosfilewarning" turns off this warning., referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1]   Consult the user's guide for more details about POSIX paths:, referer: http://localhost/index.php
+[Mon Mar 09 08:43:38 2026] [error] [client 127.0.0.1]     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames, referer: http://localhost/index.php

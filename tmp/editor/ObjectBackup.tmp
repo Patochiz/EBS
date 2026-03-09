@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_PrinterProjectObject>
+  <Group x="0" y="1" w="169" h="16"/>
+  <Object ObjectType="TextObject" ObjectName="Text 1" ObjectIDinfo="0" x="0" y="1" w="169" h="16" AutoSize="1" Transparent="1" Text="PERRIN / NIORT (79)" FontName="fonts/Default/Font_16x10.xml" FontSize="20" FontSizeY="20" FontBold="0" FontItalic="0" FontRotate="0" LineSpacing="1" LetterSpacing="1" RowMultiply="1" ObjectRotate="0" IsLinked="0" LinkedToObject="" ExternalScript="" MustEdit="0" Printable="1">
+    <EditorData Field0="" Field1="" Field2="" Field3="" Field4="" Field5="" Field6="" Field7="" Field8="" Field9="" Field10="" Field11="" Field12="" Field13="" Field14="1"/>
+  </Object>
+</EBS_PrinterProjectObject>
