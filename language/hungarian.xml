@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_LanguageFile>
+<param name="Version" value="2022.01.26"/> 
+<param name="EditedBy" value="GrzesiekP"/>
+<EBS_PrinterLocaleSettings>
+<param name="LC_ALL" value="hu_HU.UTF-8"/>
+</EBS_PrinterLocaleSettings>
+
+<EBS_PUI_FontSettings>
+	<param name="DefaultFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="DefaultFontSmallSize" value="9"/>
+	<param name="DefaultFontNormalSize" value="12"/>
+	<param name="DefaultFontLargeSize" value="14"/>
+	<param name="PinyinFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="PinyinFontSize" value="16"/>
+	<param name="ButtonFontSize" value="12"/>
+	<param name="LabelFontSize" value="11"/>
+	<param name="TextFontSize" value="12"/>
+	<param name="MessageFontSize" value="12"/>
+	<param name="EditFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="EditFontSize" value="16"/>
+</EBS_PUI_FontSettings>
+
+<EBS_ParametersUnitsLanguage>
+	<lang name="EncoderConstant_Unit" value="[impulzusok/m]"/>
+	<lang name="ConveyorSpeed_Unit" value="[m/perc]"/>
+	<lang name="ImpulseGeneratorSource_Unit" value="[belső generátor / külső forrás]"/>
+	<lang name="TriggerType_Unit" value="[él/szint]"/>
+	<lang name="TriggerSignalMode_Unit" value="[pozitív/negatív él]|[magas/alacsony szint]"/>
+	<lang name="Resolution_Unit" value="[dpm] (pontok/méter)"/>
+	<lang name="PrintDistance_Unit" value="[mm]"/>
+	<lang name="TxtRepetitions_Unit" value="[nyomatok]"/>
+	<lang name="RepetitionDistance_Unit" value="[mm]"/>
+	<lang name="RowMultiply_Unit" value="[sorok]"/>
+	<lang name="UpsideDownPrint_Unit" value="[tiltott/engedélyezett]"/>
+	<lang name="ReversePrint_Unit" value="[tiltott/engedélyezett]"/>
+	<lang name="TextHeight_Unit" value="[mm]"/>
+	<lang name="CleaningRows_Unit" value="[sorok]"/>
+	<lang name="Pressure_Unit" value="[bar]"/>
+	<lang name="PhotocellSource_Unit" value="[belső / külső / mindkettő]"/>
+</EBS_ParametersUnitsLanguage>
+
+<EBS_EditorLanguage>
+<Menu>
+	<lang name="menu_projects" value="Munkák"/>
+	<lang name="menu_projectNew" value="Új munka létrehozása"/>
+	<lang name="menu_projectOpen" value="Munka megnyitása"/>
+	<lang name="menu_projectSave" value="Mentés"/>
+	<lang name="menu_projectSaveAs" value="Mentés másként..."/>
+	<lang name="menu_projectClose" value="Munka bezárása"/>
+	<lang name="menu_projectParams" value="Nyomtatási paraméterek"/>
+	<lang name="menu_tools" value="Eszközök"/>
+	<lang name="menu_toolsImagesManager" value="Képkezelő"/>
+	<lang name="menu_toolsFontsManager" value="Betűtípus-kezelő"/>
+	<lang name="menu_toolsTextFilesManager" value="Szövegfájl kezelő"/>
+	<lang name="menu_toolsUsersManager" value="Felhasználói szint kezelő"/>
+	<lang name="menu_toolsReportProblem" value="Hibajelentés készítése"/>
+	<lang name="menu_toolsWorkspaceSize" value="Munkaterület szélessége"/>
+	<lang name="menu_toolsPrintersNetworkManager" value="Nyomtatók hálózati kezelője"/>
+	<lang name="menu_settingsGeneral" value="Általános beállítások"/>
+	<lang name="menu_settingsEncoderConstant" value="Conveyor paraméterek"/>
+	<lang name="menu_settings" value="Beállítások"/>
+	<lang name="menu_service" value="Szerviz"/>
+	<lang name="menu_servicePurge" value="Tisztítás"/>
+	<lang name="menu_serviceLog" value="Log"/>
+	<lang name="menu_printer_control" value="Nyomtató vezérlés"/>
+	<lang name="menu_about" value="Részletek"/>
+	<lang name="menu_toolsLanguageManager" value="Nyelvkezelő"/>
+	<lang name="menu_toolsAccountManagement" value="Fiókkezelés"/>
+	<lang name="menu_moduleInfo" value="Modul info"/>
+	<lang name="menu_phpshell" value="PHP Shell"/>
+	<lang name="menu_softwareUpgrade" value="Szoftverfrissítés"/>
+	<lang name="menu_touchscreenCalibration" value="Érintőképernyő kalibráció"/>
+	<lang name="menu_ObjectNormalText" value="Normál szöveg"/>
+	<lang name="menu_ObjectNormalBarcode" value="Normál vonalkód"/>
+	<lang name="menu_ObjectDateTime" value="Dátum/Idő"/>
+	<lang name="menu_ObjectCounter" value="Számláló"/>
+	<lang name="menu_ObjectComPort" value="Kommunikációs port"/>
+	<lang name="menu_ObjectTxtFile" value="Szöveges fájl"/>
+	<lang name="menu_printoutCost" value="Nyomtatási költség"/>
+	<lang name="menu_serviceReport" value="Szervizjelentés generálása"/>
+	<lang name="menu_installOption" value="Telepítési opció"/>
+	<lang name="menu_statistics" value="Működési statisztika"/>
+	<lang name="menu_info" value="Info"/>
+	<lang name="menu_ObjectShapeLine" value="Vonal"/>
+	<lang name="menu_ObjectShapeRectangle" value="Négyzet"/>
+	<lang name="menu_ObjectShapeElipse" value="Ellipszis"/>
+	<lang name="menu_projectImport" value="Munka importálása"/>
+	<lang name="menu_projectExport" value="Munka exportálása"/>
+	<lang name="menu_puiPreview" value="LCD Előnézet"/>
+	<lang name="menu_barcode" value="Vonalkód"/>
+	<lang name="menu_lineDivider" value="Sorválasztó" />
+	<lang name="menu_simulatePrintout" value="Nyomtatási szimuláció" />
+	<lang name="menu_printerUpdate" value="Frissít" />
+	<lang name="menu_openPrinterControl" value="Nyomtatóvezérlő megnyitása" />
+	<lang name="menu_sendProjectToPrinter" value="Munka küldése a nyomtatóra" />
+	<lang name="menu_openWUI" value="Webes felhasználói felület megnyitása" />
+	<lang name="menu_restartPrinter" value="Nyomtató újraindítása" />
+	<lang name="menu_shutdownPrinter" value="Nyomtató kikapcsolása" />
+	<lang name="menu_projectsGenerator" value="Munka generátor" />
+</Menu>
+<Labels>
+	<lang name="lbl_loggedAs" value="Bejelentkezve mint: "/>
+	<lang name="lbl_startupWhatWouldYouLikeToDo" value="Mit szeretne tenni?"/>
+	<lang name="lbl_startupCreateNewProject" value="\nÚj munka létrehozása"/>
+	<lang name="lbl_startupOpenProject" value="\nMunka megnyitása szerkesztéshez"/>
+	<lang name="lbl_startupOpenProjectForPrinter" value="\nMunka megnyitása nyomtatásra"/>
+	<lang name="lbl_startupChangeEditorSettings" value="\nSzerkesztési beállítások megváltoztatása"/>
+	<lang name="lbl_startupPrinterControl" value="\nNyomtató vezérlő"/>
+	<lang name="lbl_language" value="Nyelv:"/>
+	<lang name="lbl_originalLanguage" value="Eredeti nyelv:"/>
+	<lang name="lbl_printerType" value="Nyomtató típus:"/>
+	<lang name="lbl_filename" value="Fájlnév:"/>
+	<lang name="lbl_directory" value="Könyvtár:"/>
+	<lang name="lbl_showFilesOnList" value="Sávok megjelenítése a listán"/>
+	<lang name="lbl_clipboardContent" value="Vágólap tartalma:"/>
+	<lang name="lbl_empty" value="üres"/>
+
+	<lang name="lbl_currentDirectory" value="Aktuális könyvtár:"/>
+	<lang name="lbl_projectPreview" value="Munka előnézete:"/>
+	<lang name="lbl_projectInformation" value="Projekt információ:"/>
+	<lang name="lbl_lastModification" value="Utolsó módosítás:"/>
+	<lang name="lbl_imagePreview" value="Kép előnézete:"/>
+	<lang name="lbl_imageInstalled" value="Telepített %s kép"/>
+	<lang name="lbl_imageNotInstalled" value="Kép nem telepíthető %s"/>
+	<lang name="lbl_pleaseSelectImageToInstall" value="Válassza ki a telepítendő képet:"/>
+	<lang name="lbl_fontPreview" value="Betűtípus előnézete:"/>
+	<lang name="lbl_fontType" value="Betűtípus:"/>
+	<lang name="lbl_pleaseSelectFontToInstall" value="Válassza ki a telepítendő betűtípust:"/>
+	<lang name="lbl_pleaseSelectTxtFileToInstall" value="Válassza ki a telepítendő szövegfájlt:"/>
+	<lang name="lbl_fontInstalled" value="%s betűtípus telepítve"/>
+	<lang name="lbl_fontNotInstalled" value="Nem telepíthető a %s betűtípus"/>
+	<lang name="lbl_txtFileInstalled" value="%s szövegfájl telepítve"/>
+	<lang name="lbl_txtFileNotInstalled" value="Nem telepíthető a %s szövegfájl"/>
+
+	<lang name="lbl_users" value="Felhasználók"/>
+	<lang name="lbl_groups" value="Csoportok"/>
+	<lang name="lbl_userInformation" value="Felhasználói információk: "/>
+	<lang name="lbl_lastLogin" value="Utolsó bejelentkezés:"/>
+	<lang name="lbl_avaiableUsers" value="Elérhető felhasználók:"/>
+	<lang name="lbl_avaiableGroups" value="Elérhető csoportok:"/>
+	<lang name="lbl_enableAutoLogin" value="Auto. bejelentkezés engedélyezése"/>
+	<lang name="lbl_login" value="Bejelentkezés"/>
+	<lang name="lbl_password" value="Jelszó"/>
+
+	<lang name="lbl_userImage" value="Felhasználói kép"/>
+	<lang name="lbl_addUserToThisGroup" value="Felhasználó hozzáadása a csoporthoz"/>
+	<lang name="lbl_groupName" value="Csoport neve"/>
+	<lang name="lbl_groupImage" value="Csoport képe"/>
+	<lang name="lbl_groupsPrivilages" value="Csoportok kiváltságai"/>
+	<lang name="lbl_objectParams" value="Objektum paraméterei"/>
+	<lang name="lbl_deleteObject" value="Objektum törlése"/>
+	<lang name="lbl_text" value="Szöveg"/>
+	<lang name="lbl_fontName" value="Betű neve"/>
+	<lang name="lbl_fontSize" value="Betű mérete"/>
+	<lang name="lbl_fontSizeX" value="X"/>
+	<lang name="lbl_fontSizeY" value="Y"/>
+	<lang name="lbl_constrainProportions" value="Rögzített méretarány"/>
+	<lang name="lbl_objectRotation" value="Objektum forgatás"/>
+	<lang name="lbl_lineSpacing" value="Sorköz:"/>
+	<lang name="lbl_enterFontSize" value="Betűméret megadása"/>
+	<lang name="lbl_autoSize" value="Auto. méretezés"/>
+	<lang name="lbl_transparent" value="Átlátszó"/>
+	<lang name="lbl_showPreview" value="Előnézet mutatása"/>
+	<lang name="lbl_objectName" value="Objektum neve"/>
+	<lang name="lbl_barcodeType" value="Vonalkód típusa:"/>
+
+	<lang name="lbl_borderSize" value="Szegély méret:"/>
+	<lang name="lbl_borderType" value="Szegély típus:"/>
+	<lang name="lbl_registers" value="Változó mezők"/>
+	<lang name="lbl_imagePath" value="Kép elérései útja"/>
+	<lang name="lbl_allowResize" value="Átméretezés engedélyezése"/>
+	<lang name="lbl_objectSize" value="Objektum mérete"/>
+	<lang name="lbl_objectPosition" value="Pozíció"/>
+	<lang name="lbl_encoderConstant" value="Kódoló állandó"/>
+	<lang name="lbl_conveyorSpeed" value="Futószalag sebesség"/>
+	<lang name="lbl_triggerType" value="Trigger típus"/>
+	<lang name="lbl_triggerSignalMode" value="Trigger jel üzemmód"/>
+	<lang name="lbl_impulseGeneratorSource" value="Impulzusgenerátor-forrás"/>
+	<lang name="lbl_resolution" value="Felbontás"/>
+	<lang name="lbl_printDistance" value="Kezdeti távolság"/>
+	<lang name="lbl_textRepetition" value="Nyomtatás ismétlése"/>
+	<lang name="lbl_repetitionDistance" value="Nyomtatási távolság"/>
+	<lang name="lbl_reversePrint" value="Vízszintes átfordítás"/>
+	<lang name="lbl_upsideDownPrint" value="Függőleges átfordítás"/>
+	<lang name="lbl_shaftDirection" value="Nyomtatási irány"/>
+	<lang name="lbl_textHeight" value="Szöveg magasság"/>
+	<lang name="lbl_cleaningRows" value="Sorok tisztítása"/>
+	<lang name="lbl_pressure" value="Nyomás"/>
+	<lang name="lbl_PhotocellSource" value="Fotocella forrás"/>
+	<lang name="lbl_dotSize" value="Pontméret"/>
+	<lang name="lbl_parameterRange" value="Paraméter tartomány"/>
+	<lang name="lbl_newWorkspaceWidth" value="Új munkaterület szélessége"/>
+	<lang name="lbl_settings_general" value="Általános beállítások"/>
+	<lang name="lbl_settings_date" value="Dátum és idő"/>
+	<lang name="lbl_imageWrongType" value="Csak PNG fájlok engedélyezettek."/>
+	<lang name="lbl_projectImportWrongType" value="Csak ZIP fájlok engedélyezettek."/>
+	<lang name="lbl_fontWrongType" value="Csak TTF fájlok engedélyezettek."/>
+	<lang name="lbl_txtFileWrongType" value="Csak TXT fájlok engedélyezettek."/>
+	<lang name="lbl_currentPrinterDate" value="Aktuális dátum nyomtatón:"/>
+	<lang name="lbl_currentPrinterTime" value="Aktuális idő nyomtatón:"/>
+	<lang name="lbl_dateOffset" value="Dátum eltolás:"/>
+	<lang name="lbl_timeOffset" value="Idő eltolás:"/>
+	<lang name="lbl_dateSeparator" value="Dátum szeparátor:"/>
+
+	<lang name="lbl_timeSeparator" value="Idő szeparátor:"/>
+	<lang name="lbl_dateFormat" value="Dátumformátum:"/>
+	<lang name="lbl_timeFormat" value="Időformátum:"/>
+	<lang name="lbl_date" value="Dátum (nn-hh-éééé):"/>
+	<lang name="lbl_time" value="Idő (óó:ppp:sec):"/>
+	<lang name="lbl_formattingString" value="Karaktersorozat formázása:"/>
+	<lang name="lbl_advanced" value="Haladó"/>
+	<lang name="lbl_quickPreview" value="Gyors előnézet"/>
+	<lang name="lbl_showExpertsSettings" value="Szakértői beállítások mutatása"/>
+	<lang name="lbl_DateTimeHelp1" value="%a - Rövidített hétnap\\\\\\\n%A - Teljes hétnap\\\\\\\n%b - Rövidített hónap\\\\\\\n%B - Teljes hónap\\\\\\\n%c - Teljes dátum és idő\\\\\\\n%d - Hónap napja (1-31)\\\\\\\n%H - Óra (24-órás rendszer)\\\\\\\n%I - Óra (12-órás rendszer)\\\\\\\n%j - Év napja (1-366)\\\\\\\n%m - Hónap (1-12)\\\\\\\n%M - Perc (0-59)\\\\\\\n"/>
+	<lang name="lbl_DateTimeHelp2" value="%p - AM/PM 12-órás rendszerhez\\\\\\\n%S - Másodperc (0-60)\\\\\\\n%U - Hét száma Vasárnaptól\\\\\\\n%w - Hétköznap (0-6) Vasárnaptól\\\\\\\n%W - Hét száma Hétfőtől\\\\\\\n%x - Teljes dátum\\\\\\\n%X - A nap teljes ideje\\\\\\\n%y - Év évszázad nélkül\\\\\\\n%Y - Év évszázaddal\\\\\\\n%Z - Időzóna\\\\\\\n%% - Karakter nyomtatása %\\\\\\\n"/>
+	<lang name="lbl_min" value="Min"/>
+	<lang name="lbl_max" value="Max"/>
+	<lang name="lbl_startValue" value="Kiindulási érték"/>
+	<lang name="lbl_step" value="Lépés"/>
+	<lang name="lbl_length" value="Hossz"/>
+	<lang name="lbl_prefix" value="Előtag"/>
+	<lang name="lbl_suffix" value="Utótag"/>
+	<lang name="lbl_startMode" value="Start mód"/>
+	<lang name="lbl_lastValue" value="Utolsó érték"/>
+	<lang name="lbl_showThisCounter" value="A számláló mutatása"/>
+	<lang name="lbl_incrementOrder" value="Növekedési sorrend"/>
+	<lang name="lbl_ObjectNormalBarcode" value="Nomrál vonalkód"/>
+	<lang name="lbl_ObjectNormalText" value="Normál szöveg"/>
+	<lang name="lbl_ObjectDateTime" value="Dátum/Idő"/>
+	<lang name="lbl_ObjectCounter" value="Számláló"/>
+	<lang name="lbl_ObjectComPort" value="Kommunikációs port"/>
+	<lang name="lbl_ObjectTxtFile" value="Szöveges fájl"/>
+	<lang name="lbl_ObjectConvertTo" value="Objektum konvertálása:"/>
+	<lang name="lbl_port" value="Port:"/>
+	<lang name="lbl_baud" value="Átviteli sebesség:"/>
+	<lang name="lbl_onPrintStart" value="A nyomtatás kezdetén:"/>
+	<lang name="lbl_onDataProcess" value="Az adatfeldolgozáskor:"/>
+	<lang name="lbl_onPrintFinish" value="A nyomtatás befejeztekor:"/>
+	<lang name="lbl_filePath" value="Fájl elérési útja:"/>
+	<lang name="lbl_lineCount" value="Sor számlálás:"/>
+	<lang name="lbl_all" value="Mind"/>
+	<lang name="lbl_lineStep" value="Sor léptetés:"/>
+	<lang name="lbl_lineMax" value="Sor max:"/>
+	<lang name="lbl_fillIn" value="Kitöltés"/>
+	<lang name="lbl_event" value="Esemény"/>
+	<lang name="lbl_space" value="Szünet"/>
+	<lang name="lbl_doNothing" value="Ne csinálj semmit"/>
+
+	<lang name="lbl_stopPrinting" value="Nyomtatás befejezése"/>
+	<lang name="lbl_printerStatus" value="A nyomtató állapota:"/>
+	<lang name="lbl_currentProject" value="Jelenlegi munka:"/>
+	<lang name="lbl_editorLoading" value="Szerkesztő betöltése...\nKérjük várjon..."/>
+	<lang name="lbl_paramsPreview" value="Paraméterek előnézete"/>
+	<lang name="lbl_currentEncoderConstant" value="Jelenlegi kódoló állandó érték"/>
+	<lang name="lbl_currentConveyorSpeed" value="Jelenlegi futószalag sebesség érték"/>
+	<lang name="lbl_showHelp" value="Segítség mutatása"/>
+	<lang name="lbl_parametersSource" value="Paraméterek forrása:"/>
+	<lang name="lbl_parametersFile" value="Paraméterek fájl:"/>
+	<lang name="lbl_localParameters" value="Helyi paraméterek"/>
+	<lang name="lbl_externalParameters" value="Külső paraméterek"/>
+	<lang name="lbl_oldPassword" value="Régi jelszó"/>
+	<lang name="lbl_newPassword" value="Új jelszó"/>
+	<lang name="lbl_retypePassword" value="Jelszó újbóli megadása"/>
+	<lang name="lbl_detecting" value="detektálás"/>
+	<lang name="lbl_saveChanges" value="változások mentése"/>
+	<lang name="lbl_paramsContinuous" value="Folyamatos"/>
+	<lang name="lbl_counterStartValue" value="Számláló %d kezdő érték"/>
+	<lang name="lbl_lineStartValue" value="Sor kezdő érték"/>
+	<lang name="lbl_enableAutoStart" value="Autostart engedélyezése"/>
+	<lang name="lbl_gotoEditorPage" value="Ugrás a szerkesztő oldalra >" />
+	<lang name="lbl_availableVersions" value="Elérhető verziók:" />
+	<lang name="lbl_networkResources" value="Hálózati erőforrások:" />
+	<lang name="lbl_gotoWebpage" value="Ugrás weboldalra" />
+	<lang name="lbl_none" value="none" />
+	<lang name="lbl_bind" value="bind" />
+	<lang name="lbl_box" value="box" />
+	<lang name="lbl_installInProjectDir" value="Telepítés a projekt könyvtárba" />
+	<lang name="lbl_createInSeparateDir" value="Projekt létrehozása külön könyvtárban" />
+	<lang name="lbl_helpLanguage" value="Segítség nyelv:"/>
+	<lang name="lbl_startEditor" value="Szerkesztő:" />
+	<lang name="lbl_startPrinter" value="Nyomtató:" />
+	<lang name="lbl_printoutPreviewFirst" value="első nyomtatás megjelenítése" />
+	<lang name="lbl_printoutPreviewNext" value="következő nyomtatás megjelenítése" />
+	<lang name="lbl_mustEdit" value="Ezt az objektumot a nyomtatás megkezdése előtt szerkeszteni kell" />
+	<lang name="lbl_xcoord" value="x koordináta" />
+	<lang name="lbl_ycoord" value="y koordináta" />
+	<lang name="lbl_width" value="szélesség" />
+	<lang name="lbl_height" value="magasság" />
+	<lang name="lbl_helpWelcome" value="EBS Webes felhasználói kézikönyv" />
+	<lang name="lbl_printManual" value="Nyomtatási kézikönyv" />
+	<lang name="lbl_pdfManual" value="Kézikönyv letöltése PDF-ként" />
+	<lang name="lbl_unknown" value="Nem elérhető" />
+	<lang name="lbl_checking" value="Ellenőrzés..." />
+
+	<lang name="lbl_printerName" value="Nyomtató neve" />
+	<lang name="lbl_printerIP" value="Nyomtató IP címe" />
+	<lang name="lbl_printerModel" value="Nyomtató típusa"/>
+	<lang name="lbl_hideTrash" value="Szemetes elrejtése" />
+	<lang name="lbl_emptyTrash" value="Szemetes ürítése" />
+	<lang name="lbl_hideClipboard" value="Vágólap elrejtése" />
+	<lang name="lbl_emptyClipboard" value="Vágólap ürítése" />
+	<lang name="lbl_px" value="px" />
+	<lang name="lbl_cm" value="cm" />
+	<lang name="lbl_emptyProject" value="Üres projekt." />
+	<lang name="lbl_translatedText" value="Lefordított szöveg" />
+	<lang name="lbl_originalText" value="Eredeti szöveg" />
+	<lang name="lbl_menuItems" value="Menüpontok" />
+
+	<lang name="lbl_signature" value="Aláírás" />
+	<lang name="lbl_communicationsMode" value="Mód - várakozás:" />
+	<lang name="lbl_readyToPrintAfter" value="Utána készen áll a nyomtatásra" />
+	<lang name="lbl_asciiCode" value="ASCII kód" />
+	<lang name="lbl_communicationsMode_1" value="Idő intervallum (ms)" />
+	<lang name="lbl_communicationsMode_2" value="Adat mennyiség" />
+	<lang name="lbl_communicationsMode_3" value="Vég karakter" />
+	<lang name="lbl_communicationsMode_4" value="Szeparátor adatok összegyűjtve" />
+
+	<lang name="lbl_bitCount" value="Bitszám" />
+	<lang name="lbl_sendingMessagesFormat" value="Üzenetküldési formátum" />
+	<lang name="lbl_normal" value="Normál" />
+	<lang name="lbl_hexadecimal" value="Hexadecimális" />
+	<lang name="lbl_noDataAction" value="Adat nélküli művelet" />
+	<lang name="lbl_nothing" value="semmi" />
+	<lang name="lbl_blank" value="Üres objektum nyomtatása" />
+	<lang name="lbl_lastMessage" value="Utolsó üzenet nyomtatása" />
+	<lang name="lbl_noPrintout" value="Nincs nyomtatás" />
+	<lang name="lbl_procFormattingString" value="Proc Formatting String" />
+
+	<lang name="lbl_separatorDataCount" value="Szeparátor adatok száma" />
+	<lang name="lbl_separatorObject" value="Objektum %d" />
+
+	<lang name="lbl_separatorCharacter" value="Szeparátor karakter" />
+	<lang name="lbl_dataBuffering" value="Adat pufferelés" />
+	<lang name="lbl_disabled" value="Nem engedélyezett" />
+	<lang name="lbl_enabled" value="Engedélyezett" />
+	<lang name="lbl_reportLevel" value="Statisztikák" />
+	<lang name="lbl_isLinked" value="Objektum összekapcsolva" />
+
+	<lang name="lbl_basicStatistics" value="Alap statisztikák" />
+	<lang name="lbl_OperateTime" value="Üzemelési idő" />
+	<lang name="lbl_MadePrintouts" value="Készített nyomatok" />
+	<lang name="lbl_extraStatistics" value="Extra statisztikák" />
+	<lang name="lbl_project" value="Projekt" />
+	<lang name="lbl_report" value="Jelentés" />
+	<lang name="lbl_userInfoReport" value="Felhasználói info jelentés" />
+	<lang name="lbl_serviceInfoReport" value="Szerviz info jelentés" />
+	<lang name="lbl_infoReport" value="Info jelentés" />
+	<lang name="lbl_lineThickness" value="Vonal vastagság" />
+
+	<lang name="lbl_filled" value="Kitöltött" />
+	<lang name="lbl_invert" value="Inverz" />
+
+	<lang name="lbl_pixCount" value="Pixelszám" />
+	<lang name="lbl_printoutPerLiter" value="Nyomtatás literenként" />
+	<lang name="lbl_printoutPerBootle" value="Nyomtatás patrononként" />
+	<lang name="lbl_autoAdjustText" value="Automatikus szövegbeállítás" />
+	<lang name="lbl_pleaseSelectFileToImport" value="Válassza ki az importálandó fájlt" />
+	<lang name="lbl_projectImported" value="%s projekt importálva"/>
+	<lang name="lbl_projectNotImported" value="Nem importálható a %s projekt"/>
+
+	<lang name="lbl_fileInformation" value="Fájl információ"/>
+
+	<lang name="lbl_withoutScaling" value="Méretezés nélkül"/>
+	<lang name="lbl_fitFrameToContent" value="Keret illesztése a tartalomhoz"/>
+	<lang name="lbl_fitContentToFrame" value="Tartalom illesztése a kerethez"/>
+	<lang name="lbl_rowMultiply" value="Sor többszörösítés"/>
+
+	<lang name="lbl_EBSInternalFonts" value="EBS belső betűtípusok"/>
+	<lang name="lbl_TTFDefaultFonts" value="Alapértelmezett True Type betűtípusok"/>
+	<lang name="lbl_TTFUserFonts" value="Felhasználói True Type betűtípusok"/>
+
+	<lang name="lbl_import_ebseditorimport" value="EBS WWW Szerkesztő projektfájl importálása"/>
+	<lang name="lbl_import_ebs250import" value="EBS 250 projektfájl importálása"/>
+	<lang name="lbl_import_conversionFromEBS250" value="EBS 250 projektfájl konvertálása WWW szerkesztő projektfájlokká..."/>
+	<lang name="lbl_selectOptionPackageFile" value="Válassza ki a telepítendő opciófájlt" />
+	<lang name="lbl_resetCounterVF" value="Figyelem: Egyes számlálók úgy vannak beállítva, hogy visszaállítsák a minimális vagy maximális értékre. Ennél a számlálónál lehetetlen megváltoztatni a kiindulási értéket. Az ilyen mezők szürke színnel vannak jelölve" />
+	<lang name="lbl_pleaseWait" value="Kérjük várjon..."/>
+	<lang name="lbl_lineType" value="Vonal típus" />
+	<lang name="lbl_lineSolid" value="Egyenes" />
+	<lang name="lbl_lineDashed" value="Szaggatott" />
+	<lang name="lbl_lineDotted" value="Pontozott" />
+	<lang name="lbl_discharging" value="Akkumulátorról"/>
+	<lang name="lbl_charging" value="Töltés"/>
+	<lang name="lbl_charged" value="Feltöltve"/>
+	<lang name="lbl_charged_connected" value="Feltöltve és kapcsolódva"/>
+	<lang name="lbl_discharged" value="Lemerült"/>
+	<lang name="lbl_discharged_connected" value="Lemerült és kapcsolódva"/>
+	<lang name="lbl_inkstatus" value="Tintatartály állapota:"/>
+	<lang name="lbl_inklevel" value="Tinta szint:"/>
+	<lang name="lbl_inkcolour" value="Tinta szín:"/>
+	<lang name="lbl_batteryStatus" value="Akkumulátor állapota:"/>
+	<lang name="lbl_letterSpacing" value="Betűtávolság:"/>
+	<lang name="lbl_maxRepeatCount" value="Maximális ismétlésszám:"/>
+	<lang name="lbl_noScript" value="Nincs script"/>
+	<lang name="lbl_action" value="Action" />
+	<lang name="lbl_saveToDisk" value="Mentés lemezre" />
+	<lang name="lbl_sendToPrinter" value="Küldés nyomtatóra" />
+
+	<lang name="lbl_printableObject" value="Nyomtatható az objektum" />
+	<lang name="lbl_linkedToObjects" value="Kapcsolódik az objektumhoz" />
+	<lang name="lbl_contentFormat" value="Tartalmi formátum" />
+
+	<lang name="lbl_currentPoint" value="Aktuális pont:" />
+	<lang name="lbl_changePoint" value="Pont változtatása" />
+	<lang name="lbl_horizontalDistance" value="Vízszintes távolság:" />
+	<lang name="lbl_verticalDistance" value="Függőleges távolság:" />
+
+	<lang name="lbl_printerNetwork_search" value="Nyomtatók keresése... kérjük várjon..." />
+	<lang name="lbl_printerNetwork_select" value="Válassza ki a nyomtató hálózatához hozzáadni kívánt nyomtatókat" />
+	<lang name="lbl_selectAll" value="Az összes kijelölése" />
+	<lang name="lbl_deselectAll" value="Az összes kijelölésének törlése" />
+	<lang name="lbl_printerNetwork_addPrinter" value="Nyomtató hozzáadása" />
+	<lang name="lbl_printerNetwork_noPrinters" value="Nem található nyomtató!" />
+	<lang name="lbl_selectedFileIsUnsuporrted" value="A kijelölt fájl, nem támogatott." />
+	<lang name="lbl_confirmMessage" value="Üzenet megerősítése" />
+
+	<lang name="lbl_autoRefresh" value="Auto frissítés" />
+	<lang name="lbl_after" value="után" />
+	<lang name="lbl_seconds" value="másodperc" />
+	<lang name="lbl_timeToRefresh" value="Idő frissítésig:" />
+	<lang name="lbl_availablePrinters" value="Elérhető nyomtatók:" />
+	<lang name="lbl_export" value="Exportálás" />
+	<lang name="lbl_editorLog" value="Editor log" />
+	<lang name="lbl_printerLog" value="Printer log" />
+	<lang name="lbl_externalParamsFileNotFound" value="A(z) %s külső nyomtatási paraméter fájl nem található" />
+	<lang name="lbl_pleaseSelectPrintingParams" value="Kérjük, válassza ki a munkánál használni kívánt nyomtatási paramétereket." />
+	<lang name="lbl_defaultPrintHeadParams" value="Alapértelmezett nyomtatófej paraméterek" />
+	<lang name="lbl_projectLocalParams" value="Munka lokális paraméterei" />
+	<lang name="lbl_msgAll" value="Mind" />
+	<lang name="lbl_msgInformations" value="Információk" />
+	<lang name="lbl_msgWarnings" value="Figyelmeztetések" />
+	<lang name="lbl_msgErrors" value="Hibák" />
+	<lang name="lbl_msgDeleteAll" value="Összes üzenet törlése" />
+	<lang name="lbl_msgDeleteInformations" value="Összes információ törlése" />
+	<lang name="lbl_msgDeleteWarnings" value="Összes figyelmeztetés törlése" />
+	<lang name="lbl_msgDeleteErrors" value="Minden hiba törlése" />
+	<lang name="lbl_searchResults" value="Keresési eredmények" />
+	<lang name="lbl_clipboard" value="Vágólap" />
+	<lang name="lbl_trash" value="Szemetes" />
+	<lang name="lbl_printersNetwork" value="Nyomtató hálózat" />
+	<lang name="lbl_selectObject" value="Objektum kijelölése" />
+	<lang name="lbl_objectsList" value="Objektumok listája" />
+	<lang name="lbl_or" value="vagy" />
+	<lang name="lbl_scaling" value="Méretezés" />
+	<lang name="lbl_format" value="Alak" />
+	<lang name="lbl_rectangle" value="Háromszög" />
+	<lang name="lbl_square" value="Négyszög" />
+	<lang name="lbl_auto" value="Auto" />
+	<lang name="lbl_deleteRecoveryFile" value="Törölje a helyreállítási fájlt" />
+	
+	<lang name="lbl_alignTextToBottom" value="Szöveg igazítása alulra" />
+	<lang name="lbl_alignTextToTop" value="Szöveg igazítása felülre" />	
+	<lang name="lbl_generatingProjectsPleaseWait" value="Munkák generálása ... Kérjük, várjon ..." />
+	<lang name="lbl_projectsGenerated" value="A projektek sikeresen elkészültek." />
+	
+</Labels>
+<Tooltips>
+	<lang name="tooltip_createNewDirectory" value="Új könyvtár létrehozása"/>
+	<lang name="tooltip_removeDirectory" value="Kijelölt fájl vagy könyvtár eltávolítása"/>
+	<lang name="tooltip_rename" value="Átnevezés"/>
+	<lang name="tooltip_cut" value="Kivágás"/>
+	<lang name="tooltip_copy" value="Másolás"/>
+	<lang name="tooltip_paste" value="Beillesztés"/>
+	
+	<lang name="tooltip_printParameters" value="A nyomtatási paraméterek ablak megjelenítése"/>
+	<lang name="tooltip_normalCursor" value="Normál kurzor"/>
+	<lang name="tooltip_createTextObject" value="Szöveges objektum létrehozása"/>
+	<lang name="tooltip_createImageObject" value="Képobjektum létrehozása"/>
+	<lang name="tooltip_createShapeObject" value="Alak objektum létrehozása"/>
+	<lang name="tooltip_createBarcodeObject" value="Vonalkód objektum létrehozása"/>
+	<lang name="tooltip_zoomInProject" value="Nagyítás be"/>
+	<lang name="tooltip_zoomOutProject" value="Nagyítás ki"/>
+	<lang name="tooltip_zoomNormalProject" value="Valós méret"/>
+	<lang name="tooltip_cutObject" value="Objektum kivágása"/>
+	<lang name="tooltip_copyObject" value="Objektum másolása"/>
+	<lang name="tooltip_showHideClipboard" value="Vágólap mutatása/elrejtése"/>
+	<lang name="tooltip_showHideTrash" value="Szemetes mutatása/elrejtése"/>
+	<lang name="tooltip_projectPreview" value="Nyomtatási előnézet megjelenítése"/>
+	<lang name="tooltip_reloadProjectWorkspace" value="A projekt munkaterületének újratöltése"/>
+	<lang name="tooltip_printerNetwork" value="Nyomtató hálózat"/>
+	<lang name="tooltip_moveObjectUpDown" value="Objektum mozgatása fel/le"/>
+	<lang name="tooltip_turnOffPrinter" value="Kikapcsolás/Újraindítás/Kijelentkezés"/>
+	<lang name="tooltip_moveObjectLeft" value="Objektum mozgatása balra 1px"/>
+	<lang name="tooltip_moveObjectRight" value="Objektum mozgatása jobbra 1px"/>
+	<lang name="tooltip_moveObjectUp" value="Objektum mozgatása fel 1px"/>
+	<lang name="tooltip_moveObjectDown" value="Objektum mozgatása le 1px"/>
+	<lang name="tooltip_hideWindow" value="Ablak elrejtése"/>
+	<lang name="tooltip_showWindow" value="Ablak megjelenítése"/>
+	<lang name="tooltip_showHelp" value="Segítség megjelenítése"/>
+	<lang name="tooltip_showBackground" value="Kattintson a háttér megtekintéséhez"/>
+	<lang name="tooltip_closeWindow" value="Ablak bezárása"/>
+	<lang name="tooltip_showFontWindow" value="Betűtípus-kezelő ablak megjelenítése"/>
+	<lang name="tooltip_toogleDate" value="Dátum váltása"/>
+	<lang name="tooltip_toogleTime" value="Idő váltása"/>
+	<lang name="tooltip_changeDateTimeOrder" value="Dátum/idő sorrend módosítása"/>
+	<lang name="tooltip_alignLeft" value="Balra igazítás"/>
+	<lang name="tooltip_alignCenter" value="Középre igazítás"/>
+	<lang name="tooltip_alignRight" value="Jobbra igazítás"/>
+	<lang name="tooltip_createSpecialObject" value="Speciális objektum létrehozása"/>
+	
+	<lang name="tooltip_saveProject" value="Munka mentése"/>
+	<lang name="tooltip_openProject" value="Munka megnyitása"/>
+	<lang name="tooltip_workspaceWidth" value="Munkaterület szélességének változtatása"/>
+	<lang name="tooltip_showObjectParameters" value="Objektum paraméterek ablak megjelenítése"/>
+	<lang name="tooltip_deleteObject" value="Objektum törlése"/>
+	<lang name="tooltip_showObjectsList" value="Objektumlista megjelenítése/elrejtése"/>
+</Tooltips>
+<WTitles>
+	<lang name="wtitle_projectNew" value="Új munka létrehozása"/>
+	<lang name="wtitle_projectOpen" value="Munka megnyitása szerkesztéshez"/>
+	<lang name="wtitle_projectOpenForPrinter" value="Munka megnyitása nyomtatáshoz"/>
+	<lang name="wtitle_projectSaveAs" value="Mentés másként..."/>
+	<lang name="wtitle_projectParams" value="Nyomtatási paraméterek"/>
+	<lang name="wtitle_editor_settings" value="Általános beállítások"/>
+	<lang name="wtitle_encoderConstantSettings" value="Futószalag paraméterek"/>
+	<lang name="wtitle_printer_control" value="Nyomtató vezérlés"/>
+	<lang name="wtitle_installImage" value="Új kép telepítése"/>
+	<lang name="wtitle_workspaceWidth" value="Munkaterület szélessége"/>
+	<lang name="wtitle_purge" value="Tisztítás"/>
+	<lang name="wtitle_log" value="Bejelentkezés"/>
+
+	<lang name="wtitle_addUser" value="Felhasználó hozzáadása"/>
+	<lang name="wtitle_editUser" value="Felhasználó szerkesztése"/>
+	<lang name="wtitle_deleteUser" value="Felhasználó törlése"/>
+	<lang name="wtitle_addGroup" value="Csoport hozzáadása"/>
+	<lang name="wtitle_editGroup" value="Csoport szerkesztése"/>
+	<lang name="wtitle_deleteGroup" value="Csoport törlése"/>
+	<lang name="wtitle_installFont" value="Új betűtípus telepítése"/>
+	<lang name="wtitle_installTxtFile" value="Új szöveges fájl telepítése"/>
+	<lang name="wtitle_message" value="Üzenet"/>
+	<lang name="wtitle_messages" value="Üzenetek"/>
+	<lang name="wtitle_objectParams" value="Objektum paraméterek"/>
+	<lang name="wtitle_filename" value="Fájlnév"/>
+	<lang name="wtitle_folderName" value="Mappanév"/>
+	<lang name="wtitle_rename" value="Átnevezés"/>
+	<lang name="wtitle_fontsManager" value="Betűtípus-kezelő"/>
+	<lang name="wtitle_textsFilesManager" value="Szövegesfájl-kezelő"/>
+	<lang name="wtitle_uninstallFont" value="Betűtípus eltávolítása"/>
+	<lang name="wtitle_fontSize" value="Betűméret"/>
+	<lang name="wtitle_imagesManager" value="Képkezelő"/>
+	<lang name="wtitle_uninstallImage" value="Kép eltávolítása"/>
+	<lang name="wtitle_reportProblem" value="Hibajelentés készítése"/>
+	<lang name="wtitle_projectPreview" value="Munka előnézete"/>
+	<lang name="wtitle_usersManager" value="Felhasználó-kezelő"/>
+	<lang name="wtitle_printersNetworkManager" value="Nyomtató hálózat-kezelő"/>
+	<lang name="wtitle_objectPreview" value="Objektum előnézete"/>
+	<lang name="wtitle_moduleInfo" value="Module info"/>
+	<lang name="wtitle_accountManagement" value="Fiókkezelő"/>
+	<lang name="wtitle_variableFields" value="Változó mezők"/>
+	<lang name="wtitle_resetVariableField" value="Változó mezők visszaállítása"/>
+	<lang name="wtitle_browseParamsFiles" value="Tallózzon a paraméterfájlokban"/>
+	<lang name="wtitle_printoutCost" value="Nyomtatási költség"/>
+	<lang name="wtitle_serviceReport" value="Jelentés"/>
+	<lang name="wtitle_mustEdit" value="Objektum szerkesztése"/>
+	<lang name="wtitle_installOption" value="Opció telepítése"/>
+	<lang name="wtitle_size" value="Méret"/>
+	<lang name="wtitle_position" value="Pozíció"/>
+	<lang name="wtitle_printerNetwork" value="Nyomtató hálózat"/>
+	<lang name="wtitle_addPrinter" value="Nyomtató hozzáadása"/>
+	<lang name="wtitle_editPrinter" value="Nyomtató szerkesztése"/>	
+	<lang name="wtitle_deletePrinter" value="Nyomtató törlése"/>
+	<lang name="wtitle_softwareUpgrade" value="Szoftver fejlesztés"/>
+	<lang name="wtitle_printoutPreview" value="Nyomtatási előnézet"/>
+	<lang name="wtitle_enterPassword" value="Jelszó megadása"/>
+	<lang name="wtitle_statistics" value="Statisztikák"/>
+	<lang name="wtitle_clearStatistics" value="Statisztikák törlése"/>
+	<lang name="wtitle_projectImport" value="Munka importálása"/>
+	<lang name="wtitle_projectExport" value="Munka exportálása"/>
+	<lang name="wtitle_puiPreview" value="LCD Előnézet"/>
+	<lang name="wtitle_simulatePrintout" value="Nyomtatási szimuláció" />
+	<lang name="wtitle_firmware_ugprade_info" value="Információ a szoftverfrissítésről"/>
+	<lang name="wtitle_printerUpdate" value="Frissít" />
+	<lang name="wtitle_scanPrintersNetwork" value="Nyomtató hálózat ellenőrzése" />
+	<lang name="wtitle_selectPrintingParams" value="Nyomtatási munkák kijelölése" />
+	<lang name="wtitle_projectsGenerator" value="Munkák generátor" />
+</WTitles>
+<Buttons>
+	<lang name="btn_saveChanges" value="Módosítások mentése"/>
+	<lang name="btn_yes" value="Igen"/>
+	<lang name="btn_no" value="Nem"/>
+	<lang name="btn_ok" value="OK"/>
+	<lang name="btn_reload" value="Editor újratöltése"/>
+	<lang name="btn_apply" value="Alkalmaz"/>
+	<lang name="btn_confirm" value="Jóváhagy"/>
+	<lang name="btn_cancel" value="Mégse"/>
+	<lang name="btn_rename" value="Átnevezés"/>
+	<lang name="btn_shutdown" value="Kikapcsolás"/>
+	<lang name="btn_restart" value="Újraindítás"/>
+	<lang name="btn_logout" value="Kijelentkezés"/>
+	<lang name="btn_createFolder" value="Mappa létrehozása"/>
+	<lang name="btn_createProject" value="Munka létrehozása"/>
+	<lang name="btn_openProject" value="Munka megnyitása"/>
+	<lang name="btn_openProjectForPrinting" value="Munka megnyitása\nnyomtatásra"/>
+	<lang name="btn_deleteSelectedImage" value="Kijelölt kép törlése"/>
+	<lang name="btn_installNewImage" value="Új kép letöltése"/>
+	<lang name="btn_selectImage" value="Kép kijelölése"/>
+	<lang name="btn_closeWindow" value="Ablak bezárása"/>
+	<lang name="btn_installSelectedImage" value="Kijelölt kép letöltése"/>
+	<lang name="btn_selectFont" value="Betű kiválasztása"/>
+	<lang name="btn_installNewFont" value="Új betű letöltése"/>
+	<lang name="btn_deleteSelectedFont" value="Kijelölt betű törlése"/>
+	<lang name="btn_installSelectedFont" value="Kijelölt betű letöltése"/>
+	<lang name="btn_deleteSelectedTxtFile" value="Kijelölt szöveges fájl törlése"/>
+	<lang name="btn_installNewTxtFile" value="Új szöveges fájl letöltése"/>
+	<lang name="btn_installSelectedTxtFile" value="Kijelölt szöveges fájl letöltése"/>
+	<lang name="btn_addUser" value="Felhasználó hozzáadása"/>
+	<lang name="btn_editUser" value="Felhasználó szerkesztése"/>
+	<lang name="btn_deleteUser" value="Felhasználó törlése"/>
+	<lang name="btn_addGroup" value="Csoport hozzádása"/>
+	<lang name="btn_editGroup" value="Csoport módosítása"/>
+	<lang name="btn_deleteGroup" value="Csoport törlése"/>
+	<lang name="btn_add" value="Hozzáadás"/>
+	<lang name="btn_save" value="Mentés"/>
+
+	<lang name="btn_browse" value="Keresés"/>
+	<lang name="btn_saveProject" value="Munka mentése"/>
+	<lang name="btn_setPrintHeadDefault" value="Nyomtatófej alapértelmezett értékeinek használata"/>
+	<lang name="btn_reloadLogFile" value="Naplófájl újbóli betöltése"/>
+	<lang name="btn_clearLogFile" value="Naplófájl tölése"/>
+	<lang name="btn_next" value="Következő"/>
+	<lang name="btn_groupPriorityUp" value="Mozgatás fel"/>
+	<lang name="btn_groupPriorityDown" value="Mozgatás le"/>
+	<lang name="btn_variableFields" value="Variáns mezők"/>
+	<lang name="btn_startPrint" value="Nyomtatás indítás"/>
+	<lang name="btn_stopPrint" value="Nyomtatás leállítás"/>
+	<lang name="btn_printingParams" value="Nyomtatási\nparaméterek"/>
+	<lang name="btn_purgeOn" value="Tisztítás be"/>
+	<lang name="btn_purgeOff" value="Tisztítás ki"/>
+	<lang name="btn_currentPrinterDateTime" value="Dátum/idő a nyomtatóról"/>
+	<lang name="btn_currentComputerDateTime" value="Dátum/idő a számítógépről"/>
+	<lang name="btn_setPrinterDateTime" value="Dátum/idő beállítása a nyomtatón"/>
+	<lang name="btn_selectFile" value="Fájl kiválasztása"/>
+	<lang name="btn_createNewFile" value="Új mappa létrehozása"/>
+	<lang name="btn_detectEncoderConst" value="Kódoló állandó érzékelése"/>
+	<lang name="btn_detectConveyorSpeed" value="A szállítószalag sebességének észlelése"/>
+	<lang name="btn_detectEncoderConstStop" value="Kódoló állandó érzékelésének leállítása"/>
+	<lang name="btn_detectConveyorSpeedStop" value="Szállítószalag sebesség észlelésének leállítása"/>
+	<lang name="btn_useCurrent" value="Használja a jelenlegi beállításokat"/>
+	<lang name="btn_resetVF" value="Gyári alaphelyzetbe állítás"/>
+	<lang name="btn_setSize" value="Méretezés"/>
+	<lang name="btn_reportWait" value="Jelentés készítése... kérjük várjon..."/>
+	<lang name="btn_reportComplete" value="Kattintson a szerviz jelentés letöltéséhez."/>
+	<lang name="btn_reportError" value="Hiba történt! Kattintson a részletekért."/>
+	<lang name="btn_installPackageWait" value="Opció telepítése... kérjük várjon..."/>
+	<lang name="btn_installPackageComplete" value="Opció telepítve. Kattintson a bezáráshoz."/>
+	<lang name="btn_installPackageError" value="Hiba történt! Nem lett telepítve az opció."/>
+	<lang name="btn_nextObject" value="Következő objektum"/>
+	<lang name="btn_addPrinter" value="Nyomtató hozzáadása"/>
+	<lang name="btn_editPrinter" value="Nyomtató szerkesztése"/>
+	<lang name="btn_deletePrinter" value="Nyomtató törlése"/>
+	<lang name="btn_searchPrinters" value="Nyomtatók keresése"/>
+	<lang name="btn_clearStatistics" value="Statisztikák törlése"/>
+	<lang name="btn_exportImages" value="összes kép"/>
+	<lang name="btn_exportAllProjects" value="összes munka"/>
+	<lang name="btn_exportSelectedProject" value="kijelölt projektek"/>
+	<lang name="btn_importFile" value="Fájl importálása"/>
+	<lang name="btn_generate" value="Generálás" />
+	<lang name="btn_uploadFile" value="Frissítő fájl feltöltése" />
+	<lang name="btn_restartContinue" value="Indítsa újra a nyomtatót a folytatáshoz" />
+	<lang name="btn_addToList" value="Hozzáadás a listához" />
+	<lang name="btn_shutdownAllPrinters" value="Az összes nyomtató kikapcsolása" />
+	<lang name="btn_installPackage" value="Telepítő csomag" />
+	<lang name="btn_installingPackage" value="Opció telepítése... kérjük várjon..." />
+	<lang name="btn_login" value="Bejelentkezés" />
+	<lang name="btn_selectParamsFile" value="Paraméterek fájl kiválasztása" />
+	<lang name="btn_selectLoginImage" value="Bejelentkezési profil fotójának kiválasztása" />
+	<lang name="btn_usePrintHeadDefault" value="Nyomtatófej alapértelmezésének használata" />
+	<lang name="btn_userProjectLocalParams" value="Munka helyyi paramétereinek használata" />
+	<lang name="btn_addSelectedPrinters" value="A kijelölt nyomtatók hozzáadása" />
+	<lang name="btn_invertSelection" value="Kijelölés megfordítása" />
+	<lang name="btn_restoreObject" value="Objektum visszaállítása" />
+	<lang name="btn_pasteObject" value="Objektum beillesztése" />
+</Buttons>
+<Messages>
+	<lang name="msg_startPrintOperation" value="Szeretné elindítani a nyomtatást?"/>
+	<lang name="msg_deleteImage" value="A kép törlése?"/>
+	<lang name="msg_deleteFont" value="A betűtípus törlése?"/>
+	<lang name="msg_deleteTxtFile" value="A szöveges fájl törlése?"/>
+	<lang name="msg_deleteObject" value="Az objektum törlése?"/>
+	<lang name="msg_deleteUser" value="A(z) [b]%s[/b] felhasználó törlése?"/>
+	<lang name="msg_deletePrinter" value="A(z) [b]%s[/b] nyomtató törlése?"/>
+	<lang name="msg_deleteGroup" value="A(z) [b]%s[/b] csoport törlése?"/>
+	<lang name="msg_projectNotSaved" value="Nem mentett projekt\nSzeretné lementeni?"/>
+	<lang name="msg_fileExistsReplace" value="Már létezik ilyen nevű fájl. Szeretné felülírni?"/>
+	<lang name="msg_fileExists" value="Már létezik ilyen nevű fájl."/>
+	<lang name="msg_deleteProject" value="Törölni szeretné ezt a munkát?"/>
+	<lang name="msg_deleteFolder" value="A mappa törlése a teljes tartalmával?"/>
+	<lang name="msg_whatWouldYouLikeToDo" value="Mit szeretne tenni?"/>
+	<lang name="msg_settingsSavedSuccessfully" value="A beállítások sikeresen el lettek mentve.\nAz Editornak mostanra frissítenie kellett magát.\nFrissítés?"/>
+	<lang name="msg_projectForDifferentPrintHead" value="Az aktuális munka, nem a jelenlegi nyomtatófejhez lett tervezve.\nMindenképp megnyitja ezt a munkát?"/>
+	<lang name="msg_someoneLoggedIn" value="%s felhasználó jelenleg az alábbi IP címmel van bejelentkezve: %s.\nSzeretné kényszeríteni a bejelentkezést?"/>
+	<lang name="msg_projectSaved" value="Munka lementve."/>
+
+	<lang name="msg_projectCreated" value="Munka sikeresen létrehozva."/>
+	<lang name="msg_projectDeleted" value="A kijelölt munka sikeresen törölve."/>
+	<lang name="msg_cantDeleteDefaultFont" value="Nem tötölhető a kijelölt alapértelmezett nyomtatási betűtípus."/>
+	<lang name="msg_cantDeleteAdministrator" value="Nem törölhető [b]Adminisztrátor[/b]."/>
+	<lang name="msg_cantRenameBecauseFileExists" value="A cél- fájl/könyvtár már létezik."/>
+	<lang name="msg_fontDeleted" value="A kijelölt betűtípus sikeresen törölve lett."/>
+	<lang name="msg_txtFileDeleted" value="A kijelölt szöveges fájl sikeresen törölve lett."/>
+	<lang name="msg_imageDeleted" value="A kijelölt kép sikerese törölve lett."/>
+	<lang name="msg_noFileSelected" value="Nincs kijelölt fájl.\nJelöljön ki egy fájlt és próbálja meg újból."/>
+	<lang name="msg_noUserSelected" value="Nincs kijelölt felhasználó.\nJelölje ki a felhasználót és próbálja meg újból."/>
+	<lang name="msg_noPrinterSelected" value="Nincs kijelölt nyomtató.\nJelölje ki anyomtatót és próbálja meg újból."/>
+	<lang name="msg_selectProjectFileFirst" value="Elsőként jelölje ki a projektfájlt."/>
+	<lang name="msg_objectNotSelected" value="Nincs kijelölt objektum."/>
+	<lang name="msg_ExternParamsFileNotSelected" value="Nincs kijelölt fájl.\nVálassza ki a külső paraméter fájlt, vagy váltson a helyi paraméterekre."/>
+	<lang name="msg_printParamsSet" value="A projekt nyomtatási paramétereinek beállítása sikeresen megtörtént."/>
+	<lang name="msg_paramsOutOfRange" value="Néhány paramétera tartományon kívülre esik ."/>
+	<lang name="msg_noPrintHeadDefinedInProject" value="Ehhez a projekthez nincs meghatározva nyomtatófej típus. Több paraméter nem határozható meg, mint a nyomtatófej magassága, felbontása stb...."/>
+	<lang name="msg_incorrectPassword" value="Téves jelszó."/>
+	<lang name="msg_cantLoginBecauseToLowPriority" value="%s felhasználó be van jelentkezve.\nAz Ön prioritása túl alacsony, hogy jelenleg használni tudja az editort."/>
+	<lang name="msg_enterLoginFirst" value="Kérjük először írja be a felhasználó jelszavát."/>
+	<lang name="msg_enterPassFirst" value="Kérjük először írja be a felhasználó jelszavát."/>	
+	<lang name="msg_enterGroupNameFirst" value="Kérjük először adja meg a csoport nevét."/>
+	<lang name="msg_selectAtLeastOneGroup" value="Kérjük válasszon ki legalább egy csoportot."/>
+	<lang name="msg_loginInUse" value="A kiválasztott profil haszználatban van.\nVálasszon ki másokat és prbálkozzon újból."/>
+	<lang name="msg_groupInUse" value="Ez a csoport már létezik.\nÍrjon be egy másik nevet és próbálkozzon meg újból."/>
+	<lang name="msg_passwordsNotEqual" value="A jelszavak nem egyeznek."/>
+
+	<lang name="msg_oldPasswordIsEmpty" value="Meg kell adnia először e régi jelszót."/>
+	<lang name="msg_oldPasswordIsBad" value="A régi jelszó nem egyezik az új jelszóval."/>
+	<lang name="msg_allDataInObjectWillBeLost" value="Az objektum minden adata el fog veszni.\nMindenképp folytatja?"/>
+	<lang name="msg_wrongParams" value="Legalább egy szakaszban a számláló paraméterei hibásak (min &gt; max).\nMeg akarja fordítani a számlálási sorrendet?"/>
+	<lang name="msg_updateExternFileParams" value="A változtatások minden olyan projektet érintenek, amelyek ezt a külső paraméterfájlt használják.\nMindenképp folytatja ?"/>	
+	<lang name="msg_clearCacheReminder" value="Más Editor verzió volt fellelhető.\nJavasoljuk a böngésző gyorsítótárának törlését." />
+	<lang name="msg_aboutWindow" value="EBS Web-es Felhasználó Interfész %s\nNyomtató verzió: %s\nRendszer verzió: %s\nPUI verzió: %s\n Nyomtatási vezérlő verzió: %s\n\n\nAz Ön forgalmazója:\n\n[b]Gravotrade Kft.[/b]\nHU-1089 Budapest,\nMagyarok Nagyasszonya tér 10. \n\nTelefon: +36 1 323 1220 \nE-mail: ebs@gravotrade.hu\n\nwww.ebs-inkjet.hu \nwww.gravoshop.hu \n\n\n\n\nA gyártó elérhetőségei:\n\n[b]EBS Ink-Jet Systeme GmbH[/b]\nAlte Ziegelei 19-25\nD-51588 Nümbrecht-Elsenroth\nDEUTSCHLAND\n\n+49 (0)2293/939-0\nFax +49 (0)2293/939-3\n\nE-Mail: mail@ebs-inkjet.de\nWWW: http://www.ebs-inkjet.de" />
+	<lang name="msg_resetCounterVF" value="Figyelem: ennek a műveletnek a végrehajtásához kérjük, ellenőrizze, hogy az aktuális projekt nem kerül kinyomtatásra.\nEz a művelet hatással van az egyes számláló szakaszok jelenleg tárolt értékeire és a 'Kezdő érték' mezőire."/>
+	<lang name="msg_resetTxtFileVF" value="Figyelem: ennek a műveletnek a végrehajtásához kérjük, ellenőrizze, hogy az aktuális projekt nem kerül kinyomtatásra.\nEz a művelet hatással van a jelenleg tárolt értékekre és a 'Sor kezdőértéke' mezőre."/>
+	<lang name="msg_wrongProjectFilename" value="A munka fájlneve nem tartlmazhatja a következő karaktereket .,/\\#%*?:{}|"/>
+	<lang name="msg_communicationError" value="Kommunikációs hiba\nA nyomtató nem válaszol. Kérjük ellenőrizze a rendszert\nés próbálja meg újból. Ha a nyomtató elfoglalt a\ngyors nyomtatás miatt, állítsa meg és próbálja újból." />
+	<lang name="msg_errorJavaScript" value="Súlyos hiba!\nA JavaScript le van tiltva.\nKérjük, hogy kapcsolja be és próbálja meg újból." />
+	<lang name="msg_errorPendrive" value="Súlyos hiba!\nA Pendrive adatai hiányoznak vagy érvénytelenek.\nKérjük, ellenőrizze a pendrive-ot és próbálkozzon újból." />
+	<lang name="msg_errorBrowserNotSupported" value="Figyelmeztetés!\nEz a böngésző nem támogatott.\nKérjük, használja a Mozilla Firefox-ot helyette." />
+	<lang name="msg_projectPriorityTooLow" value="Néhány munka jelenleg szerkesztésre van megnyitva a nyomtató LCD-n.\nAz Ön prioritása túl alacsony ahhoz, hogy megnisson egy munkát jelenleg." />
+	<lang name="msg_projectOpenedFromLCDWnd" value="Néhány munka jelenleg szerkesztésre van megnyitva a nyomtató LCD-n.\nSzeretné kényszerítve megnyitni ?" />
+	<lang name="msg_projectClosed" value="A munka lezárult, mert valaki megkezdte a szerkesztést az LCD-n." />
+	<lang name="msg_printerDateTimeSetSuccessfull" value="nyomtató dátum/idő sikeresen elmentve." />
+	<lang name="msg_clipboardEmpty" value="A vágólap üres." />
+
+	<lang name="msg_improper_poweroff" value="Figyelmeztetés! Helytelen leállást észleltek, ami adatok sérülését vagy a készülék hibás működését okozhatja. Kérjük, mindig tartsa be a leállítási lépéseket."/>
+	<lang name="msg_printerNetworkEmptyFields" value="Meg kell adnia a nyomtató nevét és IP-címét."/>
+	<lang name="msg_printerNetworkIPExists" value="Ezzel az IP-címmel rendelkező nyomtató, már szerepel a listán."/>
+	<lang name="msg_printerNetworkBadIP" value="Érvénytelen IP cím."/>
+	<lang name="msg_cantDeleteCurrentUser" value="A jelenleg bejelentkezett felhasználót nem lehet törölni."/>
+	<lang name="msg_clearStatistics" value="Biztos benne, hogy törli a statisztikákat ?"/>
+	<lang name="msg_printerNetworkProjectExported" value="A munka sikeresen exportálva lett."/>
+	<lang name="msg_lineDividersMaxReached" value="Elérte a sor elválasztók maximális értékét." />
+	<lang name="msg_simulationPrintoutTooBig" value="A nyomtatás túl nagy.\n\nAz aktuális nyomat tartalma: %s px\nA maximális nyomat tartalmazhat: %s px\n\nKérjük, módosítsa a következő paraméterek legalább egyikét, és próbálja újra.\n\nVízszintes távolság: %s px\nFüggőleges távolság: %s px\nPontméret: %s px\nMunkaterület szélessége: %s px\n" />
+</Messages>
+<StatusMessages>
+	<lang name="msg_E01000" value="(E01000) HIBA: Belső memóriaallokációs probléma. A nyomtató nem fog megfelelően működni. Nyissa meg újból a munkát, ha ez nem segít, indítsa újra a nyomtatót vagy szerkessze újra a munkát." />
+	<lang name="msg_E01010" value="(E01010) HIBA: A munka szélessége túl kicsi. A nyomtató automatikusan korrigálta a szélességet az elérhető legkisebb értékre." />
+	<lang name="msg_E01011" value="(E01011) HIBA: A munka magassága túl kicsi. A nyomtató automatikusan korrigálta a magasságot az elérhető legkisebb értékre." />
+	<lang name="msg_E01015" value="(E01015) HIBA: A munka mérete túl nagy. A szélességet a nyomtató automatikusan korrigálta a maximális értékre." />
+
+	<lang name="msg_E1000" value="(E1000) HIBA: A rendszer leállításához nem lehet root jogosultságokat beállítani!"/>
+	<lang name="msg_E1001" value="(E1001) HIBA: Sablon munka nem létezik!"/>
+	<lang name="msg_E1002" value="(E1002) HIBA: Sikertelen a munka betöltése!"/>
+	<lang name="msg_E1003" value="(E1003) HIBA: Sikertelen a munka betöltése - a projektfájl nem létezik!"/>
+	<lang name="msg_E1004" value="(E1004) HIBA: A rendszer újraindításához nem lehet root jogosultságokat beállítani!"/>
+	<lang name="msg_E1100" value="(E1100) HIBA: Nem lehet végrehajtani ezt a műveletet, mert nincs megnyitott munka!"/>
+	<lang name="msg_E10100" value="(E10100) HIBA: Nem tölthető be munka a kiválasztott fájlból! A fájl nem tartalmaz projektinformációkat, vagy sérült. A műveletet megszakítva!"/>
+	<lang name="msg_E10101" value="(E10101) HIBA: Nem lehet betölteni a projektbeállításokat! Alapértelmezett beállítások alkalmazása... A megfelelő beállításokhoz felhasználói beavatkozás szükséges."/>
+	<lang name="msg_E10102" value="(E10102) HIBA: Nem lehet betölteni a nyomtatási paramétereket ehhez a munkához! Alapértelmezett beállítások alkalmazása...A megfelelő beállításokhoz felhasználói beavatkozás szükséges (lehetséges, hogy az alapértelmezett paraméterek nem megfelelőek az adott nyomtatófejhez)."/>
+	<lang name="msg_E11010" value="(E11010) HIBA: Változó mező \'Szöveges fájl\': A fájl nem nyitható meg!"/>
+	<lang name="msg_E11011" value="(E11011) HIBA: Változó mező \'Szöveges fájl\': Hiba a megnyitáskor/fájl elérése egy adott sorban!"/>
+	<lang name="msg_E11020" value="(E11020) HIBA: Változó mező \'KOMM PORT\': Nem nyitható meg a port!"/>
+	<lang name="msg_E11021" value="(E11021) HIBA: Változó mező \'KOMM PORT\': Nincs megnyitva a kommunikációs port! Kommunikáció megszakítva!"/>
+	<lang name="msg_E11022" value="(E11022) HIBA: Változó mező \'KOMM PORT\': Olvasás/Az írási művelet sikertelen!"/>
+	<lang name="msg_E11036" value="(E11036) HIBA: Probléma a vonalkód-motor futtatásakor! Kérjük ellenőrizze a vonalkód tartalmát/beállításait, és javítsa ki a hibákat."/>
+	<lang name="msg_D0100" value="Nyomtatás ki (készen áll)"/>
+	<lang name="msg_D0101" value="Nyomtatás be (várakozás)"/>
+	<lang name="msg_D0102" value="Nyomtatás be (nyomtatás)"/>
+	<lang name="msg_D0000" value="Az illesztőprogram nincs jelen"/>
+	<lang name="msg_D0001" value="Hiba a parancs, illesztőprogramra küldése közben"/>
+	<lang name="msg_D0002" value="Nyomtató státusz ismeretlen"/>
+	<lang name="msg_D0003" value="A munka nincs kijelölve"/>
+	<lang name="msg_D0110" value="Távolság mérésem haladjon az alábbi pontokon át:1 - 2 - 3"/>
+	<lang name="msg_W1111" value="(W1111) VIGYÁZAT: Kihagyott nyomat(ok)! Egyes nyomtatások helytelenek lehetnek. Lehet, hogy a nyomtatási sebesség túl gyors egy kiválasztott munkához."/>
+	<lang name="msg_W1112" value="(W1112) VIGYÁZAT: A munka nem nyomtatható - még az adatok nyomtatásra való előkészítése előtt ravaszolva volt. Kihagyott nyomat(ok):" />
+	<lang name="msg_W2000" value="(W2000) VIGYÁZAT: A nyomtatási sorba kerülő adatok túlcsordultak, a következő adatokat nem gyűjtjük. Nyomtasson a nyomtatási sor felszabadításához" />
+	<lang name="msg_W2001" value="(W2001) VIGYÁZAT: A nyomtató túl sok adatot kapott, befejező karakter nélkül! A sorban lévő következő tételbe beírt nélkülözhető adatok" />
+	<lang name="msg_W3000" value="(W3000) VIGYÁZAT: A hulladékpalack megtelt! Kérjük ürítse ezt a tartályt. A következő tisztítás károsíthatja a légszivattyút. Kattintson az OK gombra a tartály ürítését követően." />
+
+	<lang name="msg_E10000" value="(E10000) HIBA: A szükséges objektumadatokat nem lehet betölteni a projektfájlból!" />
+	<lang name="msg_E10103" value="(E10103) HIBA: Nem lehet betölteni a nyomtatási paramétereket külső fájlból! Helyi paraméterek alkalmazása!" />
+	<lang name="msg_E10104" value="(E10104) HIBA: Nem lehet menteni a munkát (nem hozható létre projektfájlt tartalmazó könyvtárfa)" />
+	<lang name="msg_E10105" value="(E10105) HIBA: Nem lehet menteni a munkát (mentés nem engedélyezett az adott helyen)" />
+	<lang name="msg_E11023" value="(E11023) HIBA: Változó mező 'KOMM PORT': Fatális hiba a fogadott adatok feldolgozása közben!" />
+	<lang name="msg_E11024" value="(E11024) HIBA: Változó mező 'KOMM PORT': A kiválasztott COM PORT nem nyitható meg kétszer (tehát az ezt a portot használó projektek nem lehetnek nyitottak nyomtatásra és szerkesztésre egyszerre. Folytathatja, de ez a változó mező nem fog működni.)" />
+	<lang name="msg_E11030" value="(E11030) HIBA: A vonalkód adatai helytelenek (illegális karaktereket észleltek az aktuális vonalkód-típushoz)! Kérjük javítsa az adatokat." />
+	<lang name="msg_E11031" value="(E11031) HIBA: Helytelen vonalkódadat hossz! Kérjük javítsa az adattartalmat." />
+	<lang name="msg_E11035" value="(E11035) HIBA: A kiválasztott vonalkódleírás nem tölthető be a nyomtató adatbázisából. Ez akkor fordulhat elő, ha a projektet egy újabb nyomtatóval hozták létre, amely több vonalkód-típust kezel (vagy a nyomtató vonalkód-adatbázisa sérült)." />
+
+	<lang name="msg_I99000" value="(I99000) Új tintatartály elfogadása sikeres."/>
+	<lang name="msg_E99000" value="(E99000) Nincs tintatartály regisztrálva a rendszerben."/>
+	<lang name="msg_E99001" value="(E99001) Helytelen tintatartály-adatok érkeztek az IMS-rendszertől. A tintatartály elutasítva!" />
+	<lang name="msg_E99002" value="(E99002) Helytelen tintatartály-paraméter(ek). A tintatartály elutasítva!"/>
+	<lang name="msg_E99003" value="(E99003) Elavult tinta - a tartály elutasítva!"/>
+	<lang name="msg_E99004" value="(E99004) Tinta más nyomtatófej-típushoz - a tartály elutasítva!"/>
+	<lang name="msg_W99005" value="(W99005) A korábban használt színtől eltérő tinta - öblítse ki a nyomtatót"/>
+	<lang name="msg_E99005" value="(E99005) A korábban használt tintától eltérő színű - a tartály elutasítva!"/>
+	<lang name="msg_E99006" value="(E99006) A korábban használt tinta típustól eltérő - a tartály elutasítva!"/>
+	<lang name="msg_E99007" value="(E99007) A korábban használt oldószer típustól eltérő - a tartály elutasítva!"/>
+	<lang name="msg_E99020" value="(E99020) A nyomtatónál már használt tintatartály. a tartály elutasítva!"/>
+	<lang name="msg_E99021" value="(E99021) A tintatartály inaktív (már elfogadta egy másik nyomtató). A tintatartály elutasítva!"/>
+	<lang name="msg_E99022" value="(E99022) A rendszerben regisztrált tintatartály fel lett használva és kikapcsol. Kérjük, regisztrálja az új tartályt!"/>
+	<lang name="msg_E99023" value="(E99023) A tintatartály inaktív (elfogyott). A tintatartály elutasítva!"/>
+	<lang name="msg_W99023" value="(W99023) A tintaszint kritikusan alacsony!"/>
+	<lang name="msg_E99024" value="(E99024) Tintatartály meghibásodása vagy nincs tintatartály!" />
+	<lang name="msg_I99024" value="(I99024) A tintakamra üres (nincs tinta)"/>
+	<lang name="msg_E99050" value="(E99050) Nincs nyomtatóazonosító (kövesse az új készülékek azonosító programozási eljárását!)"/>
+	<lang name="msg_E99051" value="(E99051) Nincs vagy hibás nyomtatóazonosító. A nyomtató nem használható! Vegye fel a kapcsolatot, forgalmazójával."/>
+	<lang name="msg_I99070" value="(I99070) Üres patron"/>
+	<lang name="msg_I99100" value="(I99100) Nincs tintatartály regisztrálva a rendszerben. A nyomtatás megkezdéséhez regisztrálja a tintáját."/>
+	<lang name="msg_E99100" value="(E99100) Nincs tintatartály regisztrálva a rendszerben. A nyomtatás megkezdéséhez regisztrálja a tintáját."/>
+	<lang name="msg_I99110" value="(I99110) A nyomtató kóddal lett feloldva. Fennmaradó idő: %s"/> 
+	<lang name="msg_I99111" value="(I99111) Az egyszeri jelszó kódjának elfogadása sikeres."/>
+	<lang name="msg_I99112" value="(I99112) A tinta típusa megváltozott - elfogadhatja / regisztrálja az új tintát"/>
+	<lang name="msg_W99112" value="(W99112) A tinta típusa nem változott. Kérjük próbálja újra"/>
+	<lang name="msg_E99120" value="(E99120) Az egyszeri jelszó nem lett létrehozva. Kérjük, próbálja újra később."/>
+	<lang name="msg_E99121" value="(E99121) Érvénytelen kód egyszeri jelszóhoz"/>
+	<lang name="msg_E99122" value="(E99122) Túllépte a téves válaszok határát. A nyomtató kikapcsol"/>
+	<lang name="msg_W99123" value="(W99123) Kód elfogadva, de az opció nem használható!" />
+	<lang name="msg_W99124" value="(W99124) Kód elfogadva, de rossz lehetőséget választottak!" />
+	<lang name="msg_E99130" value="(E99130) A belső akkumulátor megsérült. Kérjük, cserélje ki, majd indítsa újra a nyomtatót! Ha cserélte az akkumulátort, indítsa újra a nyomtatót"/>
+	<lang name="msg_I99130" value="(I99130) A belső akkumulátor megsérült. Kérjük, cserélje ki, majd indítsa újra a nyomtatót! Ha cserélte az akkumulátort, indítsa újra a nyomtatót"/>
+
+	<lang name="msg_E99140" value="(E99140) Az új CPU-kártya nem engedélyezhető!" />
+	<lang name="msg_I99140" value="(I99140) Az új CPU Board sikeresen engedélyezett!" />
+	<lang name="msg_E99141" value="(E99141) A CPU Board nincs engedélyezve! Kérjük, hogy vegye fel a kapcsolatot a forgalmazóval az engedélyezés miatt!" />
+	<lang name="msg_E99142" value="(E99142) Engedélyezési hiba: A CPU Board nem engedélyezhető! Kommunikációs hiba a CPU Board-dal. Kérjük egyeztessen a forgalmazóval." />
+
+
+	<lang name="msg_S90010" value="Aktív" />
+	<lang name="msg_S90020" value="Deaktivált" />
+	<lang name="msg_S90030" value="Tartály meghibásodása vagy hiánya" />
+	<lang name="msg_S90040" value="Nincs regisztrálva transzponder" />
+	<lang name="msg_S90050" value="Nyomtató feloldva" />
+
+
+	<lang name="msg_W1113" value="(W1113) Row fireing speed is too high - please change printing speed or project resolution!" />
+	<lang name="msg_I99001" value="(I99001) Ink container successfully accepted. It has been already used." />
+	<lang name="msg_I99002" value="(I99002) Ink container successfully accepted. It has been used in this printer" />
+	<lang name="msg_W99121" value="(W99121) Registrated ink container is still active"/>
+	<lang name="msg_W11040" value="(W11040) WARNING: Font size was too big. It was changed on maximum value"/>
+	<lang name="msg_W99200" value="(W99200) Parameters for selected project are too high. Maximum printing frequency is exceeded. Please decrease at least one of following parameters: Resolution or Printing speed."/>
+	<lang name="msg_I99200" value="(I99200) Dot Size is too big! System automatically limited dot size to accepted value."/>
+	<lang name="msg_W99300" value="(W99300) For acceptation new ink container you need access to the Internet"/>
+	<lang name="msg_W99301" value="(W99301) Connected ink container seems to be not valid. Printer may work not good with it."/>
+	<lang name="msg_E99302" value="(E99302) Connected ink container is not valid and can not be used. Please contact to your distributor"/>
+	<lang name="msg_E99008" value="(E99008) Different Manufacturer of tag than previously used - container rejected!"/>
+	<lang name="msg_I99008" value="(I99008) Removed information about manufacturer of ink containers"/>
+	<lang name="msg_W99008" value="(W99008) Information about manufacturer was not changed. Please try again"/>
+</StatusMessages>
+<Barcodes>
+	<lang name="bar_Code_11" value="[b]Betűkészlet:[/b] numerikus 0-9 és kötőjel\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] A távközlési iparban használt."/>
+	<lang name="bar_Code_25_Industrial" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Más néven Code 2 and 5 és ipari 25 kód. Régebbi kód, ipari használatra."/>		
+	<lang name="bar_Code_25_Interleaved" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Más néven az 5 Interleaved 2. kódja. Ipari felhasználás."/>
+	<lang name="bar_Code_25_IATA" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] A repülőgépiparban használt változata a Code 2 of 5-nak."/>
+	<lang name="bar_Code_25_DataLogic" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] A Code 2 of 5 változata."/>	
+	<lang name="bar_Code_39" value="[b]Betűkészlet:[/b] A-Z, 0-9, 5 speciális karakterek\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Code 3 of 9-ként is ismert. Gyakran használt, önellenőrző típus."/>		
+	<lang name="bar_Code_39_Extended" value="[b]Betűkészlet:[/b] ASCII (127 karakter)\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Kiterjesztett Code 3 of 9-ként is ismert. kiterjesztett Code 39."/>
+	<lang name="bar_EAN" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] megfelel a kiválasztott EAN vonalkód típusnak\n[b]Leírás:[/b] Az EAN kódot elsősorban a szupermarketekben használják a termék azonosítására az értékesítés helyén. Tartalmazza az EAN-2 és az EAN-5 kiegészítő kódok, az EAN-8 és az EAN-13 szabványait, amelyek 2, 5, 7 vagy 12 jegyű kódot kódolnak. A következő példa egy EAN-8 szimbólumot kódol egy EAN-5 kiegészítővel: 1234567 + 12345."/>
+	<lang name="bar_GS1_128" value="[b]Betűkészlet:[/b] ASCII\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Az EAN / UCC 128 a Code 128 speciális formája. Kereskedelemben és iparban használják áruk és raklapok számára. Egy vonalkódon belül egynél több adatmező kódolható az alkalmazásazonosítók használatával (példa: [01] 2345 ahol 01 megadja az alkalmazásazonosítót)"/>
+	<lang name="bar_Codabar" value="[b]Betűkészlet:[/b] 0-9, 6 speciális karakterek\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Korai szabvány, amelyet a transzfúziós szolgáltatások használnak. A Codabar bármilyen hosszúságú karakterláncot kódolhat, amelyek az AD betűkkel kezdődnek és végződnek, és ezek között a 0-9, a kötőjel (-), a dollár ($), a kettőspont (:), a perjel (/), a pont (.) Vagy a plusz (+). Példa: A $ 12 + $ 34C"/>
+	<lang name="bar_Code_128" value="[b]Betűkészlet:[/b] Kiterjesztett ASCII\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Az egyik legszélesebb körben használt 1D vonalkód szimbólum. Modern típusú vonalkód, nagyon tömörített adatokkal rendelkezik (például: [1]2345)."/>
+	<lang name="bar_Leitcode" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] 14\n[b]Leírás:[/b] A Leitcode-ot a Deutschen Post / DHL használja. Az utolsó számjegy kiszámítása automatikusan történik (kontrollérték) - csak 13 karaktert kell megadni."/>
+	<lang name="bar_Identcode" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] 12\n[b]Leírás:[/b] Az Identcode-ot a Deutschen Post / DHL használja. Az utolsó számjegy kiszámítása automatikusan megtörténik (kontrollérték) - csak 11 karaktert kell megadni."/>
+	<lang name="bar_Code_16k" value="[b]Betűkészlet:[/b] ASCII\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Halmozott szimbólum a 128 kód alapján."/>
+
+	<lang name="bar_Code_93" value="[b]Betűkészlet:[/b] A-Z, 0-9, 5 speciális karakterek\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Ugyanaz a karakterkészlet, mint a 39-es kód, de tömörebb kód, amely kevesebb helyet igényel."/>	
+	<lang name="bar_GS1_DataBar-14" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] 14\n[b]Leírás:[/b] Új GTIN kódoló rendszer. Az utolsó számjegy automatikusan kiszámításra kerül (kontrollérték) - csak (legfeljebb) 13 karaktert szabad megadni."/>
+	<lang name="bar_GS1_DataBar_Limited" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] 13\n[b]Leírás:[/b] Új GTIN kódoló rendszer."/>	
+	<lang name="bar_GS1_DataBar_Expanded" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Helyettesítő a GS1-128 helyett. RSS Expanded néven is ismert, ez egy változó hosszúságú szimbólum, amely képes számos AI-ból egyetlen szimbólumba kódolni az adatokat. Az AI-ket [szögletes zárójelbe] kell foglalni a bemeneti adatokban. Példa: [01]1236[3202]0125[15]9874"/>
+	<lang name="bar_Telepen_Alpha" value="[b]Betűkészlet:[/b] ASCII\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Általános kódolási séma. Gyakran használják a könyvtárakban."/>
+	<lang name="bar_UPC-A" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] 12\n[b]Leírás:[/b] Az UPC A kód a UPC kód standard változata, 12 számjeggyel rendelkezik. UPC 12-nek is hívják, és nagyon hasonlít az EAN-kódhoz. Az utolsó számjegy automatikusan kiszámításra kerül (kontrollérték) - csak 11 karaktert szabad megadni."/>
+	<lang name="bar_UPC-E" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] 8\n[b]Leírás:[/b] Ez az UPC-A rövid változata rendkívül kicsi termékek esetén. Az utolsó számjegy automatikusan kiszámításra kerül (kontrollérték) - csak 7 karaktert szabad megadni."/>
+	<lang name="bar_PostNet" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Ezt a kódot használják a levelek válogatásának és kézbesítésének sebességének javítására."/>	
+	<lang name="bar_MSI_Plessey" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Régi rendszer, amely egykor a brit iparban volt elterjedt."/>
+	<lang name="bar_Pharmacode_One-Track" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] -\n[b]Leírás:[/b] A Pharmacode, más néven Pharmaceutical Binary Code, egy vonalkód-szabvány, amelyet a gyógyszeriparban csomagolásellenőrző rendszerként használnak.."/>	
+	<lang name="bar_Pharmacode_Two-Track" value="[b]Betűkészlet:[/b] numerikus 0-9\n[b]Hossz:[/b] -\n[b]Leírás:[/b] A Pharmacode (kétpályás variáció), más néven Pharmaceutical Binary Code, egy vonalkód-szabvány, amelyet a gyógyszeriparban csomagolás-ellenőrző rendszerként használnak."/>
+
+	<lang name="bar_PZN" value="[b]Betűkészlet:[/b] numeric 0-9\n[b]Hossz:[/b] 7\n[b]Leírás:[/b] Gyógyszerészeti központi szám a gyógyszer számára. A Code 39 speciális alakja."/>
+	<lang name="bar_PDF417" value="[b]Betűkészlet:[/b] Kiterjesztett ASCII\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] 2D vonalkód tömeges szöveg vagy adatok kódolásához csak egy kódban. Népszerű a futáriparban."/>
+	<lang name="bar_PDF417_Truncated" value="[b]Betűkészlet:[/b] Kiterjesztett ASCII\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] 2D vonalkód tömeges szöveg vagy adatok kódolásához csak egy kódban. Népszerű a futáriparban."/>
+	<lang name="bar_QR_Code" value="[b]Betűkészlet:[/b] Kiterjesztett ASCII\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Nagyon kompakt kód, amely népszerű a kamerás telefon használói közt."/>	
+	<lang name="bar_Australia_Post_4-State" value="[b]Betűkészlet:[/b] A-Z, 0-9\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Az ausztráliai postai küldemények azonosítására."/>
+	<lang name="bar_Royal_Mail_4-State" value="[b]Betűkészlet:[/b] A-Z, 0-9\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] A Royal Mail 4 State ügyfélkódot (RM4SCC) az automatizált levélválogatási folyamatokhoz hozták létre."/>
+	<lang name="bar_DataMatrix" value="[b]Betűkészlet:[/b] ASCII\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] 2D vonalkód tömeges szöveg vagy adatok kódolásához csak egy kódban."/>	
+	<lang name="bar_MicroPDF417" value="[b]Betűkészlet:[/b] Kiterjesztett ASCII\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Reduced Space verziója a PDF417-nek."/>
+	<lang name="bar_template" value="[b]Betűkészlet:[/b] ASCII\n[b]Hossz:[/b] variáns\n[b]Leírás:[/b] Leírás"/>	
+</Barcodes>
+</EBS_EditorLanguage>
+	
+<EBS_LCDGUI>
+<WTitles>
+	<lang name="wtitle_cControlScreen" value="Nyomtató állapota"/>
+	<lang name="wtitle_cMainScreen" value="PrinterUI"/>
+	<lang name="wtitle_message" value="Üzenet"/>
+	<lang name="wtitle_error" value="Hiba"/>
+	<lang name="wtitle_warning" value="Figyelem"/>
+	<lang name="wtitle_cProjectPreview" value="Munka előnézete"/>
+	<lang name="wtitle_cProjectSelector" value="Munka kiválasztása"/>
+	<lang name="wtitle_cSetupScreen" value="Beállítás"/>
+	<lang name="wtitle_cServiceScreen" value="Szerviz"/>
+	<lang name="wtitle_password" value="Kérjük adja meg a jelszót"/>
+
+	<lang name="wtitle_cNewObjectDialog" value ="Válassza ki az új objektumtípust"/>
+	<lang name="wtitle_cFontSelector" value="Betűtípus kiválasztása"/>
+	<lang name="wtitle_cFileSelector" value="Fájl kiválasztása"/>
+
+	<lang name="window_title_wifi_status" value="Vezeték nélküli hálózat állapota"/>
+	<lang name="wtitle_cPrintingParamsScreen" value="Nyomtatási paraméterek"/>
+	<lang name="w_title_edit_choice" value="Mit szeretne szerkeszteni?"/>
+	<lang name="w_title_factory_tunig" value="Gyári hangolás és szerviz"/>
+	<lang name="window_title_printer_status" value="Nyomtató állapota"/>
+	<lang name="wtitle_Add_wifi_network" value="Vezeték nélküli hálózat hozzáadása"/>
+	<lang name="wtitle_Edit_wifi_settings" value="Vezeték nélküli hálózati beállítások szerksztése"/>
+
+	<lang name="window_title_alert" value="Vigyázat!"/>
+	<lang name="wtitle_cInfoScreen" value="Termék információ"/>
+	<lang name="wtitle_cBatteryDialog" value="Akkumulátor állapot"/>
+	<lang name="wtitle_cBottleDialog" value="Tintatartály állapota"/>
+	<lang name="wtitle_cPurgeScreen" value="Tisztítás"/>
+	<lang name="window_title_turnoff" value="Opció kiválasztása"/>
+
+
+	<lang name="window_title_file_presenter" value="Szöveges fájl tartalma"/>
+	<lang name="wtitle_cDataTimeDialog" value="Kérjük állítsa be az időt / dátumot"/>
+	<lang name="wtitle_cEditorScreen" value="Szerkesztő"/>
+	<lang name="wtitle_cGeneralSetupDialog" value="Általános beállítások"/>
+	<lang name="wtitle_cPendriveScreen" value="Képernyő visszaállítása"/>
+	<lang name="wtitle_cPowerManager" value="Energiagazdálkodás"/>
+	<lang name="wtitle_cSoundSetupDialog" value="Hangbeállítás"/>
+	<lang name="wtitle_cUnclockScreen" value="Képernyő feloldása"/>
+	<lang name="wtitle_cUserManager" value="Felhasználó kezelő"/>
+	<lang name="wtitle_cUserScr" value="Felhasználó kezelő"/>
+	<lang name="wtitle_firmware_update_detected" value="Firmware frissítés"/>
+	<lang name="wtitle_illegal_filename" value="Érvénytelen fájlnév"/>
+	<lang name="wtitle_image_selection" value="Kép kiválasztása"/>
+	<lang name="wtitle_LowBatteryAlert" value="Vigyázat! Alacsony akkumulátor szint!"/>
+	<lang name="wtitle_PrintHeadMismatch" value="Vigyázat! A munka és a nyomtatófej nem kompatibilis!"/>
+	<lang name="wtitle_select_project" value="Kérjük válassza ki a munkát"/>
+	<lang name="wtitle_text_file_selection" value="Kérjük válassza ki a szövegesfájlt"/>
+	<lang name="wtitle_connection_error" value="Kapcsolati hiba!"/>
+	<lang name="wtitle_cTurnOffDealyScreen" value="Nyomtató be, kikapcsolása"/>
+
+	<lang name="wtitle_import_message" value="Munka importálás riport"/>
+	<lang name="wtitle_export_message" value="Munka exportálás riport"/>
+	<lang name="wtitle_cExportSelectionDialog" value="Kérjük, válassza ki az exportálási módot"/>
+
+	<lang name="wtitle_bt_devices_scan" value="Bluetooth eszközök kezelése"/>
+
+	<lang name="wtitle_firmware_ugprade_info" value="Firmware frissítés információ."/>
+
+	<lang name="wtitle_cProjectPropertiesDialog" value="Munka tulajdonságai"/>
+
+	<lang name="wtitle_cBluetoothDialog" value="Bluetooth állapot"/>
+
+	<lang name="wtitle_pm_message" value="Üzenet"/>
+	
+	<lang name="wtitle_cMessagesDialog" value="Üzenetek"/>
+
+	<lang name="wtitle_wifi_list_dialog" value="Wi-fi hálózatok kezelése"/>
+
+	<lang name="wtitle_cPendriveDialog" value="Tárolóeszköz állapota"/>
+	<lang name="wtitle_cUpgradeFirmwareDialog" value="Nyomtató firmware frissítés"/>
+
+	<lang name="wtitle_PleaseSelectFileForImport" value="Kérjük, válassza ki az importálandó fájlt"/>
+	<lang name="wtitle_cExportProjectSelector" value="Válassza ki az exportálandó munkát"/>
+
+	<lang name="wtitle_cObjectListDialog" value="Objektumok / Vágólap / Szemetes"/>
+	<lang name="wtitle_ProjectNotFound" value="Hiba"/>
+	<lang name="wtitle_EditProjectName" value="Írja be a projekt nevét"/>
+	<lang name="wtitle_Confirmation" value="Megerősít"/>
+	<lang name="window_kernel_missmatch" value="Belső szoftverhiba"/>
+
+	<lang name="wtitle_cRestoreDialog" value="Rendszeradatok visszaállítása"/>
+	<lang name="wtitle_new_directory_name" value="Adja meg a könyvtár nevét..."/>
+	<lang name="wtitle_Select" value="Kiválaszt"/>
+
+	<lang name="wtitle_firmware_ugprade_error" value="Firmware frissítési hiba."/>
+
+</WTitles>
+<Labels>
+	<lang name="lbl_status" value="Állapot"/>
+	<lang name="lbl_project" value="Munka"/>
+	<lang name="lbl_directories" value="Könyvtárak"/>
+	<lang name="lbl_projects" value="Munkák"/>
+	<lang name="lbl_inklevel" value="Tintaszint"/>
+	<lang name="lbl_ipmodeselect" value="Nyomtató IP címe"/>
+	<lang name="lbl_dhcp" value="Automatic (DHCP)"/>
+	<lang name="lbl_static" value="Manual (Statikus)"/>
+	<lang name="lbl_ip" value="IP"/>
+	<lang name="lbl_netmask" value="Netmask"/>
+	<lang name="lbl_gateway" value="Gateway"/>
+	<lang name="lbl_dns" value="DNS"/>
+	<lang name="lbl_messages" value="üzenetek"/>
+	<lang name="lbl_autostart" value="Aktuális munka automatikus indítása"/>
+	<lang name="lbl_TxtRepetitions" value="Ismételt nyomtatás"/>
+	<lang name="lbl_internalGenerator" value="Belső generátor"/>
+	<lang name="lbl_externalSource" value="Külső forrás"/>
+	<lang name="lbl_edge" value="Él"/>
+	<lang name="lbl_level" value="Szint"/>
+	<lang name="lbl_positiveEdge" value="Pozitív él"/>
+	<lang name="lbl_negativeEdge" value="Negatív él"/>
+	<lang name="lbl_highLevel" value="Magas szint"/>
+	<lang name="lbl_lowLevel" value="Alacsony szint"/>
+	<lang name="lbl_normal" value="Normál"/>
+	<lang name="lbl_hex" value="Hexadecimális"/>
+	<lang name="lbl_flipped" value="Elforgatott"/>
+	<lang name="lbl_reversed" value="Tükrözött"/>
+	<lang name="lbl_internal" value="Belső"/>
+	<lang name="lbl_external" value="Külső"/>
+	<lang name="lbl_both" value="Mind"/>
+	<lang name="lbl_currentuser" value="Jelenlegi felhasználó:"/>
+	<lang name="lbl_editor" value="Szerkesztő:"/>
+	<lang name="lbl_printer" value="Nyomtaató:"/>
+	<lang name="lbl_items" value="elemek"/>
+	<lang name="lbl_one_time_code" value="Feloldási kód"/>
+	<lang name="lbl_unlock_code" value="Aktivációs kód"/>
+
+	<lang name="lbl_new_object_selection" value ="Új objektumtípus kiválasztása"/>
+	<lang name="lbl_text_object" value="Sima szöveg"/>
+	<lang name="lbl_datetime_object" value="Dátum/Idő"/>
+	<lang name="lbl_counter_object" value="Számláló"/>
+	<lang name="lbl_comport_object" value="Kommunikációs port"/>
+	<lang name="lbl_texfile_object" value="Szövegesfájl"/>
+	<lang name="lbl_line_divider" value="Sorválasztó"/>
+	<lang name="lbl_image_object" value="Kép"/>
+	<lang name="lbl_barcode_object" value="Vonalkód"/>
+	<lang name="lbl_quick_preview" value="Gyors előnézet"/>
+	<lang name="lbl_image_path" value="Kép elérési útja"/>
+	<lang name="lbl_transform_mode" value="Átméretezés engedélyezése"/>
+	<lang name="lbl_text" value="Szöveg"/>
+	<lang name="lbl_printer_time" value="Nyomtatási idő"/>
+	<lang name="lbl_date_offset" value="Dátum eltolás"/>
+	<lang name="lbl_time_offset" value="Idő eltolás"/>
+	<lang name="lbl_object_properties" value="Objektum tulajdonságok"/>
+	<lang name="lbl_object_name" value="Objektum név"/>
+	<lang name="lbl_position" value="Pozíció"/>
+	<lang name="lbl_size" value="Méret"/>
+	<lang name="lbl_autosize" value="Automatikus mentés"/>
+	<lang name="lbl_transparent" value="Átlátszó"/>
+	<lang name="lbl_object_rotation" value="Objektum forgatás"/>
+	<lang name="lbl_text_properties" value="Szöveg tulajdonságok"/>
+	<lang name="lbl_fontname" value="Betű név"/>
+	<lang name="lbl_fontsize" value="Betű méret"/>
+	<lang name="lbl_font_constrain_proportions" value="Betű proporció kényszerítés"/>
+	<lang name="lbl_line_spacing" value="Vonal távolság"/>
+	<lang name="lbl_must_edit" value="Szövegszerkesztés a nyomtatás kezdése előtt"/>
+	<lang name="lbl_advance_properties" value="Speciális tulajdonságok"/>
+	<lang name="lbl_date_separator" value="Dátum elválasztó"/>
+	<lang name="lbl_date_format" value="Dátum formátum"/>
+	<lang name="lbl_time_separator" value="Idő elválasztó"/>
+	<lang name="lbl_time_format" value="Idő formátum"/>
+	<lang name="lbl_formatting_string_edition" value="Karaktersorozat formázásának engedélyezése"/>
+	<lang name="lbl_formatting_string" value="Karaktersorozat formázása"/>
+	<lang name="lbl_barcode_properties" value="Vonalkód tulajdonságok"/>
+	<lang name="lbl_barcode_type" value="Vonalkód típus"/>
+	<lang name="lbl_border_type" value="Határ típusa"/>
+	<lang name="lbl_none" value="semmi"/>
+	<lang name="lbl_bind" value="kötés"/>
+	<lang name="lbl_box" value="doboz"/>
+	<lang name="lbl_border_size" value="Határ mérete"/>
+	<lang name="lbl_barcode_desc" value="Vonalkód rövid leírás"/>
+	<lang name="lbl_counter_properties" value="%i számláló tulajdonságok"/>
+	<lang name="lbl_visible" value="Számláló mutatása"/>
+	<lang name="lbl_min" value="Min"/>
+	<lang name="lbl_max" value="Max"/>
+	<lang name="lbl_Start_mode" value="Kezdő mód"/>
+	<lang name="lbl_start_value" value="kezdő érték"/>
+	<lang name="lbl_last_value" value="Utolsó érték"/>
+	<lang name="lbl_step" value="Lépés"/>
+	<lang name="lbl_lenght" value="Hossz"/>
+	<lang name="lbl_fillin" value="Kitölt"/>
+	<lang name="lbl_suffix" value="Utótag"/>
+	<lang name="lbl_space" value="Szóköz"/>
+	<lang name="lbl_select_image_file" value="Kérjük, válassza ki a képfájlt..."/>
+	<lang name="lbl_enter_text" value="Írja be ide a szövegét..."/>
+	<lang name="lbl_font_preview" value="Betűtípus előnézete:"/>
+	<lang name="lbl_font_set" value="Betűkészlet:"/>
+	<lang name="lbl_factory_default" value="Alapértelmezett"/>
+	<lang name="lbl_Users" value="Felhasználók"/>
+	<lang name="lbl_enter_filename" value="Írja be a fájl nevét..."/>
+
+	<lang name="lbl_object_position_x" value="Objektum x pozíciója"/>
+	<lang name="lbl_object_position_y" value="Objektum y pozíciója"/>
+	<lang name="lbl_object_width" value="Objektum szélessége"/>
+	<lang name="lbl_object_height" value="Objektum magassága"/>
+	<lang name="lbl_font_width" value="Betű szélessége"/>
+	<lang name="lbl_font_height" value="Betű magassága"/>
+	<lang name="lbl_turnoffnow" value="Kikapcsolás most"/>
+
+
+	<lang name="lbl_configure" value="Konfigurálás"/>
+	<lang name="lbl_wifi_on" value="Be"/>
+	<lang name="lbl_wifi_off" value="Ki"/>
+	<lang name="lbl_purge" value="Tisztítás"/>
+	<lang name="lbl_print_test" value="Nyomtatás"/>
+	<lang name="lbl_tune" value="Hangolás"/>
+	<lang name="lbl_speed" value="Nyomtatási sebesség"/>
+	<lang name="lbl_drop" value="Cseppszám"/>
+	<lang name="lbl_bat_temp" value="Hőmérséklet"/>
+	<lang name="lbl_capacity" value="Kapacitás"/>
+	<lang name="lbl_current" value="Jelenlegi"/>
+	<lang name="lbl_voltage" value="feszültség"/>
+	<lang name="lbl_bat_status" value="Akkumulátor állapot"/>
+	<lang name="lbl_discharging" value="Merülés"/>
+	<lang name="lbl_charging" value="Töltés"/>
+	<lang name="lbl_missing" value="Hiányzó"/>
+	<lang name="lbl_unknown" value="Ismeretlen"/>
+	<lang name="lbl_charged" value="Feltöltve"/>
+	<lang name="lbl_Unchanged" value="Változatlan"/>
+	<lang name="lbl_wifi_signal" value="Jelszint"/>
+	<lang name="lbl_wifi_bssid" value="BSSID"/>
+	<lang name="lbl_wifi_ssid" value="SSID"/>
+	<lang name="lbl_wifi_ip" value="IP cím"/>
+	<lang name="lbl_wifi_status" value="Állapot"/>
+	<lang name="lbl_wifi_channel" value="Csatorna"/>
+	<lang name="lbl_disable_this_network" value="Ne csatlakozzon ehhez a hálózathoz"/>
+	<lang name="lbl_wifi_security" value="Biztonság"/>
+	<lang name="lbl_wifi_psk" value="Előre megosztott kulcs"/>
+	<lang name="lbl_wifi_psk_type" value="Kulcs típusa"/>
+	<lang name="wifi_unknown" value="Ismeretlen"/>
+	<lang name="wifi_scanning" value="Szkennelés"/>
+	<lang name="wifi_associating" value="Asszociálás"/>
+	<lang name="wifi_disconnected" value="Lecsatlakoztatott"/>
+	<lang name="wifi_connected" value="Csatlakoztatott"/>
+	<lang name="wifi_waiting_for_ip" value="Várakozás IP címre"/>
+	<lang name="wifi_sec_802.1x" value="802.1x(EAP)"/>
+	<lang name="wifi_sec_WPA2/EAP" value="WPA2/EAP"/>
+	<lang name="wifi_sec_WPA2/PSK" value="WPA2/PSK"/>
+	<lang name="wifi_sec_WPA/EAP" value="WPA/EAP"/>
+	<lang name="wifi_sec_WPA/PSK" value="WPA/PSK"/>
+	<lang name="wifi_sec_WEP" value="WEP"/>
+	<lang name="wifi_sec_none" value="semmi"/>
+	<lang name="wifi_psk_ascii" value="ASCII"/>
+	<lang name="wifi_psk_hex" value="HEX"/>
+	<lang name="lbl_edit_panel" value="Kiadás"/>
+	<lang name="lbl_service_panel" value="Szerviz opciók"/>
+	<lang name="lbl_printer_version" value="Nyomtató"/>
+	<lang name="lbl_system_version" value="Rendszer verzió"/>
+	<lang name="lbl_pui_version" value="PUI"/>
+	<lang name="lbl_pm_version" value="Nyomtató vezérlő"/>
+	<lang name="lbl_wifi_networks:" value="Vezeték nélküli hálózatok:"/>
+	<lang name="lbl_inkcolour" value="Tinta színe"/>
+	<lang name="lbl_expiration_date" value="Lejárati idő"/>
+	<lang name="lbl_acceptance_date" value="Elfogadás dátuma"/>
+	<lang name="lbl_Login" value="Bejelentkezés"/>
+
+	<lang name="lbl_normal_level" value="Normál képernyő fényesség"/>
+	<lang name="lbl_turnoff_time" value="Képernyő kikapcsolása utána"/>
+	<lang name="lbl_dim_time" value="Képernyő homályosítása utána"/>
+	<lang name="lbl_dimmed_level" value="Homályos képernyő fényereje"/>
+	<lang name="lbl_never" value="soha"/>
+	<lang name="lbl_Date" value="Dátum [ÉÉÉÉ HH NN]"/>
+	<lang name="lbl_Time" value="Idő [ÓÓ:PP]"/>
+
+	<lang name="lbl_enable_counter_section_number" value="Számláló szakasz engedélyezése %i"/>
+	<lang name="lbl_object_properties_page" value="Geometria"/>
+	<lang name="lbl_main_properties_page" value="Fő"/>
+	<lang name="lbl_advance_properties_page" value="Haladó"/>
+	<lang name="lbl_text_properties_page" value="Szöveg"/>
+	<lang name="lbl_Bluetooth_settings" value="Bluetooth beállítások"/>
+	<lang name="lbl_Communication" value="Kommunikáció"/>
+	<lang name="lbl_General" value="Általános"/>
+	<lang name="lbl_Basic" value="Alap"/>
+	<lang name="lbl_Basic_Settings" value="Gyakori"/>
+	<lang name="lbl_Advanced" value="Haladó"/>
+	<lang name="lbl_Messages" value="Üzenetek"/>
+	<lang name="lbl_Warnings" value="Figyelmeztetések"/>
+	<lang name="lbl_ascii_code" value="ASCII kód"/>
+	<lang name="lbl_Baud_rate" value="Átvitelis sebesség"/>
+	<lang name="lbl_Bit_count" value="Bit számláló"/>
+	<lang name="lbl_Bluetooth" value="Bluetooth"/>
+	<lang name="lbl_BatteryLowWarningSound" value="Alacsony akkumulátorszint figyelmeztető hangja"/>
+	<lang name="lbl_Communication_properties_page" value="Kommunikáció"/>
+	<lang name="lbl_Communication_type" value="Kommunikáció típusa"/>
+	<lang name="lbl_Network_configuration_method" value="Konfigurációs módszer"/>
+	<lang name="lbl_Confirm_password" value="Jelszó jóváhagyása"/>
+	<lang name="lbl_Current_password" value="Jelenlegi jelszó"/>
+	<lang name="lbl_new_password" value="Új jelszó"/>
+	<lang name="lbl_data_buffering" value="Adatpufferelés"/>
+	<lang name="lbl_day" value="nap"/>
+	<lang name="lbl_deactivation_date" value="A hatástalanítás dátuma"/>
+	<lang name="lbl_distance" value="távolság"/>
+	<lang name="lbl_Do_nothing" value="Ne csináljon semmit"/>
+	<lang name="lbl_Empty" value="Üres objektum nyomtatása"/>
+	<lang name="lbl_Last_message" value="Utolsó üzenet nyomtatása"/>
+	<lang name="lbl_Disabled" value="Tiltva"/>
+	<lang name="lbl_Enabled" value="Engedélyezve"/>
+	<lang name="lbl_Enable_sound" value="Hang engedélyezése"/>
+	<lang name="lbl_Errorsound" value="Hiba hangjelzése"/>
+	<lang name="lbl_FileModification:" value="A fájl módosítása:"/>
+	<lang name="lbl_File_path" value="Fájl elérési útvonala"/>
+	<lang name="lbl_Group_name" value="Csoport neve"/>
+	<lang name="lbl_hour" value="óra"/>
+	<lang name="lbl_Image_preview" value="Kép előnézete"/>
+	<lang name="lbl_ImageSize:" value="Képméret:"/>
+	<lang name="lbl_IMSAcceptSound" value="Tinta elfogadási hangjelzés"/>
+	<lang name="lbl_Keyboard_audio_feedback" value="Billentyűzet hangvisszajelzése"/>
+	<lang name="lbl_Language" value="Nyelv"/>
+	<lang name="lbl_Laser" value="Lézer"/>
+	<lang name="lbl_Letterspacing" value="Betűköz"/>
+	<lang name="lbl_Line_count" value="Sorszámláló"/>
+	<lang name="lbl_Line_last_value" value="Sor utolsó értéke"/>
+	<lang name="lbl_Line_max" value="Sor maximum értéke"/>
+	<lang name="lbl_Line_start_value" value="Sor kezdőértéke"/>
+	<lang name="lbl_Line_step" value="Sor léptetés"/>
+	<lang name="lbl_login_name" value="Felhasználó bejelentkezési neve"/>
+	<lang name="lbl_MessagesSound" value="Üzenet hangjelzése"/>
+	<lang name="lbl_minute" value="perc"/>
+	<lang name="lbl_month" value="hónap"/>
+	<lang name="lbl_No_data_action" value="Nincs adat művelet"/>
+	<lang name="lbl_Port" value="Port"/>
+	<lang name="lbl_Power" value="Teljesítmény"/>
+	<lang name="lbl_PrinterOffSound" value="Nyomtató kikapcsolás hangjelzése"/>
+	<lang name="lbl_printing" value="Nyomtatás"/>
+	<lang name="lbl_printing_and_purge" value="nyomtatás és tisztítás"/>
+	<lang name="lbl_Raport" value="Jelentés"/>
+	<lang name="lbl_ready_to_print_after" value="Készenállás nyomtatásra utána"/>
+	<lang name="lbl_Rowmultiply" value="Sor többszörítés"/>
+	<lang name="lbl_second" value="másodperc"/>
+	<lang name="lbl_Sending_msgs_format" value="Üzenetek küldésének formátuma"/>
+	<lang name="lbl_set_date_time" value="dátum/idő beállítása"/>
+	<lang name="lbl_Shape_object" value="Alak"/>
+	<lang name="lbl_Sound" value="Hang"/>
+	<lang name="lbl_StartPrintingSound" value="Nyomtatás kezdési hangjelzés"/>
+	<lang name="lbl_StopPrintingSound" value="Nyomtatás befejezési hangjelzés"/>
+	<lang name="lbl_textfile_object" value="szövegesfájl"/>
+	<lang name="lbl_Time_interval_[ms]" value="Idő intervallum [ms]"/>
+	<lang name="lbl_Data_count" value="Dátum számláló"/>
+	<lang name="lbl_End_character" value="Utolsó karakter"/>
+	<lang name="lbl_TooFastPrintingSound" value="Túl gyors nyomtatás figyelmeztető hangjelzése"/>
+	<lang name="lbl_Touchscreen_audio_feedback" value="Érintőképernyő hangvisszajelzése"/>
+	<lang name="lbl_unlock_and_restore" value="feloldás és visszaállítás"/>
+	<lang name="lbl_User_icon" value="Felhasználó ikon"/>
+	<lang name="lbl_Users:" value="Felhasználók:"/>
+	<lang name="lbl_version" value="verzió"/>
+	<lang name="lbl_WarningSound" value="Figyelmeztető hangjelzés"/>
+	<lang name="lbl_wifi" value="WIFI"/>
+	<lang name="lbl_year" value="év"/>
+	<lang name="lbl_Locale_settings" value="Helyi beállítások"/>
+	<lang name="lbl_User_settings" value="Felhasználó beállítások"/>
+	<lang name="lbl_wifi_disabled" value="WIFI letilva"/>
+	<lang name="lbl_Wifi_settings" value="WIFI beállítások"/>
+	<lang name="lbl_wifi_mac" value="MAC cím"/>
+	<lang name="lbl_btaddress" value="Bluetooth cím"/>
+	<lang name="lbl_btname" value="Bluetooth barát megnevezés"/>
+	<lang name="lbl_Disconnected" value="Lecsatlakoztatás"/>
+	<lang name="lbl_Pressure" value="Nyomás"/>
+	<lang name="lbl_Intensivity" value="Intenzitás"/>
+	<lang name="lbl_On" value="Be"/>
+	<lang name="lbl_Off" value="Ki"/>
+	<lang name="lbl_Scan" value="Szkenn"/>
+	<lang name="lbl_Export_all" value="Összes projekt"/>
+	<lang name="lbl_Export_single" value="Egyszeri projekt"/>
+	<lang name="lbl_Export" value="Export"/>
+	<lang name="lbl_Import" value="Import"/>
+	<lang name="lbl_Upgrade" value="Frissítés"/>
+	<lang name="lbl_Enable_screen_lock" value="Képernyő zárolás engedélyezése"/>
+
+	<lang name="lbl_detected_bt_devices:" value="Felfedezett Bluetooth eszközök:"/>
+	<lang name="lbl_btremoteaddress" value="Távoli cím"/>
+	<lang name="lbl_Disconnect" value="Lecsatlakozás"/>
+	<lang name="lbl_disconnect" value="lecsatlakozás"/>
+	<lang name="lbl_Connected" value="Csatlakoztatva"/>
+	<lang name="lbl_Connecting..." value="Csatlakozás, kérjük várjon ..."/>
+	<lang name="lbl_Connected_BT" value="Bluetooth eszközhöz csatlakoztatva"/>
+
+	<lang name="lbl_solventtype" value="Oldószer típus"/>
+	<lang name="lbl_colourtype" value="Szín típus"/>
+	<lang name="lbl_Nonpigment" value="Nem pigmentált"/>
+	<lang name="lbl_Pigment" value="Pigmentált"/>
+	<lang name="lbl_Acetone" value="Aceton"/>
+	<lang name="lbl_Ethanol" value="Ethanol"/>
+	<lang name="lbl_MEK" value="MEK"/>
+	<lang name="lbl_Glikol" value="Glikol"/>
+	<lang name="lbl_Water" value="Víz"/>
+	<lang name="lbl_Mek+Eth++" value="MEK + Ethanol"/>
+
+	<lang name="lbl_Settings" value="Beállítások"/>
+
+	<lang name="lbl_Size_unit" value="Méretegység"/>
+	<lang name="lbl_Workspace_width" value="Munkaterület szélessége"/>
+
+
+	<lang name="lbl_Resolution" value="Felbontás"/>
+	<lang name="lbl_scanning" value="szkennelés"/>
+	<lang name="lbl_FitFrame2Text" value="Keret illesztése a tartalomhoz"/>
+	<lang name="lbl_FitText2Frame" value="Tartalom illesztése a kerethez"/>
+	<lang name="lbl_Without_scalling" value="Átméretezés nélkül"/>
+	<lang name="lbl_Scaling" value="Átméretezés"/>
+	<lang name="lbl_must_edit_counter" value="Számláló szerkesztése a nyomtatásindítás előtt"/>
+	<lang name="lbl_Filled" value="Kitöltött"/>
+	<lang name="lbl_Invert" value="Inverz"/>
+	<lang name="lbl_Line_width" value="Vonal szélesség"/>
+
+	<lang name="lbl_Shape_objects" value="Alakzatok"/>
+	<lang name="lbl_Other_objects" value="Egyéb"/>
+	<lang name="lbl_Text_objects" value="Szöveg"/>
+	<lang name="lbl_Shape_object_elpise" value="Ellipszis"/>
+	<lang name="lbl_Shape_object_line" value="Vonal"/>
+	<lang name="lbl_Shape_object_rectangle" value="Négyszög"/>
+
+	<lang name="lbl_printer_id" value="Sorozatszám"/>
+	<lang name="lbl_barcode_signature" value="Aláírás"/>
+
+	<lang name="lbl_Modification:" value="Utolsó módosítás:"/>
+	<lang name="lbl_EBSCloud" value="EBS Cloud"/>
+
+	<lang name="lbl_Errors" value="Hibák"/>
+	<lang name="lbl_Other" value="Egyéb"/>
+
+	<lang name="lbl_Media_size" value="Az eszköz mérete"/>
+	<lang name="lbl_Media_used" value="Felhasznált terület"/>
+	<lang name="lbl_Media_available" value="Elérhető terület"/>
+
+	<lang name="lbl_avr_version" value="AVR firmware"/>
+
+	<lang name="lbl_Auto_turnoff_time" value="Nyomtató kikapcsolt idő"/>
+
+	<lang name="lbl_Objects_list" value="Tárgyak"/>
+	<lang name="lbl_Clipboard" value="Vágólap"/>
+	<lang name="lbl_Trash" value="Szemetes"/>	
+
+	<lang name="lbl_Manage" value="Kezelés"/>
+
+	<lang name="lbl_basicStatistics" value="Alap statisztikák"/>
+	<lang name="lbl_report" value="jelentés"/>
+	<lang name="lbl_userInfoReport" value="Felhasználó"/>
+	<lang name="lbl_serviceInfoReport" value="Szerviz"/>
+	<lang name="lbl_infoReport" value="Teljes"/>
+	<lang name="lbl_OperateTime" value="Munkaidő"/>
+	<lang name="lbl_MadePrintouts" value="Nyomatok"/>
+	<lang name="lbl_ExploitationStat" value="Kihasználási statisztikák"/>
+	<lang name="lbl_ClearStatUser" value="Felhasználói jelentés törlése"/>
+	<lang name="lbl_ClearStatService" value="Szerviz jelentés törlése"/>
+	<lang name="lbl_pwrm_version" value="Teljesítmény kezelő"/>
+	<lang name="lbl_SimpleMenu" value="Egyszerű menü"/>
+	<lang name="lbl_tools_panel" value="Eszközök"/>
+	<lang name="lbl_Detailed_information" value="Részletes információ"/>
+	<lang name="lbl_param_tab1" value="Pont beállítások"/>
+	<lang name="lbl_param_tab2" value="Pozíció"/>
+	<lang name="lbl_Clear_stats" value="Törlés"/>
+	<lang name="lbl_Enable_networking" value="Hálózat engedélyezése"/>
+	<lang name="lbl_Configure_network_with_DHCP" value="Hálózat automatikus konfigurálása (with DHCP)"/>
+	<lang name="lbl_Current_IP" value="Jelenlegi IP"/>
+	<lang name="lbl_network" value="Hálózat"/>
+	<lang name="lbl_ExpertSettings" value="Haladó beállítások"/>
+	<lang name="lbl_OnPrintStart" value="Nyomtatás megkezdésekor"/>
+	<lang name="lbl_OnDataProcess" value="Adat feldolgozáskor"/>
+	<lang name="lbl_OnPrintFinish" value="Nyomtatás befejeztekor"/>
+	<lang name="lbl_FormatString" value="Karaktersorozat formázása"/>
+	<lang name="lbl_connecting" value ="kapcsolódás"/>
+
+	<lang name="lbl_enter_filter_string" value ="Kérjük, adja meg a szűrősztringet"/>
+	<lang name="lbl_message_repeated_n_times" value ="Üzenet ismételve %i alkalommal."/>
+
+	<lang name="lbl_Separators" value="Separators" />
+
+	<lang name="lbl_pin" value="Bluetooth PIN" />
+	<lang name="msg_bt_pairing_error" value="Bluetooth pairing unsuccessful. Wrong pin or communication error."/>
+	<lang name="lbl_Skipline" value="Skip line on trigger" />
+
+	<lang name="lbl_must_edit_textfile" value="Edit line start value before printing is started"/>
+	<lang name="lbl_must_edit_datatime" value="Edit formating string before printing is started"/>
+
+</Labels>
+
+<Buttons>
+	<lang name="btn_mainmenu" value="főmenü"/>
+	<lang name="btn_Start" value="Start"/>
+	<lang name="btn_Stop" value="Stop"/>
+	<lang name="btn_maincontrol" value="fő vezérlő"/>
+	<lang name="btn_Setup" value="Beállítás"/>
+	<lang name="btn_Exit" value="Kikapcsolás"/>
+	<lang name="btn_Yes" value="Igen"/>
+	<lang name="btn_No" value="Nem"/>
+	<lang name="btn_Cancel" value="Törlés"/>
+	<lang name="btn_Ok" value="OK"/>
+	<lang name="btn_next" value="Következő üzenet"/>
+	<lang name="btn_prev" value="Előző üzenet"/>
+	<lang name="btn_back" value="Vissza"/>
+	<lang name="btn_Preview" value="Előnézet"/>
+	<lang name="btn_Edit" value="Szerkesztés"/>
+	<lang name="btn_Save" value="mentés"/>
+	<lang name="btn_Apply" value="alkalmaz"/>
+	<lang name="btn_Clear" value="TÖRLÉS"/>
+	<lang name="btn_Open_project" value="Munka megnyitása"/>
+	<lang name="btn_Purgeon" value="Tisztítás"/>
+	<lang name="btn_Longpurgeon" value="Hosszú tisztítás"/>
+	<lang name="btn_Purgeoff" value="Tisztítás leállítása"/>
+	<lang name="btn_Service" value="Szerviz"/>
+	<lang name="btn_Printer_control" value="Nyomtató vezérlő"/>
+	<lang name="btn_Logout" value="Kijelentkezés"/>
+	<lang name="btn_creatependrive" value="toll visszaállítása"/>
+	<lang name="btn_Retry" value="újrapróbálás"/>
+	<lang name="btn_Printing_parameters" value="Nyomtatási paraméterek"/>
+	<lang name="btn_Create_new_project" value="Új projekt létrehozása"/>
+	<lang name="btn_Unlock" value="Feloldás"/>
+
+	<lang name="btn_Save_and_exit" value="Mentés és kilépés"/>
+	<lang name="btn_Project_close" value="Munka bezárása"/>
+
+	<lang name="btn_printing_params" value="Nyomtatási paraméterek"/>
+	<lang name="btn_Project" value="Munka"/>
+	<lang name="btn_Parameters" value="Paraméterek"/>
+	<lang name="btn_Create_project" value="Munka létrehozása"/>
+	<lang name="btn_Create_list" value="Lista létrehozása"/>
+	<lang name="btn_Edit_project" value="Munka szerkesztése"/>
+	<lang name="btn_Edit_list" value="Lista szerkesztése"/>
+
+	<lang name="btn_Purge" value="Tisztítás"/>
+	<lang name="btn_LongPurge" value="Hosszú tisztítás"/>
+	<lang name="btn_Restore" value="Visszaállítás"/>
+	<lang name="btn_Info" value="Termék információ"/>
+	<lang name="btn_Show_messages" value="Üzenetek megjelenítése"/>
+	<lang name="btn_Off" value="Kikapcsolás"/>
+	<lang name="btn_Restart" value="Újraindítás"/>
+
+	<lang name="btn_confirm_upgrade" value="Frissítés jóváhagyása"/>
+
+	<lang name="btn_Accept" value="elfogadás"/>
+	<lang name="btn_Factory" value="Gyári"/>
+	<lang name="btn_Menu" value="Menü"/>
+	<lang name="btn_Mesure" value="Lemér"/>
+	<lang name="btn_Reject" value="Elutasít"/>
+
+	<lang name="btn_RemoteUnlock" value="Távoli feloldás"/>
+	<lang name="btn_Upgrade" value="Frissítés"/>
+
+	<lang name="btn_Statistics" value="Statisztikák"/>
+	<lang name="btn_Messages" value="Üzenetek"/>
+	<lang name="btn_Tools" value="Eszközök"/>
+	<lang name="btn_Usb" value="USB"/>
+	<lang name="btn_Tuning" value="Hangolás"/>
+	<lang name="btn_ShortInfo" value="Információ"/>
+	<lang name="btn_LockScreen" value="Képernyőzárolás"/>
+	<lang name="btn_Continue_edition" value="Szerkesztés folytatása" />
+
+</Buttons>
+<Messages>
+	<lang name="msg_D0100" value="Print off (készen)"/>
+	<lang name="msg_D0101" value="Print on (várakozás)"/>
+	<lang name="msg_D0102" value="Print on (nyomtatás)"/>
+	<lang name="msg_D0000" value="Vezető nincs jelen"/>
+	<lang name="msg_D0001" value="Hiba történt a parancs nyomtató-illesztőprogramra történő elküldése során"/>
+	<lang name="msg_D0002" value="A nyomtató állapota ismeretlen"/>
+	<lang name="msg_D0003" value="A projekt nincs kiválasztva"/>
+	<lang name="msg_turnOffPrinter" value="Szeretné most kikapcsolni a nyomtatót?"/>
+	<lang name="msg_projectDirDoNotExist" value="Hiba! A projektkönyvtár nem létezik!"/>
+	<lang name="msg_projectDirPermisionError" value="Hiba! Nem olvasható a projekt könyvtár!"/>
+	<lang name="msg_notProjectFile" value="Hiba! Ez nem érvényes projektfájl!"/>
+	<lang name="msg_useDefaultNetConfig" value="A hálózati konfigurációs fájl nem található. A gyári alapértelmezett beállítások használata"/>	
+	<lang name="msg_AccessDenied" value="Nem lehet menteni a hálózati konfigurációt - a hozzáférés megtagadva "/>
+	<lang name="msg_canNotSaveNetConfigDiskFull" value="Nem lehet menteni a hálózati konfigurációt - a lemez megtelt"/>
+	<lang name="msg_canNotSaveNetConfigNoPendrive" value="Nem lehet menteni a hálózati konfigurációt - a pendrive nincs jelen"/>
+	<lang name="msg_editValueError" value="A piros színnel jelölt mezők helytelen értéke. Kérjük, javítsa ki, és próbálja újra"/>
+	<lang name="msg_wrongNetmask" value="Helytelen netmask érték."/>
+	<lang name="msg_canNotReconfigureNet" value="A hálózati interfész nem konfigurálható újra."/>
+	<lang name="msg_deleteAllMessages" value="Biztosan kiszeretné törölni az összes üzenetet?"/>
+	<lang name="msg_confirmAllMessages" value="Tényleg szeretné az összes üzenetet olvasottként megjelölni és törölni?"/>
+	<lang name="msg_reopenProject" value="Az aktuális projektfájl módosult. Szeretné újra megnyitni?"/>	
+	<lang name="msg_ipnotallocated" value="IP cím nincs kiosztva"/>
+	<lang name="msg_password_error" value="Téves jelszó! Próbálja újból!"/>
+	<lang name="msg_cancel_edition" value="Biztosan megszakítja a szerkesztést?\nMinden változás elvész!"/>
+	<lang name="msg_paramsOutOfRange" value="Hiba ! A pirossal jelölt paraméterek kívül esnek a tartományon ! Javítsa ki a hibát, és próbálja újra"/>
+	<lang name="msg_resetCounterVF" value="Figyelem: ennek a műveletnek a végrehajtásához kérjük, ellenőrizze, hogy az aktuális projekt nem kerül kinyomtatásra. \nEz a művelet befolyásolja a jelenleg tárolt értékeket és&quot;Kezdő értéket&quot; az egyes számláló mezők mezői."/>
+	<lang name="msg_editProjectWhenPrintOn" value="Figyelem ! A szerkesztésre kiválasztott projekt jelenleg nyomtatásban van. A számlálók visszaállítása nem lehetséges! Szeretné folytatni ?"/>
+	<lang name="msg_powerOff_in_x_sec" value="A nyomtató kikapcsol %d mp múlva."/>
+	<lang name="msg_please_wait" value="Kérjük várjon..."/>
+	<lang name="msg_shutdown_in_progress" value="Kikapcsolás..."/>
+
+	<lang name="msg_improper_poweroff" value="Figyelem! Nem megfelelő leállítást észleltünk, ami az adatok sérülését vagy az eszköz meghibásodását okozhatja. Kérjük, mindig kövesse a leállítási eljárást."/>
+	<lang name="msg_open_project_error" value="Hiba! A munka betöltése sikertelen!"/>
+	<lang name="msg_editor_communication_error" value="Kommunikációs hiba. Az Editor modul nem válaszol. Kérjük ellenőrizze a rendszert és próbálja újból. Ha a nyomtató elfoglalt a gyors nyomtatás miatt, állítsa le, és próbálja újra." />
+	<lang name="msg_edit_project_priority_too_low" value="Néhány projekt jelenleg meg van nyitva a WWW editorban. \nAz Ön prioritása túl alacsony a munka megnyitásához." />
+	<lang name="msg_confirm_forced_edition" value="Néhány projekt jelenleg meg van nyitva a WWW editorban szerkesztésre. \ nKényszeríti a megnyitást?" />
+	<lang name="msg_projectEditedByWWW" value="A munka lezárult, mert valaki elkezdte a szerkesztését a WWW editorban." />
+	<lang name="msg_long_purge_confirmation" value="Egy hosszú tisztítási folyamat engedélyezésére készül. Általában új nyomtató telepítése után használják az üres tintarendszer feltöltésére vagy a levegő eltávolítására a teljes tintarendszerből. Ennek a folyamatnak nagy a tintafogyasztása. A tisztítást bármikor leállíthatja, ha megnyomja az &quot;tisztítás leállítása&quot; gombot. \n \nMegkezdi a tisztítást?" />
+	<lang name="msg_long_purge_in_progress" value="Tisztítás folyamatban. \nHátralévő idő: %d [mp]" />
+	<lang name="msg_restore_storage_data" value="Szeretné belső tároló ÖSSZES tartalmát TÖRÖLNI, és visszaállítani a gyári alapértelmezett értékeket? Minden projekt adat és nyomtatóbeállítás ELVESZIK !" />
+	<lang name="msg_stop_and_restore_data" value="Figyelem! Be van kapcsolva a nyomtatás! Leállítja a nyomtatást, és visszaállítja a belső tároló tartalmát a gyári alapértékekre? A projektek adatai és a nyomtató beállításai ELVESZNEK !" />
+	<lang name="msg_pendrive_error" value="Figyelem ! Pendrive nem elérhető vagy sérült. Kapcsolja ki a nyomtatót, majd telepítse a megfelelő pendrive -ot, vagy állítsa vissza a sérült pendrive tartalmat a gyári alapértékekre. Nyomja meg a &quot;kikapcsolás&quot; gombot a kikapcsoláshoz, vagy az &quot;adathordozó újraindítása&quot; gombot a pendrive tartalmának visszaállításához." />
+	<lang name="msg_pendrive_restore" value="Győződjön meg arról, hogy a nyomtató USB -nyílásában megfelelő pendrive van. Minden korábbi tartalom törlődik, és visszaáll a gyári alapértékekre. A folytatáshoz nyomja meg az &quot;ok&quot; gombot, a visszalépéshez a &quot;mégse&quot; gombot." />
+	<lang name="msg_pendrive_restore_ok" value="Pendrive tartalmát sikeresen helyre állítottuk. Újraindítás szükséges. Kérjük nyomja meg az &quot;ok&quot; gombot, A nyomtató ki fog kapcsolni." />
+	<lang name="msg_creating_pendrive" value="Kérjük várjon...Pendrive visszaállítása... \n \nNE KAPCSOLJA KI A NYOMTATÓT, A RENDSZERFÁJLOK SÉRÜLHETNEK!!!" />
+	<lang name="msg_resetCounterVF_warning" value="Figyelmeztetés: Néhány számláló úgy van beállítva, hogy visszaállítsa a minimális vagy maximális értékét. Ehhez a kezdőérték megváltoztatása lehetetlen. Az ilyen mezők szürkével vannak jelölve" />
+	<lang name="msg_messages_alert" value="Vigyázat! \ nAz üzenetlista új információkat tartalmaz, amelyeket el kell olvasni és meg kell erősíteni." />
+
+	<lang name="msg_deleteSelectedObject" value="Biztosan törölni szeretné a kijelölt objektumot ?"/>
+	<lang name="msg_create_project_error" value="Hiba ! Az új projekt létrehozása sikertelen!"/>
+	<lang name="msg_confirm_file_overwrite" value="%s fájl létezik, szeretné felülírni ?"/>
+	<lang name="msg_confirm_position_change" value="Megerősíti a pozícióváltozást?"/>
+	<lang name="msg_confirm_size_change" value="Megerősíti az átméretezést?"/>
+
+	<lang name="msg_confirmExternParamsFile" value="Vigyázat ! A projekt külső fájlt használ a paraméterek meghatározásához. Bármilyen változás hatással lehet más munkákra! Valóban szerkeszteni szeretné a nyomtatási paramétereket ?"/>
+	<lang name="msg_externParamsFileNotFound" value="Hiba! A projekt külső fájlt használ a paraméterek meghatározásához, de a fájl nem létezik! Kérjük, javítsa ki ezt a hibát, és próbálja újra !"/>
+
+	<lang name="msg_confirm_wifi_network_delete" value="Biztosan törli a kiválasztott vezeték nélküli hálózat konfigurációját?"/>
+
+	<lang name="msg_restore_storage_damaged" value="Vigyázat ! A belső tároló adatai megsérültek. A sérült adatokat visszaállíthatja a gyári alapértékekre. Nyomja meg a &quot;kikapcsolás&quot; hogy most kapcsolja ki a nyomtatót, vagy &quot;visszaállítás&quot; a gyári tartalom visszaállításához."/>
+	<lang name="msg_restore_storage_confirm" value="Minden korábbi tartalom törlődik, és visszaáll a gyári alapértékekre. A folytatáshoz nyomja meg az &quot;ok&quot;gombot, a törléshez nyomja meg a &quot;mégse&quot;gombot.."/>
+	<lang name="msg_restore_storage_ok" value="A belső tároló tatrtalma sikeresen helyreállt. Újraindítás szükséges. Kérjük nyomja meg az &quot;ok&quot; gombot, a nyomtató újra fog indulni."/>
+	<lang name="msg_restore_storage_warning" value="Kérjük, várjon ... A belső tárolóadatok visszaállítása folyamatban ... \n \nNE KAPCSOLJA KI A NYOMTATÓT, mert a rendszerfájlok sérülhetnek!!!"/>
+	<lang name="msg_firmware_upgrade_detected" value="A háttértár eszköz firmware frissítést tartalmaz. A frissítési eljárás megköveteli a nyomtató újraindítását. Ha szeretné folytatni, nyomja meg a &quot;frissítés elvégzése&quot; gombot és várjon amíg kikapcsol a berendezés. Kapcsolja be újból a nyomtatót."/>
+
+
+	<lang name="msg_enter_new_password" value="Új jelszó megadása."/>
+	<lang name="msg_confirm_new_password" value="Új jelszó ismétlése."/>
+	<lang name="msg_enter_login_name" value="Adja meg a felhasználói bejelentkezési nevet."/>
+	<lang name="msg_import_error" value="Hiba a %s fájl importálása közben!"/>
+	<lang name="msg_import_ok" value="%s fájl sikeresen importálva."/>
+	<lang name="msg_export_error" value="Hiba a projektfájlok exportálásakor!"/>
+	<lang name="msg_export_ok" value="Sikeres exportálás !A(z) %s fájlt az exportálási adatokkal az USB -eszköz főkönyvtárában hozták létre."/>
+
+	<lang name="msg_firmware_upgrade_reboot_info" value="A nyomtató készen áll a frissítésre. Nyomja meg az &quot;ok&quot; gombot A nyomtató kikapcsolásához. Miután a nyomtató kikapcsolt, kapcsolja be újra a frissítés folytatásához. Ez eltarthat egy ideig - kérjük, legyen türelmes, és ne kapcsolja ki a nyomtatót!"/>
+
+	<lang name="msg_One_time_code_generated" value="Egyszeri kód generálva. Kérjük, adja meg az érvényes feloldó kódot, és erősítse meg a feloldógombbal."/>
+	<lang name="msg_OneTimeCodeError" value="Hiba az egyszeri kód létrehozásakor. Zárja be az ablakot, és próbálja újra!"/>
+
+	<lang name="msg_PrintHeadMismatch" value="Figyelem ! A kiválasztott munka más típusú nyomtatókhoz lett létrehozva (NEM a HandJet EBS260-hoz)!"/>
+	<lang name="msg_PrintHeadMismatchOpenFail" value="Figyelem ! Nem lehet megnyitni a kiválasztott projektet. Más típusú nyomtatóhoz / nyomtatófejhez készült."/>
+
+	<lang name="msg_remote_unlock_transmitted" value="A nyomtató feloldási kérelmet küldött a távoli feloldó szervernek. A feloldási eljárás körülbelül 5 percet vehet igénybe. A sikeres feloldás után a nyomtató megerősítő üzenetet jelenít meg."/>
+	<lang name="msg_RemoteUnlockTxError" value="A nyomtató nem képes feloldási kérelmet küldeni a távoli feloldó szervernek! Kérjük, ellenőrizze internetkapcsolatát, és próbálja újra."/>
+
+
+	<lang name="msg_unlock_successful" value="A nyomtató sikeresen feloldva."/>
+	<lang name="msg_unlock_error" value="Nyomtató feloldási hiba (Feloldási kód elutasítva vagy csatlakozási hiba). Kérjük próbálja újra."/>
+	<lang name="msg_printer_in_purge_mód" value="A nyomtató tisztítási módban van. A tisztítási folyamat elindításához nyomja meg és tartsa lenyomva a ravaszt. A tisztítási módból való kilépéshez nyomja meg a &quot;Stop&quot; gombot, vagy zárja be ezt az ablakot."/>
+
+	<lang name="msg_autoPowerOff_in_x_sec" value="A nyomtató hosszú ideig nem volt használatban, ezért %d másodperc múlva kikapcsol."/>
+	<lang name="msg_EmergencyOff_in_x_sec" value="Az akkumulátor töltöttsége kritikus !!! A nyomtató %d másodperc múlva kikapcsol."/>
+	<lang name="msg_low_battery_warning" value="Figyelem ! Az akkumulátor töltöttségi szintje alacsony. Töltse fel az akkumulátort a lehető leghamarabb."/>
+
+	<lang name="msg_clearStatistics" value="Biztosan törölni szeretné a statisztikákat ?"/>
+	<lang name="msg_resolutionOutOfRange" value="Hiba! A felbontás tartományon kívül van! Kérjük próbálkozzon az újbóli leméréssel"/>
+	<lang name="msg_confirm_bt_device_delete" value="Biztosan eltávolítja a kiválasztott Bluetooth -eszközt a megjegyzett eszközökről?"/>
+	<lang name="msg_confirm_close" value="Valóban bezárja az ablakot? Minden módosítás elvész!!!"/>
+	<lang name="msg_confirm_user_delete" value="Biztosan eltávolítja a kiválasztott felhasználót?"/>
+	<lang name="msg_ProjectNotFound" value="A(z) %s projektfájl nem található!"/>
+	<lang name="msg_IllegalCharInFileName" value="A fájlnév helytelen karaktereket tartalmaz. Kérjük, csak latin betűket, számokat és a következő speciális karaktereket használja: &quot;_&quot;,&quot;.&quot;,&quot;-&quot;. \n \nSzeretne új fájlnevet begépelni ?"/>
+	<lang name="msg_kernel_missmatch_message" value="Figyelem ! A nyomtatórendszer szoftvere hiányos! \nKérem, állítsa vissza a belső memóriát, ha ez nem oldja meg a problémát, végezze el újból az utolsó frissítést. Ha a probléma továbbra is fennáll, lépjen kapcsolatba a szervizközponttal."/> 
+
+	<lang name="msg_Can_not_perform_operation_project_selected_for_printing" value="Hiba! A műveletet nem lehet végrehajtani! Projekt kiválasztva nyomtatásra !"/> 
+	<lang name="msg_confirmFileRemove" value="Törli a(z) %s fájlt/könyvtárat ?"/> 
+	<lang name="msg_Error_setting_bluetooth_friendly_name" value="Nem lehet beállítani a Bluetooth eszköz becenevét - belső hiba !"/> 
+	<lang name="msg_Illegal_bluetooth_friendly_name" value="Nem lehet beállítani a Bluetooth eszköz becenevét - a név érvénytelen !"/> 
+	<lang name="msg_wasteBottleOverflow" value="A hulladéktinta-palack megtelt. Kérjük, ürítse ki !"/> 
+	<lang name="msg_wifi_connection_error" value="Vezeték nélküli hálózati kapcsolat hiba. Kérjük, ellenőrizze a konfigurációt, és próbálja újra."/> 
+
+	<lang name="msg_PrinterFirmware2Old" value="A nyomtató firmware verziója túl régi. A közvetlen frissítés lehetetlen. \nVáltozat információ: \nNyomtató firmware: %s1 \nFrissítési fájl: %s2 \nMinimálisan szükséges: %s3"/>
+	<lang name="msg_UprgadeFileOlderThanCurrent" value="A nyomtató firmware verziója későbbi, mint a kiválasztott frissítési fájl. \nVerzióinformáció: \nNyomtató firmware: %s1 \nFrissítési fájl: %s2"/>
+	<lang name="msg_UprgadeFileSameAsPresent" value="A nyomtató firmware -jét már frissítették. \nVerzióinformáció: \nNyomtató firmware: %s1 \nFrissítési fájl: %s2"/>
+	<lang name="msg_UprgadeFileInvalid" value="A kiválasztott frissítési fájl érvénytelen vagy sérült!"/>
+	<lang name="msg_ParamOutOfRange" value="Hiba! A mért érték kívül esik az érvényes tartományon! Kérjük próbálja újból!"/>
+	<lang name="msg_confirm_setting_date_time" value="After changing date / time printer will be restarted. Please select &gt;Yes&gt; to set new time and restart printer or &gt;No&gt; to cancel and return to time settings." />
+	<lang name="msg_beta_version_warrning" value="Please be aware that this software version is for development purposes only and as such may contain bugs causing problems.\n By pressing  &quot;ok&quot; you are confirming usage on your own responsibility." />
+</Messages>
+</EBS_LCDGUI>
+<EBS_Common>
+	<Labels>
+		<lang name="lbl_Yellow" value="Citromsárga"/>
+		<lang name="lbl_Colorless" value="Színtelen"/>
+		<lang name="lbl_Red" value="Piros"/>
+		<lang name="lbl_Blue" value="Kék"/>
+		<lang name="lbl_Black" value="Fekete"/>
+		<lang name="lbl_Ultraviolet" value="Ultraibolya"/>
+		<lang name="lbl_White" value="Fehér"/>
+		<lang name="lbl_Green" value="Zöld"/>
+		<lang name="lbl_statistics" value="Statisztikák" />
+		<lang name="lbl_Orginal" value="Eredeti" />
+		<lang name="lbl_Recovery" value="Helyreállítás" />
+		<lang name="lbl_saveRecoveryAs" value="Mentse a helyreállítási fájlt más néven" />
+		<lang name="lbl_continueEdit" value="Folytatás\nszerkesztés"/>
+		<lang name="lbl_externalscript" value="External script name"/>
+		<lang name="lbl_scriptName" value="Script név:"/>
+		<lang name="lbl_scriptDesc" value="Script description"/>
+		<lang name="lbl_Script_information" value="Script details"/>
+		<lang name="lbl_Enable_script" value="Enable script"/>
+		<lang name="lbl_Printhead:" value="Nyomtatófej neve:"/>
+	</Labels>
+	<Messages>
+		<lang name="msg_deleteRecoveryFile" value="JEGYZET! A választás megerősítése törli a biztonsági mentést!" />
+		<lang name="msg_RecoveryFileSelection" value="A projekt biztonsági verziója észlelve. \nKérem válassza ki, hogy melyik verziót szeretné szerkeszteni. Eredeti projekt vagy biztonsági verzió ?"/>
+		<lang name="msg_ConfirmRecoveryRemoval" value="Törli a helyreállítási fájlt ?"/>
+		<lang name="msg_DelRecoveryWithoutRescue" value="Szeretné folytatni és eltávolítani a helyreállítási fájlt visszaállítás nélkül? Ezt a döntést nem lehet visszavonni !"/>
+	</Messages>
+	<WTitles>
+		<lang name="wtitle_cProjectRecoveryDialog" value="Munka helyreállítása"/>
+	</WTitles>
+</EBS_Common>
+</EBS_LanguageFile>

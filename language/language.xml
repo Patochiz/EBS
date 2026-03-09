@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_LanguageDescription>
+  
+  <lang FileName="english.xml" value="English"/> 
+  <lang FileName="polish.xml" value="polski"/>
+  <lang FileName="german.xml" value="Deutsch"/>
+  <lang FileName="chinese.xml" value="中文"/>
+  <lang FileName="russian.xml" value="Pусский"/>
+  <lang FileName="italian.xml" value="Italiano"/>
+  <lang FileName="french.xml" value="français"/>
+  <lang FileName="spanish.xml" value="español"/>
+  <lang FileName="portuguese.xml" value="portuguese"/>
+  <lang FileName="czech.xml" value="Cesky"/>
+  <lang FileName="turkish.xml" value="Türk"/>
+
+</EBS_LanguageDescription>

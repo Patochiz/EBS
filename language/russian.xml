@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_LanguageFile>
+<param name="Version" value="2022.01.21"/> 
+<param name="EditedBy" value="GrzesiekP"/>
+<EBS_PrinterLocaleSettings>
+<param name="LC_ALL" value="ru_RU.KOI8-R"/>
+</EBS_PrinterLocaleSettings>
+
+<EBS_PUI_FontSettings>
+	<param name="DefaultFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="DefaultFontSmallSize" value="9"/>
+	<param name="DefaultFontNormalSize" value="12"/>
+	<param name="DefaultFontLargeSize" value="14"/>
+	<param name="PinyinFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="PinyinFontSize" value="16"/>
+	<param name="ButtonFontSize" value="12"/>
+	<param name="LabelFontSize" value="11"/>
+	<param name="TextFontSize" value="12"/>
+	<param name="MessageFontSize" value="12"/>
+	<param name="EditFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="EditFontSize" value="16"/>
+</EBS_PUI_FontSettings>
+
+<EBS_ParametersUnitsLanguage>
+	<lang name="EncoderConstant_Unit" value="[импульс/м]"/>
+	<lang name="ConveyorSpeed_Unit" value="[м/мин]"/>
+	<lang name="ImpulseGeneratorSource_Unit" value="[внтр.генератор / внешний источник]"/>
+	<lang name="TriggerType_Unit" value="[фронт/уровень]"/>
+	<lang name="TriggerSignalMode_Unit" value="[передний/задний фронт]|[высок./низк. уровень]"/>
+	<lang name="Resolution_Unit" value="[тнм] ( точек на метр)"/>
+	<lang name="PrintDistance_Unit" value="[мм]"/>
+	<lang name="TxtRepetitions_Unit" value="[распечатка]"/>
+	<lang name="RepetitionDistance_Unit" value="[мм]"/>
+	<lang name="RowMultiply_Unit" value="[столбцов]"/>
+	<lang name="UpsideDownPrint_Unit" value="[Выключено/Включено]"/>
+	<lang name="ReversePrint_Unit" value="[Выключено/Включено]"/>
+	<lang name="TextHeight_Unit" value="[мм]"/>
+	<lang name="CleaningRows_Unit" value="[столбцов]"/>
+	<lang name="Pressure_Unit" value="[бар]"/>
+	<lang name="PhotocellSource_Unit" value="[Внутренний / внешний / оба]"/>
+</EBS_ParametersUnitsLanguage>
+
+<EBS_EditorLanguage>
+<Menu>
+	<lang name="menu_projects" value="Проекты"/>
+	<lang name="menu_projectNew" value="Новый проект"/>
+	<lang name="menu_projectOpen" value="Открыть проект"/>
+	<lang name="menu_projectSave" value="Сохранить"/>
+	<lang name="menu_projectSaveAs" value="Сохранить в..."/>
+	<lang name="menu_projectClose" value="Закрыть проект"/>
+	<lang name="menu_projectParams" value="Параметры печати"/>
+	<lang name="menu_tools" value="Библиотека"/>
+	<lang name="menu_toolsImagesManager" value="Библиотека графики"/>
+	<lang name="menu_toolsFontsManager" value="Шрифты"/>
+	<lang name="menu_toolsTextFilesManager" value="Библиотека текстов"/>
+	<lang name="menu_toolsUsersManager" value="Менеджер пользователя"/>
+	<lang name="menu_toolsReportProblem" value="Рапорт об ошибке"/>
+	<lang name="menu_toolsWorkspaceSize" value="Рабочий размер "/>
+	<lang name="menu_toolsPrintersNetworkManager" value="Управление сетью принтеров"/>
+	<lang name="menu_settingsGeneral" value="Общие настройки"/>
+	<lang name="menu_settingsEncoderConstant" value="Скорость конвейера"/>
+	<lang name="menu_settings" value="Настройки"/>
+	<lang name="menu_service" value="Сервис"/>
+	<lang name="menu_servicePurge" value="Прокачка"/>
+	<lang name="menu_serviceLog" value="Протокол"/>
+	<lang name="menu_printer_control" value="Управление принтером"/>
+	<lang name="menu_about" value="Информация"/>		
+	<lang name="menu_toolsLanguageManager" value="Язык обслуживания"/>
+	<lang name="menu_toolsAccountManagement" value="Перечень пользователей"/>
+	<lang name="menu_moduleInfo" value="Модуль инфо"/>
+	<lang name="menu_phpshell" value="PHP Shell"/>
+	<lang name="menu_softwareUpgrade" value="Модификация программного обеспечения"/>
+	<lang name="menu_touchscreenCalibration" value="Калибровка экрана"/>
+	<lang name="menu_ObjectNormalText" value="Нормальный текст"/>
+	<lang name="menu_ObjectNormalBarcode" value="Норм.штрихкод"/>
+	<lang name="menu_ObjectDateTime" value="Дата/Время"/>
+	<lang name="menu_ObjectCounter" value="Счётчик"/>
+	<lang name="menu_ObjectComPort" value="Порт коммуникации"/>
+	<lang name="menu_ObjectTxtFile" value="Текстовый файл"/>
+	<lang name="menu_printoutCost" value="Стоимость распечатка"/>
+	<lang name="menu_serviceReport" value="Ген. серв. рапорта"/>
+	<lang name="menu_installOption" value="Установка опции"/>
+	<lang name="menu_statistics" value="Статистика принтера"/>
+	<lang name="menu_info" value="Информация"/>
+	<lang name="menu_ObjectShapeLine" value="Линия"/>
+	<lang name="menu_ObjectShapeRectangle" value="Прямоугольник"/>
+	<lang name="menu_ObjectShapeElipse" value="Эллипс"/>
+	<lang name="menu_projectImport" value="Импорт проекта"/>
+	<lang name="menu_projectExport" value="Экспорт проекта"/>
+	<lang name="menu_puiPreview" value="Просмотр на LCD"/>
+	<lang name="menu_barcode" value="штрихкод"/>
+	<lang name="menu_lineDivider" value="Разделитель строк" />
+	<lang name="menu_simulatePrintout" value="Просмотр текста" />
+	<lang name="menu_printerUpdate" value="Перепрошивка" />
+	<lang name="menu_openPrinterControl" value="Открыть управление принтером" />
+	<lang name="menu_sendProjectToPrinter" value="Передать проект в принтер" />
+	<lang name="menu_openWUI" value="Открыть редактор" />
+	<lang name="menu_restartPrinter" value="Перезагрузка принтера" />
+	<lang name="menu_shutdownPrinter" value="Принтер выключить" />
+</Menu>
+<Labels>
+	<lang name="lbl_loggedAs" value="Зарегистрирован как: "/>
+	<lang name="lbl_startupWhatWouldYouLikeToDo" value="Что вы хотите выполнить?"/>
+	<lang name="lbl_startupCreateNewProject" value="Создать\nновый проект"/>
+	<lang name="lbl_startupOpenProject" value="Открыть проект\nдля редакции"/>
+	<lang name="lbl_startupOpenProjectForPrinter" value="Открыть проект\nдля печати"/>
+	<lang name="lbl_startupChangeEditorSettings" value="Настройки"/>
+	<lang name="lbl_startupPrinterControl" value="Работа с\nпринтером"/>
+	<lang name="lbl_Language" value="Язык:"/>
+	<lang name="lbl_originalLanguage" value="Язык оригинала"/>
+	<lang name="lbl_printerType" value="Тип головки:"/>
+	<lang name="lbl_filename" value="Назв.файла:"/>
+	<lang name="lbl_directory" value="Папка:"/>
+	<lang name="lbl_showFilesOnList" value="Занести файл в перечень"/>
+	<lang name="lbl_clipboardContent" value="Буфер обмена:"/>
+	<lang name="lbl_empty" value="пусто"/>
+
+	<lang name="lbl_currentDirectory" value="Текущий каталог:"/>
+	<lang name="lbl_projectPreview" value="Просмотр проекта:"/>
+	<lang name="lbl_projectInformation" value="Информация о проекте:"/>
+	<lang name="lbl_lastModification" value="Последние изменения:"/>
+	<lang name="lbl_imagePreview" value="Просмотр графики:"/>
+	<lang name="lbl_imageInstalled" value="Графика % загружена"/>
+	<lang name="lbl_imageNotInstalled" value="Загружено %в"/>
+	<lang name="lbl_pleaseSelectImageToInstall" value="Выберите графику для загрузки:"/>
+	<lang name="lbl_fontPreview" value="Просмотр шрифта:"/>
+	<lang name="lbl_fontType" value="Тип шрифта:"/>
+	<lang name="lbl_pleaseSelectFontToInstall" value="Пожалуйста выберите шрифт для текста:"/>
+	<lang name="lbl_pleaseSelectTxtFileToInstall" value="Выберите пожалуйста текст:"/>
+	<lang name="lbl_fontInstalled" value="Шрифт не% установлен"/>
+	<lang name="lbl_fontNotInstalled" value="Шрифт установлен%в"/>
+	<lang name="lbl_txtFileInstalled" value="Текстовый файл %s загружен"/>
+	<lang name="lbl_txtFileNotInstalled" value="Текст %s невозможно загрузить"/>
+
+	<lang name="lbl_users" value="Пользователи"/>
+	<lang name="lbl_groups" value="Группы"/>
+	<lang name="lbl_userInformation" value="Инфо пользователя: "/>
+	<lang name="lbl_lastLogin" value="Последний вход:"/>
+	<lang name="lbl_avaiableUsers" value="Доступен пользователям:"/>
+	<lang name="lbl_avaiableGroups" value="Доступен группам:"/>
+	<lang name="lbl_enableAutoLogin" value="Включить Авто-Логин"/>
+	<lang name="lbl_login" value="Логин"/>
+	<lang name="lbl_password" value="Пароль"/>
+
+	<lang name="lbl_userImage" value="Перечень пользователей"/>
+	<lang name="lbl_addUserToThisGroup" value="Добавить пользователя в эту группу"/>
+	<lang name="lbl_groupName" value="Название группы"/>
+	<lang name="lbl_groupImage" value="Перечень групп"/>
+	<lang name="lbl_groupsPrivilages" value="Привилегии групп"/>
+	<lang name="lbl_objectParams" value="Параметры объекта"/>
+	<lang name="lbl_deleteObject" value="Удалить объект"/>
+	<lang name="lbl_text" value="Текст"/>
+	<lang name="lbl_fontName" value="Шрифт"/>
+	<lang name="lbl_fontSize" value="Размep"/>
+	<lang name="lbl_fontSizeX" value="X"/>
+	<lang name="lbl_fontSizeY" value="Y"/>
+	<lang name="lbl_constrainProportions" value="Пропорциональное изменение"/>
+	<lang name="lbl_objectRotation" value="Вращение объекта"/>
+	<lang name="lbl_lineSpacing" value="Межстрочный интервал:"/>
+	<lang name="lbl_enterFontSize" value="Введите размер шрифта"/>
+	<lang name="lbl_autoSize" value="Авто-размер"/>
+	<lang name="lbl_transparent" value="Прозрачность"/>
+	<lang name="lbl_showPreview" value="Предварительный просмотр"/>
+	<lang name="lbl_objectName" value="Название объекта"/>
+	<lang name="lbl_barcodeType" value="Тип штрихкода:"/>
+
+	<lang name="lbl_borderSize" value="Размер рамки:"/>
+	<lang name="lbl_borderType" value="Тип рамки:"/>
+	<lang name="lbl_registers" value="Переменное поле"/>
+	<lang name="lbl_imagePath" value="Путь до графики"/>
+	<lang name="lbl_allowResize" value="Разрешить изменение размера"/>
+	<lang name="lbl_objectSize" value="Размер объекта"/>
+	<lang name="lbl_objectPosition" value="Позиция"/>
+	<lang name="lbl_encoderConstant" value="Постоянная Encoderа"/>	
+	<lang name="lbl_conveyorSpeed" value="Скорость конвейера"/>
+	<lang name="lbl_triggerType" value="Тип тактового сигнала"/>
+	<lang name="lbl_triggerSignalMode" value="Режим тактового сигнала"/>
+	<lang name="lbl_impulseGeneratorSource" value="Внутренний генератор"/>
+	<lang name="lbl_resolution" value="Разрешение"/>
+	<lang name="lbl_printDistance" value="Отступ в начале"/>
+	<lang name="lbl_textRepetition" value="Повторение текста"/>
+	<lang name="lbl_repetitionDistance" value="Промежутки между печатями"/>
+	<lang name="lbl_reversePrint" value="Зеркально по горизонтали"/>
+	<lang name="lbl_upsideDownPrint" value="Зеркально по вертикали"/>
+	<lang name="lbl_shaftDirection" value="Направление печати"/>
+	<lang name="lbl_textHeight" value="Высота текста"/>
+	<lang name="lbl_cleaningRows" value="Столбцов для чистки"/>
+	<lang name="lbl_pressure" value="Давление"/>
+	<lang name="lbl_PhotocellSource" value="Настройка фотодатчика"/>
+	<lang name="lbl_dotSize" value="Размер точек"/>
+	<lang name="lbl_parameterRange" value="Пределы параметра"/>
+	<lang name="lbl_newWorkspaceWidth" value="Новая ширина поля печати"/>
+	<lang name="lbl_settings_general" value="Общее"/>
+	<lang name="lbl_settings_date" value="Дата/Время"/>
+	<lang name="lbl_imageWrongType" value="Только файлы PNG допустимы ."/>
+	<lang name="lbl_projectImportWrongType" value="Только файлы ZIP допустимы ."/>
+	<lang name="lbl_fontWrongType" value="Только файлы TTF допустимы ."/>
+	<lang name="lbl_txtFileWrongType" value="Допустимы только TXT файлы."/>
+	<lang name="lbl_currentPrinterDate" value="Актуальная дата в принтере:"/>
+	<lang name="lbl_currentPrinterTime" value="Актуальное время в принтере:"/>
+	<lang name="lbl_dateOffset" value="Сдвиг даты:"/>
+	<lang name="lbl_timeOffset" value="Сдвиг времени:"/>
+	<lang name="lbl_dateSeparator" value="Сепаратор даты:"/>
+
+	<lang name="lbl_timeSeparator" value="Сепаратор времени:"/>
+	<lang name="lbl_dateFormat" value="Формат даты:"/>
+	<lang name="lbl_timeFormat" value="Формат времени:"/>
+	<lang name="lbl_date" value="Дата (da-mo-year):"/>
+	<lang name="lbl_time" value="Время (hr:min:sec):"/>
+	<lang name="lbl_formattingString" value="По желанию пользователя:"/>
+	<lang name="lbl_advanced" value="Дополнения"/>
+	<lang name="lbl_quickPreview" value="Быстрый просмотр"/>
+	<lang name="lbl_showExpertsSettings" value="Режим эксперта"/>
+	<lang name="lbl_DateTimeHelp1" value="%a - День недели сокр.\n%A - День недели полн.\n%b - Месяц сокращённо\n%B - Месяц полностью\n%c - Дата и время полн.\n%d - День месяца (1-31)\n%H - Время (24-час. режим)\n%I - Время (12-час.режим)\n%j - День года (1-366)\n%m - Месяц (1-12)\n%M - Минуты (0-59)\n"/>
+	<lang name="lbl_DateTimeHelp2" value="%p - AM/PM для 12-час.режима\n%S - Секунды (0-60)\n%U - Номер недели с воскр.\n%w - День недели (0-6) с воскр\n%W - Номер недели с понедельника\n%x - Дата полностью\n%X - Время и дата полностью\n%y - Год без века\n%Y - Год полностью\n%Z - Часовой пояс\n%% - Знак печати %\n"/>
+	<lang name="lbl_min" value="Мин"/>
+	<lang name="lbl_max" value="Макс"/>
+	<lang name="lbl_startValue" value="Нач.значение"/>
+	<lang name="lbl_step" value="Шаг"/>
+	<lang name="lbl_length" value="Длина"/>
+	<lang name="lbl_prefix" value="Приставка"/>
+	<lang name="lbl_suffix" value="Суффикс"/>
+	<lang name="lbl_startMode" value="Режим старта"/>
+	<lang name="lbl_lastValue" value="Последнее знач."/>
+	<lang name="lbl_showThisCounter" value="Показать этот счётчик"/>
+	<lang name="lbl_incrementOrder" value="Приращение"/>
+	<lang name="lbl_ObjectNormalBarcode" value="Норм.штрихкод"/>
+	<lang name="lbl_ObjectNormalText" value="Норм.текст"/>
+	<lang name="lbl_ObjectDateTime" value="Дата/Время"/>
+	<lang name="lbl_ObjectCounter" value="Счётчик"/>
+	<lang name="lbl_ObjectComPort" value="Порт коммуникации"/>
+	<lang name="lbl_ObjectTxtFile" value="Текстовый файл"/>
+	<lang name="lbl_ObjectConvertTo" value="Повернуть на:"/>
+	<lang name="lbl_port" value="Порт:"/>
+	<lang name="lbl_baud" value="Скорость:"/>
+	<lang name="lbl_onPrintStart" value="На начало печати:"/>
+	<lang name="lbl_onDataProcess" value="На обработку данных:"/>
+	<lang name="lbl_onPrintFinish" value="Конец печати:"/>
+	<lang name="lbl_filePath" value="Путь к файлу:"/>
+	<lang name="lbl_lineCount" value="Число строк:"/>
+	<lang name="lbl_all" value="Все"/>
+	<lang name="lbl_lineStep" value="Линейный шаг:"/>
+	<lang name="lbl_lineMax" value="Макс. строк:"/>
+	<lang name="lbl_fillIn" value="Заполнить"/>
+	<lang name="lbl_event" value="Событие"/>
+	<lang name="lbl_space" value="Пропуск"/>
+	<lang name="lbl_doNothing" value="Ничего не делать"/>
+
+	<lang name="lbl_stopPrinting" value="Стоп печати"/>
+	<lang name="lbl_printerStatus" value="Статус принтера:"/>
+	<lang name="lbl_currentProject" value="Текущий проект:"/>
+	<lang name="lbl_editorLoading" value="Загрузка редактора...\nПодождите пожалуйста..."/>
+	<lang name="lbl_paramsPreview" value="Просмотр параметров"/>
+	<lang name="lbl_currentEncoderConstant" value="Текущее знач. постоянной енкодера"/>
+	<lang name="lbl_currentConveyorSpeed" value="Текущее знач. скор. конвейера"/>
+	<lang name="lbl_showHelp" value="Показать помощь"/>
+	<lang name="lbl_parametersSource" value="Параметры источника:"/>
+	<lang name="lbl_parametersFile" value="Параметры файла:"/>
+	<lang name="lbl_localParameters" value="Локальные параметры"/>
+	<lang name="lbl_externalParameters" value="Внешние параметры"/>
+	<lang name="lbl_oldPassword" value="Старый пароль"/>
+	<lang name="lbl_newPassword" value="Новый пароль"/>
+	<lang name="lbl_retypePassword" value="Повторите пароль"/>
+	<lang name="lbl_detecting" value="обнаружить"/>
+	<lang name="lbl_saveChanges" value="сохранить изменения"/>
+	<lang name="lbl_paramsContinuous" value="Непрерывно"/>
+	<lang name="lbl_counterStartValue" value="Счётчик %d начальное значение"/>
+	<lang name="lbl_lineStartValue" value="Линия начального значения"/>
+	<lang name="lbl_enableAutoStart" value="Включить автостарт"/>
+	<lang name="lbl_gotoEditorPage" value="Перейти на стр. редактора &gt;"/>
+	<lang name="lbl_availableVersions" value="Доступные версии:"/>
+	<lang name="lbl_networkResources" value="Сетевые ресурсы:"/>
+	<lang name="lbl_gotoWebpage" value="Перейти на страницу"/>
+	<lang name="lbl_none" value="нет"/>
+	<lang name="lbl_bind" value="прерванная"/>
+	<lang name="lbl_box" value="замкнутая"/>
+	<lang name="lbl_installInProjectDir" value="Установить в каталоге проектов"/>
+	<lang name="lbl_createInSeparateDir" value="Создать проект в отдельном каталоге"/>
+	<lang name="lbl_helpLanguage" value="Помощь по языкам:"/>
+	<lang name="lbl_startEditor" value="Редактор:"/>
+	<lang name="lbl_startPrinter" value="Принтер:"/>
+	<lang name="lbl_printoutPreviewFirst" value="Показать первые распеч."/>
+	<lang name="lbl_printoutPreviewNext" value="Показать след.распечатку"/>	
+	<lang name="lbl_mustEdit" value="Этот объект должен быть изменён до начала печати"/>
+	<lang name="lbl_xcoord" value="координата x "/>
+	<lang name="lbl_ycoord" value="координата y "/>
+	<lang name="lbl_width" value="ширина"/>
+	<lang name="lbl_height" value="высота"/>
+	<lang name="lbl_helpWelcome" value="Добро пожаловать, помошь для EBS Web User Interface "/>
+	<lang name="lbl_printManual" value="Руководство печатью"/>
+	<lang name="lbl_pdfManual" value="Загрузите руководство в формате PDF"/>
+	<lang name="lbl_unknown" value="Недоступный"/>
+	<lang name="lbl_checking" value="Проверить..."/>
+
+	<lang name="lbl_printerName" value="Название принтера"/>
+	<lang name="lbl_printerIP" value="IP Принтера"/>
+	<lang name="lbl_printerModel" value="Модель принтера"/>
+	<lang name="lbl_hideTrash" value="Скрыть корзину мусора"/>
+	<lang name="lbl_emptyTrash" value="Корзина мусора пуста"/>
+	<lang name="lbl_hideClipboard" value="Скрыть буфер"/>
+	<lang name="lbl_emptyClipboard" value="Буфер пустой"/>
+	<lang name="lbl_px" value="точ"/>
+	<lang name="lbl_cm" value="см"/>
+	<lang name="lbl_emptyProject" value="Проект пустой"/>
+	<lang name="lbl_translatedText" value="Переведенный текст"/>
+	<lang name="lbl_originalText" value="Оригинальный текст"/>
+	<lang name="lbl_menuItems" value="Пункты в меню"/>
+
+	<lang name="lbl_signature" value="Подпись"/>
+	<lang name="lbl_communicationsMode" value="Режим - ожидания:"/>
+	<lang name="lbl_readyToPrintAfter" value="Готов к печати после"/>
+	<lang name="lbl_asciiCode" value="ASCII Код"/>
+	<lang name="lbl_communicationsMode_1" value="Интервал времени (мс)"/>
+	<lang name="lbl_communicationsMode_2" value="Число знаков"/>
+	<lang name="lbl_communicationsMode_3" value="Последний знак"/>
+	<lang name="lbl_communicationsMode_4" value="Сепараторы данных приняты" />
+
+	<lang name="lbl_bitCount" value="Битов"/>
+	<lang name="lbl_sendingMessagesFormat" value="Формат передачи"/>
+	<lang name="lbl_normal" value="Нормально"/>
+	<lang name="lbl_hexadecimal" value="Шестнадцатеричный"/>
+	<lang name="lbl_noDataAction" value="Когда нет данных"/>
+	<lang name="lbl_nothing" value="Ничего"/>
+	<lang name="lbl_blank" value="Пустое поле"/>
+	<lang name="lbl_lastMessage" value="Последний текст"/>
+	<lang name="lbl_noPrintout" value="Нет распечатки"/>
+	<lang name="lbl_procFormattingString" value="Командная строка процессора"/>
+
+	<lang name="lbl_separatorDataCount" value="Число регистров"/>
+	<lang name="lbl_separatorObject" value="Объект%d"/>
+
+	<lang name="lbl_separatorCharacter" value="Разделительный знак"/>
+	<lang name="lbl_dataBuffering" value="Буфер данных"/>
+	<lang name="lbl_disabled" value="Выключено"/>
+	<lang name="lbl_enabled" value="Включено"/>
+	<lang name="lbl_reportLevel" value="Статистика"/>
+	<lang name="lbl_isLinked" value="Связанный объект"/>
+
+	<lang name="lbl_basicStatistics" value="Основная статистика"/>
+	<lang name="lbl_OperateTime" value="Время работы"/>
+	<lang name="lbl_MadePrintouts" value="Выполненная печать"/>
+	<lang name="lbl_extraStatistics" value="Дополнительная статистика"/>
+	<lang name="lbl_project" value="Проект"/>
+	<lang name="lbl_report" value="Oтчет"/>
+	<lang name="lbl_userInfoReport" value="Отчет пользователя"/>
+	<lang name="lbl_serviceInfoReport" value="Служебный отчет"/>
+	<lang name="lbl_infoReport" value="Отчет EBS"/>
+	<lang name="lbl_lineThickness" value="Толщина линий"/>
+
+	<lang name="lbl_filled" value="Заполнение" />
+	<lang name="lbl_invert" value="Отобразить инверсно" />
+
+	<lang name="lbl_pixCount" value="Количество точек"/>
+	<lang name="lbl_printoutPerLiter" value="Количество распечаток на литр"/>
+	<lang name="lbl_printoutPerBootle" value="Количество распечаток на бутылку"/>
+	<lang name="lbl_autoAdjustText" value="Автоматическое выравнивание текста"/>
+	<lang name="lbl_pleaseSelectFileToImport" value="Выберите файл для импорта" />
+	<lang name="lbl_projectImported" value="Проект %s импортирован"/>
+	<lang name="lbl_projectNotImported" value="Ошибка импорта проекта %s"/>
+
+	<lang name="lbl_fileInformation" value="Информация о файле"/>
+
+	<lang name="lbl_withoutScaling" value="Без масштабирования"/>
+	<lang name="lbl_fitFrameToContent" value="Поле подогнать под содержание"/>
+	<lang name="lbl_fitContentToFrame" value="содержание подогнать под поле"/>
+	<lang name="lbl_rowMultiply" value="Повторение столбцов"/>
+
+	<lang name="lbl_EBSInternalFonts" value="Внутренние матрицы EBS"/>
+	<lang name="lbl_TTFDefaultFonts" value="Стандартные True Type матрицы"/>
+	<lang name="lbl_TTFUserFonts" value="Пользователь True Type матриц"/>
+
+	<lang name="lbl_import_ebseditorimport" value="Импортировать EBS WWW Редактор проектов"/>
+	<lang name="lbl_import_ebs250import" value="Импортировать проекты EBS 250"/>
+	<lang name="lbl_import_conversionFromEBS250" value="Конвертировать проекты EBS 250 в проекты редактора WWW ..."/>
+	<lang name="lbl_selectOptionPackageFile" value="Выбрать файл опции для установки" />
+	<lang name="lbl_resetCounterVF" value="Внимание: Некоторые счетчики настроены так, что они возвращаются к своим мин. или макс. значениям. Для этих счетчиков невозможно изменить начальное значение."/>
+	<lang name="lbl_pleaseWait" value="Подождите пожалуйста..."/>
+	<lang name="lbl_lineType" value="Тип линии" />
+	<lang name="lbl_lineSolid" value="Проходная" />
+	<lang name="lbl_lineDashed" value="Пунктирная" />
+	<lang name="lbl_lineDotted" value="Точечная" />
+	<lang name="lbl_discharging" value="Разрядка"/>
+	<lang name="lbl_charging" value="Зарядка"/>
+	<lang name="lbl_charged" value="Заряжен"/>
+	<lang name="lbl_charged_connected" value="Заряжен и подключен"/>
+	<lang name="lbl_discharged" value="Разряжен"/>
+	<lang name="lbl_discharged_connected" value="Разряжен и подключен"/>
+	<lang name="lbl_inkstatus" value="Состояние картриджа:"/>
+	<lang name="lbl_inklevel" value="Уровень чернил:"/>
+	<lang name="lbl_inkcolour" value="Цвет чернил:"/>
+	<lang name="lbl_batteryStatus" value="Состояное аккумулятора:"/>
+	<lang name="lbl_letterSpacing" value="Промежуток между знаками:"/>
+	<lang name="lbl_maxRepeatCount" value="Макс. число повторений:"/>
+	<lang name="lbl_scriptName" value="Script имя:"/>
+	<lang name="lbl_noScript" value="Нет script"/>
+	<lang name="lbl_action" value="Выбор" />
+	<lang name="lbl_saveToDisk" value="Сохранить на диске" />
+	<lang name="lbl_sendToPrinter" value="Отправить в принтер" />
+
+	<lang name="lbl_printableObject" value="Объект можно печатать" />
+	<lang name="lbl_linkedToObjects" value="Связать с объектами" />
+	<lang name="lbl_contentFormat" value="Формат содержания" />
+
+	<lang name="lbl_currentPoint" value="Актуальный пункт:" />
+	<lang name="lbl_changePoint" value="Изменить пункт" />
+	<lang name="lbl_horizontalDistance" value="Размер по горизонтали:" />
+	<lang name="lbl_verticalDistance" value="Размер по вертикали:" />
+
+	<lang name="lbl_printerNetwork_search" value="Поиск принтера... минуточку..." />
+	<lang name="lbl_printerNetwork_select" value="Выберите принтера для вашей сети" />
+	<lang name="lbl_selectAll" value="Выбрать все" />
+	<lang name="lbl_deselectAll" value="Не выбирать" />
+	<lang name="lbl_printerNetwork_addPrinter" value="Добавить принтер" />
+	<lang name="lbl_printerNetwork_noPrinters" value="Принтеры не найдены!" />
+	<lang name="lbl_selectedFileIsUnsuporrted" value="Выбранный файл не поддерживается." />
+	<lang name="lbl_confirmMessage" value="Подтвердить сообщение" />
+
+	<lang name="lbl_autoRefresh" value="Авто обновление" />
+	<lang name="lbl_after" value="после" />
+	<lang name="lbl_seconds" value="секунд" />
+	<lang name="lbl_timeToRefresh" value="Интервал обновления:" />
+	<lang name="lbl_availablePrinters" value="Доступный принтер:" />
+	<lang name="lbl_export" value="Экспорт" />
+	<lang name="lbl_editorLog" value="Редактор log" />
+	<lang name="lbl_printerLog" value="Принтер log" />
+	<lang name="lbl_externalParamsFileNotFound" value="Файл внешних параметров печати %s не найден" />
+	<lang name="lbl_pleaseSelectPrintingParams" value="Установите параметры печати для этого проекта." />
+	<lang name="lbl_defaultPrintHeadParams" value="Стандартные параметры головки" />
+	<lang name="lbl_projectLocalParams" value="Проект локальных параметров" />
+	<lang name="lbl_msgAll" value="Все" />
+	<lang name="lbl_msgInformations" value="Информация" />
+	<lang name="lbl_msgWarnings" value="Предупреждения" />
+	<lang name="lbl_msgErrors" value="Ошибки" />
+	<lang name="lbl_msgDeleteAll" value="Удалить все сообщения" />
+	<lang name="lbl_msgDeleteInformations" value="Удалить все информации" />
+	<lang name="lbl_msgDeleteWarnings" value="Удалить все предупреждения" />
+	<lang name="lbl_msgDeleteErrors" value="Удалить все ошибки" />
+	<lang name="lbl_searchResults" value="Результат поиска" />
+	<lang name="lbl_clipboard" value="Промежуточный буфер" />
+	<lang name="lbl_trash" value="Мусорник" />
+	<lang name="lbl_printersNetwork" value="Сеть принтеров" />
+	<lang name="lbl_selectObject" value="Выбрать объект" />
+	<lang name="lbl_objectsList" value="Перечень объектов" />
+	<lang name="lbl_or" value="или" />
+	<lang name="lbl_scaling" value="Пересчёт" />
+	<lang name="lbl_format" value="Формат" />
+	<lang name="lbl_rectangle" value="Прямоугольник" />
+	<lang name="lbl_square" value="Квадрат" />	
+	<lang name="lbl_auto" value="Авто" />
+	<lang name="lbl_deleteRecoveryFile" value="Удалить файл восстановления" />
+</Labels>
+<Tooltips>
+	<lang name="tooltip_createNewDirectory" value="Создать новую папку"/>
+	<lang name="tooltip_removeDirectory" value="Выбранный файл/папку удалить"/>
+	<lang name="tooltip_rename" value="Переименовать"/>
+	<lang name="tooltip_cut" value="Вырезать"/>
+	<lang name="tooltip_copy" value="Создать копию"/>
+	<lang name="tooltip_paste" value="Загрузить"/>
+	
+	<lang name="tooltip_printParameters" value="Показать окно параметров печати"/>
+	<lang name="tooltip_normalCursor" value="Нормальный курсор"/>
+	<lang name="tooltip_createTextObject" value="Создание текстового объекта"/>
+	<lang name="tooltip_createImageObject" value="Создание объекта графики"/>
+	<lang name="tooltip_createShapeObject" value="Создание объекта в рамке"/>
+	<lang name="tooltip_createBarcodeObject" value="Создание объекта штрихкода"/>
+	<lang name="tooltip_zoomInProject" value="Увеличить"/>
+	<lang name="tooltip_zoomOutProject" value="Уменьшить"/>
+	<lang name="tooltip_zoomNormalProject" value="Реальный размер"/>
+	<lang name="tooltip_cutObject" value="Вырезать объект"/>
+	<lang name="tooltip_copyObject" value="Скопировать объект"/>
+	<lang name="tooltip_showHideClipboard" value="Показать/Скрыть промежуточный буфер"/>
+	<lang name="tooltip_showHideTrash" value="Показать/Скрыть мусор"/>
+	<lang name="tooltip_projectPreview" value="Предварительный просмотр печати"/>
+	<lang name="tooltip_reloadProjectWorkspace" value="Актуализировать"/>
+	<lang name="tooltip_printerNetwork" value="Сеть принтеров"/>
+	<lang name="tooltip_moveObjectUpDown" value="Объект сдвинуть вверх/вниз"/>
+	<lang name="tooltip_turnOffPrinter" value="Выключить/Повторный старт/Покинуть"/>
+	<lang name="tooltip_moveObjectLeft" value="Сдвиг объекта на 1px влево"/>
+	<lang name="tooltip_moveObjectRight" value="Сдвиг объекта на 1px вправо"/>
+	<lang name="tooltip_moveObjectUp" value="Сдвиг объекта на 1px вверх"/>
+	<lang name="tooltip_moveObjectDown" value="Сдвиг объекта на 1px вниз"/>
+	<lang name="tooltip_hideWindow" value="Минимальное окно"/>
+	<lang name="tooltip_showWindow" value="Открыть окно"/>
+	<lang name="tooltip_showHelp" value="Вызвать помощь"/>
+	<lang name="tooltip_showBackground" value="Нажмите, чтобы посмотреть фон"/>
+	<lang name="tooltip_closeWindow" value="Закрыть окно"/>
+	<lang name="tooltip_showFontWindow" value="Показать перечень шрифтов"/>
+	<lang name="tooltip_toogleDate" value="Изменить дату"/>
+	<lang name="tooltip_toogleTime" value="Изменить время"/>
+	<lang name="tooltip_changeDateTimeOrder" value="Изменить последовательность Дата/Время"/>
+	<lang name="tooltip_alignLeft" value="Выровнять по левому краю"/>
+	<lang name="tooltip_alignCenter" value="Разместить в центре"/>
+	<lang name="tooltip_alignRight" value="Выровнять по правому краю"/>
+	<lang name="tooltip_createSpecialObject" value="Создать специальный объект"/>
+	
+	<lang name="tooltip_saveProject" value="Сохранить проект"/>	
+	<lang name="tooltip_openProject" value="Открыть проект"/>
+	<lang name="tooltip_workspaceWidth" value="Изменить рвзмер поля печати"/>
+	<lang name="tooltip_showObjectParameters" value="Показать параметры объекта"/>
+	<lang name="tooltip_deleteObject" value="Удалить проект"/>
+	<lang name="tooltip_showObjectsList" value="Показать перечень объектов/скрыть"/>
+</Tooltips>
+<WTitles>
+	<lang name="wtitle_projectNew" value="Новый проект"/>
+	<lang name="wtitle_projectOpen" value="Открыть проект для редакции"/>
+	<lang name="wtitle_projectOpenForPrinter" value="Открыть проект для печати"/>
+	<lang name="wtitle_projectSaveAs" value="Записать под..."/>
+	<lang name="wtitle_projectParams" value="Параметры печати"/>
+	<lang name="wtitle_editor_settings" value="Общие настройки"/>
+	<lang name="wtitle_encoderConstantSettings" value="Параметры конвейера"/>
+	<lang name="wtitle_printer_control" value="Управление принтером"/>
+	<lang name="wtitle_installImage" value="Загрузить новую графику"/>
+	<lang name="wtitle_workspaceWidth" value="Рабочая ширина"/>
+	<lang name="wtitle_purge" value="Прокачка"/>
+	<lang name="wtitle_log" value="Вход"/>
+
+	<lang name="wtitle_addUser" value="Добавить пользователя"/>
+	<lang name="wtitle_editUser" value="Изменить пользователя"/>
+	<lang name="wtitle_deleteUser" value="Удалить пользователя"/>
+	<lang name="wtitle_addGroup" value="Добавить группу"/>
+	<lang name="wtitle_editGroup" value="Изменить группу"/>
+	<lang name="wtitle_deleteGroup" value="Удалить группу"/>
+	<lang name="wtitle_installFont" value="Установить новый шрифт"/>
+	<lang name="wtitle_installTxtFile" value="Установить новый текстовый файл"/>
+	<lang name="wtitle_message" value="Сообщение"/>
+	<lang name="wtitle_messages" value="Сообщения"/>
+	<lang name="wtitle_objectParams" value="Параметры объекта"/>
+	<lang name="wtitle_filename" value="Название файла"/>
+	<lang name="wtitle_folderName" value="Полное название"/>
+	<lang name="wtitle_rename" value="Переименовать"/>
+	<lang name="wtitle_fontsManager" value="Библиокека шрифтов"/>
+	<lang name="wtitle_textsFilesManager" value="Библиотека текстов"/>
+	<lang name="wtitle_uninstallFont" value="Удалить шрифт"/>
+	<lang name="wtitle_fontSize" value="Размер шрифта"/>
+	<lang name="wtitle_imagesManager" value="Библиотека заготовок"/>
+	<lang name="wtitle_uninstallImage" value="Универсальные объекты"/>
+	<lang name="wtitle_reportProblem" value="Отчёт об ошибках"/>
+	<lang name="wtitle_projectPreview" value="Просмотр проекта"/>
+	<lang name="wtitle_usersManager" value="Менеджер пользователей"/>
+	<lang name="wtitle_printersNetworkManager" value="Управление сетью принтеров"/>
+	<lang name="wtitle_objectPreview" value="Просмотр объекта"/>
+	<lang name="wtitle_moduleInfo" value="Модуль инфо"/>
+	<lang name="wtitle_accountManagement" value="Управление счётчиком"/>
+	<lang name="wtitle_variableFields" value="Переменные поля"/>
+	<lang name="wtitle_resetVariableField" value="Сброс переменного поля"/>
+	<lang name="wtitle_browseParamsFiles" value="Ввбрать параметры файла"/>
+	<lang name="wtitle_printoutCost" value="Стоимость\nраспечатки"/>
+	<lang name="wtitle_serviceReport" value="Рапорт"/>
+	<lang name="wtitle_mustEdit" value="Редакция объекта"/>
+	<lang name="wtitle_installOption" value="Установить опции"/>
+	<lang name="wtitle_size" value="Размер"/>
+	<lang name="wtitle_position" value="Положение"/>
+	<lang name="wtitle_printerNetwork" value="Сеть принтеров"/>
+	<lang name="wtitle_addPrinter" value="Добавить принтер"/>
+	<lang name="wtitle_editPrinter" value="Настройка принтера"/>	
+	<lang name="wtitle_deletePrinter" value="Удалить принтер"/>
+	<lang name="wtitle_softwareUpgrade" value="Модификация программного обеспечения"/>
+	<lang name="wtitle_printoutPreview" value="Распечатка предварительного просмотра"/>
+	<lang name="wtitle_enterPassword" value="Введите пароль"/>
+	<lang name="wtitle_statistics" value="Статистика"/>
+	<lang name="wtitle_clearStatistics" value="Удалить статистику"/>
+	<lang name="wtitle_projectImport" value="Импорт проекта"/>
+	<lang name="wtitle_projectExport" value="Экспорт проекта"/>
+	<lang name="wtitle_puiPreview" value="Просмотр LCD "/>
+	<lang name="wtitle_simulatePrintout" value="Просмотр проекта" />
+	<lang name="wtitle_firmware_ugprade_info" value="Информация о прошивке принтера"/>
+	<lang name="wtitle_printerUpdate" value="Прошивка" />
+	<lang name="wtitle_scanPrintersNetwork" value="Сканировать сеть принтеров" />
+	<lang name="wtitle_selectPrintingParams" value="Выбрать параметры печати" />
+</WTitles>
+<Buttons>
+	<lang name="btn_saveChanges" value="Сохранить изменения"/>
+	<lang name="btn_yes" value="Да"/>
+	<lang name="btn_no" value="Нет"/>
+	<lang name="btn_ok" value="OK"/>
+	<lang name="btn_reload" value="Обновить редактор"/>
+	<lang name="btn_apply" value="Применить"/>
+	<lang name="btn_confirm" value="Прдтвердить"/>
+	<lang name="btn_cancel" value="Отменить"/>
+	<lang name="btn_rename" value="Переименовать"/>
+	<lang name="btn_shutdown" value="Завершить"/>
+	<lang name="btn_restart" value="Перезагр."/>
+	<lang name="btn_logout" value="Выход"/>
+	<lang name="btn_createFolder" value="Создать папку"/>
+	<lang name="btn_createProject" value="Создать проект"/>
+	<lang name="btn_openProject" value="Открыть проект"/>
+	<lang name="btn_openProjectForPrinting" value="Открыть проект\nдля печати"/>
+	<lang name="btn_deleteSelectedImage" value="Удалить выбранный объект"/>
+	<lang name="btn_installNewImage" value="Установить новый объект"/>
+	<lang name="btn_selectImage" value="Вебрать оьъект"/>
+	<lang name="btn_closeWindow" value="Закрыть окно"/>
+	<lang name="btn_installSelectedImage" value="Установить выбранный объект"/>
+	<lang name="btn_selectFont" value="Выбрать шрифт"/>
+	<lang name="btn_installNewFont" value="Установить новый шрифт"/>
+	<lang name="btn_deleteSelectedFont" value="Удалить выбранный шрифт"/>
+	<lang name="btn_installSelectedFont" value="Установить выбранный шрифт"/>
+	<lang name="btn_deleteSelectedTxtFile" value="Удалить выбранный текст"/>
+	<lang name="btn_installNewTxtFile" value="Установить новый текст"/>	
+	<lang name="btn_installSelectedTxtFile" value="Установить выбранный текстовый файл"/>
+	<lang name="btn_addUser" value="Добавить пользователя"/>
+	<lang name="btn_editUser" value="Изменить пользователя"/>
+	<lang name="btn_deleteUser" value="Удалить пользователя"/>
+	<lang name="btn_addGroup" value="Добавить группу"/>
+	<lang name="btn_editGroup" value="Изменить группу"/>
+	<lang name="btn_deleteGroup" value="Удалить группу"/>
+	<lang name="btn_add" value="Добавить"/>
+	<lang name="btn_save" value="Сохранить"/>
+
+	<lang name="btn_browse" value="Поиск"/>
+	<lang name="btn_saveProject" value="Сохранить проект"/>
+	<lang name="btn_setPrintHeadDefault" value="Параметры печати по умолчанию"/>
+	<lang name="btn_reloadLogFile" value="Перезагрузить log файл "/>
+	<lang name="btn_clearLogFile" value="Удалить log файл "/>
+	<lang name="btn_next" value="Дальше"/>
+	<lang name="btn_groupPriorityUp" value="Вверх"/>
+	<lang name="btn_groupPriorityDown" value="Вниз"/>
+	<lang name="btn_variableFields" value="Перем.поля"/>
+	<lang name="btn_startPrint" value="Старт Печати"/>
+	<lang name="btn_stopPrint" value="Стоп печати"/>
+	<lang name="btn_printingParams" value="Парам.\nпечати"/>
+	<lang name="btn_purgeOn" value="Прокачка вкл."/>
+	<lang name="btn_purgeOff" value="Прокачка выкл."/>
+	<lang name="btn_currentPrinterDateTime" value="Уст.дату/время из принтера"/>
+	<lang name="btn_currentComputerDateTime" value="Уст.дату/время из компьютера"/>
+	<lang name="btn_setPrinterDateTime" value="Уст.дату/время в принтере"/>
+	<lang name="btn_selectFile" value="Выбрать файл"/>
+	<lang name="btn_createNewFile" value="Создать новый файл"/>
+	<lang name="btn_detectEncoderConst" value="Измерить пост.енкодера"/>
+	<lang name="btn_detectConveyorSpeed" value="Измерить скорость конв-ра"/>
+	<lang name="btn_detectEncoderConstStop" value="Стоп измерения пост.енкодера"/>
+	<lang name="btn_detectConveyorSpeedStop" value="Стоп измерения скор.конвейера"/>
+	<lang name="btn_useCurrent" value="Исполз.текущие параметры"/>
+	<lang name="btn_resetVF" value="Сброс V.F."/>
+	<lang name="btn_setSize" value="Уст.значение"/>
+	<lang name="btn_reportWait" value="Генерация рапорта... подождите..."/>
+	<lang name="btn_reportComplete" value="Нажм., чтобы загрузить служ. отчет."/>
+	<lang name="btn_reportError" value="Ошибка! Подробнее."/>
+	<lang name="btn_installPackageWait" value="Установка опции... подождите..."/>
+	<lang name="btn_installPackageComplete" value="Опция установлена. Нажмите, чтобы закрыть."/>
+	<lang name="btn_installPackageError" value="Ошибка! Опция не установлена."/>
+	<lang name="btn_nextObject" value="Следующий объект"/>
+	<lang name="btn_addPrinter" value="Добавить принтер"/>
+	<lang name="btn_editPrinter" value="Настроить принтер"/>
+	<lang name="btn_deletePrinter" value="Удалить принтер"/>
+	<lang name="btn_searchPrinters" value="Поиск принтера"/>
+	<lang name="btn_clearStatistics" value="Очистить статистику"/>
+	<lang name="btn_exportImages" value="всех изображений"/>
+	<lang name="btn_exportAllProjects" value="всех проектов"/>
+	<lang name="btn_exportSelectedProject" value="выбранного проекта"/>
+	<lang name="btn_importFile" value="Импорт файла"/>
+	<lang name="btn_generate" value="Создать"/>
+	<lang name="btn_uploadFile" value="Выбрать файл прошивки" />
+	<lang name="btn_restartContinue" value="Перезагрузка принтера для установки прошивки" />
+	<lang name="btn_addToList" value="Добавить в список" />
+	<lang name="btn_shutdownAllPrinters" value="Все принтера выключить" />
+	<lang name="btn_installPackage" value="Установить пакет" />
+	<lang name="btn_installingPackage" value="Опция устанавливается... подождите пожалуйста..." />
+	<lang name="btn_login" value="Регистрация" />
+	<lang name="btn_selectParamsFile" value="Выбрать файл параметров" />
+	<lang name="btn_selectLoginImage" value="Выьрать файл регистрации" />
+	<lang name="btn_usePrintHeadDefault" value="Головку использовать стандартно" />
+	<lang name="btn_userProjectLocalParams" value="Использовать локальные параметры печати" />
+	<lang name="btn_addSelectedPrinters" value="Добавить выбранный принтер" />
+	<lang name="btn_invertSelection" value="Выбор инвертировать" />
+	<lang name="btn_restoreObject" value="Восстановить объект" />
+	<lang name="btn_pasteObject" value="Загрузить объект" />
+</Buttons>
+<Messages>
+	<lang name="msg_startPrintOperation" value="Вы хотите стартовать печать?"/>
+	<lang name="msg_deleteImage" value="Удалить эту графику?"/>
+	<lang name="msg_deleteFont" value="Удадить этот шрифт?"/>
+	<lang name="msg_deleteTxtFile" value="Удалить этот текст?"/>
+	<lang name="msg_deleteObject" value="Удалить этот объект?"/>
+	<lang name="msg_deleteUser" value="Удалить пользователя [b]%s[/b]?"/>
+	<lang name="msg_deletePrinter" value="Удалить принтер [b]%s[/b]?"/>
+	<lang name="msg_deleteGroup" value="Удалить группу [b]%s[/b]?"/>
+	<lang name="msg_projectNotSaved" value="Проект не сохранён\nСохранить сейчас?"/>
+	<lang name="msg_fileExistsReplace" value="Файл уже существует. Перезписать?"/>
+	<lang name="msg_fileExists" value="Файл уже существует."/>
+	<lang name="msg_deleteProject" value="Удалить этот проект?"/>
+	<lang name="msg_deleteFolder" value="Удалить эту папку и все данные в ней?"/>
+	<lang name="msg_whatWouldYouLikeToDo" value="Что бы вы хотели сделать?"/>
+	<lang name="msg_settingsSavedSuccessfully" value="Настройки успешно сохранены.\nРедактор должен быть перезаг.в данный момент.\nПерезагрузить?"/>
+	<lang name="msg_projectForDifferentPrintHead" value="Этот проект не преднозначен для данного типа головки.\nОткрыть этот проект в любом случае?"/>
+	<lang name="msg_someoneLoggedIn" value="Пользователь %s вошёл в настоящее время в систему с IP адресом %s.\nХотите, чтобы заставить логин?"/>
+	<lang name="msg_projectSaved" value="Проект сохранён."/>
+
+	<lang name="msg_projectCreated" value="Проект успешно создан."/>
+	<lang name="msg_projectDeleted" value="Выбранный проект успешно удалён."/>
+	<lang name="msg_cantDeleteDefaultFont" value="Системный знак невозможно удалить."/>
+	<lang name="msg_cantDeleteAdministrator" value="Невозможно удалить [b]Администратор[/b]."/>
+	<lang name="msg_cantRenameBecauseFileExists" value="Файл предназначения/файл уже существует."/>
+	<lang name="msg_fontDeleted" value="Выбранный шрифт успешно удалён."/>
+	<lang name="msg_txtFileDeleted" value="Выбранный файл успешно удалён."/>
+	<lang name="msg_imageDeleted" value="Выбранная графика успешно удалена."/>
+	<lang name="msg_noFileSelected" value="Не выбран файл.\nПожалуйста, выберите файл и повторите."/>
+	<lang name="msg_noUserSelected" value="Не выбран пользователь.\nПожалуйста, выберите пользователя и повторите."/>
+	<lang name="msg_noPrinterSelected" value="Принтер не выбран.\nПожалуйста, выберите принтер и попробуйте еще раз."/>
+	<lang name="msg_selectProjectFileFirst" value="Пожалуйста, выберите проект в первую очередь."/>
+	<lang name="msg_objectNotSelected" value="Объект не выбран."/>
+	<lang name="msg_ExternParamsFileNotSelected" value="Не выбран файл .\nВыберите внешние параметры файла или переключитесь на местные параметры."/>
+	<lang name="msg_printParamsSet" value="Параметры печати для проекта установлены успешно."/>
+	<lang name="msg_paramsOutOfRange" value="Некоторые параметры вне диапазона."/>
+	<lang name="msg_noPrintHeadDefinedInProject" value="Головки принтера для этого проекта не сеществует. Многие параметры невозможно установить, высоту печати, разрешение и.т.д..."/>
+	<lang name="msg_incorrectPassword" value="Ошибочный пароль."/>
+	<lang name="msg_cantLoginBecauseToLowPriority" value="Пользователь %s зарегистрирован.\nВаш приоритет слишком низок, чтобы работать с редактором в данный момент."/>
+	<lang name="msg_enterLoginFirst" value="Пожалуйста зарегистрируйтесь сначала."/>
+	<lang name="msg_enterPassFirst" value="Пожалуйста, введите сначала пароль пользователя."/>
+	<lang name="msg_enterGroupNameFirst" value="Пожалуйста задайте сначала название группы."/>
+	<lang name="msg_selectAtLeastOneGroup" value="Минимум одна группа должна быть выбрана."/>
+	<lang name="msg_loginInUse" value="Выбранный пароль уже используется.\nВыберите другой и попробуйте снова."/>
+	<lang name="msg_groupInUse" value="Эта группа уже существует.\nВыберите другое название и повторите."/>
+	<lang name="msg_passwordsNotEqual" value="Пароли не совпадают."/>
+
+	<lang name="msg_oldPasswordIsEmpty" value="Вы должны задать сначала старый пароль."/>
+	<lang name="msg_oldPasswordIsBad" value="Старый пароль не совпадает с актуальным паролем."/>
+	<lang name="msg_allDataInObjectWillBeLost" value="Содержание объекта полностью удаляется.\nПродолжить?"/>
+	<lang name="msg_wrongParams" value="Неправильные параметры счётчика (мин &gt; макх) минимум в одном месте.\nВы хотите изменить направление счёта"/>
+	<lang name="msg_updateExternFileParams" value="Изменения касаются всех проектов, которые используют эти параметры.\nПродолжить ?"/>	
+	<lang name="msg_clearCacheReminder" value="Найдена другая версия редактора.\nРекомендуется удалитьbrowser cache."/>
+	<lang name="msg_aboutWindow" value="EBS Редактор %s\nИсполнение принтера: %s\nВерсия системы: %s\nВерсия PUI: %s\n Версия принтерменеджера: %s\n\nEBS Ink-Jet Systeme GmbH\nAlte Ziegelei 19-25\nD-51588 Nümbrecht-Elsenroth\nDEUTSCHLAND\n\n+49 (0)2293/939-0\nFax +49 (0)2293/939-3\n\nE-Mail: mail@ebs-inkjet.de\nwww.ebs-inkjet.de"/>
+	<lang name="msg_resetCounterVF" value="Внимание: прежде чем провести редакцию,\nубедитесь, что данный текст не в режиме\nпечати.В результате редакции переписы-\nваются актуальные значения (последние)\n данного счётчика."/>
+	<lang name="msg_resetTxtFileVF" value="Внимание: прежде чем выполнить эту операцию, убедитесь, что актуальный проект не в печати.\nЭта операция переписывает сохранённые значения и поле стартового значения строки."/>
+	<lang name="msg_wrongProjectFilename" value="В названии проекта не должно быть следующих знаков '.,/\#%*?:{}|' ."/>
+	<lang name="msg_communicationError" value="Ошибка коммуникации \nпринтер не отвечает. Проверьте систему и попробуйте снова. Если система печатает\nостановите печать и начните снова."/>
+	<lang name="msg_errorJavaScript" value="Критическая ошибка!\nJavaScript не активен.\nПожалуйста активируйте и повторите снова."/>
+	<lang name="msg_errorPendrive" value="Критическая ошибка!\nPendrive Данных нет или они ошибочны.\nПожалуйста проверьте pendrive и попробуйте ещё раз."/>
+	<lang name="msg_errorBrowserNotSupported" value="Внимание!\nЭтот browser не поддерживается.\nИспользуйте пожалуйста Mozilla Firefox ."/>
+	<lang name="msg_projectPriorityTooLow" value="Проект открыт для редакции на LCD принтера.\nВы не в праве на данный момент этот проект открывать."/>
+	<lang name="msg_projectOpenedFromLCDWnd" value="Проект открыт для редакции на LCD принтера.\nВы хотите принудительно открыть ?."/>
+	<lang name="msg_projectClosed" value="Проект закрыт, потому что начата редакция на LCD принтера."/>
+	<lang name="msg_printerDateTimeSetSuccessfull" value="Дата/время на принтере успешно сохранены."/>
+	<lang name="msg_clipboardEmpty" value="Промежуточный буфер пустой."/>
+
+	<lang name="msg_improper_poweroff" value="Внимание! Обнаружено неправильное выключение, что может привести к потере данных или сбою устройства. Пожалуйста, всегда следуйте последовательности выключения."/>
+	<lang name="msg_printerNetworkEmptyFields" value="Вы должны ввести имя принтера и его IP адрес."/>
+	<lang name="msg_printerNetworkIPExists" value="Принтер с этого IP адреса уже в списке."/>
+	<lang name="msg_printerNetworkBadIP" value="Неправильный IP Адрес."/>
+	<lang name="msg_cantDeleteCurrentUser" value="В настоящий момент зарегистрированного пользователя невозможно удалить"/>
+	<lang name="msg_clearStatistics" value="Вы уверены, что удалить статистику ?"/>
+	<lang name="msg_printerNetworkProjectExported" value="Проект успешно экспортирован."/>
+	<lang name="msg_lineDividersMaxReached" value="Максимальное число разделителей строк достигнут." />
+	<lang name="msg_simulationPrintoutTooBig" value="Распечатка слишком большая.\n\nАктуальная распечатка содержит: %s px\nРаспечатка может макс. содержать: %s px\n\nизмените минимум один из данных параметров и стартуйте печать снова.\n\nГоризонтальный отступ: %s px\nВертикальный отступ: %s px\nРазмер точек: %s px\nРазмер поля печати: %s px\n" />
+</Messages>
+<StatusMessages>
+	<lang name="msg_E01000" value="(E01000) Ошибка: Проблема с внутренней памятью. Принтер работает неправильно. Откройте проект заново, и если это не даст результата, то стартуйте заново принтер или отредактируйте проект." />
+	<lang name="msg_E01010" value="(E01010) Ошибка: Длина проекта коротковата. Длина автоматически откорректирована на минимальное значение." />
+	<lang name="msg_E01011" value="(E01011) Ошибка: Высота проекта низкая. Высота автоматически откорректирована на минимальное значение." />
+	<lang name="msg_E01015" value="(E01015) Ошибка: Длина проекта слишком длинная. Длина откорректирована на максимально длинное значение." />
+
+	<lang name="msg_E1000" value="(E1000) ОШИБКА: Не могу установить root рвзрешение для остановки системы!"/>
+	<lang name="msg_E1001" value="(E1001) ОШИБКА: Проект-заготовка не существует!"/>
+	<lang name="msg_E1002" value="(E1002) ОШИБКА: Звгрузка проекта ошибочна!"/>
+	<lang name="msg_E1003" value="(E1003) ОШИБКА: Загрузка проекта ошибочна - проект не существует!"/>
+	<lang name="msg_E1004" value="(E1004) ОШИБКА: Невоэможно установить root раэркшение для нового старта системы!"/>
+	<lang name="msg_E1100" value="(E1100) ОШИБКА: Операцию невозможно выполнить, потому что нет открытого проекта!"/>
+	<lang name="msg_E10100" value="(E10100) ОШИБКА: Проект нельзя загрузить из выбранной папки! Папка не содержит информацию о проектах или повреждена. Операция закончена!"/>
+	<lang name="msg_E10101" value="(E10101) ОШИБКА: Невозможно загрузить настройки проекта! Использовать настройки по умолчанию... Необходимо вмешательство пользователя для правильных настроек."/>
+	<lang name="msg_E10102" value="(E10102) ОШИБКА: Параметры печати для этого проекта невозможно загрузить! Параметры по умолчанию...Требуется вмешательство пользоавтеля, чтобы установить правильные значения (Исходные настройки могут оказаться неправильными для этой головки)."/>
+	<lang name="msg_E11010" value="(E11010) ОШИБКА: Переменное поле 'Текстовый файл': Данный файл невозможно открыть!"/>
+	<lang name="msg_E11011" value="(E11011) ОШИБКА: Переменное поле 'Текстовый файл': Проблема при открывании/Установка данных в заданном месте!"/>
+	<lang name="msg_E11020" value="(E11020) ОШИБКА: Переменное поле 'COM ПОРТ': Невозможно открыть порт!"/>
+	<lang name="msg_E11021" value="(E11021) ОШИБКА: Переменное поле 'COM ПОРТ': Порт не открывается! Связь прервана!"/>
+	<lang name="msg_E11022" value="(E11022) ОШИБКА: Переменное поле 'COM ПОРТ': Чтение/запись невозможны!"/>
+	<lang name="msg_E11036" value="(E11036) ОШИБКА: Проблема с выполнением штрих-кода! Проверьте данные штрпх-кода/проверьте настройки и при необходимости исправьте."/>
+	<lang name="msg_D0100" value="Печать выкл. (готов)"/>
+	<lang name="msg_D0101" value="Печать вкл. (ожидание)"/>
+	<lang name="msg_D0102" value="Печать вкл. (печать)"/>
+	<lang name="msg_D0000" value="Драйвер не найден"/>
+	<lang name="msg_D0001" value="Ошибка передачи команды до драйвера в принтере"/>
+	<lang name="msg_D0002" value="Статус принтера неизвестен"/>
+	<lang name="msg_D0003" value="Проект не выбран"/>
+	<lang name="msg_D0110" value="Измерение длины, следуйте пунктам:1 - 2 - 3"/>
+	<lang name="msg_W1111" value="(W1111) ВНИМАНИЕ: Пропущенные распечатки! Некоторые распечатки могут быть с ошибками. Скорость печати для этого проекта, вероятно, слишком высокая."/>
+	<lang name="msg_W1112" value="(W1112) ВНИМАНИЕ: Проект невозможно печатать - Старт печати приходит раньше, чем переданы все данные. Пропущенные распечатки:"/>
+	<lang name="msg_W2000" value="(W2000) ВНИМАНИЕ: Буфер данных переполнен, следующие данные не будут сохранены. Сделайте распечатки, чтобы буфер освободить" />
+	<lang name="msg_W2001" value="(W2001) Внимание: В принтер передано слишком много данных без правильного окончания! Избыточные данные будут перенесены в следующий буфер" />
+	<lang name="msg_W3000" value="(W3000) ВНИМАНИЕ: Приёмная бутылка переполнена! Опорожните бутылку. Следующая прокачка может вывести из строя насос. Нажмите ОК после опорожнения бутылки." />
+
+	<lang name="msg_E10000" value="(E10000) ОШИБКА: Содержание проекта невозможно загрузить!" />
+	<lang name="msg_E10103" value="(E10103) ОШИБКА: Внешние параметры печати невозможно загрузить! Используйте локальные параметры!" />
+	<lang name="msg_E10104" value="(E10104) ОШИБКА: Проект невозможно сохранить (Невоэможно создать дерево каталогов)" />
+	<lang name="msg_E10105" value="(E10105) ОШИБКА: Проект невозможно сохранить (Сохранение в этом каталоге недопустимо)" />
+	<lang name="msg_E11023" value="(E11023) ОШИБКА: Переменное поле 'COM PORT': Фатальная ошибка при обработке принятых данных!" />
+	<lang name="msg_E11024" value="(E11024) ОШИБКА: Переменное поле 'COM PORT': Выбранный COM PORT невозможно открыть дважды (к пр. проекты, которые используют этот com port, не могут быть открыты одновременно для печати и редакции. Вы можете продолжить, но переменное поле не будет работать .)" />
+	<lang name="msg_E11030" value="(E11030) ОШИБКА: Ошибочное содержание штрих-кода (недопустимые знаки в этом типе штрих-кода)! Откорректируйте." />
+	<lang name="msg_E11031" value="(E11031) ОШИБКА: Недопустимое содержание штрих-кода! Откорректируйте." />
+	<lang name="msg_E11035" value="(E11035) ОШИБКА: Содержание штрих-кода невозможно загрузить из базы данных принтера. Возможно, проект создан на более новом принтере, у которого больше типов штрих-кода(или база данных штрих-кодов в принтере повреждена)." />
+
+	<lang name="msg_I99000" value="(I99000) Новая бутылка зарегистрирована."/>
+	<lang name="msg_E99000" value="(E99000) Нет зарегистрированной бутылки."/>
+	<lang name="msg_E99001" value="(E99001) Система контроля чернил прочитала ошибочные данные от бутылки. Бутылка не зарегистрирована!"/>
+	<lang name="msg_E99002" value="(E99002) Ошибочные параметры бутылки . Бутылка не принята!"/>
+	<lang name="msg_E99003" value="(E99003) Срок годности просрочен - бутылка не принята!"/>
+	<lang name="msg_E99004" value="(E99004) Чернила для другого типа головки - бутылка не принята!"/>
+	<lang name="msg_W99005" value="(W99005) Другой цвет чернил чем до того – пожалуйста промойте принтер!"/>
+	<lang name="msg_E99005" value="(E99005) Другой цвет чернил – Бутылка не зарегистрирована!"/>
+	<lang name="msg_E99006" value="(E99006) Другой тип чернил – Бутылка не зарегистрирована!"/>
+	<lang name="msg_E99007" value="(E99007) Другой растворитель, чем до того – картридж не принят!"/>
+	<lang name="msg_E99020" value="(E99020) Бутылка уже использовалась вэтом принтере. Бутылка не принята!"/>
+	<lang name="msg_E99021" value="(E99021) Бутылка погашена (зарегистрирована на другом принтере). Бутылка не принята!"/>
+	<lang name="msg_E99022" value="(E99022) Бутылка израсходована и погашена. Зарегистрируйте пожалуйста новую бутылку!"/>
+	<lang name="msg_E99023" value="(E99023) Уровень чернил очень низкий (израсходован). Картридж не принят!"/>
+	<lang name="msg_W99023" value="(W99023) Уровень чернил очень низкий!"/>
+	<lang name="msg_E99024" value="(E99024) Ошибка картриджа или нет картриджа!" />
+	<lang name="msg_I99024" value="(I99024) Чернильная камера пуста (нет чернил)"/>
+	<lang name="msg_E99050" value="(E99050) Нет ID номера принтера (перепрошейте пожалуйста ID программу для принтера!)"/>
+	<lang name="msg_E99051" value="(E99051) Нету или ошибочен ID . Принтером невозможно управлять! Обратитесь пожалуйста к сервисной службе."/>
+	<lang name="msg_I99070" value="(I99070) Бутылка пуста"/>
+	<lang name="msg_I99100" value="(I99100) Нет зарегистрированной бутылки. Пожалуйста зарегистрируйте бутылку, чтобы стартовалась печать."/>
+	<lang name="msg_E99100" value="(E99100) Нет зарегистрированной бутылки. Пожалуйста зарегистрируйте бутылку, чтобы стартовалась печать."/>
+	<lang name="msg_I99110" value="(I99110) Принтер разблокирован кодом. Оставшееся время работы: %s"/> 
+	<lang name="msg_I99111" value="(I99111) Код для одноразового пароля принят"/>
+	<lang name="msg_I99112" value="(I99112) Тип чернил изменился - Новые чернила можно зарегистрировать"/>
+	<lang name="msg_W99112" value="(W99112) Тип чернил не изменён – повторите пожалуйста"/>
+	<lang name="msg_E99120" value="(E99120) Одноразовый пароль не создан. Попробуйте еще раз."/>
+	<lang name="msg_E99121" value="(E99121) Неправильный код для одноразового пароля."/>
+	<lang name="msg_E99122" value="(E99122) Превышен лимит неправильных кодов. Принтер буде выключен."/>
+	<lang name="msg_W99123" value="(W99123) Код принят, но опцию невозможно применить!" />
+	<lang name="msg_W99124" value="(W99124) Код принят, но выбрана неправильная опция!" />
+	<lang name="msg_E99130" value="(E99130) Внутренняя батарея повреждена. Замени ее, а затем перезапустите принтер. Если батарея заменена, перезапустите принтер."/>
+	<lang name="msg_I99130" value="(I99130) Внутренняя батарея повреждена. Замени ее, а затем перезапустите принтер. Если батарея заменена, перезапустите принтер."/>
+
+	<lang name="msg_E99140" value="(E99140) Новая плата CPU не принимается!" />
+	<lang name="msg_I99140" value="(I99140) Новая плата CPU успешно принята!" />
+	<lang name="msg_E99141" value="(E99141) Плата CPU не принята! Обратитесь к дистрибютеру для авторизации !" />
+	<lang name="msg_E99142" value="(E99142) ОШИБКА Авторизации: Плату CPU невозможно авторизировать! ОШИБКА коммуникации с платой CPU . Обратитесь пожалуйста к дистрибютеру." />
+
+
+	<lang name="msg_S90010" value="Активный" />
+	<lang name="msg_S90020" value="Не активный" />
+	<lang name="msg_S90030" value="Картридж с ошибкой, не присутствует" />
+	<lang name="msg_S90040" value="Транспондер не зарегистрирован" />
+	<lang name="msg_S90050" value="Принтер рвзблокирован" />
+
+</StatusMessages>
+<Barcodes>
+	<lang name="bar_Code_11" value="[b]Шрифт:[/b] цифры 0-9 и знак -\n[b]Длина:[/b] переменная\n[b]описание:[/b] используется в телекоммуникации."/>
+	<lang name="bar_Code_25_Industrial" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] переменная\n[b]Описание:[/b]Знаком как код 2 от 5 и код 25 промышленный. Устаревший код для промышленного использования."/>		
+	<lang name="bar_Code_25_Interleaved" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Знаком как код 2 от 5 промышленный. Используется в промышленности."/>
+	<lang name="bar_Code_25_IATA" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Вариант кода 2 от 5 и используется в авиационной промышленности."/>
+	<lang name="bar_Code_25_DataLogic" value="[b]Шрифтt:[/b] цифры 0-9\n[b]Длина:[/b] переменная[b]Описание:[/b] Вариант кода 2 от 5."/>	
+	<lang name="bar_Code_39" value="[bШрифт:[/b] A-Я, 0-9, 5 Спецыальные знаки\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Знаком как код 3 от 9. Часто используемый код с самопроверкой."/>		
+	<lang name="bar_Code_39_Extended" value="[b]Шрифт:[/b] ASCII (127 знаков)\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Знаком как код 3 от 9 Расширенный. Расширенная версия кода 39."/>
+	<lang name="bar_EAN" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] 13\n[b]Описание:[/b] Зависит от выбранного EAN кода и используется в основном в супермаркетах. Он содержит стандарты для кода EAN-2 и EAN-5 , EAN-8 и EAN-13, которые кодируют соответственно 2, 5, 7 и 12 цифр. В пиведённом примере имеем код EAN-8 с кодом EAN-5 add-on: 1234567+12345."/>
+	<lang name="bar_GS1_128" value="[b]Шрифтt:[/b] ASCII\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Этот EAN/UCC 128 есть специальная форма кода 128. Он используется для изделий и поддонов в хозяйстве и промышленности. В данном штрих-коде можно интегрировать больше чем одно переменное поле, используя разделительные Аппликаторы (пример: [01]2345 где 01 специальный Application Identifier)"/>
+	<lang name="bar_Codabar" value="[b]Шрифт:[/b] 0-9, 6 специальных знака\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Ранее стандарт услуг переливания. Codabar может кодировать любую длину, если он начинается и кончается буквами A-D и между ними цыфры 0-9, знак (-), доллар ($), двоеточие (:), косая (/), точка (.) плюс (+). Пример: A$12+$34C"/>
+	<lang name="bar_Code_128" value="[b]Шрифт:[/b] Расширенный ASCII\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Один из самых распространённых 1D штрих-кодов . Современный штрих-код, содержит высоко компримированные данные (пример: [1]2345)."/>
+	<lang name="bar_Leitcode" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] 14\n[b]Описание:[/b] Этот Leitcode используется немецкой почтой/DHL. Последняя цыфра подсчитывается автоматически (контрольная цифра) - вводиться должно только 13 знаков ."/>
+	<lang name="bar_Identcode" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] 12\n[b]Описание:[/b] Этот Identcode используется немецкой почтой/DHL. Последняя цыфра подсчитывается автоматически (контрольная цифра) - вводиться должно только 11 знаков."/>
+	<lang name="bar_Code_16k" value="[b]Шрифт:[/b] ASCII\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Сложенный код на основе базового кода 128."/>
+
+	<lang name="bar_Code_93" value="[b]Шрифт:[/b] A-Я, 0-9, 5 специальных знака\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Аналогичен коду 39 только значительно компактней, требует мало места."/>	
+	<lang name="bar_GS1_DataBar-14" value="[b]Шрифтt:[/b] цифры 0-9\n[b]Длина:[/b] 14\n[b]Описание:[/b] Новая система кодирования GTIN . Последняя цифра подсчитывается автоматически (контрольная цифра) - только (или до) 13 необходимо вводить."/>
+	<lang name="bar_GS1_DataBar_Limited" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] 13\n[b]Описание:[/b] Новая система кодирования GTIN ."/>	
+	<lang name="bar_GS1_DataBar_Expanded" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] переменная\n[b]Описание:[/b] В замену кода GS1-128. Также знаком как код RSS Expanded.Это код переменной длины, который позволяет закодировать содержание многих AIs под одним знаком. AIs должны быть упакованы в скобки [квадратные] с нужными данными. Пример: [01]1236[3202]0125[15]9874"/>
+	<lang name="bar_Telepen_Alpha" value="[b]Шрифт:[/b] ASCII\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Общепринятая схема кодирования. Часто используется в библиотеках."/>
+	<lang name="bar_UPC-A" value="[b]Шрифтt:[/b] цифры 0-9\n[b]Длина:[/b] 12\n[b]Описание:[/b] Этот UPC A код стандартная версия кодов UPC и содержит 12 знаков. Он также знаком как код UPC 12 и очень похож на код EAN . Последняя цифра подсчитывается(контрольная цифра) - Только 11 знаков можно задавать."/>
+	<lang name="bar_UPC-E" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] 8\n[b]Описание:[/b] Это короткая версия кода UPC-Aдля особо узких продуктов.Последняя цифра подсчитывается автоматически (контрольная цифра) - Только 7 знаков можно задавать."/>
+	<lang name="bar_PostNet" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Этот код применяется для ускорения сортировки и отправки почтовых отправлений."/>	
+	<lang name="bar_MSI_Plessey" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Старый штрих код, ранее применялся в английской промышленности."/>
+	<lang name="bar_Pharmacode_One-Track" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] -\n[b]Описание:[/b] Фармакод, знаком как формацевтический Binary Code, стандартный штрих код, применяется в формацевтической промышленности для контроля упаковок."/>	
+	<lang name="bar_Pharmacode_Two-Track" value="[b]Шрифтt:[/b] цифры 0-9\n[b]Длина:[/b] -\n[b]Описание:[/b] Фармакод (2-х строчный вариант), знаком как фармацевтический Binary Code, стандартный штрих код, применяется в фармацевтической промышленности для контроля упаковок."/>
+
+	<lang name="bar_PZN" value="[b]Шрифт:[/b] цифры 0-9\n[b]Длина:[/b] 7\n[b]Описание:[/b] Центральный фармацевтический номер для медицины. Специальная форма кода 39."/>
+	<lang name="bar_PDF417" value="[b]Шрифт:[/b] Расширенный ASCII\n[b]Длина:[/b] переменные\n[b]Описание:[/b] 2D код для кодировки больших текстов или данных водном коде. Используется для курьерных перевозок."/>
+	<lang name="bar_PDF417_Truncated" value="[b]Шрифт:[/b] Расширенный ASCII\n[b]Длина:[/b] переменные\n[b]Описание:[/b] 2D код для кодировки больших текстов или данных в одном коде. Популярен у курьерной службы."/>
+	<lang name="bar_QR_Code" value="[b]Шрифт:[/b] Расширенный ASCII\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Высококомпактный код для чтения камерой мобильного телефона."/>	
+	<lang name="bar_Australia_Post_4-State" value="[b]Шрифт:[/b] A-Я, 0-9\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Для идентификации почтовых отправлений в Австралии."/>
+	<lang name="bar_Royal_Mail_4-State" value="[b]Шрифт:[/b] A-Я, 0-9\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Код Royal Mail 4 State Customer Code (RM4SCC) разработан для автоматических линий сортировки почты."/>
+	<lang name="bar_DataMatrix" value="[b]Шрифт:[/b] ASCII\n[b]Длина:[/b] переменная\n[b]Описание:[/b] 2D штрих-код для кодирования больших текстов или данных в одном коде."/>	
+	<lang name="bar_MicroPDF417" value="[b]Шрифт:[/b] Расширенный ASCII\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Компактная версия кода PDF417."/>
+	<lang name="bar_template" value="[b]Шрифт:[/b] ASCII\n[b]Длина:[/b] переменная\n[b]Описание:[/b] Описание"/>	
+</Barcodes>
+</EBS_EditorLanguage>
+	
+<EBS_LCDGUI>
+<WTitles>
+	<lang name="wtitle_cControlScreen" value="Статус принтера"/>
+	<lang name="wtitle_cMainScreen" value="ПринтерUI"/>
+	<lang name="wtitle_message" value="Сообщение"/>
+	<lang name="wtitle_error" value="Ошибка"/>
+	<lang name="wtitle_warning" value="Внимание"/>
+	<lang name="wtitle_cProjectPreview" value="Просмотр проекта"/>
+	<lang name="wtitle_cProjectSelector" value="Выбрать проект"/>
+	<lang name="wtitle_cSetupScreen" value="Hастройки"/>
+	<lang name="wtitle_cServiceScreen" value="Сервис"/>
+	<lang name="wtitle_password" value="Задайте пароль"/>
+
+	<lang name="wtitle_cNewObjectDialog" value="Задайте новый тип объекта"/>
+	<lang name="wtitle_cNewObjectDialogShort" value="новый тип объекта"/>
+	<lang name="wtitle_cFontSelector" value="Выбор шрифта"/>
+	<lang name="wtitle_cFileSelector" value="Выбрать файл"/>
+
+	<lang name="window_title_wifi_status" value="Статус безпроводной сети "/>
+	<lang name="wtitle_cPrintingParamsScreen" value="Параметры печати"/>
+	<lang name="w_title_edit_choice" value="Что вы хотите редактировать?"/>
+	<lang name="w_title_factory_tunig" value="Настройки и сервис"/>
+	<lang name="window_title_printer_status" value="Статус принтера"/>
+	<lang name="wtitle_Add_wifi_network" value="Добавить безпроводную сеть"/>
+	<lang name="wtitle_Edit_wifi_settings" value="Настройки безпроводной сети"/>
+
+	<lang name="window_title_alert" value="Внимание!"/>
+	<lang name="wtitle_cInfoScreen" value="Информация о продукте"/>
+	<lang name="wtitle_cBatteryDialog" value="Статус аккумулятора"/>
+	<lang name="wtitle_cBottleDialog" value="Статус бутылки с чернилами"/>
+	<lang name="wtitle_cPurgeScreen" value="Промывка"/>
+	<lang name="window_title_turnoff" value="Выберите пожалуйста"/>
+
+
+	<lang name="window_title_file_presenter" value="Содержание текст-файла"/>
+	<lang name="wtitle_cDataTimeDialog" value="Установите время / дату"/>
+	<lang name="wtitle_cDataTimeDialogShort" value="Установите время/дату"/>
+	<lang name="wtitle_cEditorScreen" value="Редактор"/>
+	<lang name="wtitle_cGeneralSetupDialog" value="Основные настройки"/>
+	<lang name="wtitle_cPendriveScreen" value="Заводские установки"/>
+	<lang name="wtitle_cPowerManager" value="Установки по питанию"/>
+	<lang name="wtitle_cSoundSetupDialog" value="Установки сигнала"/>
+	<lang name="wtitle_cUnclockScreen" value="Разблокировать"/>
+	<lang name="wtitle_cUserManager" value="Настройки пользователя"/>
+	<lang name="wtitle_cUserScr" value="Настройки пользователя"/>
+	<lang name="wtitle_firmware_update_detected" value="Перепрошивка"/>
+	<lang name="wtitle_illegal_filename" value="Недопустимое название файла"/>
+	<lang name="wtitle_image_selection" value="Выберите графику"/>
+	<lang name="wtitle_LowBatteryAlert" value="Внимание! Ошибка аккумулятора!"/>
+	<lang name="wtitle_PrintHeadMismatch" value="Внимание! Несоответствие проекта и головки!"/>
+	<lang name="wtitle_select_project" value="Выберите проект"/>
+	<lang name="wtitle_text_file_selection" value="Выберите текстовый файл"/>
+	<lang name="wtitle_connection_error" value="Ошибка приёма-передачи!"/>
+	<lang name="wtitle_cTurnOffDealyScreen" value="Выключить принтер в"/>
+
+	<lang name="wtitle_import_message" value="Рапорт импорта проекта"/>
+	<lang name="wtitle_import_messageShort" value="Рапорт импорта проекта"/>
+	<lang name="wtitle_export_message" value="Рапорт экспорта проекта"/>
+	<lang name="wtitle_export_messageShort" value="Рапорт экспорта проекта"/>
+	<lang name="wtitle_cExportSelectionDialog" value="Выберите режим экспорта"/>
+	<lang name="wtitle_cExportSelectionDialogShort" value="Выберите режим экспорта"/>
+
+	<lang name="wtitle_bt_devices_scan" value="Поиск Bluetooth устройств"/>
+
+	<lang name="wtitle_firmware_ugprade_info" value="Информация перепрошивки."/>
+
+	<lang name="wtitle_cProjectPropertiesDialog" value="Свойства проекта"/>
+
+	<lang name="wtitle_cBluetoothDialog" value="Статус Bluetooth"/>
+
+	<lang name="wtitle_pm_message" value="Сообщения принтера"/>
+	
+	<lang name="wtitle_cMessagesDialog" value="Сообщения"/>
+
+	<lang name="wtitle_wifi_list_dialog" value="Поиск Wifi сетей"/>
+
+	<lang name="wtitle_cPendriveDialog" value="Статус флешки"/>
+	<lang name="wtitle_cPendriveDialogShort" value="Статус флешки"/>
+	<lang name="wtitle_cUpgradeFirmwareDialog" value="Прошивка принтера"/>
+	<lang name="wtitle_cUpgradeFirmwareDialogShort" value="Прошивка принтера"/>
+
+	<lang name="wtitle_PleaseSelectFileForImport" value="Выберите файл для импорта"/>
+	<lang name="wtitle_cExportProjectSelector" value="Выберите проект для экспорта"/>
+
+	<lang name="wtitle_cObjectListDialog" value="Проект / промежуточный буфер /мусорник перечень объектов"/>
+	<lang name="wtitle_ProjectNotFound" value="Ошибка"/>
+	<lang name="wtitle_EditProjectName" value="Задайте название проекта"/>
+	<lang name="wtitle_Confirmation" value="Подтвердить"/>
+	<lang name="window_kernel_missmatch" value="Internal software error"/>
+
+	<lang name="wtitle_cRestoreDialog" value="Воспроизведение системных данных "/>
+	<lang name="wtitle_new_directory_name" value="Введите имя папки..."/>
+	<lang name="wtitle_Select" value="Выбрать"/>
+
+	<lang name="wtitle_firmware_ugprade_error" value="Ошибка обновления программного обеспечения."/>
+
+</WTitles>
+<Labels>
+	<lang name="lbl_status" value="Статус"/>
+	<lang name="lbl_project" value="Проект"/>
+	<lang name="lbl_directories" value="Каталоги"/>
+	<lang name="lbl_projects" value="Проекты"/>
+	<lang name="lbl_inklevel" value="Уровень чернил"/>
+	<lang name="lbl_ipmodeselect" value="IP адрес принтера"/>
+	<lang name="lbl_dhcp" value="Автоматическая (DHCP)"/>
+	<lang name="lbl_static" value="Ручная (Static)"/>
+	<lang name="lbl_ip" value="IP"/>
+	<lang name="lbl_netmask" value="Маска сети"/>
+	<lang name="lbl_gateway" value="Межсетевой интерфейс"/>
+	<lang name="lbl_dns" value="DNS"/>
+	<lang name="lbl_messages" value="Сообщение"/>
+	<lang name="lbl_autostart" value="Автостарт текущего проекта"/>
+	<lang name="lbl_TxtRepetitions" value="Повторение текста"/>
+	<lang name="lbl_internalGenerator" value="внтр.генератор"/>
+	<lang name="lbl_externalSource" value="внешний источник"/>
+	<lang name="lbl_edge" value="фронт"/>
+	<lang name="lbl_level" value="уровень"/>
+	<lang name="lbl_positiveEdge" value="передний фронт"/>
+	<lang name="lbl_negativeEdge" value="задний фронт"/>
+	<lang name="lbl_highLevel" value="высок. уровень"/>
+	<lang name="lbl_lowLevel" value="низк. уровень"/>
+	<lang name="lbl_normal" value="норм."/>
+	<lang name="lbl_hex" value="Hexadecimal"/>
+	<lang name="lbl_flipped" value="зеркально"/>
+	<lang name="lbl_reversed" value="в обратную"/>
+	<lang name="lbl_internal" value="Внутренний"/>
+	<lang name="lbl_external" value="Внешний"/>
+	<lang name="lbl_both" value="Оба"/>
+	<lang name="lbl_currentuser" value="Пользователь"/>
+	<lang name="lbl_editor" value="Редактор"/>
+	<lang name="lbl_printer" value="Принтер"/>
+	<lang name="lbl_items" value="Пунктов"/>
+	<lang name="lbl_one_time_code" value="Разовый код"/>
+	<lang name="lbl_unlock_code" value="Код разблокировки"/>
+
+	<lang name="lbl_new_object_selection" value="Выберите новый тип объекта"/>
+	<lang name="lbl_text_object" value="Нормальный текст"/>
+	<lang name="lbl_datetime_object" value="Дата/Время"/>
+	<lang name="lbl_counter_object" value="Счётчик"/>
+	<lang name="lbl_comport_object" value="Порт коммуникации"/>
+	<lang name="lbl_texfile_object" value="Текстовый файл"/>
+	<lang name="lbl_line_divider" value="Разделитель строк"/>
+	<lang name="lbl_image_object" value="Графика"/>
+	<lang name="lbl_barcode_object" value="Норм.штрихкод"/>
+	<lang name="lbl_quick_preview" value="Быстрый просмотр"/>
+	<lang name="lbl_image_path" value="Путь до графики"/>
+	<lang name="lbl_transform_mode" value="Разрешить изменение размера"/>
+	<lang name="lbl_text" value="Текст"/>
+	<lang name="lbl_printer_time" value="Время в принтере"/>
+	<lang name="lbl_date_offset" value="Сдвиг даты"/>
+	<lang name="lbl_time_offset" value="Сдвиг времени"/>
+	<lang name="lbl_object_properties" value="Параметры объекта"/>
+	<lang name="lbl_object_name" value="Название объекта"/>
+	<lang name="lbl_position" value="Позиция"/>
+	<lang name="lbl_size" value="Размер объекта"/>
+	<lang name="lbl_autosize" value="Авто-размер"/>
+	<lang name="lbl_transparent" value="Прозрачность"/>
+	<lang name="lbl_object_rotation" value="Вращение объекта"/>
+	<lang name="lbl_text_properties" value="Параметры текста"/>
+	<lang name="lbl_fontname" value="Шрифт"/>
+	<lang name="lbl_fontsize" value="Размep"/>
+	<lang name="lbl_font_constrain_proportions" value="Одинаковые пропорции"/>
+	<lang name="lbl_line_spacing" value="Межстрочный интервал"/>
+	<lang name="lbl_must_edit" value="Редакция до начала печати"/>
+	<lang name="lbl_advance_properties" value="Дополнительные параметры"/>
+	<lang name="lbl_date_separator" value="Сепаратор даты"/>
+	<lang name="lbl_date_format" value="Формат даты"/>
+	<lang name="lbl_time_separator" value="Сепаратор времени"/>
+	<lang name="lbl_time_format" value="Формат времени"/>
+	<lang name="lbl_formatting_string_edition" value="Допустить форматирование пользователем"/>
+	<lang name="lbl_formatting_string" value="По желанию пользователя"/>
+	<lang name="lbl_barcode_properties" value="Свойства штрихкода"/>
+	<lang name="lbl_barcode_type" value="Тип штрихкода"/>
+	<lang name="lbl_border_type" value="Тип рамки"/>
+	<lang name="lbl_none" value="нет"/>
+	<lang name="lbl_bind" value="прерванная"/>
+	<lang name="lbl_box" value="замкнутая"/>
+	<lang name="lbl_border_size" value="Размер рамки"/>
+	<lang name="lbl_barcode_desc" value="Краткое описание штрихкода:"/>
+	<lang name="lbl_counter_properties" value="Счётчик %i свойства"/>
+	<lang name="lbl_visible" value="Показать этот счётчик"/>
+	<lang name="lbl_min" value="Мин"/>
+	<lang name="lbl_max" value="Макс"/>
+	<lang name="lbl_Start_mode" value="Режим старта"/>
+	<lang name="lbl_start_value" value="Нач.значение"/>
+	<lang name="lbl_last_value" value="Последнее знач."/>
+	<lang name="lbl_step" value="Пробел"/>
+	<lang name="lbl_lenght" value="Длина"/>
+	<lang name="lbl_fillin" value="Заполнить"/>
+	<lang name="lbl_suffix" value="Суффикс"/>
+	<lang name="lbl_space" value="Пропуск"/>
+	<lang name="lbl_select_image_file" value="Выберите пожалуйста графику..."/>
+	<lang name="lbl_enter_text" value="Задайте здесь ваш текст..."/>
+	<lang name="lbl_font_preview" value="Просмотр шрифта"/>
+	<lang name="lbl_font_set" value="Шрифтt"/>
+	<lang name="lbl_factory_default" value="Система"/>
+	<lang name="lbl_Users" value="Пользователь"/>
+	<lang name="lbl_enter_filename" value="Задайте имя файлу..."/>
+
+	<lang name="lbl_object_position_x" value="Координата x объекта"/>
+	<lang name="lbl_object_position_y" value="Координата y объекта"/>
+	<lang name="lbl_object_width" value="Ширина объекта"/>
+	<lang name="lbl_object_height" value="Высота объекта"/>
+	<lang name="lbl_font_width" value="Ширина шрифта"/>
+	<lang name="lbl_font_height" value="Высота шрифта"/>
+	<lang name="lbl_turnoffnow" value="Выключите"/>
+
+
+	<lang name="lbl_configure" value="Конфигурация"/>
+	<lang name="lbl_wifi_on" value="Вкл"/>
+	<lang name="lbl_wifi_off" value="Выкл"/>
+	<lang name="lbl_purge" value="Промывка"/>
+	<lang name="lbl_print_test" value="Печать"/>
+	<lang name="lbl_tune" value="Настроить"/>
+	<lang name="lbl_speed" value="Скорость печати"/>
+	<lang name="lbl_drop" value="Номер точки"/>
+	<lang name="lbl_bat_temp" value="Температура"/>
+	<lang name="lbl_capacity" value="Зарядка аккумулятора"/>
+	<lang name="lbl_current" value="Ток"/>
+	<lang name="lbl_voltage" value="Напряжение"/>
+	<lang name="lbl_bat_status" value="Статус аккумулятора"/>
+	<lang name="lbl_discharging" value="Разрядка"/>
+	<lang name="lbl_charging" value="Зарядка"/>
+	<lang name="lbl_missing" value="Нет в наличии"/>
+	<lang name="lbl_unknown" value="Незнакомо"/>
+	<lang name="lbl_charged" value="Заряжен"/>
+	<lang name="lbl_Unchanged" value="Неизменно"/>
+	<lang name="lbl_wifi_signal" value="Уровень сигнала"/>
+	<lang name="lbl_wifi_bssid" value="BSSID"/>
+	<lang name="lbl_wifi_ssid" value="SSID"/>
+	<lang name="lbl_wifi_ip" value="IP адрес"/>
+	<lang name="lbl_wifi_status" value="Статус"/>
+	<lang name="lbl_wifi_channel" value="Каналl"/>
+	<lang name="lbl_disable_this_network" value="Не с этой сетью установлена связь"/>
+	<lang name="lbl_wifi_security" value="Кодировка"/>
+	<lang name="lbl_wifi_psk" value="Кодировка сети"/>
+	<lang name="lbl_wifi_psk_type" value="Тип кодировки"/>
+	<lang name="wifi_unknown" value="Незнакомо"/>
+	<lang name="wifi_scanning" value="Сканирование"/>
+	<lang name="wifi_associating" value="Соединить"/>
+	<lang name="wifi_disconnected" value="Разъеденено"/>
+	<lang name="wifi_connected" value="Соеденено"/>
+	<lang name="wifi_waiting_for_ip" value="Ожидание ip адреса"/>
+	<lang name="wifi_sec_802.1x" value="802.1x(EAP)"/>
+	<lang name="wifi_sec_WPA2/EAP" value="WPA2/EAP"/>
+	<lang name="wifi_sec_WPA2/PSK" value="WPA2/PSK"/>
+	<lang name="wifi_sec_WPA/EAP" value="WPA/EAP"/>
+	<lang name="wifi_sec_WPA/PSK" value="WPA/PSK"/>
+	<lang name="wifi_sec_WEP" value="WEP"/>
+	<lang name="wifi_sec_none" value="Никакие"/>
+	<lang name="wifi_psk_ascii" value="ASCII"/>
+	<lang name="wifi_psk_hex" value="HEX"/>
+	<lang name="lbl_edit_panel" value="Редакция"/>
+	<lang name="lbl_service_panel" value="Сервисные опции"/>
+	<lang name="lbl_printer_version" value="Принтер"/>
+	<lang name="lbl_system_version" value="Версия системы"/>
+	<lang name="lbl_pui_version" value="PUI"/>
+	<lang name="lbl_pm_version" value="Версия принтера"/>
+	<lang name="lbl_wifi_networks:" value="Безпроводные сети:"/>
+	<lang name="lbl_inkcolour" value="Цвет чернил"/>
+	<lang name="lbl_expiration_date" value="Срок годности"/>
+	<lang name="lbl_acceptance_date" value="Дата регистрации"/>
+	<lang name="lbl_Login" value="Login"/>
+
+	<lang name="lbl_normal_level" value="Нормальная яркость"/>
+	<lang name="lbl_turnoff_time" value="Дисплей выключить после"/>
+	<lang name="lbl_dim_time" value="Уменьшить яркость после"/>
+	<lang name="lbl_dimmed_level" value="Уменьшенная яркость"/>
+	<lang name="lbl_never" value="никогда"/>
+	<lang name="lbl_Date" value="Дата [YYYY MM DD]"/>
+	<lang name="lbl_Time" value="Время [HH:MM]"/>
+
+	<lang name="lbl_enable_counter_section_number" value="Используйте счётчик %i"/>
+	<lang name="lbl_object_properties_page" value="Формат"/>
+	<lang name="lbl_main_properties_page" value="Старт"/>
+	<lang name="lbl_advance_properties_page" value="Расширенный"/>
+	<lang name="lbl_text_properties_page" value="Текст"/>
+	<lang name="lbl_Bluetooth_settings" value="Настройки Bluetooth"/>
+	<lang name="lbl_Communication" value="Коммуникация"/>
+	<lang name="lbl_General" value="Главные"/>
+	<lang name="lbl_Basic" value="Общие"/>
+	<lang name="lbl_Basic_Settings" value="Общий"/>
+	<lang name="lbl_Advanced" value="Расширенный"/>
+	<lang name="lbl_Messages" value="Сообщения"/>
+	<lang name="lbl_Warnings" value="Предупреждения"/>
+	<lang name="lbl_ascii_code" value="ASCII Код"/>
+	<lang name="lbl_Baud_rate" value="Скорость передачи"/>
+	<lang name="lbl_Bit_count" value="Bit Донных"/>
+	<lang name="lbl_Bluetooth" value="Bluetooth"/>
+	<lang name="lbl_BatteryLowWarningSound" value="Сигнал зарядки аккумулятора"/>
+	<lang name="lbl_Communication_properties_page" value="Параметры коммуникации"/>
+	<lang name="lbl_Communication_type" value="Тип коммуникации"/>
+	<lang name="lbl_Network_configuration_method" value="Метод коммуникации"/>
+	<lang name="lbl_Confirm_password" value="Подтвердить пароль"/>
+	<lang name="lbl_Current_password" value="предыдущий пароль"/>
+	<lang name="lbl_New_password" value="Новый пароль"/>
+	<lang name="lbl_data_buffering" value="Буфер данных"/>
+	<lang name="lbl_day" value="День"/>
+	<lang name="lbl_deactivation_date" value="Дата разблокировки"/>
+	<lang name="lbl_Do_nothing" value="Никаких действий"/>
+	<lang name="lbl_Empty" value="Пусто"/>
+	<lang name="lbl_Last_message" value="Последний текст"/>
+	<lang name="lbl_Disabled" value="Выключено"/>
+	<lang name="lbl_Enabled" value="Включено"/>
+	<lang name="lbl_Enable_sound" value="Звуковой сигнал вкл."/>
+	<lang name="lbl_Errorsound" value="Ошибка звукового сигнала"/>
+	<lang name="lbl_FileModification" value="Изменения файла"/>
+	<lang name="lbl_File_path" value="Путь к файлу"/>
+	<lang name="lbl_Group_name" value="Название группы"/>
+	<lang name="lbl_hour" value="Часы"/>
+	<lang name="lbl_Image_preview" value="Просмотр графики"/>
+	<lang name="lbl_ImageSize:" value="Размер графики:"/>
+	<lang name="lbl_IMSAcceptSound" value="Чернила приняты-звуковой сигнал"/>
+	<lang name="lbl_Keyboard_audio_feedback" value="Звуковая реакция клавиатуры"/>
+	<lang name="lbl_Language" value="Язык"/>
+	<lang name="lbl_Laser" value="Лазер"/>
+	<lang name="lbl_Letterspacing" value="Межбуквенный интервал"/>
+	<lang name="lbl_Line_count" value="Число строк"/>
+	<lang name="lbl_Line_last_value" value="Последняя строка"/>
+	<lang name="lbl_Line_max" value="Мах. строк"/>
+	<lang name="lbl_Line_start_value" value="Стартовая строка"/>
+	<lang name="lbl_Line_step" value="Интервал между строк"/>
+	<lang name="lbl_login_name" value="Регистрация пользователя-имя"/>
+	<lang name="lbl_MessagesSound" value="Сигнал сообщений"/>
+	<lang name="lbl_minute" value="Минута"/>
+	<lang name="lbl_month" value="Месяц"/>
+	<lang name="lbl_No_data_action" value="Нет данных"/>
+	<lang name="lbl_Port" value="Порт"/>
+	<lang name="lbl_Power" value="Питание"/>
+	<lang name="lbl_PrinterOffSound" value="Сигнал выкл. принтера"/>
+	<lang name="lbl_printing" value="Печать"/>
+	<lang name="lbl_printing_and_purge" value="Печать и промывка"/>
+	<lang name="lbl_Raport" value="Рапорт"/>
+	<lang name="lbl_ready_to_print_after" value="Печатать после"/>
+	<lang name="lbl_Rowmultiply" value="Повтор столбцов"/>
+	<lang name="lbl_second" value="Секунда"/>
+	<lang name="lbl_Sending_msgs_format" value="Формат передачи"/>
+	<lang name="lbl_set_date_time" value="Установка даты/времени"/>
+	<lang name="lbl_Shape_object" value="Форма"/>
+	<lang name="lbl_Sound" value="Sound"/>
+	<lang name="lbl_StartPrintingSound" value="Сигнал старта печати"/>
+	<lang name="lbl_StopPrintingSound" value="Сигнал стопа печати"/>
+	<lang name="lbl_textfile_object" value="Текстовый файл"/>
+	<lang name="lbl_Time_interval_[ms]" value="Интервал времени [мс]"/>
+	<lang name="lbl_Data_count" value="Число знаков"/>
+	<lang name="lbl_End_character" value="Последний знак"/>
+	<lang name="lbl_TooFastPrintingSound" value="Сигнал при слишком быстрой печати"/>
+	<lang name="lbl_Touchscreen_audio_feedback" value="Звуковая реакция Touchscreen"/>
+	<lang name="lbl_unlock_and_restore" value="Разблокировать и восстановить"/>
+	<lang name="lbl_User_icon" value="Символ пользователя"/>
+	<lang name="lbl_Users:" value="Пользователи:"/>
+	<lang name="lbl_version" value="версия"/>
+	<lang name="lbl_WarningSound" value="Звуковой сигнал предупреждения"/>
+	<lang name="lbl_wifi" value="WIFI"/>
+	<lang name="lbl_year" value="Год"/>
+	<lang name="lbl_Locale_settings" value="Локальные настройки"/>
+	<lang name="lbl_User_settings" value="Настройки пользователя"/>
+	<lang name="lbl_wifi_disabled" value="WIFI Выкл."/>
+	<lang name="lbl_Wifi_settings" value="Настройки WIFI"/>
+	<lang name="lbl_wifi_mac" value="Адрес MAC"/>
+	<lang name="lbl_btaddress" value="Адрес Bluetooth"/>
+	<lang name="lbl_btname" value="Имя Bluetooth устройства"/>
+	<lang name="lbl_Disconnected" value="Разорвана"/>
+	<lang name="lbl_Pressure" value="Давление"/>
+	<lang name="lbl_Intensivity" value="Интенсивность"/>
+	<lang name="lbl_On" value="Вкл."/>
+	<lang name="lbl_Off" value="Выкл."/>
+	<lang name="lbl_Scan" value="Сканирование"/>
+	<lang name="lbl_Export_all" value="Все проекты"/>
+	<lang name="lbl_Export_single" value="Один проект"/>
+	<lang name="lbl_Export" value="Экспорт"/>
+	<lang name="lbl_Import" value="Импорт"/>
+	<lang name="lbl_Upgrade" value="Обновить"/>
+	<lang name="lbl_Enable_screen_lock" value="Блокировка экрана"/>
+
+	<lang name="lbl_detected_bt_devices:" value="Найденные Bluetooth устройства:"/>
+	<lang name="lbl_btremoteaddress" value="Удалить адрес"/>
+	<lang name="lbl_Disconnect" value="Отключено"/>
+	<lang name="lbl_disconnect" value="Отключить"/>
+	<lang name="lbl_Connected" value="Подключен"/>
+	<lang name="lbl_Connecting..." value="Подключение, подождите ..."/>
+	<lang name="lbl_Connected_BT" value="Подключен к Bleutooth устройству"/>
+
+	<lang name="lbl_solventtype" value="Тип растворителя"/>
+	<lang name="lbl_colourtype" value="Чернила"/>
+	<lang name="lbl_Nonpigment" value="Непигментные"/>
+	<lang name="lbl_Pigment" value="Пигментные"/>
+	<lang name="lbl_Acetone" value="Ацетон"/>
+	<lang name="lbl_Ethanol" value="Этанол"/>
+	<lang name="lbl_MEK" value="MEK"/>
+	<lang name="lbl_Glikol" value="Гликоль"/>
+	<lang name="lbl_Water" value="Водные"/>
+	<lang name="lbl_Mek+Eth++" value="MEK + Этанол"/>
+
+	<lang name="lbl_Settings" value="Настройки"/>
+
+	<lang name="lbl_Size_unit" value="Еденица размера"/>
+	<lang name="lbl_Workspace_width" value="Длина проекта"/>
+
+
+	<lang name="lbl_Resolution" value="Разрешение"/>
+	<lang name="lbl_scanning" value="Сканирование"/>
+	<lang name="lbl_FitFrame2Text" value="Поле примерить к тексту"/>
+	<lang name="lbl_FitText2Frame" value="Текст примерить к полю"/>
+	<lang name="lbl_Without_scalling" value="Без масштаба"/>
+	<lang name="lbl_Scaling" value="Пересчёт"/>
+	<lang name="lbl_must_edit_counter" value="Редакция счётчика перед печатью"/>
+	<lang name="lbl_Filled" value="Наполнение"/>
+	<lang name="lbl_Invert" value="Инверсно"/>
+	<lang name="lbl_Line_width" value="Толщина линии"/>
+
+	<lang name="lbl_Shape_objects" value="Формы"/>
+	<lang name="lbl_Other_objects" value="Другие"/>
+	<lang name="lbl_Text_objects" value="Текст"/>
+	<lang name="lbl_Shape_object_elpise" value="Элипс"/>
+	<lang name="lbl_Shape_object_line" value="Линия"/>
+	<lang name="lbl_Shape_object_rectangle" value="Прямоугольник"/>
+
+	<lang name="lbl_printer_id" value="Серийный номер"/>
+	<lang name="lbl_barcode_signature" value="Содержание кода"/>
+
+	<lang name="lbl_Modification:" value="Последние изменения:"/>
+	<lang name="lbl_EBSCloud" value="EBS Множество"/>
+
+	<lang name="lbl_Errors" value="Ошибки"/>
+	<lang name="lbl_Other" value="Другие"/>
+
+	<lang name="lbl_Media_size" value="Размер памяти"/>
+	<lang name="lbl_Media_used" value="Занятая память"/>
+	<lang name="lbl_Media_available" value="Доступная память"/>
+
+	<lang name="lbl_avr_version" value="AVR Прошивка"/>
+
+	<lang name="lbl_Auto_turnoff_time" value="Принтер выключить после"/>
+
+	<lang name="lbl_Objects_list" value="Список объектов"/>
+	<lang name="lbl_Clipboard" value="Промежуточный буфер"/>
+	<lang name="lbl_Trash" value="Мусорник"/>	
+
+	<lang name="lbl_Manage" value="Управлять"/>
+
+	<lang name="lbl_basicStatistics" value="Основная статистика"/>
+	<lang name="lbl_report" value="Рапорт"/>
+	<lang name="lbl_userInfoReport" value="Рапорт пользователя"/>
+	<lang name="lbl_serviceInfoReport" value="Сервисный рапорт"/>
+	<lang name="lbl_infoReport" value="Информационный рапорт"/>
+	<lang name="lbl_OperateTime" value="Время наработки"/>
+	<lang name="lbl_MadePrintouts" value="Количество маркировок"/>
+	<lang name="lbl_ExploitationStat" value="Статистика эксплуатации"/>
+	<lang name="lbl_ClearStatUser" value="Удалить рапорт пользователя"/>
+	<lang name="lbl_ClearStatService" value="Удалить сервисный рапорт"/>
+	<lang name="lbl_pwrm_version" value="Менеджер питания"/>
+	<lang name="lbl_lbl_SimpleMenu" value="Упрощённое меню"/>
+	<lang name="lbl_tools_panel" value="Меню"/>
+	<lang name="lbl_Detailed_information" value="Подробная информация"/>
+	<lang name="lbl_param_tab1" value="Содержание"/>
+	<lang name="lbl_param_tab2" value="Расположение"/>
+	<lang name="lbl_Clear_stats" value="Удалить"/>
+	<lang name="lbl_Enable_networking" value="Включить WiFi"/>
+	<lang name="lbl_Configure_network_with_DHCP" value="Автоматическая конфигурация сети (с DHCP)"/>
+	<lang name="lbl_Current_IP" value="Актуальный IP"/>
+	<lang name="lbl_network" value="Сеть"/>
+	<lang name="lbl_ExpertSettings" value="Настройки эксперта"/>
+	<lang name="lbl_OnPrintStart" value="В начале печати"/>
+	<lang name="lbl_OnDataProcess" value="Во время печати"/>
+	<lang name="lbl_OnPrintFinish" value="В конце печати"/>
+	<lang name="lbl_FormatString" value="Формат строки"/>
+	<lang name="lbl_connecting" value ="Соединить"/>
+
+	<lang name="lbl_enter_filter_string" value ="Please enter filtering string"/>
+	<lang name="lbl_message_repeated_n_times" value ="Message repeated %i times."/>
+
+</Labels>
+
+<Buttons>
+	<lang name="btn_mainmenu" value="Главное меню"/>
+	<lang name="btn_Start" value="старт"/>
+	<lang name="btn_Stop" value="стоп"/>
+	<lang name="btn_maincontrol" value="Управление принтером"/>
+	<lang name="btn_Setup" value="Setup"/>
+	<lang name="btn_Exit" value="Выкл-ть"/>
+	<lang name="btn_Yes" value="да"/>
+	<lang name="btn_No" value="нет"/>
+	<lang name="btn_Cancel" value="конец"/>
+	<lang name="btn_Ok" value="OK"/>
+	<lang name="btn_next" value="следующее сообщение"/>
+	<lang name="btn_prev" value="предыдущее сообщение"/>
+	<lang name="btn_back" value="назад"/>
+	<lang name="btn_Preview" value="просмотр"/>
+	<lang name="btn_Edit" value="редак"/>
+	<lang name="btn_Save" value="зап-ть"/>
+	<lang name="btn_Apply" value="прим-ть"/>
+	<lang name="btn_Clear" value="СТЕРЕТЬ"/>
+	<lang name="btn_Open_project" value="открыть проект"/>
+	<lang name="btn_Purgeon" value="прокачка"/>
+	<lang name="btn_Longpurgeon" value="Длинная прокачка"/>
+	<lang name="btn_Purgeoff" value="стоп прокачки"/>
+	<lang name="btn_Service" value="сервис"/>
+	<lang name="btn_Printer_control" value="Управление принтером"/>
+	<lang name="btn_Logout" value="Выход"/>
+	<lang name="btn_creatependrive" value="удалить настройки"/>
+	<lang name="btn_Retry" value="повторите"/>
+	<lang name="btn_Printing_parameters" value="параметры печати"/>
+	<lang name="btn_Create_new_project" value="Новый проект"/>
+	<lang name="btn_Unlock" value="Разблокировать"/>
+
+	<lang name="btn_Save_and_exit" value="Сохранить и выйти"/>
+	<lang name="btn_Project_close" value="Закрыть проект"/>
+
+	<lang name="btn_printing_params" value="Параметры печати"/>
+	<lang name="btn_Project" value="Проект"/>
+	<lang name="btn_Parameters" value="Параметры"/>
+	<lang name="btn_Create_project" value="Создать проект"/>
+	<lang name="btn_Create_list" value="Создать список"/>
+	<lang name="btn_Edit_project" value="Редакция проект"/>
+	<lang name="btn_Edit_list" value="Редакция списка"/>
+
+	<lang name="btn_Purge" value="Промывка"/>
+	<lang name="btn_LongPurge" value="Длинная промывка"/>
+	<lang name="btn_Restore" value="Восстановить"/>
+	<lang name="btn_Info" value="Информация о продукте"/>
+	<lang name="btn_Show_messages" value="Показать сообщения"/>
+	<lang name="btn_Off" value="Выкл."/>
+	<lang name="btn_Restart" value="Перезагрузка"/>
+
+	<lang name="btn_confirm_upgrade" value="Подтвердить обновление"/>
+
+	<lang name="btn_Accept" value="Принять"/>
+	<lang name="btn_Factory" value="Фабрикат"/>
+	<lang name="btn_Menu" value="Меню"/>
+	<lang name="btn_Mesure" value="Измерить"/>
+	<lang name="btn_Reject" value="Отклонить"/>
+
+	<lang name="btn_RemoteUnlock" value="Онлайн разблокировка"/>
+	<lang name="btn_Upgrade" value="Обновление"/>
+
+	<lang name="btn_Statistics" value="Статистика"/>
+	<lang name="btn_Messages" value="Сообщения"/>
+	<lang name="btn_Tools" value="Меню"/>
+	<lang name="btn_Usb" value="USB"/>
+	<lang name="btn_Tuning" value="Настройки"/>
+	<lang name="btn_ShortInfo" value="Информация"/>
+	<lang name="btn_LockScreen" value="Блокировак дисплея"/>
+	<lang name="btn_Continue_edition" value="Продолжить редакцию" />
+
+</Buttons>
+<Messages>
+	<lang name="msg_D0100" value="Стоп печати(готов)"/>
+	<lang name="msg_D0101" value="В печати (ожидание)"/>
+	<lang name="msg_D0102" value="В печати (печать)"/>
+	<lang name="msg_D0000" value="Драйвер не присутствует"/>
+	<lang name="msg_D0001" value="Ош. отправки команды для драйвера принтера"/>
+	<lang name="msg_D0002" value="Состояние принтера неизвестно"/>
+	<lang name="msg_D0003" value="Проект не выбран"/>
+	<lang name="msg_turnOffPrinter" value="Вы действительно хотите выключить принтер?"/>
+	<lang name="msg_projectDirDoNotExist" value="Ошибка! Данного каталога не существует!"/>
+	<lang name="msg_projectDirPermisionError" value="Ошибка! Невозможно прочитать каталог проектов!"/>
+	<lang name="msg_notProjectFile" value="Ошибка! Недействительный файл проекта!"/>
+	<lang name="msg_useDefaultNetConfig" value="Конфигурация сети не найдена. Используйте исходные настройки"/>		
+	<lang name="msg_AccessDenied" value="Не удаётся сохранить настройки сети - в доступе отказано"/>
+	<lang name="msg_canNotSaveNetConfigDiskFull" value="Не удаётся сохранить конфигурацию сети - диск заполнен"/>
+	<lang name="msg_canNotSaveNetConfigNoPendrive" value="Не удаётся сохранить конфигурацию сети - отсутствует стик памяти"/>
+	<lang name="msg_editValueError" value="Неправильные значения красного цвета. Пожалуйста, исправьте и повторите ещё раз"/>
+	<lang name="msg_wrongNetmask" value="Неправильные значения маски."/>
+	<lang name="msg_canNotReconfigureNet" value="Невозможно перенастроить сетевой интерфейс."/>
+	<lang name="msg_deleteAllMessages" value="Вы действительно хотите удалить все сообщения?"/>
+	<lang name="msg_confirmAllMessages" value="Вы действительно хотите удалить все помеченные сообщения?"/>
+	<lang name="msg_reopenProject" value="Текущий проект был изменён. Вы хотите повторно открыть его?"/>	
+	<lang name="msg_ipnotallocated" value="IP адреса не выделяются"/>
+	<lang name="msg_password_error" value="Неправильный пароль!"/>
+	<lang name="msg_cancel_edition" value="Вы действительно хотите прервать редактирование? \nВсе изменения теряются!"/>
+	<lang name="msg_paramsOutOfRange" value="ОШИБКА ! Параметры, помеченные красным цветом, вне допустимых значений ! Отредактируйте и повторите" />
+	<lang name="msg_resetCounterVF" value="Внимание: чтобы этот режим выполнить, убедитесь, что этот проект не в печати. Этот режим переписывает сохранённые значения (последние) счётчика."/>
+	<lang name="msg_editProjectWhenPrintOn" value="Внимание! Выбранный проект в печати. Сброс счётчика невозможен! Тем не менее продолжить?"/>
+	<lang name="msg_powerOff_in_x_sec" value="Принтер выключится через %d сек."/>
+	<lang name="msg_please_wait" value="подождите..."/>
+	<lang name="msg_shutdown_in_progress" value="Выключение..."/>
+
+	<lang name="msg_improper_poweroff" value="Внимание! Обнаружено неправильное выключение, что может привести к потере данных или сбою устройства . Пожалуйста придерживайтесь режима выключения."/>
+	<lang name="msg_open_project_error" value="Ошибка ! Проект не загружен!"/>
+	<lang name="msg_editor_communication_error" value="Ошибка коммуникации. Редактор не отвечает. Проверьте устройство и попробуйте еще раз. Если принтер не занят в связи сбыстрой печатью, пожалуйста остановите и повторите."/>
+	<lang name="msg_edit_project_priority_too_low" value="Проект открыт для обработки www редактором.nВаш приоритет не достаточен для редакции проекта."/>
+	<lang name="msg_confirm_forced_edition" value="Проект открыт для обработки WWW редактором.nВы настаиваете на открытии проекта ?"/>
+	<lang name="msg_projectEditedByWWW" value="Проект закрывается, потому что проект открыт WWW редактором."/>
+	<lang name="msg_long_purge_confirmation" value="Вы стартуете длинную прокачку. Эта прокачка используется при первом запуске принтера и для удаления воздуха из ситемы. При этой прокачке расходуется много чернил. Вы можете прокачку остановить нажатием на стоп прокачки .n nПрокачку стартовать?"/>
+	<lang name="msg_long_purge_in_progress" value="Прокачка.nОстаток времени: %d [с]"/>
+	<lang name="msg_restore_storage_data" value="Вы действительно хотите все удалить с флешки и выйти на начальные настройки?Все данные и настройки принтера теряются"/>
+	<lang name="msg_stop_and_restore_data" value="Warning! Printing is on ! Do you want STOP printing and restore internal storage content to factory defaults? Projects data and printer settings WILL BE LOST !" />
+	<lang name="msg_pendrive_error" value="Внимание! Флешки нет или повреждена. Вы можете принтер выключить и заменить флешку или поврежденную флешку вернуть на начальные настройки.Нажмите Выкл., чтобы принтер выключить или нажать на начальные настройки, чтобы вернуть начальные настройки."/>
+	<lang name="msg_pendrive_restore" value="Пожалуйста убедитесь, что в разъеме USB находится рабочая флешка. Все удаляется копируются начальные установки. Для продолжения нажмите OKили КОНЕЦдля остановки."/>&gt;
+	<lang name="msg_pendrive_restore_ok" value="Флешка с начальными настройками. Необходим новый старт. Нажмите ОК и принтер выключится. "/>
+	<lang name="msg_creating_pendrive" value="Подождите пожалуйста... Перепрошивка...nnnПринтер не выключать во избежании потери данных!!!"/>
+	<lang name="msg_resetCounterVF_warning" value="Внимание: Некоторые счетчики настроены так, что установлены их мин. или макс. значения. Для этих счетчиков невозможно изменить начальное значение."/>
+	<lang name="msg_messages_alert" value="Внимание! Список сообщений содержит новую информацию, которая должна быть прочитана и подтверждена."/>
+
+	<lang name="msg_deleteSelectedObject" value="Вы уверены, что хотите удалить выбранный объект ?"/>
+	<lang name="msg_create_project_error" value="Ошибка ! Создать новый проект не удалось!"/>
+	<lang name="msg_confirm_file_overwrite" value="Файл %s существует, вы хотите перезаписать ?"/>
+	<lang name="msg_confirm_position_change" value="Подтверждаете ли вы изменение позиции?"/>
+	<lang name="msg_confirm_size_change" value="Подтверждаете ли вы изменения размера?"/>
+
+	<lang name="msg_confirmExternParamsFile" value="Внимание ! Проект использует внешний файл параметров. Каждое изменение может оказать влияние на другие проекты! Вы всё же желаете редактировать параметры ?"/>
+	<lang name="msg_externParamsFileNotFound" value="Ошибка ! Проект использует внешний файл параметров, но файл не существует ! Пожалуйста откорректируйте ошибку и повторите !"/>
+
+	<lang name="msg_confirm_wifi_network_delete" value="Вы действительно хотите удалить конфигурацию выбранной безпроводной сети?"/>
+
+	<lang name="msg_restore_storage_damaged" value="Внимание ! Данные в памяти повреждены. Вы можете восстановить заводские установки. Нажмите &quot;выключить&quot; чтобы принтер сейчас выключить или &quot;заводские установки&quot; чтобы восстановить заводские установки."/>;
+	<lang name="msg_restore_storage_confirm" value="Все имеющиеся данные будут удалены и восстановлены заводские установки. Нажмите &quot;ok&quot;, чтобы подтвердить, чтобы всё прервать нажмите &quot;закончить&quot;."/>
+	<lang name="msg_restore_storage_ok" value="Память успешно восстановлена. Необходима перезагрузка. Нажмите пожалуйста &quot;ok&quot;, Принтер выключится."/>
+	<lang name="msg_restore_storage_warning" value="Подождите...Идёт всстановление данных... \n \nПринтер не выключать иначе могут быть повреждены системные данные!!!"/>
+	<lang name="msg_firmware_upgrade_detected" value="Флешка содержит программу перепрошивки. Процедура перепрошивки требует перезагрузки принтера. Для продолжения нажмите &quot;Выполнить обновление&quot; и подождите пока принтер выключится. После этого включите его снова."/>
+
+
+	<lang name="msg_enter_new_password" value="Задать новый пароль."/>
+	<lang name="msg_confirm_new_password" value="Повторить новый пароль."/>
+	<lang name="msg_enter_login_name" value="Звдайте имя пользователя."/>
+	<lang name="msg_import_error" value="Ошибка при импорте данных %s!"/>
+	<lang name="msg_import_ok" value="Файл %s Успешно импортирован."/>
+	<lang name="msg_export_error" value="Ошибка при экспорте проекта!"/>
+	<lang name="msg_export_ok" value="Экспорт выполнен ! Файл %s с экспортированными данными переписан на USB флешку."/>
+
+	<lang name="msg_firmware_upgrade_reboot_info" value="Принтер готов к перепрошивке. Нажмите &quot;ok&quot; чтобы выключить принтер. После выключения пожалуйста снова включите, прошивка заканчивается . это продлится некоторое время - подождите немного и не выключайте принтер!"/>
+
+	<lang name="msg_One_time_code_generated" value="Код устройства сгенерирован. Введите актуальный код разблокировки и подтвердите кнопкой."/>
+	<lang name="msg_OneTimeCodeError" value="Ошибка при генерации кода. Закройте окно и повторите снова!"/>
+
+	<lang name="msg_PrintHeadMismatch" value="Внимание ! Выбранный проект создан для другого типа принтера (Не для принтера EBS260)!"/>
+	<lang name="msg_PrintHeadMismatchOpenFail" value="Внимание ! Выбранный проект невозможно открыть. Он создан для другого типа принтера / другой головки."/>
+
+	<lang name="msg_remote_unlock_transmitted" value="Принтер посылает запрос разблокировки на remote server. Процес разблокировки может продлиться около 5 мин. Успешная разблокировка будет подтверждена сообщением."/>
+	<lang name="msg_RemoteUnlockTxError" value="Принтер не может послать запрос разблокировки на remote server! Проверьте связь с интернетом и повторите ещё раз."/>
+
+
+	<lang name="msg_unlock_successful" value="Принтер успешно разблокирован."/>
+	<lang name="msg_unlock_error" value="Ошибка разблокировки ( некорректный код или ошибка передачи ). Повторите пожалуйста снова."/>
+	<lang name="msg_printer_in_purge_mode" value="Принтер в режиме промывки. Чтобы включить промывку, нажмите и держите клавишу старта печати. Чтобы закончить промывку, нажмите &quot;Стоп&quot; или закройте данное окно."/>
+
+	<lang name="msg_autoPowerOff_in_x_sec" value="Принтер длительное время не использовался ибудет через %d сек выключен."/>
+	<lang name="msg_EmergencyOff_in_x_sec" value="Критическое напряжение аккумулятора !!! Принтер через %d сек выключится."/>
+	<lang name="msg_low_battery_warning" value="Внимание ! Аккумулятор разряжен. Рекомендуется подключить зарядку."/>
+
+	<lang name="msg_clearStatistics" value="Статистику действительно удалить ?"/>
+	<lang name="msg_resolutionOutOfRange" value="Ошибка ! Разрешение за пределами установки ! Повторите измерения заново"/>
+	<lang name="msg_confirm_bt_device_delete" value="Выбранное устройство Bluetooth действительно удалить из спика найденных устройств?"/>
+	<lang name="msg_confirm_close" value="Окно закрыть ? Все изменения теряются!!!"/>
+	<lang name="msg_confirm_user_delete" value="Выбранного пользователя действительно удалить?"/>
+	<lang name="msg_ProjectNotFound" value="Файл проекта %s не найден!"/>
+	<lang name="msg_IllegalCharInFileName" value="Название проекта содержит недопустимые знаки. Используйте пожалуйста только латинские знаки , цыфры и следующие специальные знаки: &quot;_&quot;,&quot;.&quot;,&quot;-&quot;. \n \nЗадайте проекту новое имя  ?"/>
+	<lang name="msg_kernel_missmatch_message" value="ВНИМАНИЕ! Системное программное обеспечение принтера установлено не полностью! \nПросьба выполнить операцию восстановления внутренней памяти. Если это не поможет, повторно выполните последнее обновление. Если указанные выше действия не решат проблемы, необходимо обратиться в сервисную службу."/> 
+
+	<lang name="msg_Can_not_perform_operation_project_selected_for_printing" value="Ошибка ! Невозможно выполнить операцию ! Проект выбран для печати !"/> 
+	<lang name="msg_confirmFileRemove" value="Удалить файл/папку %s ?"/> 
+	<lang name="msg_Error_setting_bluetooth_friendly_name" value="Невозможно изменить имя Bluetooth – внутренняя ошибка !"/> 
+	<lang name="msg_Illegal_bluetooth_friendly_name" value="Невозможно изменить имя Bluetooth – неправильное имя !"/> 
+	<lang name="msg_wasteBottleOverflow" value="Емкость для слива остатков чернил переполнена. Просьба опорожнить емкость !"/> 
+	<lang name="msg_wifi_connection_error" value="Ошибка соединения с беспроводной сетью. Просьба проверить настройки и повторить попытку."/> 
+
+	<lang name="msg_PrinterFirmware2Old" value="Версия программного обеспечения принтера слишком стара. Непосредственное обновление невозможно. \nСведения о версиях: \nПрограммное обеспечение принтера: %s1 \nФайл обновления: %s2 \nМинимальная версия: %s3"/>
+	<lang name="msg_UprgadeFileOlderThanCurrent" value="Версия программного обеспечения принтера новее, чем выбранное обновление. \nСведения о версиях: \nПрограммное обеспечение принтера: %s1 \nФайл обновления: %s2"/>
+	<lang name="msg_UprgadeFileSameAsPresent" value="Программное обеспечение принтера уже обновлено до последней версии. \nСведения о версиях: \nПрограммное обеспечение принтера: %s1 \nФайл обновления: %s2"/>
+	<lang name="msg_UprgadeFileInvalid" value="Выбранный файл обновления неправильный или поврежден!"/>
+	<lang name="msg_ParamOutOfRange" value="Error ! Mesured value is out of valid range ! Please try again!"/>
+	<lang name="msg_beta_version_warrning" value="Please be aware that this software version is for development purposes only and as such may contain bugs causing problems.\n By pressing &quot;OK&quot; you are confirming usage on your own responsibility." />
+</Messages>
+</EBS_LCDGUI>
+<EBS_Common>
+	<Labels>
+		<lang name="lbl_Yellow" value="Жёлтый"/>
+		<lang name="lbl_Colorless" value="Безцветный"/>
+		<lang name="lbl_Red" value="Красный"/>
+		<lang name="lbl_Blue" value="Синий"/>
+		<lang name="lbl_Black" value="Чёрный"/>
+		<lang name="lbl_Ultraviolet" value="Ултрафиалетовый"/>
+		<lang name="lbl_White" value="Белый"/>
+		<lang name="lbl_Green" value="Зелёный"/>
+		<lang name="lbl_statistics" value="Статистика" />
+		<lang name="lbl_Orginal" value="Оригинал" />
+		<lang name="lbl_Recovery" value="Восстановление" />
+		<lang name="lbl_saveRecoveryAs" value="Восстановленный файл сохранить как" />
+		<lang name="lbl_continueEdit" value="Редактирование\nпродолжить" />
+		<lang name="lbl_distance" value="Отступ"/>
+		<lang name="lbl_spacer" value="Spacer"/>
+		<lang name="lbl_externalscript" value="External script name"/>
+		<lang name="lbl_Printhead:" value="Название головки:"/>
+	</Labels>
+	<Messages>
+		<lang name="msg_deleteRecoveryFile" value="Внимание! Подтверждение выбора удаляет резервную копию!" />
+		<lang name="msg_RecoveryFileSelection" value="Найдена старая версия данного проекта. \nВыберите пожалуйста, какую версию редактировать. Проект-оригинал или восстановленную версию ?"/>
+		<lang name="msg_ConfirmRecoveryRemoval" value="Восстановленный проект удалить ?"/>
+		<lang name="msg_DelRecoveryWithoutRescue" value="Продолжить и восстановленный проект без сохранения удалить? После удаления невозможно вернуться назад !"/>
+	</Messages>
+	<WTitles>
+		<lang name="wtitle_cProjectRecoveryDialog" value="Восстановление проекта"/>
+	</WTitles>
+</EBS_Common>
+</EBS_LanguageFile>

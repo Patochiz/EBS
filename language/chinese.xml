@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_LanguageFile>
+<param name="Version" value="2022.01.21"/> 
+<param name="EditedBy" value="GrzesiekP"/>
+<EBS_PrinterLocaleSettings>
+<param name="LC_ALL" value="en_EN.UTF-8"/>
+</EBS_PrinterLocaleSettings>
+
+<EBS_PUI_FontSettings>
+	<param name="DefaultFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="DefaultFontSmallSize" value="8"/>
+	<param name="DefaultFontNormalSize" value="14"/>
+	<param name="DefaultFontLargeSize" value="16"/>
+	<param name="PinyinFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="PinyinFontSize" value="16"/>
+	<param name="ButtonFontSize" value="14"/>
+	<param name="LabelFontSize" value="14"/>
+	<param name="TextFontSize" value="14"/>
+	<param name="MessageFontSize" value="14"/>
+	<param name="EditFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="EditFontSize" value="16"/>
+</EBS_PUI_FontSettings>
+
+<EBS_ParametersUnitsLanguage>
+	<lang name="EncoderConstant_Unit" value="[脉冲数/米]"/>
+	<lang name="ConveyorSpeed_Unit" value="[米/分]"/>
+	<lang name="ImpulseGeneratorSource_Unit" value="[内置发生器 / 外部来源]"/>
+	<lang name="TriggerType_Unit" value="[边沿触发/电平触发]"/>
+	<lang name="TriggerSignalMode_Unit" value="[上升沿/下降沿]|[高电平/低电平]"/>
+	<lang name="Resolution_Unit" value="[dpm] (每米点数)"/>
+	<lang name="PrintDistance_Unit" value="[毫米]"/>
+	<lang name="TxtRepetitions_Unit" value="[喷印输出]"/>
+	<lang name="RepetitionDistance_Unit" value="[mm]"/>
+	<lang name="RowMultiply_Unit" value="[毫米][纵列]"/>
+	<lang name="UpsideDownPrint_Unit" value="[禁用/允许]"/>
+	<lang name="ReversePrint_Unit" value="[禁用/允许]"/>
+	<lang name="TextHeight_Unit" value="[毫米]"/>
+	<lang name="CleaningRows_Unit" value="[列]"/>
+	<lang name="Pressure_Unit" value="[巴]"/>
+	<lang name="PhotocellSource_Unit" value="[内部 /外部/ 内外兼 有]"/>
+</EBS_ParametersUnitsLanguage>
+
+<EBS_EditorLanguage>
+<Menu>
+	<lang name="menu_projects" value="项目"/>
+	<lang name="menu_projectNew" value="创建新项目"/>
+	<lang name="menu_projectOpen" value="打开项目"/>
+	<lang name="menu_projectSave" value="保存"/>
+	<lang name="menu_projectSaveAs" value="另存为..."/>
+	<lang name="menu_projectClose" value="关闭项目"/>
+	<lang name="menu_projectParams" value="喷印参数"/>
+	<lang name="menu_tools" value="工具"/>
+	<lang name="menu_toolsImagesManager" value="图像管理器"/>
+	<lang name="menu_toolsFontsManager" value="字体管理器"/>
+	<lang name="menu_toolsTextFilesManager" value="文本文件管理器"/>
+	<lang name="menu_toolsUsersManager" value="用户管理器"/>
+	<lang name="menu_toolsReportProblem" value="问题报告"/>
+	<lang name="menu_toolsWorkspaceSize" value="工作空间尺寸"/>
+	<lang name="menu_toolsPrintersNetworkManager" value="喷码机网络管理器"/>
+	<lang name="menu_settingsGeneral" value="整体设置"/>
+	<lang name="menu_settingsEncoderConstant" value="传送装置参数"/>
+	<lang name="menu_settings" value="设置"/>
+	<lang name="menu_service" value="服务"/>
+	<lang name="menu_servicePurge" value="清洗"/>
+	<lang name="menu_serviceLog" value="日志"/>
+	<lang name="menu_printer_control" value="喷码机控制"/>
+	<lang name="menu_about" value="关于"/>		
+	<lang name="menu_toolsLanguageManager" value="语言管理器"/>
+	<lang name="menu_toolsAccountManagement" value="帐户管理器"/>
+	<lang name="menu_moduleInfo" value="模块信息"/>
+	<lang name="menu_phpshell" value="PHP Shell语言"/>
+	<lang name="menu_softwareUpgrade" value="软件升级"/>
+	<lang name="menu_touchscreenCalibration" value="触屏校准"/>
+	<lang name="menu_ObjectNormalText" value="普通文本"/>
+	<lang name="menu_ObjectNormalBarcode" value="条形码"/>
+	<lang name="menu_ObjectDateTime" value="日期/时间"/>
+	<lang name="menu_ObjectCounter" value="记数器"/>
+	<lang name="menu_ObjectComPort" value="通讯端口"/>
+	<lang name="menu_ObjectTxtFile" value="文本文件"/>
+	<lang name="menu_printoutCost" value="喷印成本"/>
+	<lang name="menu_serviceReport" value="生成服务报告"/>
+	<lang name="menu_installOption" value="安装选项"/>
+	<lang name="menu_statistics" value="使用统计表"/>
+	<lang name="menu_info" value="信息"/>
+	<lang name="menu_ObjectShapeLine" value="线条"/>
+	<lang name="menu_ObjectShapeRectangle" value="矩形"/>
+	<lang name="menu_ObjectShapeElipse" value="椭圆形"/>
+	<lang name="menu_projectImport" value="导入项目"/>
+	<lang name="menu_projectExport" value="导出项目"/>
+	<lang name="menu_puiPreview" value="液晶屏幕预览"/>
+	<lang name="menu_barcode" value="条形码"/>
+	<lang name="menu_lineDivider" value="行分隔符" />
+	<lang name="menu_simulatePrintout" value="模拟喷印" />
+	<lang name="menu_printerUpdate" value="更新" />
+	<lang name="menu_openPrinterControl" value="打开喷码机控制" />
+	<lang name="menu_sendProjectToPrinter" value="发送项目到喷码机" />
+	<lang name="menu_openWUI" value="打开网页用户界面" />
+	<lang name="menu_restartPrinter" value="重启" />
+	<lang name="menu_shutdownPrinter" value="关机" />
+</Menu>
+<Labels>
+	<lang name="lbl_loggedAs" value="注册为:"/>
+	<lang name="lbl_startupWhatWouldYouLikeToDo" value="您有什么指令?"/>
+	<lang name="lbl_startupCreateNewProject" value="创建新项目"/>
+	<lang name="lbl_startupOpenProject" value="打开项目编辑"/>
+	<lang name="lbl_startupOpenProjectForPrinter" value="打开项目喷印"/>
+	<lang name="lbl_startupChangeEditorSettings" value="改变编辑器设置"/>
+	<lang name="lbl_startupPrinterControl" value="喷码机控制"/>
+	<lang name="lbl_language" value="语言:"/>
+	<lang name="lbl_originalLanguage" value="初始语言:"/>
+	<lang name="lbl_printerType" value="喷码机类型:"/>
+	<lang name="lbl_filename" value="文件名:"/>
+	<lang name="lbl_directory" value="目录:"/>
+	<lang name="lbl_showFilesOnList" value="在目录上显示文本"/>
+	<lang name="lbl_clipboardContent" value="剪贴本内容:"/>
+	<lang name="lbl_empty" value="无内容"/>
+
+	<lang name="lbl_currentDirectory" value="当前目录:"/>
+	<lang name="lbl_projectPreview" value="项目预览:"/>
+	<lang name="lbl_projectInformation" value="项目信息:"/>
+	<lang name="lbl_lastModification" value="上次修改:"/>
+	<lang name="lbl_imagePreview" value="图像预览:"/>
+	<lang name="lbl_imageInstalled" value="图像 %s 安装完毕"/>
+	<lang name="lbl_imageNotInstalled" value="无法安装图象 %s"/>
+	<lang name="lbl_pleaseSelectImageToInstall" value="请选择安装图像:"/>
+	<lang name="lbl_fontPreview" value="字体预览:"/>
+	<lang name="lbl_fontType" value="字体类型:"/>
+	<lang name="lbl_pleaseSelectFontToInstall" value="请选择安装字体:"/>
+	<lang name="lbl_pleaseSelectTxtFileToInstall" value="请选择已安装的文本文件:"/>
+	<lang name="lbl_fontInstalled" value="字体 %s 安装完毕"/>
+	<lang name="lbl_fontNotInstalled" value="无法安装字体%s"/>
+	<lang name="lbl_txtFileInstalled" value="文本文件 %s 安装"/>
+	<lang name="lbl_txtFileNotInstalled" value="不能安装文本文件 %s"/>
+
+	<lang name="lbl_users" value="用户"/>
+	<lang name="lbl_groups" value="用户组"/>
+	<lang name="lbl_userInformation" value="用户信息:"/>
+	<lang name="lbl_lastLogin" value="上次注册:"/>
+	<lang name="lbl_avaiableUsers" value=" 现有用户:"/>
+	<lang name="lbl_avaiableGroups" value="现有用户组:"/>
+	<lang name="lbl_enableAutoLogin" value="允许自动登录"/>	
+	<lang name="lbl_login" value="登录"/>
+	<lang name="lbl_password" value="密码"/>
+
+	<lang name="lbl_retypePassword" value="重新输入密码"/>
+	<lang name="lbl_userImage" value="用户图像"/>	
+	<lang name="lbl_addUserToThisGroup" value="将用户加入该用户组"/>
+	<lang name="lbl_groupName" value="用户组名称"/>	
+	<lang name="lbl_groupImage" value="用户组图标"/>	
+	<lang name="lbl_groupsPrivilages" value="用户组级别"/>	
+	<lang name="lbl_objectParams" value="子项目参数"/>
+	<lang name="lbl_deleteObject" value="删除子项目"/>
+	<lang name="lbl_text" value="文本"/>
+	<lang name="lbl_fontName" value="字体名称"/>
+	<lang name="lbl_fontSize" value="字体尺寸"/>
+	<lang name="lbl_fontSizeX" value="X"/>
+	<lang name="lbl_fontSizeY" value="Y"/>
+	<lang name="lbl_constrainProportions" value="保持字体比例"/>
+	<lang name="lbl_objectRotation" value="旋转子项目"/>
+	<lang name="lbl_lineSpacing" value="行距:"/>
+	<lang name="lbl_enterFontSize" value="输入字体尺寸"/>
+	<lang name="lbl_autoSize" value="自动尺寸"/>
+	<lang name="lbl_transparent" value="透明"/>
+	<lang name="lbl_showPreview" value="显示预览"/>
+	<lang name="lbl_objectName" value="子项目名称"/>
+	<lang name="lbl_barcodeType" value="条形码类型:"/>
+
+	<lang name="lbl_borderSize" value="边框尺寸:"/>
+	<lang name="lbl_borderType" value="边框类型:"/>
+	<lang name="lbl_registers" value="变量域"/>
+	<lang name="lbl_imagePath" value="图像路径"/>
+	<lang name="lbl_allowResize" value="允许调整尺寸"/>
+	<lang name="lbl_objectSize" value="子项目尺寸"/>
+	<lang name="lbl_objectPosition" value="位置"/>
+	<lang name="lbl_encoderConstant" value="编码器常数"/>	
+	<lang name="lbl_conveyorSpeed" value="传送带速度"/>
+	<lang name="lbl_triggerType" value="触发方式"/>
+	<lang name="lbl_triggerSignalMode" value="触发信号模式"/>
+	<lang name="lbl_impulseGeneratorSource" value="脉冲发生器来源"/>
+	<lang name="lbl_resolution" value="分辨率"/>
+	<lang name="lbl_printDistance" value="初始距离"/>
+	<lang name="lbl_textRepetition" value="重复喷印"/>
+	<lang name="lbl_repetitionDistance" value="喷印间隔"/>
+	<lang name="lbl_reversePrint" value="水平翻转"/>
+	<lang name="lbl_upsideDownPrint" value="垂直翻转"/>
+	<lang name="lbl_shaftDirection" value="喷印方向"/>
+	<lang name="lbl_textHeight" value="文本高度"/>
+	<lang name="lbl_cleaningRows" value="清除纵列"/>
+	<lang name="lbl_pressure" value="压力"/>
+	<lang name="lbl_PhotocellSource" value="光电来源"/>
+	<lang name="lbl_dotSize" value="喷点大小"/>
+	<lang name="lbl_parameterRange" value="参数范围"/>
+	<lang name="lbl_newWorkspaceWidth" value="新工作空间宽度"/>
+	<lang name="lbl_settings_general" value="通用设置"/>
+	<lang name="lbl_settings_date" value="日期/时间"/>
+	<lang name="lbl_imageWrongType" value="只允许PNG文件."/>
+	<lang name="lbl_projectImportWrongType" value="只允许ZIP格式文件."/>
+	<lang name="lbl_fontWrongType" value="只允许TTF文件."/>
+	<lang name="lbl_txtFileWrongType" value="只允许TXT格式文件."/>
+	<lang name="lbl_currentPrinterDate" value="当前喷码机日期:"/>
+	<lang name="lbl_currentPrinterTime" value="当前喷码机时间:"/>
+	<lang name="lbl_dateOffset" value="日期推延:"/>
+	<lang name="lbl_timeOffset" value="时间推延:"/>
+	<lang name="lbl_dateSeparator" value="日期分隔符:"/>
+
+	<lang name="lbl_timeSeparator" value="时间分隔符:"/>
+	<lang name="lbl_dateFormat" value="日期格式:"/>
+	<lang name="lbl_timeFormat" value="时间格式:"/>
+	<lang name="lbl_date" value="日期(日-月-年):"/>
+	<lang name="lbl_time" value="时间(小时-分-秒):"/>
+	<lang name="lbl_formattingString" value="格式字符串:"/>
+	<lang name="lbl_advanced" value="高级"/>
+	<lang name="lbl_quickPreview" value="快速预览"/>
+	<lang name="lbl_showExpertsSettings" value="显示专家设置"/>
+	<lang name="lbl_DateTimeHelp1" value="%a - 星期各天缩写\\\\\\ %A - 完整星期各 天\\\\\\ %b - 缩写月份\\\\\\ %B - 完整月份\\\\\\ %c - 完整日期和时间\\\\\\ %d - 月历各天 (1-31)\\\\\\ %H - 小时 (24小时制)\\\\\\ %I - 小时 (12小时制)\\\\\\ %j - 年历各天 (1-366)\\\\\\ %m - 月 (1-12)\\\\\\ %M - 分 (0-59)\\\\\\"/> 
+	<lang name="lbl_DateTimeHelp2" value="%p - 12小时制的上午/下午\\\\\\ %S - 秒 (0-60)\\\\\\ %U - 从星 期 日算起的星期数\\\\\\ %w - 从星期日算起的星期各天(0-6)\\\\\\ %W - 从星期一算起的星期数\\\\\\ %x - Full date完整日期\\\\\\ %X - Full time of day一天全部时间\\\\\\ %y - 两位数年份\\\\\\ %Y - 四位数年份\\\\\\ %Z - 时区\\\\\\ %% - 喷印字体 %\\\\\\"/>
+	<lang name="lbl_min" value="最小"/>
+	<lang name="lbl_max" value="最大"/>
+	<lang name="lbl_startValue" value="初始值"/>
+	<lang name="lbl_step" value="增减量"/>
+	<lang name="lbl_length" value="长度"/>
+	<lang name="lbl_prefix" value="前缀"/>
+	<lang name="lbl_suffix" value="后缀"/>
+	<lang name="lbl_startMode" value="起始模式"/>
+	<lang name="lbl_lastValue" value="最后值"/>
+	<lang name="lbl_showThisCounter" value="显示该计数器"/>
+	<lang name="lbl_incrementOrder" value="增减顺序"/>
+	<lang name="lbl_ObjectNormalBarcode" value="标准条型码"/>
+	<lang name="lbl_ObjectNormalText" value="标准文本"/>
+	<lang name="lbl_ObjectDateTime" value="日期/时间"/>
+	<lang name="lbl_ObjectCounter" value="计数器"/>
+	<lang name="lbl_ObjectComPort" value="通讯端口"/>
+	<lang name="lbl_ObjectTxtFile" value="文本文件"/>
+	<lang name="lbl_ObjectConvertTo" value="将对象转换至:"/>
+	<lang name="lbl_port" value="端口:"/>
+	<lang name="lbl_baud" value="波特率:"/>
+	<lang name="lbl_onPrintStart" value="开始喷印时:"/>
+	<lang name="lbl_onDataProcess" value="数据处理时:"/>
+	<lang name="lbl_onPrintFinish" value="喷印结束时:"/>
+	<lang name="lbl_filePath" value="文本路径:"/>
+	<lang name="lbl_lineCount" value="计算行数:"/>
+	<lang name="lbl_all" value="All全部"/>
+	<lang name="lbl_lineStep" value="行数增减量"/>
+	<lang name="lbl_lineMax" value="最多行数"/>
+	<lang name="lbl_fillIn" value="填空"/>
+	<lang name="lbl_event" value="特殊情况"/>
+	<lang name="lbl_space" value="间距"/>
+	<lang name="lbl_doNothing" value="不执行"/>
+
+	<lang name="lbl_stopPrinting" value="停止喷印"/>
+	<lang name="lbl_printerStatus" value="喷码机状态:"/>
+	<lang name="lbl_currentProject" value="当前项目:"/>
+	<lang name="lbl_editorLoading" value="加载编辑器... 请等候..."/>
+	<lang name="lbl_paramsPreview" value="参数预览"/>
+	<lang name="lbl_currentEncoderConstant" value="当前编码器 常数值"/>
+	<lang name="lbl_currentConveyorSpeed" value="当前传送带速度值"/>
+	<lang name="lbl_showHelp" value="显示帮助"/>
+	<lang name="lbl_parametersSource" value="参数来源:"/>
+	<lang name="lbl_parametersFile" value="参数文本:"/>
+	<lang name="lbl_localParameters" value="本地参数"/>
+	<lang name="lbl_externalParameters" value="外部参数"/>
+	<lang name="lbl_oldPassword" value="旧密码"/>
+	<lang name="lbl_newPassword" value="新密码"/>
+	<lang name="lbl_detecting" value="检测"/>
+	<lang name="lbl_saveChanges" value="保存修改"/>
+	<lang name="lbl_paramsContinuous" value="继续"/>
+	<lang name="lbl_counterStartValue" value="计数器%d 初始值"/>
+	<lang name="lbl_lineStartValue" value="起始行"/>
+	<lang name="lbl_enableAutoStart" value="允许自动起动"/>
+	<lang name="lbl_gotoEditorPage" value="转至编辑器页 &gt;"/> 
+	<lang name="lbl_availableVersions" value="现有版本:"/>
+	<lang name="lbl_networkResources" value="网络资源:"/>
+	<lang name="lbl_gotoWebpage" value="转至网页"/>
+	<lang name="lbl_none" value="无框"/>
+	<lang name="lbl_bind" value="上下框"/>
+	<lang name="lbl_box" value="四周框"/>
+	<lang name="lbl_installInProjectDir" value="安装在项目目 录中"/>
+	<lang name="lbl_createInSeparateDir" value="在另外目录中创建项目" />
+	<lang name="lbl_helpLanguage" value="帮助语言"/>
+	<lang name="lbl_startEditor" value="编辑器:"/>
+	<lang name="lbl_startPrinter" value="喷码机:"/>
+	<lang name="lbl_printoutPreviewFirst" value="显示首个打印输出"/>
+	<lang name="lbl_printoutPreviewNext" value="显示下个打印输出"/>
+	<lang name="lbl_mustEdit" value="该子项目必须在喷印前进行编辑"/>
+	<lang name="lbl_xcoord" value="x 坐标"/>
+	<lang name="lbl_ycoord" value="y 坐标"/>
+	<lang name="lbl_width" value="宽度"/>
+	<lang name="lbl_height" value="高度"/>
+	<lang name="lbl_helpWelcome" value="EBS网页用户界面说明书"/>
+	<lang name="lbl_printManual" value="喷印说明书"/>
+	<lang name="lbl_pdfManual" value="用PDF格式下载说明书"/>
+	<lang name="lbl_unknown" value="不存在"/>
+	<lang name="lbl_checking" value="检查..."/>
+
+	<lang name="lbl_printerName" value="喷码机名称"/>
+	<lang name="lbl_printerIP" value="喷码机互联网协议IP"/>
+	<lang name="lbl_printerModel" value="喷码机型号"/>
+	<lang name="lbl_hideTrash" value="隐藏回收站" />
+	<lang name="lbl_emptyTrash" value="清空回收站" />
+	<lang name="lbl_hideClipboard" value="隐藏剪切板" />
+	<lang name="lbl_emptyClipboard" value="清空剪切板" />
+	<lang name="lbl_px" value="像素" />
+	<lang name="lbl_cm" value="厘米" />
+	<lang name="lbl_emptyProject" value="项目无内容." />
+	<lang name="lbl_translatedText" value="译文" />
+	<lang name="lbl_originalText" value="原文" />
+	<lang name="lbl_menuItems" value="菜单" />
+
+	<lang name="lbl_signature" value="数字码" />
+	<lang name="lbl_communicationsMode" value="模式 - 等待:" />
+	<lang name="lbl_readyToPrintAfter" value="之后即可喷印" />
+	<lang name="lbl_asciiCode" value="ASCII 代码" />
+	<lang name="lbl_communicationsMode_1" value="时间间隔 (毫秒)" />
+	<lang name="lbl_communicationsMode_2" value="计算数据" />
+	<lang name="lbl_communicationsMode_3" value="最后字符" />
+	<lang name="lbl_communicationsMode_4" value="分隔符已接收" />
+
+	<lang name="lbl_bitCount" value="位元计算" />
+	<lang name="lbl_sendingMessagesFormat" value="发送通知格式" />
+	<lang name="lbl_normal" value="标准" />
+	<lang name="lbl_hexadecimal" value="十六进制" />
+	<lang name="lbl_noDataAction" value="无数据操作" />
+	<lang name="lbl_nothing" value="无" />
+	<lang name="lbl_blank" value="喷印空白子项目" />
+	<lang name="lbl_lastMessage" value="喷印最后通知" />
+	<lang name="lbl_noPrintout" value="无喷印" />
+	<lang name="lbl_procFormattingString" value="程序格式化字符串" />
+
+	<lang name="lbl_separatorDataCount" value="分隔符数据计算" />
+	<lang name="lbl_separatorObject" value="对象 %d" />
+
+	<lang name="lbl_separatorCharacter" value="字符分隔符" />
+	<lang name="lbl_dataBuffering" value="数据缓存" />
+	<lang name="lbl_disabled" value="禁用" />
+	<lang name="lbl_enabled" value="启用" />
+	<lang name="lbl_reportLevel" value="统计表" />
+	<lang name="lbl_isLinked" value="子项目链接" />
+
+	<lang name="lbl_basicStatistics" value="基本统计数字" />
+	<lang name="lbl_OperateTime" value="运转时间" />
+	<lang name="lbl_MadePrintouts" value="喷印成功" />
+	<lang name="lbl_extraStatistics" value="特殊字符统计" />
+	<lang name="lbl_project" value="项目" />
+	<lang name="lbl_report" value="报告" />
+	<lang name="lbl_userInfoReport" value="用户报告" />
+	<lang name="lbl_serviceInfoReport" value="服务报告" />
+	<lang name="lbl_infoReport" value="信息报告" />
+	<lang name="lbl_lineThickness" value="线条粗细" />
+
+	<lang name="lbl_filled" value="整面" />
+	<lang name="lbl_invert" value="翻转" />
+
+	<lang name="lbl_pixCount" value="像素计数" />
+	<lang name="lbl_printoutPerLiter" value="喷印每公尺" />
+	<lang name="lbl_printoutPerBootle" value="喷印每个墨盒" />
+	<lang name="lbl_autoAdjustText" value="自动调整文本" />
+	<lang name="lbl_pleaseSelectFileToImport" value="请选择要导入的文件" />
+	<lang name="lbl_projectImported" value="项目 %s 已输入"/>
+	<lang name="lbl_projectNotImported" value="无法输入项目 %s"/>
+
+	<lang name="lbl_fileInformation" value="文件信息"/>
+
+	<lang name="lbl_withoutScaling" value="关闭平衡"/>
+	<lang name="lbl_fitFrameToContent" value="边框适配内容"/>
+	<lang name="lbl_fitContentToFrame" value="内容适配边框"/>
+	<lang name="lbl_rowMultiply" value="Row multiply"/>
+
+	<lang name="lbl_EBSInternalFonts" value="EBS 内部字体"/>
+	<lang name="lbl_TTFDefaultFonts" value="系统默认字体"/>
+	<lang name="lbl_TTFUserFonts" value="用户选择字体"/>
+
+	<lang name="lbl_import_ebseditorimport" value="导入EBS WWW 编辑项目"/>
+	<lang name="lbl_import_ebs250import" value="导入 EBS250项目文件"/>
+	<lang name="lbl_import_conversionFromEBS250" value="EBS 250项目文件转换至网页编辑项目文件..."/>
+	<lang name="lbl_selectOptionPackageFile" value="选择所要安装的文件" />	
+	<lang name="lbl_resetCounterVF" value="警告: 一些计数器将被重置为系统默认的最大值或者最小值. 无法恢复至当前状态. 文件将显示为灰色" />
+	<lang name="lbl_pleaseWait" value="请稍等..."/>
+	<lang name="lbl_lineType" value="线条" />
+	<lang name="lbl_lineSolid" value="实线" />
+	<lang name="lbl_lineDashed" value="虚线" />
+	<lang name="lbl_lineDotted" value="点线" />
+	<lang name="lbl_discharging" value="放电"/>
+	<lang name="lbl_charging" value="正在充电"/>
+	<lang name="lbl_charged" value="充电完成"/>
+	<lang name="lbl_charged_connected" value="充电已连接"/>
+	<lang name="lbl_discharged" value="电量不足"/>
+	<lang name="lbl_discharged_connected" value="电量不足已连接"/>
+	<lang name="lbl_inkstatus" value="墨盒状态:"/>
+	<lang name="lbl_inklevel" value="墨液液位"/>
+	<lang name="lbl_inkcolour" value="墨液颜色:"/>
+	<lang name="lbl_batteryStatus" value="电池状态:"/>
+	<lang name="lbl_letterSpacing" value="文字间距:"/>
+	<lang name="lbl_maxRepeatCount" value="最大重复次数:"/>
+	<lang name="lbl_scriptName" value="脚本名称:"/>
+	<lang name="lbl_noScript" value="无脚本"/>
+	<lang name="lbl_action" value="操作" />
+	<lang name="lbl_saveToDisk" value="存储到磁盘" />
+	<lang name="lbl_sendToPrinter" value="发送到喷码机" />
+
+	<lang name="lbl_printableObject" value="对象可喷印" />
+	<lang name="lbl_linkedToObjects" value="子项目链接" />
+	<lang name="lbl_contentFormat" value="内容格式" />
+
+	<lang name="lbl_currentPoint" value="当前点:" />
+	<lang name="lbl_changePoint" value="改变点" />
+	<lang name="lbl_horizontalDistance" value="水平距离:" />
+	<lang name="lbl_verticalDistance" value="垂直距离:" />
+
+	<lang name="lbl_printerNetwork_search" value="搜索喷码机... 请稍等..." />
+	<lang name="lbl_printerNetwork_select" value="你想将已选择的喷码机加入到喷码机网络" />
+	<lang name="lbl_selectAll" value="全部选定" />
+	<lang name="lbl_deselectAll" value="取消全部选定" />
+	<lang name="lbl_printerNetwork_addPrinter" value="添加喷码机" />
+	<lang name="lbl_printerNetwork_noPrinters" value="没有发现喷码机!" />
+	<lang name="lbl_selectedFileIsUnsuporrted" value="不支持选中的文件." />
+	<lang name="lbl_confirmMessage" value="确认信息" />
+
+	<lang name="lbl_autoRefresh" value="自动刷新" />
+	<lang name="lbl_after" value="后" />
+	<lang name="lbl_seconds" value="秒" />
+	<lang name="lbl_timeToRefresh" value="刷新时间:" />
+	<lang name="lbl_availablePrinters" value="找到的喷码机:" />
+	<lang name="lbl_export" value="导出" />
+	<lang name="lbl_editorLog" value="编辑记录" />
+	<lang name="lbl_printerLog" value="喷码机记录" />
+	<lang name="lbl_externalParamsFileNotFound" value="外部喷印参数文件 %s 未发现" />
+	<lang name="lbl_pleaseSelectPrintingParams" value="请为这个项目选择喷印参数." />
+	<lang name="lbl_defaultPrintHeadParams" value="默认喷头参数" />
+	<lang name="lbl_projectLocalParams" value="项目当前参数" />
+	<lang name="lbl_msgAll" value="全部" />
+	<lang name="lbl_msgInformations" value="信息" />
+	<lang name="lbl_msgWarnings" value="警告" />
+	<lang name="lbl_msgErrors" value="错误" />
+	<lang name="lbl_msgDeleteAll" value="删除所有通知" />
+	<lang name="lbl_msgDeleteInformations" value="删除全部信息" />
+	<lang name="lbl_msgDeleteWarnings" value="删除全部警告信息" />
+	<lang name="lbl_msgDeleteErrors" value="删除全部报错信息" />
+	<lang name="lbl_searchResults" value="搜索结果" />
+	<lang name="lbl_clipboard" value="剪切板" />
+	<lang name="lbl_trash" value="垃圾箱" />
+	<lang name="lbl_printersNetwork" value="喷码机网络" />
+	<lang name="lbl_selectObject" value="选择对象" />
+	<lang name="lbl_objectsList" value="子项目列表" />
+	<lang name="lbl_or" value="或" />
+	<lang name="lbl_scaling" value="平衡比例" />
+	<lang name="lbl_format" value="格式" />
+	<lang name="lbl_rectangle" value="矩形" />
+	<lang name="lbl_square" value="方形" />
+	<lang name="lbl_auto" value="自动" />
+	<lang name="lbl_deleteRecoveryFile" value="删除恢复文件" />
+</Labels>
+<Tooltips>
+	<lang name="tooltip_createNewDirectory" value="创建新目录"/>
+	<lang name="tooltip_removeDirectory" value="删除所选文件或目录"/>
+	<lang name="tooltip_rename" value="重新命名"/>
+	<lang name="tooltip_cut" value="剪切"/>
+	<lang name="tooltip_copy" value="复制"/>
+	<lang name="tooltip_paste" value="粘贴"/>
+	
+	<lang name="tooltip_printParameters" value="显示喷印参数窗口"/>
+	<lang name="tooltip_normalCursor" value="正常的光标"/>
+	<lang name="tooltip_createTextObject" value="创建文本对象"/>
+	<lang name="tooltip_createImageObject" value="创建图形对象"/>
+	<lang name="tooltip_createShapeObject" value="创建"/>
+	<lang name="tooltip_createBarcodeObject" value="创建条形码对象"/>
+	<lang name="tooltip_zoomInProject" value="放大"/>
+	<lang name="tooltip_zoomOutProject" value="缩小"/>
+	<lang name="tooltip_zoomNormalProject" value="实际尺寸"/>
+	<lang name="tooltip_cutObject" value="剪切对象"/>
+	<lang name="tooltip_copyObject" value="复制对象"/>
+	<lang name="tooltip_showHideClipboard" value="显示/隐藏  剪切板"/>
+	<lang name="tooltip_showHideTrash" value="显示/隐藏 回收站"/>
+	<lang name="tooltip_projectPreview" value="喷印预览"/>
+	<lang name="tooltip_reloadProjectWorkspace" value="重新加载项目空间"/>
+	<lang name="tooltip_printerNetwork" value="喷码机网络"/>
+	<lang name="tooltip_moveObjectUpDown" value="将对象上调/下调"/>
+	<lang name="tooltip_turnOffPrinter" value="关闭/重启/退出"/>
+	<lang name="tooltip_moveObjectLeft" value="将对象左调一个像素"/>
+	<lang name="tooltip_moveObjectRight" value="将对象右调一个像素"/>
+	<lang name="tooltip_moveObjectUp" value="将对象上调一个像素"/>
+	<lang name="tooltip_moveObjectDown" value="将对象下调一个像素"/>
+	<lang name="tooltip_hideWindow" value="隐藏窗口"/>
+	<lang name="tooltip_showWindow" value="显示窗口"/>
+	<lang name="tooltip_showHelp" value="显示帮助"/>
+	<lang name="tooltip_showBackground" value="单击查看隐藏界面"/>
+	<lang name="tooltip_closeWindow" value="关闭窗口"/>
+	<lang name="tooltip_showFontWindow" value="显示字体管理器窗口"/>
+	<lang name="tooltip_toogleDate" value="切换日期"/>
+	<lang name="tooltip_toogleTime" value="切换时间"/>
+	<lang name="tooltip_changeDateTimeOrder" value="改变日期/时间指令"/>
+	<lang name="tooltip_alignLeft" value="左对齐"/>
+	<lang name="tooltip_alignCenter" value="居中"/>
+	<lang name="tooltip_alignRight" value="右对齐"/>
+	<lang name="tooltip_createSpecialObject" value="创建特殊对象"/>
+	
+	<lang name="tooltip_saveProject" value="保存项目"/>
+	<lang name="tooltip_openProject" value="打开项目"/>
+	<lang name="tooltip_workspaceWidth" value="改变工作区宽度"/>
+	<lang name="tooltip_showObjectParameters" value="显示对象参数窗口"/>
+	<lang name="tooltip_deleteObject" value="删除子项目"/>
+	<lang name="tooltip_showObjectsList" value="显示／隐藏对象列表"/>
+</Tooltips>
+<WTitles>
+	<lang name="wtitle_projectNew" value="新项目"/>
+	<lang name="wtitle_projectOpen" value="打开项目进行编辑"/>
+	<lang name="wtitle_projectOpenForPrinter" value="打开项目喷印"/>
+	<lang name="wtitle_projectSaveAs" value="另存为..."/>
+	<lang name="wtitle_projectParams" value="喷印参数"/>
+	<lang name="wtitle_editor_settings" value="通用设置"/>
+	<lang name="wtitle_encoderConstantSettings" value="传送装置参数"/>
+	<lang name="wtitle_printer_control" value="喷码机控制"/>
+	<lang name="wtitle_installImage" value="安装新图像"/>
+	<lang name="wtitle_workspaceWidth" value="工作空间宽度"/>
+	<lang name="wtitle_purge" value="清除"/>
+	<lang name="wtitle_log" value="日志"/>
+
+	<lang name="wtitle_addUser" value="添加用户"/>
+	<lang name="wtitle_editUser" value="编辑用户"/>
+	<lang name="wtitle_deleteUser" value="删除用户"/>
+	<lang name="wtitle_addGroup" value="添加用户群"/>
+	<lang name="wtitle_editGroup" value="编辑用户群"/>
+	<lang name="wtitle_deleteGroup" value="删除用户群"/>
+	<lang name="wtitle_installFont" value="安装新字体"/>
+	<lang name="wtitle_installTxtFile" value="安装新文件"/>
+	<lang name="wtitle_message" value="信息"/>
+	<lang name="wtitle_messages" value="多件信息"/>
+	<lang name="wtitle_objectParams" value="子项目参数"/>
+	<lang name="wtitle_filename" value="文件名"/>	
+	<lang name="wtitle_folderName" value="文件夹名"/>	
+	<lang name="wtitle_rename" value="重新命名"/>	
+	<lang name="wtitle_fontsManager" value="字体管理器"/>	
+	<lang name="wtitle_textsFilesManager" value="文本文件管理器"/>	
+	<lang name="wtitle_uninstallFont" value="卸载字体"/>	
+	<lang name="wtitle_fontSize" value="字体尺寸"/>
+	<lang name="wtitle_imagesManager" value="图像管理器"/> 
+	<lang name="wtitle_uninstallImage" value="卸载图像"/> 
+	<lang name="wtitle_reportProblem" value="准备问题报告"/> 
+	<lang name="wtitle_projectPreview" value="项目预览"/> 
+	<lang name="wtitle_usersManager" value="用户管理器"/> 
+	<lang name="wtitle_printersNetworkManager" value="喷码机网络管理器"/>
+	<lang name="wtitle_objectPreview" value="对象预览"/>
+	<lang name="wtitle_moduleInfo" value="模块信息"/>
+	<lang name="wtitle_accountManagement" value="帐户管理"/>
+	<lang name="wtitle_variableFields" value="变量域"/>
+	<lang name="wtitle_resetVariableField" value="重置变量域"/>
+	<lang name="wtitle_browseParamsFiles" value="浏览参数文件"/>
+	<lang name="wtitle_printoutCost" value="可印喷印图样数量"/>
+	<lang name="wtitle_serviceReport" value="报告"/>
+	<lang name="wtitle_mustEdit" value="编辑对象"/>
+	<lang name="wtitle_installOption" value="安装选项"/>
+	<lang name="wtitle_size" value="尺寸"/>
+	<lang name="wtitle_position" value="位置"/>
+	<lang name="wtitle_printerNetwork" value="喷码机网络"/>
+	<lang name="wtitle_addPrinter" value="添加喷码机"/>
+	<lang name="wtitle_editPrinter" value="编辑喷码机"/>
+	<lang name="wtitle_deletePrinter" value="删除喷码机"/>
+	<lang name="wtitle_softwareUpgrade" value="软件升级"/>
+	<lang name="wtitle_printoutPreview" value="喷印预览"/>
+	<lang name="wtitle_enterPassword" value="输入密码"/>
+	<lang name="wtitle_statistics" value="数据记录"/>
+	<lang name="wtitle_clearStatistics" value="清空数据记录"/>
+	<lang name="wtitle_projectImport" value="导入项目"/>
+	<lang name="wtitle_projectExport" value="导出项目"/>
+	<lang name="wtitle_puiPreview" value="液晶屏幕预览"/>
+	<lang name="wtitle_simulatePrintout" value="模拟喷印" />
+	<lang name="wtitle_firmware_ugprade_info" value="软件更新信息"/>
+	<lang name="wtitle_printerUpdate" value="更新" />
+	<lang name="wtitle_scanPrintersNetwork" value="浏览喷码机网络" />
+	<lang name="wtitle_selectPrintingParams" value="选择喷印参数" />
+</WTitles>
+<Buttons>
+	<lang name="btn_saveChanges" value="保存修改"/>
+	<lang name="btn_yes" value="是"/>
+	<lang name="btn_no" value="否"/>
+	<lang name="btn_ok" value="确定"/>
+	<lang name="btn_reload" value="重载编辑器"/>
+	<lang name="btn_apply" value="应用"/>
+	<lang name="btn_confirm" value="确认"/>
+	<lang name="btn_cancel" value="取消"/>
+	<lang name="btn_rename" value="重新命名"/>
+	<lang name="btn_shutdown" value="关闭"/>
+	<lang name="btn_restart" value="重新开始"/>
+	<lang name="btn_logout" value="退出系统"/>
+	<lang name="btn_createFolder" value="创建文件夹"/>
+	<lang name="btn_createProject" value="创建项目"/>
+	<lang name="btn_openProject" value="打开项目"/>
+	<lang name="btn_openProjectForPrinting" value="打开项目喷印"/> 
+	<lang name="btn_deleteSelectedImage" value="删除所选图像"/>
+	<lang name="btn_installNewImage" value="安装新图像"/>
+	<lang name="btn_selectImage" value="选择图像"/>
+	<lang name="btn_closeWindow" value="关闭窗口"/>
+	<lang name="btn_installSelectedImage" value="安装所选图像"/>
+	<lang name="btn_selectFont" value="选择字体"/>
+	<lang name="btn_installNewFont" value="安装新字体"/>
+	<lang name="btn_deleteSelectedFont" value="删除所选字体"/>
+	<lang name="btn_installSelectedFont" value="安装所选字体"/>
+	<lang name="btn_deleteSelectedTxtFile" value="删除所选文本文件"/>
+	<lang name="btn_installNewTxtFile" value="安装新文本文件"/>
+	<lang name="btn_installSelectedTxtFile" value="安装选中的文本文件"/>
+	<lang name="btn_addUser" value="添加用户"/>
+	<lang name="btn_editUser" value="编辑用户"/>
+	<lang name="btn_deleteUser" value="删除用户"/>
+	<lang name="btn_addGroup" value="添加用户群"/>
+	<lang name="btn_editGroup" value="编辑用户群"/>
+	<lang name="btn_deleteGroup" value="删除用户群"/>
+	<lang name="btn_add" value="添加"/>
+	<lang name="btn_save" value="保存"/>
+
+	<lang name="btn_browse" value="浏览"/>
+	<lang name="btn_saveProject" value="保存项目"/>
+	<lang name="btn_setPrintHeadDefault" value="设置喷头默认参数"/> 
+	<lang name="btn_reloadLogFile" value="重载日志文件"/> 
+	<lang name="btn_clearLogFile" value="清除日志文件"/> 
+	<lang name="btn_next" value="下一步"/> 
+	<lang name="btn_groupPriorityUp" value="上移"/> 
+	<lang name="btn_groupPriorityDown" value="下移"/> 
+	<lang name="btn_variableFields" value="变量域"/> 
+	<lang name="btn_startPrint" value="开始喷印"/> 
+	<lang name="btn_stopPrint" value="停止喷印"/> 
+	<lang name="btn_printingParams" value="喷印参数"/> 
+	<lang name="btn_purgeOn" value="开启清洗"/> 
+	<lang name="btn_purgeOff" value="关闭清洗"/> 
+	<lang name="btn_currentPrinterDateTime" value="使用喷码机上的日期/时间"/> 
+	<lang name="btn_currentComputerDateTime" value="使用计算机上 的日期/时间"/> 
+	<lang name="btn_setPrinterDateTime" value="设置喷码机日期/时间"/> 
+	<lang name="btn_selectFile" value="选择文件"/> 
+	<lang name="btn_createNewFile" value="选择文件"/> 
+	<lang name="btn_detectEncoderConst" value="探测 编码器常数"/>
+	<lang name="btn_detectConveyorSpeed" value="探测 传送装置速度"/> 
+	<lang name="btn_detectEncoderConstStop" value="停止探测 编码器常数"/>
+	<lang name="btn_detectConveyorSpeedStop" value="停止探测 传送装置速度"/>
+	<lang name="btn_useCurrent" value="使用当前 设置"/>
+	<lang name="btn_resetVF" value="重设 变量域"/>
+	<lang name="btn_setSize" value="设置大小"/>
+	<lang name="btn_reportWait" value="生成报告... 请等候..."/>
+	<lang name="btn_reportComplete" value="点击下载服务报告。"/>
+	<lang name="btn_reportError" value="出现错误! 点击 查看."/>
+	<lang name="btn_installPackageWait" value="安装选项... 请等候..."/>
+	<lang name="btn_installPackageComplete" value="选项安装完毕。点击关闭."/>
+	<lang name="btn_installPackageError" value="出现错误! 未安装选项."/>
+	<lang name="btn_nextObject" value="下一个 项目"/>
+	<lang name="btn_addPrinter" value="添加喷码机"/> 
+	<lang name="btn_editPrinter" value="编辑喷码机"/> 
+	<lang name="btn_deletePrinter" value="删除喷码机"/> 
+	<lang name="btn_searchPrinters" value="查找喷码机"/> 
+	<lang name="btn_clearStatistics" value="清除统计表"/>
+	<lang name="btn_exportImages" value="全部图像"/>
+	<lang name="btn_exportAllProjects" value="全部项目"/>
+	<lang name="btn_exportSelectedProject" value="选择项目"/>
+	<lang name="btn_importFile" value="导入项目"/>
+	<lang name="btn_generate" value="生成" />
+	<lang name="btn_uploadFile" value="选择更新文件" />
+	<lang name="btn_restartContinue" value="重启喷码机继续升级" />
+	<lang name="btn_addToList" value="增加到列表" />
+	<lang name="btn_shutdownAllPrinters" value="关闭全部喷码机" />
+	<lang name="btn_installPackage" value="安装包" />
+	<lang name="btn_installingPackage" value="正在安装选项... 请稍等..." />
+	<lang name="btn_login" value="登录" />
+	<lang name="btn_selectParamsFile" value="选择参数文件" />
+	<lang name="btn_selectLoginImage" value="选择登录图像" />
+	<lang name="btn_usePrintHeadDefault" value="使用默认喷头" />
+	<lang name="btn_userProjectLocalParams" value="使用当前项目参数" />
+	<lang name="btn_addSelectedPrinters" value="选择增加喷码机" />
+	<lang name="btn_invertSelection" value="反向选择" />
+	<lang name="btn_restoreObject" value="恢复子项目" />
+	<lang name="btn_pasteObject" value="粘贴子项目" />	
+</Buttons>
+<Messages>
+	<lang name="msg_startPrintOperation" value="您想开始喷印吗?"/>
+	<lang name="msg_deleteImage" value="删除该图像吗?"/>
+	<lang name="msg_deleteFont" value="删除该字体吗?"/>
+	<lang name="msg_deleteTxtFile" value="删除该文本文件吗?"/>
+	<lang name="msg_deleteObject" value="删除该目标吗?"/>
+	<lang name="msg_deleteUser" value="删除用户 [b]%s[/b]吗?"/>
+	<lang name="msg_deletePrinter" value="删除喷码机 [b]%s[/b]吗?"/>
+	<lang name="msg_deleteGroup" value="删除用户组 [b]%s[/b]吗?"/>
+	<lang name="msg_projectNotSaved" value="项目未保存，现在保存吗?"/>
+	<lang name="msg_fileExistsReplace" value="文件已存在. 您 想替换吗?"/>
+	<lang name="msg_fileExists" value="文件已存在."/>
+	<lang name="msg_deleteProject" value="删除该项目吗?"/>
+	<lang name="msg_deleteFolder" value="删除该文件夹和其全部数据吗?"/>
+	<lang name="msg_whatWouldYouLikeToDo" value="您想进行什么操作?"/>
+	<lang name="msg_settingsSavedSuccessfully" value="设置已成功保存. 此时应重新加 载. 重新加载吗?"/>
+	<lang name="msg_projectForDifferentPrintHead" value="该 项目不是为当前喷头型号设计的，还要打开该项目吗?"/>
+	<lang name="msg_someoneLoggedIn" value="用户%s目前正在通过IP地址注册。%s您想强制注册吗 ?"/>
+	<lang name="msg_projectSaved" value="项目已保存."/>
+
+	<lang name="msg_projectCreated" value="项目已成功创建."/> 
+	<lang name="msg_projectDeleted" value="所选项目已成功删除."/> 
+	<lang name="msg_cantDeleteDefaultFont" value="不能删除喷码机默认字符."/> 
+	<lang name="msg_cantDeleteAdministrator" value="不能删除 [b]管理员[/b]."/> 
+	<lang name="msg_cantRenameBecauseFileExists" value="目标文件/目录已存在."/> 
+	<lang name="msg_fontDeleted" value="所选字符已成功删除."/> 
+	<lang name="msg_txtFileDeleted" value="成功删除已选择的文本."/>
+	<lang name="msg_imageDeleted" value="所选图像已成功删除."/> 
+	<lang name="msg_noFileSelected" value="未选择文件。请选择文件后再试."/> 
+	<lang name="msg_noUserSelected" value="未选择用户。请选择用户后再试."/> 
+	<lang name="msg_noPrinterSelected" value="未选择喷码机.。请选择喷码机后再试."/> 
+	<lang name="msg_selectProjectFileFirst" value="请先选择项目文件。"/> 
+	<lang name="msg_objectNotSelected" value="未选择目标。"/> 
+	<lang name="msg_ExternParamsFileNotSelected" value="未选择文件。请选择外部参数文件或切换至本地参数。"/> 
+	<lang name="msg_printParamsSet" value="喷码机项目参数设置成功。"/> 
+	<lang name="msg_paramsOutOfRange" value="部分参数超出区域。"/> 
+	<lang name="msg_noPrintHeadDefinedInProject" value="喷头不适合该目标。一些参数不能确定，如喷头高度,分辨率 ..."/> 
+	<lang name="msg_incorrectPassword" value="密码错误"/> 
+	<lang name="msg_cantLoginBecauseToLowPriority" value="用户 %s 正在进入系统。您的使用授权较低，目前无法使用编辑器。"/> 。 
+	<lang name="msg_enterLoginFirst" value="请先输入用户注册。"/>
+	<lang name="msg_enterPassFirst" value="请先输入用户密码."/>	 
+	<lang name="msg_enterGroupNameFirst" value="请先输入用户群名称。."/> 
+	<lang name="msg_selectAtLeastOneGroup" value="请至少选择一个用户群。"/> 
+	<lang name="msg_loginInUse" value="选择的注册已被使用。请另选后再试。"/> 
+	<lang name="msg_groupInUse" value="该用户群已经存在。请输入其他名称后再试。"/> 
+	<lang name="msg_passwordsNotEqual" value="密码不正确。"/> 
+
+	<lang name="msg_oldPasswordIsEmpty" value="输入旧密码"/>
+	<lang name="msg_oldPasswordIsBad" value="旧密码输入错误"/>	
+	<lang name="msg_allDataInObjectWillBeLost" value="项目所有数据将丢失，还继续吗?"/> 
+	<lang name="msg_wrongParams" value="计数器参数有错误 （最小值 &gt;最大值）。 您要颠倒记算顺序吗?"/>
+	<lang name="msg_updateExternFileParams" value="改动将影响外部所有参数文件项目的使用。 还继续吗 ?"/> 
+	<lang name="msg_clearCacheReminder" value="发现不同版本。建议清空浏览器Cache(高速缓冲存储)。"/> 
+	<lang name="msg_aboutWindow" value="EBS 网页用户界面 %s\n喷码机版本: %s\n系统版本: %s\n界面版本: %s\n管理员: %s\n\n[b]EBS Ink-Jet Systeme GmbH[/b] Alte Ziegelei 19-25 D-51588 Nümbrecht-Elsenroth DEUTSCHLAND +49 (0)2293/939-0 Fax +49 (0)2293/939-3 E-Mail: mail@ebs-inkjet.de WWW: http://www.ebs-inkjet.de"/>执行此操作时请确定当前项目不在喷印中。该操作影响当前每个记数器部分的存储值和“起始值”区。" /&gt; 
+	<lang name="msg_resetCounterVF" value="注意： 进行这项操作时，请确认当前项目未在喷印状态。\n该操作影响当前每个计数器部份的当前存储值和“初始值”区域。"/>
+	<lang name="msg_resetTxtFileVF" value="注意: 执行此操作,请确保当前项目未在喷印状态.\n该操作影响当前每个计数器部份的当前存储值和“初始值”区域."/>
+	<lang name="msg_wrongProjectFilename" value="项目文件名不能包含 '.' 字符。"/> 
+	<lang name="msg_communicationError" value="通讯错误\n喷码机没有反应。请检测系统\n后再 试。 如果喷码机在\n快速喷印中， 请停止喷印，然后再试。"/> 
+	<lang name="msg_errorJavaScript" value="严重错误 !\nJava语言失效。\n请开 机,然后再。 "/> 
+	<lang name="msg_errorPendrive" value="严重错误 !\nU盘数据丢失或无效。\n请检查U盘后再试。"/> 
+	<lang name="msg_errorBrowserNotSupported" value="警告!\n不支持该浏览器。\n请改用 火狐浏览器。"/> 
+	<lang name="msg_projectPriorityTooLow" value="某些项目在喷码机液晶屏上已经打开进行编辑。\n您的使用授权较低，现在无法打开项目。"/> 
+	<lang name="msg_projectOpenedFromLCDWnd" value="某些项目在喷码机液晶屏上已经打开进行编辑。\n您要强制打开吗 ?"/> 
+	<lang name="msg_projectClosed" value="有人已在液晶屏上编辑，文件关闭。"/>
+	<lang name="msg_printerDateTimeSetSuccessfull" value="喷码机日期/时间保存成功。"/> 
+	<lang name="msg_clipboardEmpty" value="剪贴板为空"/>
+
+	<lang name="msg_improper_poweroff" value="警告! 发现非常规关机，这会导致数据损坏和机器障碍。请按照关机程序操作。"/>
+	<lang name="msg_printerNetworkEmptyFields" value="你必须输入喷码机名称和IP地址"/>
+	<lang name="msg_printerNetworkIPExists" value="喷码机IP地址已存在."/>
+	<lang name="msg_printerNetworkBadIP" value="IP地址无效."/>
+	<lang name="msg_cantDeleteCurrentUser" value="无法删除当前登录信息."/>
+	<lang name="msg_clearStatistics" value="是否删除统计数据 ?"/>
+	<lang name="msg_printerNetworkProjectExported" value="导出项目成功."/>
+	<lang name="msg_lineDividersMaxReached" value="行分隔符数已达最大." />
+	<lang name="msg_simulationPrintoutTooBig" value="喷印太大。\n\n当前喷印文本包括：%s 点\n最大喷印文本可以包含： %s 点\n\n请修改最少下列参数之一并重试。\n\n水平距离：%s 点\n垂直距离：%s 点\n墨点大小：%s 点\n工作区宽度：%s 点\n" />
+</Messages>
+<StatusMessages>
+	<lang name="msg_E01000" value="(E01000) 错误: 内存分配错误. 喷码机无法正确运行. 请重新打开项目, 如果任然提示此错误, 请重启喷码机或者重新编辑此项目." />
+	<lang name="msg_E01010" value="(E01010) 错误: 项目宽度太小. 项目宽度自动纠正为系统设定最小值." />
+	<lang name="msg_E01011" value="(E01011) 错误: 项目高度太小. 项目高度自动纠正为系统设定最小值." />
+	<lang name="msg_E01015" value="(E01015) 错误: 项目尺寸太大. 项目宽度自动纠正为系统设定最大值." />
+
+	<lang name="msg_E1000" value="(E1000) 错误: 无法设置用户root许可来停止系统。"/> 
+	<lang name="msg_E1001" value="(E1001) 错 误: 项目模板不存在 !"/> 
+	<lang name="msg_E1002" value="(E1002) 错 误: 项目加载失败 !"/> 
+	<lang name="msg_E1003" value="(E1003) 错 误: 项目加载失败 - 项目文件不存在。"/> 
+	<lang name="msg_E1004" value="(E1004) 错误: 无法设置用户root许可来重启系统!"/>
+	<lang name="msg_E1100" value="(E1100) 错 误: 没有打开的项目,无法执行该项操作!"/> 
+	<lang name="msg_E10100" value="(E10100) 错 误: 无法从所选文件加载项目 !文件不带项目信息或已被破坏。操作终止!"/> 
+	<lang name="msg_E10101" value="(E10101) 错 误: 无法加载项目设置!使用默认设置... 需要用户干预进行适当设置。"/> 
+	<lang name="msg_E10102" value="(E10102) 错 误: 无法给该项目加载喷印参数!使用默认参数... 需要用户干预进行适当设置 (默认参数可能不适合当前的喷头)."/> 
+	<lang name="msg_E11010" value="(E11010) 错 误: 变量域 \'文本文件\': 无法打开文件!"/> 
+	<lang name="msg_E11011" value="(E11011) 错 误: 变量域 \'文本文件\': 无法打开或进入某行文 件 !"/> 
+	<lang name="msg_E11020" value="(E11020) 错 误: 变量域 \'COM PORT\': 无法打开端口 !"/> 
+	<lang name="msg_E11021" value="(E11021) 错 误: 变量域 \'COM PORT\': 通讯 端口没有打开!通讯中断!"/> 
+	<lang name="msg_E11022" value="(E11022) 错 误: 变量域 \'COM PORT\': 读/写操作失败!"/> 
+	<lang name="msg_E11036" value="(E11036) 错 误: 运行条型码引擎错误!请检查条码数据/设置，必要时进行修改。"/>
+	<lang name="msg_D0100" value="关闭喷印 (备机状态)"/> 
+	<lang name="msg_D0101" value="开启喷印(待机状态)"/> 
+	<lang name="msg_D0102" value="开启喷印 (喷印状态)"/> 
+	<lang name="msg_D0000" value="无驱动程序"/> 
+	<lang name="msg_D0001" value="向喷码机驱动程序发送指令错误"/> 
+	<lang name="msg_D0002" value="喷码机状态不详"/> 
+	<lang name="msg_D0003" value="未选择项目"/>
+	<lang name="msg_D0110" value="通过点：1 - 2 - 3进行距离测量"/>
+	<lang name="msg_W1111" value="(W1111) 警告: 跳过喷印! 喷印结果可能不正确. 项目喷印速度过快."/>
+	<lang name="msg_W1112" value="(W1112) 警告: 项目无法喷印 - 喷印数据未准备好. 跳过喷印:"/>
+	<lang name="msg_W2000" value="(W2000) 警告: 喷印数据队列溢出, 无法收集下一条数据. 开启喷印用以释放喷印数据队列"/>
+	<lang name="msg_W2001" value="(W2001) 警告: 打印机已收到过多的数据,未收到结束字符!冗余数据将进入下一个项目的队列"/>
+	<lang name="msg_W3000" value="(W3000) 警告:废墨仓溢出! 请清空废墨仓. 否则将损坏气泵. 清空废墨仓后请按确定键." />
+
+	<lang name="msg_E10000" value="(E10000) 错误: 无法从项目文件加载需要的对象数据!" />
+	<lang name="msg_E10103" value="(E10103) 错误: 无法从外部文件加载喷印参数! 请使用本地参数!" />
+	<lang name="msg_E10104" value="(E10104) 错误: 无法保存项目 (无法创建项目目录)" />
+	<lang name="msg_E10105" value="(E10105) 错误: 无法保存项目 (无法保存在此位置)" />
+	<lang name="msg_E11023" value="(E11023) 错误: 变量域 'COM PORT': 接收数据失败!" />
+	<lang name="msg_E11024" value="(E11024) 错误: 变量域 'COM PORT': 该端口正在使用中 (i.e. 此端口不能在喷印状态下编辑项目. 继续编辑，这些变量将不可用.)" />
+	<lang name="msg_E11030" value="(E11030) 错误: 条形码数据错误 (当前的条形码类型含有非法字符)! 请修改数据." />
+	<lang name="msg_E11031" value="(E11031) 错误: 条码数据长度是不正确! 请修改数据." />
+	<lang name="msg_E11035" value="(E11035) 错误: 无法从数据库加载选择的条形码类型.  新的喷码机含有多种条形码类型，创建条形码项目时会出现该错误 (或者喷码机条形码数据库已损坏)." />
+
+	<lang name="msg_I99000" value="(I99000) 读取墨盒成功."/>
+	<lang name="msg_E99000" value="(E99000) 系统没有检测到墨盒."/>
+	<lang name="msg_E99001" value="(E99001) 墨盒过期. 墨盒已删除!"/>
+	<lang name="msg_E99002" value="(E99002) 墨盒参数错误. 墨盒已删除!"/>
+	<lang name="msg_E99003" value="(E99003) 墨盒过期 - 墨盒已删除!"/>
+	<lang name="msg_E99004" value="(E99004) 墨液颜色错误 - 墨盒已删除!"/>
+	<lang name="msg_W99005" value="(W99005) 当前墨液颜色与以前的不同 -请清洗喷码机"/>
+	<lang name="msg_E99005" value="(E99005) 当前墨液颜色与以前的不同 -墨盒已删除!"/>
+	<lang name="msg_E99006" value="(E99006) 当前墨液类型与以前的不同 - 墨盒已删除!"/>
+	<lang name="msg_E99007" value="(E99007) 当前溶剂类型与以前的不同 - 墨盒已删除!"/>
+	<lang name="msg_E99020" value="(E99020) 喷码机已使用该墨盒. 墨盒已删除!"/>
+	<lang name="msg_E99021" value="(E99021) 墨盒无效 (墨盒已被其他喷码机使用). 墨盒已删除!"/>
+	<lang name="msg_E99022" value="(E99022) 墨盒无效. 请更换新墨盒!"/>
+	<lang name="msg_E99023" value="(E99023) 墨盒无效 (墨液已用光). 墨盒已被删除!"/>
+	<lang name="msg_W99023" value="(W99023) 墨盒墨量低!"/>
+	<lang name="msg_E99024" value="(E99024) 墨盒识别失败或无墨盒!" />
+	<lang name="msg_I99024" value="(I99024) 墨盒已空 (无墨液)"/>
+	<lang name="msg_E99050" value="(E99050) 无喷码机 ID (请更新设备的ID的编程过程!)"/>
+	<lang name="msg_E99051" value="(E99051) 无喷码机 ID 或者错误的喷码机 ID. 喷码机无法使用! 请联系分销商."/>
+	<lang name="msg_I99070" value="(I99070) 墨盒已空"/>
+	<lang name="msg_I99100" value="(I99100) 系统未检测到墨盒.请重新安装墨盒并重启喷印."/>
+	<lang name="msg_E99100" value="(E99100) 系统未检测到墨盒.请重新安装墨盒并重启喷印."/>
+	<lang name="msg_I99110" value="(I99110) 喷码机已解锁，剩余可用时间: %s"/>
+	<lang name="msg_I99111" value="(I99111) 已接受一次性代码."/>
+	<lang name="msg_I99112" value="(I99112) 墨液类型已更改 －您可以接受／注册新墨液"/>
+	<lang name="msg_W99112" value="(W99112) 墨液类型未更改，请重试"/>
+	<lang name="msg_E99120" value="(E99120) 无法生成一次性密码。请重试"/>
+	<lang name="msg_E99121" value="(E99121) 一次性密码的无效代码"/>
+	<lang name="msg_E99122" value="(E99122) 密码输入超过限制次数，喷码机将会关机"/>
+	<lang name="msg_W99123" value="(W99123) 代码已接受。但选项不可用。" />
+	<lang name="msg_W99124" value="(W99124) 代码已接受。但选择错误选项！" />
+	<lang name="msg_E99130" value="(E99130) 内部电池已损坏。请更换然后重启喷码机！ 如果已更换电池，请重启喷码机。"/>
+	<lang name="msg_I99130" value="(I99130) 内部电池已损坏。请更换然后重启喷码机！ 如果已更换电池，请重启喷码机。"/>
+
+	<lang name="msg_E99140" value="(E99140) 新CPU板无法授权！" />
+	<lang name="msg_I99140" value="(I99140) 新CPU板成功授权！" />
+	<lang name="msg_E99141" value="(E99141) CPU板无法授权！请联系分销商！" />
+	<lang name="msg_E99142" value="(E99142) 授权错误： CPU板无法授权！ 与CPU板通讯错误。请联系分销商。" />
+
+
+	<lang name="msg_S90010" value="激活" />
+	<lang name="msg_S90020" value="停用" />
+	<lang name="msg_S90030" value="墨盒故障或无墨盒" />
+	<lang name="msg_S90040" value="无注册墨盒" />
+	<lang name="msg_S90050" value="喷码机已解锁" />
+
+</StatusMessages>
+<Barcodes>
+	<lang name="bar_Code_11" value="[b]字符设置:[/b] 数字0 -9和破折号\n[b]长度:[/b]说 明：[/b] 电讯行业使用。."/> 
+	<lang name="bar_Code_25_Industrial" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b] 变 量\n[b]说 明：[/b]也 称为2/5条形码和工业25条形码， 较旧的工业用码。."/> 
+	<lang name="bar_Code_25_Interleaved" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b]变 量\n[b]说 明：[/b]也称为交叉2/5条形码，工业用。."/> 
+	<lang name="bar_Code_25_IATA" value="[b]字符设置:[/b] 数字0-9\n[b]Length长 度:[/b]变 量\n[b]说 明：[/b]一种2/5条形码在航空工业的变 种。."/> 
+	<lang name="bar_Code_25_DataLogic" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b]变 量\n[b]说明：[/b]一种2/5条形码的 变种。."/> 
+	<lang name="bar_Code_39" value="[b]字符设置:[/b]A- Z，0-9，5个特殊字符\n[b]长 度:[/b]变量\n[b]说明：[/b]也称为 3/9条形码，通常使用的类型是自行检测。."/> 
+	<lang name="bar_Code_39_Extended" value="[b]字符设置:[/b]ASCII（127个字符）\n [b]长度:[/b]变量\n[b]说明：[/b]也称为扩展 的3/9条形码，3/9条形码的扩展。."/> 
+	<lang name="bar_EAN" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b]与所选的EAN条形码类型一致。\n[b]描述:[/b]EAN条形码主要 用于在超市的出货地点识别产品。它 包括对EAN-2和EAN-5补加码、编辑2、5、7和12位数字的EAN-8和EAN-13码的标准。 以下的例子是编码EAN-8标志和 EAN-5补加码：1224567+12345。"/> 
+	<lang name="bar_GS1_128" value="[b]字符设置:[/b] ASCII\n[b]长度:[/b] 变量\n[b]说明：[/b] EAN/UCC 128是128条形码的一个特殊形式。它用于工商行业的货物和托盘。通过使用应用识标符可以在一个条形码内编码不止一个的数据区。"/> 
+	<lang name="bar_Codabar" value="[b]字符设置:[/b] 0-9, 6个特别符号\n[b]长度:[/b]变量\n[b]说明：[/b]输血服务早 期使用的 标准。库德巴条形码可以编码以字母A至D开始和结尾的任何长度的字符串，在这些字母中包含0至9的数字、横线（-），美元符号（$）、冒号（：）、斜线（/）、句号 （.）或加号（+）。例如：A$12+$34C "/> 
+	<lang name="bar_Code_128" value="[b]字符设置:[/b]扩展的 ASCII\n[b]长度:[/b]变 量\n[b]说 明：[/b]一 种最常用的身份 辨别的条形码识读码制。现代型的条形码数据高度压缩。（如[1]2345：）"/> 
+	<lang name="bar_Leitcode" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b] 14\n[b]说明：[/b] Leitcode用于德国邮局/敦豪快递。末 尾的数字自动计算（控制值）- 只需指定13个字符。"/> 
+	<lang name="bar_Identcode" value="[b]字符设置:[/b] 数 字0-9\n[b]长度:[/b] 12\n[b]说明：[/b] Identcode 用于德国邮局/敦豪快递。末 尾的数字自动计算（控制值）- 只需指定11个字符。"/> 
+	<lang name="bar_Code_16k" value="[b]字符设置:[/b] ASCII\n[b]长度:[/b]变量\n[b]说明：[/b]在128条形码基础上的堆叠式符号系统。"/> 
+
+	<lang name="bar_Code_93" value="[b]字符设置:[/b]A- Z， 0-9，5个字符\n[b]长度:[/b]变量\n[b]说明：[/b]字符设置同39条形码相同，但是压缩的码更节省空间。"/> 
+	<lang name="bar_GS1_DataBar-14" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b] 14\n[b]说明：[/b] 新GTIN编码系统。最后一位数字自动计算（控制值）-（最多）只需指定13个字符。."/> 
+	<lang name="bar_GS1_DataBar_Limited" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b] 13\n[b]说明：[/b]新GTIN编码系统。"/> 
+	<lang name="bar_GS1_DataBar_Expanded" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b]变 量\n[b]说 明：[/b]一个GSI-128的代替版。 也称为RSS的扩展，它是一个长度可变的识读码制，能够把几个AI中的数据以一个单个符号进行编码。AI应该装入输入数据的[中括号]，如： [01]1236[3202]0125[15]9874。 "/> 
+	<lang name="bar_Telepen_Alpha" value="[b]字符设置:[/b] ASCII\n[b]长度:[/b]变量\n[b]说明：[/b]一般编码方 案。通常用于图书馆."/> 
+	<lang name="bar_UPC-A" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b] 12\n[b]说明：[/b] UPC-A条形码是UPC条形码的标准版本，有12个数字。它也被称为UPC 12，于EAN条形码非常类似。 最后的数字自动计算（控制值）-只需指定11个字符。"/> 
+	<lang name="bar_UPC-E" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b] 8\n[b]说明：[/b] 这是UPC-A的缩节版，用于极小的产品。最后的数字自动计算（控制值）-只需指定7个字符。"/> 
+	<lang name="bar_PostNet" value="[b]字符设置:[/b] numeric 0-9数字0-9\n[b]长度:[/b] 变量\n[b]说明：[/b]该条形码用于提高邮件的分发的速度。"/> 
+	<lang name="bar_MSI_Plessey" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b]变 量\n[b]说 明：[/b]一个曾在英国工业中普及的旧体系。."/> 
+	<lang name="bar_Pharmacode_One-Track" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b] -\n[b]说明：[/b] Pharmacode 码，也称为制药二进制条形码，是一个条形码标准，用于制药工业的包装控制系统。"/> 
+	<lang name="bar_Pharmacode_Two-Track" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b] -\n[b]说明：[/b] Pharmacode （一个双轨变种），也称为制药二进制条形码，是一个条形码标准，用于制药工业的包装控制系统。"/> 
+
+	<lang name="bar_PZN" value="[b]字符设置:[/b]数 字0-9\n[b]长度:[/b] 7\n[b]说明：[/b] 用于医药的医药中心号， 39条形码的特殊形式。"/> 
+	<lang name="bar_PDF417" value="[b]字符设置:[/b]ASCII扩 展\n[b]长度:[/b]变 量\n[b]说 明：[/b]二维条形码用于将大量文字或数据编码成一个码，特别适用快递行业。"/> 
+	<lang name="bar_PDF417_Truncated" value="[b]字符设置:[/b]ASCII扩 展\n[b]长度:[/b]变量\n[b]说明：[/b]二 维条形码用于将大量文字或数据编码成一个码，特别适用快递行业。"/> 
+	<lang name="bar_QR_Code" value="[b]字符设置:[/b]ASCII 扩展\n[b]长度:[/b]变 量\n[b]说 明：[/b] 高度压缩的条形码，相机电话的用户常用。"/> 
+	<lang name="bar_Australia_Post_4-State" value="[b]字符设置:[/b] A-Z, 0-9\n[b]长度:[/b]变量\n[b]说明：[/b]在澳大利亚 用于辨别邮件物品。"/> 
+	<lang name="bar_Royal_Mail_4-State" value="[b]字符设置:[/b] A-Z, 0-9\n[b]长度:[/b]变量\n[b]说明：[/b]RM4SCC 条形码是为自动化的邮件分拣处理而创建的。"/> 
+	<lang name="bar_DataMatrix" value="[b]字符设置:[/b] ASCII\n[b]长度:[/b]变量\n[b]说明：[/b] 二 维条形码用于将大量文字或数据编入一个码。"/> 
+	<lang name="bar_MicroPDF417" value="[b]字符设置:[/b]ASCII 扩展\n[b]长度:[/b]变 量\n[b]说 明：[/b]PDF417的缩空版"/> 
+	<lang name="bar_template" value="[b]字符设置:[/b] ASCII\n[b]长度:[/b] 变量\n[b]说明：[/b] 说明："/> 
+</Barcodes>
+</EBS_EditorLanguage>
+	
+<EBS_LCDGUI>
+<WTitles>
+	<lang name="wtitle_cControlScreen" value="喷码机状态"/>
+	<lang name="wtitle_cMainScreen" value="喷码机用户界面"/>
+	<lang name="wtitle_message" value="通知"/>
+	<lang name="wtitle_error" value="错误"/>
+	<lang name="wtitle_warning" value="警告"/>
+	<lang name="wtitle_cProjectPreview" value="项目预览"/>
+	<lang name="wtitle_cProjectSelector" value="选择项目"/>
+	<lang name="wtitle_cSetupScreen" value="安装"/>
+	<lang name="wtitle_cServiceScreen" value="服务"/>
+	<lang name="wtitle_password" value="请输入密码"/>
+
+	<lang name="wtitle_cNewObjectDialog" value="选择新子项目类型"/>
+	<lang name="wtitle_cFontSelector" value="字体选择"/>
+	<lang name="wtitle_cFileSelector" value="文件选择"/>
+
+	<lang name="window_title_wifi_status" value="无线网络状态"/>
+	<lang name="wtitle_cPrintingParamsScreen" value="喷印参数"/>
+	<lang name="w_title_edit_choice" value="您需要编辑的内容？"/>
+	<lang name="w_title_factory_tunig" value="工厂调整和服务"/>
+	<lang name="window_title_printer_status" value="喷码机状态"/>
+	<lang name="wtitle_Add_wifi_network" value="增加无线网络"/>
+	<lang name="wtitle_Edit_wifi_settings" value="编辑无线网络设置"/>
+
+	<lang name="window_title_alert" value="警报！"/>
+	<lang name="wtitle_cInfoScreen" value="产品信息"/>
+	<lang name="wtitle_cBatteryDialog" value="电池状态"/>
+	<lang name="wtitle_cBottleDialog" value="墨盒状态"/>
+	<lang name="wtitle_cPurgeScreen" value="清洗"/>
+	<lang name="window_title_turnoff" value="选项"/>
+
+
+	<lang name="window_title_file_presenter" value="文本文件内容"/>
+	<lang name="wtitle_cDataTimeDialog" value="请设置时间／日期"/>
+	<lang name="wtitle_cDataTimeDialogShort" value="请设置时间／日期"/>
+	<lang name="wtitle_cEditorScreen" value="编辑器"/>
+	<lang name="wtitle_cGeneralSetupDialog" value="通用设置"/>
+	<lang name="wtitle_cPendriveScreen" value="恢复屏幕"/>
+	<lang name="wtitle_cPowerManager" value="电源管理"/>
+	<lang name="wtitle_cSoundSetupDialog" value="声音设置"/>
+	<lang name="wtitle_cUnclockScreen" value="解锁屏幕"/>
+	<lang name="wtitle_cUserManager" value="用户管理"/>
+	<lang name="wtitle_cUserScr" value="用户管理"/>
+	<lang name="wtitle_firmware_update_detected" value="固件升级"/>
+	<lang name="wtitle_illegal_filename" value="非法的文件名"/>
+	<lang name="wtitle_image_selection" value="请选择图像"/>
+	<lang name="wtitle_LowBatteryAlert" value="警告！电池电量报警！"/>
+	<lang name="wtitle_PrintHeadMismatch" value="警告！项目和喷头不匹配"/>
+	<lang name="wtitle_select_project" value="请选择项目"/>
+	<lang name="wtitle_text_file_selection" value="请选择文本文件"/>
+	<lang name="wtitle_connection_error" value="连接错误！"/>
+	<lang name="wtitle_cTurnOffDealyScreen" value="关闭喷码机"/>
+
+	<lang name="wtitle_import_message" value="项目导入报告"/>
+	<lang name="wtitle_import_messageShort" value="项目导入报告"/>
+	<lang name="wtitle_export_message" value="项目导入报告"/>
+	<lang name="wtitle_export_messageShort" value="项目导入报告"/>
+	<lang name="wtitle_cExportSelectionDialog" value="请选择导入方法"/>
+	<lang name="wtitle_cExportSelectionDialogShort" value="请选择导入方法"/>
+
+	<lang name="wtitle_bt_devices_scan" value="搜寻蓝牙设备"/>
+
+	<lang name="wtitle_firmware_ugprade_info" value="固件升级信息"/>
+
+	<lang name="wtitle_cProjectPropertiesDialog" value="项目属性"/>
+
+	<lang name="wtitle_cBluetoothDialog" value="蓝牙状态"/>
+
+	<lang name="wtitle_pm_message" value="喷码机管理器信息"/>
+	
+	<lang name="wtitle_cMessagesDialog" value="通知"/>
+
+	<lang name="wtitle_wifi_list_dialog" value="搜寻wifi网络"/>
+
+	<lang name="wtitle_cPendriveDialog" value="大容量存储设备状态"/>
+	<lang name="wtitle_cPendriveDialogShort" value="大容量存储设备状态"/>
+	<lang name="wtitle_cUpgradeFirmwareDialog" value="升级喷码机固件"/>
+	<lang name="wtitle_cUpgradeFirmwareDialogShort" value="升级喷码机固件"/>
+
+	<lang name="wtitle_PleaseSelectFileForImport" value="选择导入项目"/>
+	<lang name="wtitle_cExportProjectSelector" value="选择导出项目"/>
+
+	<lang name="wtitle_cObjectListDialog" value="子项目／剪切板／垃圾箱"/>
+	<lang name="wtitle_ProjectNotFound" value="错误"/>
+	<lang name="wtitle_EditProjectName" value="输入项目名"/>
+	<lang name="wtitle_Confirmation" value="确认"/>
+	<lang name="window_kernel_missmatch" value="Internal software error"/>
+
+	<lang name="wtitle_cRestoreDialog" value="重置系统数据"/>
+	<lang name="wtitle_new_directory_name" value="请输入文件夹名…"/>
+	<lang name="wtitle_Select" value="选择"/>
+
+	<lang name="wtitle_firmware_ugprade_error"  value="固件升级错误。"/>
+
+</WTitles>
+<Labels>
+	<lang name="lbl_status" value="状态:"/>
+	<lang name="lbl_project" value="项目:"/>
+	<lang name="lbl_directories" value="目录:"/>
+	<lang name="lbl_projects" value="多个项目:"/>
+	<lang name="lbl_inklevel" value="墨液液位"/>
+	<lang name="lbl_ipmodeselect" value="喷码机互联网协议地址:"/>
+	<lang name="lbl_dhcp" value="自动(DHCP)"/>
+	<lang name="lbl_static" value="手动设置(不变动)"/>
+	<lang name="lbl_ip" value="IP互联网协议"/>
+	<lang name="lbl_netmask" value="子网掩码"/>
+	<lang name="lbl_gateway" value="网关"/>
+	<lang name="lbl_dns" value="域名服务器"/>
+	<lang name="lbl_messages" value="通知"/>
+	<lang name="lbl_autostart" value="自动启动当前项目"/>
+	<lang name="lbl_TxtRepetitions" value="重复喷印"/>
+	<lang name="lbl_internalGenerator" value="内部发生器"/>
+	<lang name="lbl_externalSource" value="外部来源"/>
+	<lang name="lbl_edge" value="边沿触发"/>
+	<lang name="lbl_level" value="电平触发"/>
+	<lang name="lbl_positiveEdge" value="上升沿"/>
+	<lang name="lbl_negativeEdge" value="下降沿"/>
+	<lang name="lbl_highLevel" value="高电平"/>
+	<lang name="lbl_lowLevel" value="低电平"/>
+	<lang name="lbl_normal" value="标准"/>
+	<lang name="lbl_hex" value="十六进制"/>
+	<lang name="lbl_flipped" value="上下反向"/>
+	<lang name="lbl_reversed" value="左右反向"/>
+	<lang name="lbl_internal" value="内部"/>
+	<lang name="lbl_external" value="外部"/>
+	<lang name="lbl_both" value="内外兼有"/>
+	<lang name="lbl_currentuser" value="当前用户:"/>
+	<lang name="lbl_editor" value="编辑器："/>
+	<lang name="lbl_printer" value="喷码机："/>
+	<lang name="lbl_items" value="项目"/>
+	<lang name="lbl_one_time_code" value="解锁码"/>
+	<lang name="lbl_unlock_code" value="激活码"/>
+
+	<lang name="lbl_new_object_selection" value="选择新子项目类型"/>
+	<lang name="lbl_text_object" value="普通文本"/>
+	<lang name="lbl_datetime_object" value="日期/时间"/>
+	<lang name="lbl_counter_object" value="记数器"/>
+	<lang name="lbl_comport_object" value="通讯端口"/>
+	<lang name="lbl_texfile_object" value="文本文件"/>
+	<lang name="lbl_line_divider" value="行分隔符"/>
+	<lang name="lbl_image_object" value="图像"/>
+	<lang name="lbl_barcode_object" value="条形码"/>
+	<lang name="lbl_quick_preview" value="快速预览"/> 
+	<lang name="lbl_image_path" value="图像路径"/>
+	<lang name="lbl_transform_mode" value="允许调整尺寸"/>
+	<lang name="lbl_text" value="文本"/>
+	<lang name="lbl_printer_time" value="喷码机时间"/>
+	<lang name="lbl_date_offset" value="日期推延"/>
+	<lang name="lbl_time_offset" value="时间推延"/>
+	<lang name="lbl_object_properties" value="对象属性"/>
+	<lang name="lbl_object_name" value="子项目名称"/> 
+	<lang name="lbl_position" value="位置"/> 
+	<lang name="lbl_size" value="尺寸"/> 
+	<lang name="lbl_autosize" value="自动尺寸"/> 
+	<lang name="lbl_transparent" value="透明"/> 
+	<lang name="lbl_object_rotation" value="旋转子项目"/> 
+	<lang name="lbl_text_properties" value="文本属性"/>
+	<lang name="lbl_fontname" value="字体名称"/> 
+	<lang name="lbl_fontsize" value="字体尺寸"/> 
+	<lang name="lbl_font_constrain_proportions" value="保持字体比例"/> 
+	<lang name="lbl_line_spacing" value="行距"/> 
+	<lang name="lbl_must_edit" value="喷印启动前编辑文本"/>
+	<lang name="lbl_advance_properties" value="高级属性"/>
+	<lang name="lbl_date_separator" value="日期分隔符:"/>
+	<lang name="lbl_date_format" value="日期格式"/>
+	<lang name="lbl_time_separator" value="时间分隔符"/>
+	<lang name="lbl_time_format" value="时间格式"/>
+	<lang name="lbl_formatting_string_edition" value="允许格式化字符串编辑"/>
+	<lang name="lbl_formatting_string" value="格式化字符串"/>
+	<lang name="lbl_barcode_properties" value="条码属性"/>
+	<lang name="lbl_barcode_type" value="条形码类型:"/>
+	<lang name="lbl_border_type" value="边框类型"/>
+	<lang name="lbl_none" value="无框"/>
+	<lang name="lbl_bind" value="上下框"/>
+	<lang name="lbl_box" value="四周框"/>
+	<lang name="lbl_border_size" value="边框尺寸"/>
+	<lang name="lbl_barcode_desc" value="条形码简述:"/>
+	<lang name="lbl_counter_properties" value="计数器 %i 属性"/>
+	<lang name="lbl_visible" value="显示该计数器:"/>
+	<lang name="lbl_min" value="最小"/>
+	<lang name="lbl_max" value="最大"/>
+	<lang name="lbl_Start_mode" value="起始模式:"/>
+	<lang name="lbl_start_value" value="初始值"/>
+	<lang name="lbl_last_value" value="最后值"/>
+	<lang name="lbl_step" value="增减量:"/>
+	<lang name="lbl_lenght" value="长度:"/>
+	<lang name="lbl_fillin" value="填空:"/>
+	<lang name="lbl_suffix" value="后缀:"/>
+	<lang name="lbl_space" value="间距"/>
+	<lang name="lbl_select_image_file" value="请选择图像文件..."/>
+	<lang name="lbl_enter_text" value="输入文本..."/>
+	<lang name="lbl_font_preview" value="字体预览:"/>
+	<lang name="lbl_font_set" value="字体集:"/>
+	<lang name="lbl_factory_default" value="缺省"/>
+	<lang name="lbl_Users" value="用户"/>
+	<lang name="lbl_enter_filename" value="输入文件名..."/>
+
+	<lang name="lbl_object_position_x" value="对象位置x"/>
+	<lang name="lbl_object_position_y" value="对象位置y"/>
+	<lang name="lbl_object_width" value="对象宽带"/>
+	<lang name="lbl_object_height" value="对象高度"/>
+	<lang name="lbl_font_width" value="字宽高度"/>
+	<lang name="lbl_font_height" value="字体高度"/>
+	<lang name="lbl_turnoffnow" value="现在关闭"/>
+
+
+	<lang name="lbl_configure" value="配置"/>
+	<lang name="lbl_wifi_on" value="开"/>
+	<lang name="lbl_wifi_off" value="关"/>
+	<lang name="lbl_purge" value="清洗"/>
+	<lang name="lbl_print_test" value="喷印"/>
+	<lang name="lbl_tune" value="调整"/>
+	<lang name="lbl_speed" value="喷印速度"/>
+	<lang name="lbl_drop" value="墨点号"/>
+	<lang name="lbl_bat_temp" value="温度"/>
+	<lang name="lbl_capacity" value="容量"/>
+	<lang name="lbl_current" value="电流"/>
+	<lang name="lbl_voltage" value="电压"/>
+	<lang name="lbl_bat_status" value="电池状态"/>
+	<lang name="lbl_discharging" value="放电"/>
+	<lang name="lbl_charging" value="充电"/>
+	<lang name="lbl_missing" value="丢失"/>
+	<lang name="lbl_unknown" value="未知"/>
+	<lang name="lbl_charged" value="已充电"/>
+	<lang name="lbl_Unchanged" value="未充电"/>
+	<lang name="lbl_wifi_signal" value="信号强度"/>
+	<lang name="lbl_wifi_bssid" value="BSSID"/>
+	<lang name="lbl_wifi_ssid" value="SSID"/>
+	<lang name="lbl_wifi_ip" value="IP地址"/>
+	<lang name="lbl_wifi_status" value="状态"/>
+	<lang name="lbl_wifi_channel" value="通道"/>
+	<lang name="lbl_disable_this_network" value="请勿连接此网络"/>
+	<lang name="lbl_wifi_security" value="安全"/>
+	<lang name="lbl_wifi_psk" value="预共享密码"/>
+	<lang name="lbl_wifi_psk_type" value="密码类型"/>
+	<lang name="wifi_unknown" value="未知"/>
+	<lang name="wifi_scanning" value="扫描中"/>
+	<lang name="wifi_associating" value="关联中"/>
+	<lang name="wifi_disconnected" value="断开连接"/>
+	<lang name="wifi_connected" value="已连接"/>
+	<lang name="wifi_waiting_for_ip" value="等待IP地址"/>	
+	<lang name="wifi_sec_802.1x" value="802.1x(EAP)"/>
+	<lang name="wifi_sec_WPA2/EAP" value="WPA2/EAP"/>
+	<lang name="wifi_sec_WPA2/PSK" value="WPA2/PSK"/>
+	<lang name="wifi_sec_WPA/EAP" value="WPA/EAP"/>
+	<lang name="wifi_sec_WPA/PSK" value="WPA/PSK"/>
+	<lang name="wifi_sec_WEP" value="WEP"/>
+	<lang name="wifi_sec_none" value="None"/>
+	<lang name="wifi_psk_ascii" value="ASCII"/>
+	<lang name="wifi_psk_hex" value="HEX"/>
+	<lang name="lbl_edit_panel" value="编辑"/>
+	<lang name="lbl_service_panel" value="服务选项"/>
+	<lang name="lbl_printer_version" value="喷码机"/>
+	<lang name="lbl_system_version" value="系统版本"/>
+	<lang name="lbl_pui_version" value="PUI"/>
+	<lang name="lbl_pm_version" value="喷码机管理器"/>
+	<lang name="lbl_wifi_networks:" value="无线网络:"/>
+	<lang name="lbl_inkcolour" value="墨液颜色"/>
+	<lang name="lbl_expiration_date" value="到期日"/>
+	<lang name="lbl_acceptance_date" value="接受日期"/>
+	<lang name="lbl_Login" value="登录"/>
+
+	<lang name="lbl_normal_level" value="正常屏幕亮度"/>
+	<lang name="lbl_turnoff_time" value="之后关闭屏幕"/>
+	<lang name="lbl_dim_time" value="之后调暗屏幕"/>
+	<lang name="lbl_dimmed_level" value="调暗屏幕亮度"/>
+	<lang name="lbl_never" value="从不"/>
+	<lang name="lbl_Date" value="日期 [YYYY MM DD]"/>
+	<lang name="lbl_Time" value="时间 [HH:MM]"/>
+
+	<lang name="lbl_enable_counter_section_number" value="激活计数器区段 %i"/>
+	<lang name="lbl_object_properties_page" value="形状"/>
+	<lang name="lbl_main_properties_page" value="主页"/>
+	<lang name="lbl_advance_properties_page" value="高级"/>
+	<lang name="lbl_text_properties_page" value="文本"/>
+	<lang name="lbl_Bluetooth_settings" value="蓝牙设置"/>
+	<lang name="lbl_Communication" value="通讯"/>
+	<lang name="lbl_General" value="通用"/>
+	<lang name="lbl_Basic" value="基本"/>
+	<lang name="lbl_Basic_Settings" value="常规"/>
+	<lang name="lbl_Advanced" value="高级"/>
+	<lang name="lbl_Messages" value="通知"/>
+	<lang name="lbl_Warnings" value="警告"/>
+	<lang name="lbl_ascii_code" value="ASCII代码"/>
+	<lang name="lbl_Baud_rate" value="波特率"/>
+	<lang name="lbl_Bit_count" value="位元计数"/>
+	<lang name="lbl_Bluetooth" value="蓝牙"/>
+	<lang name="lbl_BatteryLowWarningSound" value="电池低电量报警声音"/>
+	<lang name="lbl_Communication_properties_page" value="通讯"/>
+	<lang name="lbl_Communication_type" value="通讯类型"/>
+	<lang name="lbl_Network_configuration_method" value="配置方法"/>
+	<lang name="lbl_Confirm_password" value="确认密码"/>
+	<lang name="lbl_Current_password" value="当前密码"/>
+	<lang name="lbl_New_password" value="新密码"/>
+	<lang name="lbl_data_buffering" value="数据缓存"/>
+	<lang name="lbl_day" value="日"/>
+	<lang name="lbl_deactivation_date" value="失效日期"/>
+	<lang name="lbl_Do_nothing" value="无动作"/>
+	<lang name="lbl_Empty" value="喷印空白子项目"/>
+	<lang name="lbl_Last_message" value="喷印上条信息"/>
+	<lang name="lbl_Disabled" value="禁用"/>
+	<lang name="lbl_Enabled" value="启用"/>
+	<lang name="lbl_Enable_sound" value="开启声音"/>
+	<lang name="lbl_Errorsound" value="错误声音信号"/>
+	<lang name="lbl_FileModification" value="文件更改"/>
+	<lang name="lbl_File_path" value="文件路径"/>
+	<lang name="lbl_Group_name" value="组名"/>
+	<lang name="lbl_hour" value="小时"/>
+	<lang name="lbl_Image_preview" value="图像预览"/>
+	<lang name="lbl_ImageSize:" value="图像大小:"/>
+	<lang name="lbl_IMSAcceptSound" value="墨盒接受声音信号"/>
+	<lang name="lbl_Keyboard_audio_feedback" value="键盘声音反馈"/>
+	<lang name="lbl_Language" value="语言"/>
+	<lang name="lbl_Laser" value="激光"/>
+	<lang name="lbl_Letterspacing" value="字符距离"/>
+	<lang name="lbl_Line_count" value="行数"/>
+	<lang name="lbl_Line_last_value" value="最后行"/>
+	<lang name="lbl_Line_max" value="最多行数"/>
+	<lang name="lbl_Line_start_value" value="起始行"/>
+	<lang name="lbl_Line_step" value="移动行数"/>
+	<lang name="lbl_login_name" value="用户登录名"/>
+	<lang name="lbl_MessagesSound" value="通知声音信号"/>
+	<lang name="lbl_minute" value="分钟"/>
+	<lang name="lbl_month" value="月"/>
+	<lang name="lbl_No_data_action" value="无数据动作"/>
+	<lang name="lbl_Port" value="端口"/>
+	<lang name="lbl_Power" value="电源"/>
+	<lang name="lbl_PrinterOffSound" value="喷码机关机声音信号"/>
+	<lang name="lbl_printing" value="喷印"/>
+	<lang name="lbl_printing_and_purge" value="喷印和清洗"/>
+	<lang name="lbl_Raport" value="报告"/>
+	<lang name="lbl_ready_to_print_after" value="喷印就绪条件"/>
+	<lang name="lbl_Rowmultiply" value="纵列加粗"/>
+	<lang name="lbl_second" value="秒"/>
+	<lang name="lbl_Sending_msgs_format" value="发送通知格式"/>
+	<lang name="lbl_set_date_time" value="设置日期／时间"/>
+	<lang name="lbl_Shape_object" value="形状"/>
+	<lang name="lbl_Sound" value="声音"/>
+	<lang name="lbl_StartPrintingSound" value="开始喷印声音信号"/>
+	<lang name="lbl_StopPrintingSound" value="停止喷印声音信号"/>
+	<lang name="lbl_textfile_object" value="文本文件"/>
+	<lang name="lbl_Time_interval_[ms]" value="时间间隔［ms］"/>
+	<lang name="lbl_Data_count" value="数据计数"/>
+	<lang name="lbl_End_character" value="结束字符"/>
+	<lang name="lbl_TooFastPrintingSound" value="喷印速度过快声音警报"/>
+	<lang name="lbl_Touchscreen_audio_feedback" value="触摸屏声音反馈"/>
+	<lang name="lbl_unlock_and_restore" value="解锁和恢复"/>
+	<lang name="lbl_User_icon" value="用户图标"/>
+	<lang name="lbl_Users:" value="用户:"/>
+	<lang name="lbl_version" value="版本"/>
+	<lang name="lbl_WarningSound" value="警告声音信号"/>
+	<lang name="lbl_wifi" value="WIFI"/>
+	<lang name="lbl_year" value="年year"/>
+	<lang name="lbl_Locale_settings" value="地区环境设置"/>
+	<lang name="lbl_User_settings" value="用户设置"/>
+	<lang name="lbl_wifi_disabled" value="关闭WIFI"/>
+	<lang name="lbl_Wifi_settings" value="WIFI设定"/>
+	<lang name="lbl_wifi_mac" value="MAC地址"/>
+	<lang name="lbl_btaddress" value="蓝牙地址"/>
+	<lang name="lbl_btname" value="蓝牙友好名称"/>
+	<lang name="lbl_Disconnected" value="断开连接"/>
+	<lang name="lbl_Pressure" value="压力"/>
+	<lang name="lbl_Intensivity" value="喷印强度"/>
+	<lang name="lbl_On" value="开"/>
+	<lang name="lbl_Off" value="关"/>
+	<lang name="lbl_Scan" value="扫描"/>
+	<lang name="lbl_Export_all" value="全部项目"/>
+	<lang name="lbl_Export_single" value="单个项目"/>
+	<lang name="lbl_Export" value="导出"/>
+	<lang name="lbl_Import" value="导入"/>
+	<lang name="lbl_Upgrade" value="升级"/>
+	<lang name="lbl_Enable_screen_lock" value="启动屏幕锁定"/>
+
+	<lang name="lbl_detected_bt_devices:" value="搜索到的蓝牙设备:"/>
+	<lang name="lbl_btremoteaddress" value="远程地址"/>
+	<lang name="lbl_Disconnect" value="断开连接"/>
+	<lang name="lbl_disconnect" value="断开连接"/>
+	<lang name="lbl_Connected" value="已连接"/>
+	<lang name="lbl_Connecting..." value="连接中，请等候..."/>
+	<lang name="lbl_Connected_BT" value="已连接到蓝牙设备"/>
+
+	<lang name="lbl_solventtype" value="溶剂类型"/>
+	<lang name="lbl_colourtype" value="颜色类型"/>
+	<lang name="lbl_Nonpigment" value="非颜料"/>
+	<lang name="lbl_Pigment" value="颜料"/>
+	<lang name="lbl_Acetone" value="丙酮"/>
+	<lang name="lbl_Ethanol" value="酒精"/>
+	<lang name="lbl_MEK" value="丁酮"/>
+	<lang name="lbl_Glikol" value="Glikol"/>
+	<lang name="lbl_Water" value="水"/>
+	<lang name="lbl_Mek+Eth++" value="丁酮＋酒精"/>
+
+	<lang name="lbl_Settings" value="设置"/>
+
+	<lang name="lbl_Size_unit" value="大小单位"/>
+	<lang name="lbl_Workspace_width" value="项目宽带"/>
+
+
+	<lang name="lbl_Resolution" value="分辨率"/>
+	<lang name="lbl_scanning" value="扫描中"/>
+	<lang name="lbl_FitFrame2Text" value="边框适配内容"/>
+	<lang name="lbl_FitText2Frame" value="内容适配边框"/>
+	<lang name="lbl_Without_scalling" value="无放大"/>
+	<lang name="lbl_Scaling" value="平衡比例"/>
+	<lang name="lbl_must_edit_counter" value="喷印启动前编辑计数器"/>
+	<lang name="lbl_Filled" value="整面"/>
+	<lang name="lbl_Invert" value="翻转"/>
+	<lang name="lbl_Line_width" value="线宽"/>
+
+	<lang name="lbl_Shape_objects" value="形状"/>
+	<lang name="lbl_Other_objects" value="其他"/>
+	<lang name="lbl_Text_objects" value="文本"/>
+	<lang name="lbl_Shape_object_elpise" value="椭圆形"/>
+	<lang name="lbl_Shape_object_line" value="线条"/>
+	<lang name="lbl_Shape_object_rectangle" value="矩形"/>
+
+	<lang name="lbl_printer_id" value="序列号"/>
+	<lang name="lbl_barcode_signature" value="数字码"/>
+
+	<lang name="lbl_Modification:" value="上次修改:"/>
+	<lang name="lbl_EBSCloud" value="EBS云"/>
+
+	<lang name="lbl_Errors" value="错误"/>
+	<lang name="lbl_Other" value="其他"/>
+
+	<lang name="lbl_Media_size" value="设备大小"/>
+	<lang name="lbl_Media_used" value="已用空间"/>
+	<lang name="lbl_Media_available" value="可用空间"/>
+
+	<lang name="lbl_avr_version" value="AVR固件"/>
+
+	<lang name="lbl_Auto_turnoff_time" value="喷码机关机时间"/>
+
+	<lang name="lbl_Objects_list" value="子项目"/>
+	<lang name="lbl_Clipboard" value="剪切板"/>
+	<lang name="lbl_Trash" value="垃圾箱"/>	
+
+	<lang name="lbl_Manage" value="管理"/>
+
+	<lang name="lbl_basicStatistics" value="基本统计数据"/>
+	<lang name="lbl_report" value="报告"/>
+	<lang name="lbl_userInfoReport" value="用户报告"/>
+	<lang name="lbl_serviceInfoReport" value="服务报告"/>
+	<lang name="lbl_infoReport" value="信息报告"/>
+	<lang name="lbl_OperateTime" value="操作时间"/>
+	<lang name="lbl_MadePrintouts" value="喷印信息"/>
+	<lang name="lbl_ExploitationStat" value="统计报告"/>
+	<lang name="lbl_ClearStatUser" value="清除用户报告"/>
+	<lang name="lbl_ClearStatService" value="清除服务报告"/>
+	<lang name="lbl_pwrm_version" value="电源管理器"/>
+	<lang name="lbl_SimpleMenu" value="简单菜单"/>
+	<lang name="lbl_tools_panel" value="工具"/>
+	<lang name="lbl_Detailed_information" value="详细信息"/>
+	<lang name="lbl_param_tab1" value="墨点设置"/>	
+	<lang name="lbl_param_tab2" value="位置"/>	
+	<lang name="lbl_Clear_stats" value="清除"/>
+	<lang name="lbl_Enable_networking" value="开启网络"/>
+	<lang name="lbl_Configure_network_with_DHCP" value="自动配置网络（DHCP）"/>
+	<lang name="lbl_Current_IP" value="当前IP地址"/>
+	<lang name="lbl_network" value="网络"/>
+	<lang name="lbl_ExpertSettings" value="专家设置"/>
+	<lang name="lbl_OnPrintStart" value="开始喷印时"/>
+	<lang name="lbl_OnDataProcess" value="数据处理时"/>
+	<lang name="lbl_OnPrintFinish" value="喷印结束时"/>
+	<lang name="lbl_FormatString" value="格式化字符串"/>
+	<lang name="lbl_connecting" value ="连接"/>
+
+	<lang name="lbl_enter_filter_string" value ="Please enter filtering string"/>
+	<lang name="lbl_message_repeated_n_times" value ="Message repeated %i times."/>
+
+</Labels>
+
+<Buttons>
+	<lang name="btn_mainmenu" value="主菜单"/> 
+	<lang name="btn_Start" value="开始"/> 
+	<lang name="btn_Stop" value="停止"/> 
+	<lang name="btn_maincontrol" value="主控"/> 
+	<lang name="btn_Setup" value="安装"/> 
+	<lang name="btn_Exit" value="关闭"/> 
+	<lang name="btn_Yes" value="是"/> 
+	<lang name="btn_No" value="否"/> 
+	<lang name="btn_Cancel" value="取消"/> 
+	<lang name="btn_Ok" value="确定"/> 
+	<lang name="btn_next" value="下一个信息"/> 
+	<lang name="btn_prev" value="上一个信息"/> 
+	<lang name="btn_back" value="返回"/> 
+	<lang name="btn_Preview" value="预览"/> 
+	<lang name="btn_Edit" value="编辑"/> 
+	<lang name="btn_Save" value="储存"/> 
+	<lang name="btn_Apply" value="应用"/> 
+	<lang name="btn_Clear" value="清除"/> 
+	<lang name="btn_Open_project" value="打开项目"/> 
+	<lang name="btn_Purgeon" value="清洗"/> 
+	<lang name="btn_Longpurgeon" value="长时间清洗"/>
+	<lang name="btn_Purgeoff" value="停止清洗"/> 
+	<lang name="btn_Service" value="服务"/>
+	<lang name="btn_Printer_control" value="喷码机控制"/> 
+	<lang name="btn_Logout" value="退出系统"/> 
+	<lang name="btn_creatependrive" value="重新储存U盘"/> 
+	<lang name="btn_Retry" value="重试"/> 
+	<lang name="btn_Printing_parameters" value="喷印参数"/> 
+	<lang name="btn_Create_new_project" value="创建新项目"/> 
+	<lang name="btn_Unlock" value="解锁"/>
+
+	<lang name="btn_Save_and_exit" value="保存并退出"/>
+	<lang name="btn_Project_close" value="关闭项目"/>
+
+	<lang name="btn_printing_params" value="喷印参数"/>
+	<lang name="btn_Project" value="项目"/>
+	<lang name="btn_Parameters" value="参数"/>
+	<lang name="btn_Create_project" value="创建项目"/>
+	<lang name="btn_Create_list" value="创建列表"/>
+	<lang name="btn_Edit_project" value="编辑项目"/>
+	<lang name="btn_Edit_list" value="编辑列表"/>
+
+	<lang name="btn_Purge" value="清洗"/>
+	<lang name="btn_LongPurge" value="长时间清洗"/>
+	<lang name="btn_Restore" value="恢复"/>
+	<lang name="btn_Info" value="产品信息"/>
+	<lang name="btn_Show_messages" value="显示通知"/>
+	<lang name="btn_Off" value="关闭"/>
+	<lang name="btn_Restart" value="重启"/>
+
+	<lang name="btn_confirm_upgrade" value="确认升级"/>
+
+	<lang name="btn_Accept" value="接受"/>
+	<lang name="btn_Factory" value="工厂"/>
+	<lang name="btn_Menu" value="菜单"/>
+	<lang name="btn_Mesure" value="测量"/>
+	<lang name="btn_Reject" value="拒绝"/>
+
+	<lang name="btn_RemoteUnlock" value="远程解锁"/>
+	<lang name="btn_Upgrade" value="升级"/>
+
+	<lang name="btn_Statistics" value="统计数据"/>
+	<lang name="btn_Messages" value="通知"/>
+	<lang name="btn_Tools" value="工具"/>
+	<lang name="btn_Usb" value="USB"/>
+	<lang name="btn_Tuning" value="调整"/>
+	<lang name="btn_ShortInfo" value="信息"/>
+	<lang name="btn_LockScreen" value="锁定屏幕"/>
+	<lang name="btn_Continue_edition" value="继续编辑" />
+
+</Buttons>
+<Messages>
+	<lang name="msg_D0100" value="关闭喷印 (备机状态)"/>
+	<lang name="msg_D0101" value="开 动喷印(待机状态)"/>
+	<lang name="msg_D0102" value="开 动喷印 (喷印状态)"/>
+	<lang name="msg_D0000" value="无驱动程序"/>
+	<lang name="msg_D0001" value="向喷码机驱动程序发出指令错误"/>
+	<lang name="msg_D0002" value="喷码机状态不详"/>
+	<lang name="msg_D0003" value="未选择项目"/>
+	<lang name="msg_turnOffPrinter" value="现在要关闭喷码机吗?"/>
+	<lang name="msg_projectDirDoNotExist" value="错误! 项目目录不存在!"/>
+	<lang name="msg_projectDirPermisionError" value="错误! 无法读取项目目录!"/>
+	<lang name="msg_notProjectFile" value="错误! 这不是有效项 目文件!"/>
+	<lang name="msg_useDefaultNetConfig" value="无网络配置文件. 使用厂商默认 设置"/>
+	<lang name="msg_AccessDenied" value="无 法储存网络配置 - 拒绝访问"/>
+	<lang name="msg_canNotSaveNetConfigDiskFull" value="无 法储存网络配置 - 磁盘已满"/>
+	<lang name="msg_canNotSaveNetConfigNoPendrive" value="无 法储存网络配置 - 无U 盘"/>
+	<lang name="msg_editValueError" value="域内错误值显示为红色。请更正 后再试"/>
+	<lang name="msg_wrongNetmask" value="Netmask(子网掩码)值错误."/>
+	<lang name="msg_canNotReconfigureNet" value="无法重新配置网络接口."/>
+	<lang name="msg_deleteAllMessages" value="您确实要删除全部信息吗?"/>
+	<lang name="msg_confirmAllMessages" value="您确实要将全部信息作为已读信息标示并删除 吗?"/>
+	<lang name="msg_reopenProject" value="当前项目文件已经修改。想重新打开它吗?"/>
+	<lang name="msg_ipnotallocated" value="未指定网络协议地址"/>
+	<lang name="msg_password_error" value="密码错误! 再试!"/>
+	<lang name="msg_cancel_edition" value="您确定要删除编辑吗? 您将失去 全部更改内容!"/>
+	<lang name="msg_paramsOutOfRange" value="错误 !红色显示的参数已越出界限! 请更改错误后再试"/>
+	<lang name="msg_resetCounterVF" value="注意：执行此操作时请确定当前项目不在喷印中。\n该操作影响每个记数器部分的存储值和“起始值”区。"/>
+	<lang name="msg_editProjectWhenPrintOn" value="警告 ! 您所选择编辑的项目目前正在喷印中。无法重新设置记数器! 您还想继续吗 ?"/>
+	<lang name="msg_powerOff_in_x_sec" value="喷码机将在%d 秒钟关闭"/>
+	<lang name="msg_please_wait" value="请等待..."/>
+	<lang name="msg_shutdown_in_progress" value="关机..."/>
+
+	<lang name="msg_improper_poweroff" value="警告!发现非常规关机， \n这会导致数据损坏和机器障碍。 \n请按照关机程序操作。"/>
+	<lang name="msg_open_project_error" value="错误!项目无法加载"/>
+	<lang name="msg_editor_communication_error" value="通讯错误。编辑器模块没有反映。 \n请检查系统后再试。 \n如果喷码机被快速喷印占用， \n请结束喷印后再试。"/>
+	<lang name="msg_edit_project_priority_too_low" value="项目目前处于打开状态，由www编辑器编辑。\n您的授权级别较低，目前不能打开项目。"/>
+	<lang name="msg_confirm_forced_edition" value="项目目前处于打开状态， \n由www编辑器编辑 \n您要强行打开吗 ?"/>
+	<lang name="msg_projectEditedByWWW" value="项目关闭，因为其他人开始用WWW编辑器进行编辑。"/>
+	<lang name="msg_long_purge_confirmation" value="您将开始启动长时间清洗程序。 \n该程序通常用于新机安装后为空 \n系统充墨或排除整个墨路系统 \n中的空气。该程序耗墨量较高。 \n要想停止清洗，您可以随时按动"/>
+	<lang name="msg_long_purge_in_progress" value="清洗进行中 \n剩余时间： %d [s]"/>
+	<lang name="msg_restore_storage_data" value="您是否要删除所有U盘内容, 重新恢复厂商设置的默认值 ? 所有的项目数据和喷码机设置 \n均将丢失 ! "/>
+	<lang name="msg_stop_and_restore_data" value="警告！喷印开启！ \n您想停止喷印并恢复出场值吗？ \n项目数据和喷码机设定将会丢失！" />
+	<lang name="msg_pendrive_error" value="警告!记忆棒未显现或已损坏。 \n您可以关闭喷码机， \n然后安装正确的记忆棒， \n或将损坏的记忆棒内容恢复至 \n厂商设置的默认值。 按 "/>
+	<lang name="msg_pendrive_restore" value="请将正确的记忆棒安装在喷码机 \nUSB接口。 \n所有前期的内容将被删除， \n并恢复到厂商初始的默认值。 \n继续进行按"/>
+	<lang name="msg_pendrive_restore_ok" value="记忆棒内容成功恢复。需要重新启动。请按 "/>
+	<lang name="msg_creating_pendrive" value="请等待...恢复记忆棒... \n \n请勿关闭喷码机，否则系统文件会遭到损坏!!!"/>
+	<lang name="msg_resetCounterVF_warning" value="警告： 某些计数器的设计是总是自动回复为最大或最小值。 \n对这样的记数器不能该变其初始值，其显示区被注为灰色。"/>
+	<lang name="msg_messages_alert" value="注意 ! \n信息表包含必须阅读和确认 \n的新信息。"/>
+
+	<lang name="msg_deleteSelectedObject" value="您确定删除所选对象？"/>
+	<lang name="msg_create_project_error" value="错误！创建新项目失败！ "/>
+	<lang name="msg_confirm_file_overwrite" value="文件 %s 已存在，覆盖该文件？"/>
+	<lang name="msg_confirm_position_change" value="您确认位置更改？"/>
+	<lang name="msg_confirm_size_change" value="您确认大小更改？"/>
+
+	<lang name="msg_confirmExternParamsFile" value="警告！项目使用外部文件定义参数。 \n任何改变可能影响其他项目！ \n您确定要编辑喷印参数？"/>
+	<lang name="msg_externParamsFileNotFound" value="错误！ 项目使用外部文件定义参数，但该文件不存在！请修正错误并重试！"/>
+
+	<lang name="msg_confirm_wifi_network_delete" value="您确定删除所选择无线网络配置？"/>
+
+	<lang name="msg_restore_storage_damaged" value="警告！ 内部存储数据损坏。 \n您可以恢复出厂设置。 \n按  &quot;turn off&quot;  键立即关机； \n或按 &quot;restore&quot;键恢复出厂设置。"/>;
+	<lang name="msg_restore_storage_confirm" value="所有先前内容将会擦除并恢复 \n出厂设置。继续请按 &quot;确定&quot; 键， 取消请按 &quot;cancel&quot; 键。   "/>
+	<lang name="msg_restore_storage_ok" value="内部存储内容成功恢复。 \n需要重新启动喷码机。 \n按&quot;确定&quot; 键，喷码机将会关闭。"/>
+	<lang name="msg_restore_storage_warning" value="请等待... 恢复内部存储数据... \n \n. 请勿关闭喷码机否则系统将会损坏！！！"/>
+	<lang name="msg_firmware_upgrade_detected" value="大容量存储设备包含固件升级。 \n升级程序需要重新启动喷码机。 \n如需继续请按&quot; 键；执行升级； \n并等待设备关闭。然后重新开启设备。"/>
+
+
+	<lang name="msg_enter_new_password" value="输入新密码"/>
+	<lang name="msg_confirm_new_password" value="重复输入新密码"/>
+	<lang name="msg_enter_login_name" value="输入用户登录名"/>
+	<lang name="msg_import_error" value="导入 %s! 文件错误"/>
+	<lang name="msg_import_ok" value="文件 %s 导入成功"/>
+	<lang name="msg_export_error" value="导入项目文件错误"/>
+	<lang name="msg_export_ok" value="导入成功! U盘主目录已生成文件 %s 和导入数据！"/>
+
+	<lang name="msg_firmware_upgrade_reboot_info" value="喷码机准备升级。 \n请按&quot;确定&quot;键以关闭喷码机。 \n关机后再次重新开机，升级 \n将会继续。升级将持续一段时间－ \n请耐心等待，勿关闭喷码机。"/>
+
+	<lang name="msg_One_time_code_generated" value="已生成一次性代码. 请输入有效解锁码，点击解锁按钮确认！"/>
+	<lang name="msg_OneTimeCodeError" value="生成一次性代码错误. 关闭窗口并重试！"/>
+
+	<lang name="msg_PrintHeadMismatch" value="警告 ! 所选项目适用于其 \n他类型喷码机（非EBS260手持机）！"/>
+	<lang name="msg_PrintHeadMismatchOpenFail" value="警告！不能打开所选项目。 \n该项目适用于其他类型喷码机／喷头。"/>
+
+	<lang name="msg_remote_unlock_transmitted" value="喷码机已发送解锁请求到远程 \n解锁服务器。 \n解锁过程可能需5分钟左右。 \n解锁成功后喷码机会显示 \n确认信息。"/>
+	<lang name="msg_RemoteUnlockTxError" value="喷码机不能发送解锁请求到远程 \n解锁服务器！ \n请检查网络连接并重试。"/>
+
+
+	<lang name="msg_unlock_successful" value="喷码机成功解锁！"/>
+	<lang name="msg_unlock_error" value="喷码机解锁错误 \n（解锁码被拒绝或连接错误）。 \n请重试。"/>
+	<lang name="msg_printer_in_purge_mode" value="喷码机处于清洗模式。请按住 \n扳机键开始清洗。按&quot;停止&quot;键或 \n关闭窗口以退出清洗模式。"/>
+
+	<lang name="msg_autoPowerOff_in_x_sec" value="喷码机长时间没有使用，将在 %d 秒之内关闭."/>
+	<lang name="msg_EmergencyOff_in_x_sec" value="电池电量低！！！喷码机将在 %d 秒内关闭."/>
+	<lang name="msg_low_battery_warning" value="警告！电池电量低。尽快更换电池 "/>
+
+	<lang name="msg_clearStatistics" value="您确定清除统计数据吗？"/>
+	<lang name="msg_resolutionOutOfRange" value="错误！分辨率超出范围！请重新检测！ "/>
+	<lang name="msg_confirm_bt_device_delete" value="您确定要删除所选蓝牙设备？"/>
+	<lang name="msg_confirm_close" value="您确定关闭窗口吗？所有修改将会丢失！！！"/>
+	<lang name="msg_confirm_user_delete" value="您确定删除所选择用户吗？"/>
+	<lang name="msg_ProjectNotFound" value="没有找到项目文件 %s ！"/>
+	<lang name="msg_IllegalCharInFileName" value="文件名包含非法字符。 \n请只使用拉丁字符，数字和下列特殊字符： &quot;_&quot;,&quot;.&quot;,&quot;-&quot;. \n \n您需要输入新名字吗 ?"/>
+	<lang name="msg_kernel_missmatch_message" value="警告！喷码机系统软件不完整！\n请重置内部存储。如果重置无效，请再次执行软件更新。如果问题一直存在，联系服务中心。"/> 
+
+	<lang name="msg_Can_not_perform_operation_project_selected_for_printing" value="错误！无法执行操作，已选择喷印的项目！"/> 
+	<lang name="msg_confirmFileRemove" value="删除文件或文件夹%s ?"/> 
+	<lang name="msg_Error_setting_bluetooth_friendly_name" value="无法设置蓝牙设备友好名字－内部错误！"/> 
+	<lang name="msg_Illegal_bluetooth_friendly_name" value="无法设置蓝牙设备友好名字－名字无效!"/> 
+	<lang name="msg_wasteBottleOverflow" value="废墨瓶满，请清空！"/> 
+	<lang name="msg_wifi_connection_error" value="无线网络连接错误，检查配置并重试。"/> 
+
+	<lang name="msg_PrinterFirmware2Old" value="喷码机固件版本太旧。无法直接升级。\n版本信息： \n喷码机版本：%s1 \n更新文件：%s2 \n最小版本： %s3"/>
+	<lang name="msg_UprgadeFileOlderThanCurrent" value="喷码机固件版本新于所选择升级文件。\n版本信息： \n喷码机固件：%s1 \n更新文件： %s2"/>
+	<lang name="msg_UprgadeFileSameAsPresent" value="喷码机固件已经更新。\n版本信息：\n喷码机固件： %s1 \n升级文件： %s2"/>
+	<lang name="msg_UprgadeFileInvalid" value="选择的升级文件无效或损坏！"/>
+	<lang name="msg_ParamOutOfRange" value="Error ! Mesured value is out of valid range ! Please try again!"/>
+	<lang name="msg_beta_version_warrning" value="Please be aware that this software version is for development purposes only and as such may contain bugs causing problems.\n By pressing &quot;OK&quot; you are confirming usage on your own responsibility." />
+</Messages>
+</EBS_LCDGUI>
+<EBS_Common>
+	<Labels>
+		<lang name="lbl_Yellow" value="黄色"/>
+		<lang name="lbl_Colorless" value="无色"/>
+		<lang name="lbl_Red" value="红色"/>
+		<lang name="lbl_Blue" value="蓝色"/>
+		<lang name="lbl_Black" value="黑色"/>
+		<lang name="lbl_Ultraviolet" value="紫色"/>
+		<lang name="lbl_White" value="白色"/>
+		<lang name="lbl_Green" value="绿色"/>
+		<lang name="lbl_statistics" value="统计表" />
+		<lang name="lbl_Orginal" value="原文件" />
+		<lang name="lbl_Recovery" value="恢复" />
+		<lang name="lbl_saveRecoveryAs" value="保存恢复文件为" />
+		<lang name="lbl_continueEdit" value="继续编辑" />
+		<lang name="lbl_distance" value="距离"/>
+		<lang name="lbl_spacer" value="Spacer"/>
+		<lang name="lbl_externalscript" value="External script name"/>
+		<lang name="lbl_Printhead:" value="喷头名:"/>
+	</Labels>
+	<Messages>
+		<lang name="msg_deleteRecoveryFile" value="注意！选择确认将删除备份！ " />
+		<lang name="msg_RecoveryFileSelection" value="所检测的项目恢复版本 \n请选择您需要编辑的版本，原始项目或恢复版本？"/>
+		<lang name="msg_ConfirmRecoveryRemoval" value="您想删除恢复文件吗？"/>
+		<lang name="msg_DelRecoveryWithoutRescue" value="继续删除复原文件而不保存吗？该步骤不可逆转！"/>
+	</Messages>
+	<WTitles>
+		<lang name="wtitle_cProjectRecoveryDialog" value="项目恢复"/>
+	</WTitles>
+</EBS_Common>
+</EBS_LanguageFile>

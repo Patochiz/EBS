@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_LanguageFile>
+<param name="Version" value="2022.01.21"/> 
+<param name="EditedBy" value="GrzesiekP"/>
+<EBS_PrinterLocaleSettings>
+<param name="LC_ALL" value="en_EN.UTF-8"/>
+</EBS_PrinterLocaleSettings>
+
+<EBS_PUI_FontSettings>
+	<param name="DefaultFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="DefaultFontSmallSize" value="9"/>
+	<param name="DefaultFontNormalSize" value="12"/>
+	<param name="DefaultFontLargeSize" value="14"/>
+	<param name="PinyinFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="PinyinFontSize" value="16"/>
+	<param name="ButtonFontSize" value="12"/>
+	<param name="LabelFontSize" value="11"/>
+	<param name="TextFontSize" value="12"/>
+	<param name="MessageFontSize" value="12"/>
+	<param name="EditFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="EditFontSize" value="16"/>
+</EBS_PUI_FontSettings>
+
+<EBS_ParametersUnitsLanguage>
+	<lang name="EncoderConstant_Unit" value="[impulsy/m]"/>
+	<lang name="ConveyorSpeed_Unit" value="[m/min]"/>
+	<lang name="ImpulseGeneratorSource_Unit" value="[vnitřní generator / externí zdroj]"/>
+	<lang name="TriggerType_Unit" value="[hrana/úroveň]"/>
+	<lang name="TriggerSignalMode_Unit" value="[náběžná/sestupná hrana]|[high/low úroveň]"/>
+	<lang name="Resolution_Unit" value="[dpm] (bodů na metr)"/>
+	<lang name="PrintDistance_Unit" value="[mm]"/>
+	<lang name="TxtRepetitions_Unit" value="[výtisky]"/>
+	<lang name="RepetitionDistance_Unit" value="[mm]"/>
+	<lang name="RowMultiply_Unit" value="[řádky]"/>
+	<lang name="UpsideDownPrint_Unit" value="[zakázáno/povoleno]"/>
+	<lang name="ReversePrint_Unit" value="[zakázáno/povoleno]"/>
+	<lang name="TextHeight_Unit" value="[mm]"/>
+	<lang name="CleaningRows_Unit" value="[řádky]"/>
+	<lang name="Pressure_Unit" value="[bar]"/>
+	<lang name="PhotocellSource_Unit" value="[interní / externí / obojí]"/>
+</EBS_ParametersUnitsLanguage>
+
+<EBS_EditorLanguage>
+<Menu>
+	<lang name="menu_projects" value="Projekty"/>
+	<lang name="menu_projectNew" value="Nový projekt"/>
+	<lang name="menu_projectOpen" value="Otevřít projekt"/>
+	<lang name="menu_projectSave" value="Uložit"/>
+	<lang name="menu_projectSaveAs" value="Uložit jako"/>
+	<lang name="menu_projectClose" value="Zavřít projekt"/>
+	<lang name="menu_projectParams" value="Tiskové parametry"/>
+	<lang name="menu_tools" value="Nástroje"/>
+	<lang name="menu_toolsImagesManager" value="Správce obrázků"/>
+	<lang name="menu_toolsFontsManager" value="Správce písma"/>
+	<lang name="menu_toolsTextFilesManager" value="Textové soubory"/>
+	<lang name="menu_toolsUsersManager" value="Správce uživatelů"/>
+	<lang name="menu_toolsReportProblem" value="Připravit oznámení o problému"/>
+	<lang name="menu_toolsWorkspaceSize" value="Velikost pracovní plochy"/>
+	<lang name="menu_toolsPrintersNetworkManager" value="Správce sítě tiskáren"/>
+	<lang name="menu_settingsGeneral" value="Hlavní nastavení"/>
+	<lang name="menu_settingsEncoderConstant" value="Parametry dopravníku"/>
+	<lang name="menu_settings" value="Nastavení"/>
+	<lang name="menu_service" value="Servis"/>
+	<lang name="menu_servicePurge" value="Proplach"/>
+	<lang name="menu_serviceLog" value="Přihlášení"/>
+	<lang name="menu_printer_control" value="Ovládání tiskárny"/>
+	<lang name="menu_about" value="Informace o"/>		
+	<lang name="menu_toolsLanguageManager" value="Správce jazyku"/>
+	<lang name="menu_toolsAccountManagement" value="Vedení účtu"/>
+	<lang name="menu_moduleInfo" value="modul info"/>
+	<lang name="menu_phpshell" value="PHP Shell"/>
+	<lang name="menu_softwareUpgrade" value="Upgrade softwaru"/>
+	<lang name="menu_touchscreenCalibration" value="Kalibrace dotykové obrazovky"/>
+	<lang name="menu_ObjectNormalText" value="Normální text"/>
+	<lang name="menu_ObjectNormalBarcode" value="Čárový kód"/>
+	<lang name="menu_ObjectDateTime" value="Datum/Čas"/>
+	<lang name="menu_ObjectCounter" value="Počítadlo"/>
+	<lang name="menu_ObjectComPort" value="Komunikační port"/>
+	<lang name="menu_ObjectTxtFile" value="Textový soubor"/>
+	<lang name="menu_printoutCost" value="Cena výtisku"/>
+	<lang name="menu_serviceReport" value="Generovat servisní zprávu"/>
+	<lang name="menu_installOption" value="Instalační nabídka"/>
+	<lang name="menu_statistics" value="Statistika využití"/>
+	<lang name="menu_info" value="Info"/>
+	<lang name="menu_ObjectShapeLine" value="Linka"/>
+	<lang name="menu_ObjectShapeRectangle" value="Obdelník"/>
+	<lang name="menu_ObjectShapeElipse" value="Elipsa"/>
+	<lang name="menu_projectImport" value="Import projektu"/>
+	<lang name="menu_projectExport" value="Export projektu"/>
+	<lang name="menu_puiPreview" value="Náhled"/>
+	<lang name="menu_barcode" value="Čárový kód"/>
+	<lang name="menu_lineDivider" value="Zalomení řádků"/>
+	<lang name="menu_simulatePrintout" value="Simulovat tisk"/>
+	<lang name="menu_printerUpdate" value="Aktualizovat"/>
+	<lang name="menu_openPrinterControl" value="Otevřít ovládání tiskárny"/>
+	<lang name="menu_sendProjectToPrinter" value="Poslat projekt do tiskárny"/>
+	<lang name="menu_openWUI" value="Otevřít Web uživatelské rozhraní"/>
+	<lang name="menu_restartPrinter" value="Restart tiskárny"/>
+	<lang name="menu_shutdownPrinter" value="Vypnutí tiskárny"/>
+</Menu>
+<Labels>
+	<lang name="lbl_loggedAs" value="Přihlášen do jako: "/>
+	<lang name="lbl_startupWhatWouldYouLikeToDo" value="Co chcete provést?"/>
+	<lang name="lbl_startupCreateNewProject" value="Vytvořit\nnový projekt"/>
+	<lang name="lbl_startupOpenProject" value="Otevřít\nprojekt pro editaci"/>
+	<lang name="lbl_startupOpenProjectForPrinter" value="Otevřít\nprojekt pro tisk"/>
+	<lang name="lbl_startupChangeEditorSettings" value="Změna\neditoru nastavení"/>
+	<lang name="lbl_startupPrinterControl" value="Tiskárna\novládání"/>
+	<lang name="lbl_language" value="Jazyk:"/>
+	<lang name="lbl_originalLanguage" value="Původní jazyk:"/>
+	<lang name="lbl_printerType" value="Typ tiskárny:"/>
+	<lang name="lbl_filename" value="Název souboru:"/>
+	<lang name="lbl_directory" value="Adresář:"/>
+	<lang name="lbl_showFilesOnList" value="Seznam souborů"/>
+	<lang name="lbl_clipboardContent" value="Obsah schránky:"/>
+	<lang name="lbl_empty" value="prázdný"/>
+
+	<lang name="lbl_currentDirectory" value="Aktuální adresář:"/>
+	<lang name="lbl_projectPreview" value="Přehled projektů:"/>
+	<lang name="lbl_projectInformation" value="Informace projektu:"/>
+	<lang name="lbl_lastModification" value="Poslední úprava:"/>
+	<lang name="lbl_imagePreview" value="Přehled obrázků:"/>
+	<lang name="lbl_imageInstalled" value="Obrázek %s instalován"/>
+	<lang name="lbl_imageNotInstalled" value="Obrázek nelze nainstalovat %s"/>
+	<lang name="lbl_pleaseSelectImageToInstall" value="Vyberte obrázek k instalaci:"/>
+	<lang name="lbl_fontPreview" value="Přehled fontů:"/>
+	<lang name="lbl_fontType" value="Font typ:"/>
+	<lang name="lbl_pleaseSelectFontToInstall" value="Vyberte font k instalaci:"/>
+	<lang name="lbl_pleaseSelectTxtFileToInstall" value="Vyberte textsoubor k instalaci:"/>
+	<lang name="lbl_fontInstalled" value="Font %s instalován"/>
+	<lang name="lbl_fontNotInstalled" value="Nelze instalovat font %s"/>
+	<lang name="lbl_txtFileInstalled" value="Text soubor %s instalován"/>
+	<lang name="lbl_txtFileNotInstalled" value="Nelze instalovat textsoubor %s"/>
+
+	<lang name="lbl_users" value="Uživatelé"/>
+	<lang name="lbl_groups" value="Skupiny"/>
+	<lang name="lbl_userInformation" value="Uživatel informace: "/>
+	<lang name="lbl_lastLogin" value="Poslední připojení:"/>
+	<lang name="lbl_avaiableUsers" value="Přístupní uživatelé:"/>
+	<lang name="lbl_avaiableGroups" value="Přístupné skupiny:"/>
+	<lang name="lbl_enableAutoLogin" value="Umožnit Auto-připojení"/>
+	<lang name="lbl_login" value="Připojit"/>
+	<lang name="lbl_password" value="Heslo"/>
+
+	<lang name="lbl_userImage" value="Obrázek uživatele"/>
+	<lang name="lbl_addUserToThisGroup" value="Doplnit uživatele do skupiny"/>
+	<lang name="lbl_groupName" value="Název skupiny"/>
+	<lang name="lbl_groupImage" value="Obrázek skupiny"/>
+	<lang name="lbl_groupsPrivilages" value="Privilegované skupiny"/>
+	<lang name="lbl_objectParams" value="Parametry objektu"/>
+	<lang name="lbl_deleteObject" value="Smazat objekt"/>
+	<lang name="lbl_text" value="Text"/>
+	<lang name="lbl_fontName" value="Font název"/>
+	<lang name="lbl_fontSize" value="Font rozměr"/>
+	<lang name="lbl_fontSizeX" value="Font osa X"/>
+	<lang name="lbl_fontSizeY" value="Font osa Y"/>
+	<lang name="lbl_constrainProportions" value="Zachovat rozměr"/>
+	<lang name="lbl_objectRotation" value="Rotace objektu"/>
+	<lang name="lbl_lineSpacing" value="Posun řádku:"/>
+	<lang name="lbl_enterFontSize" value="Vložit velikost fontu"/>
+	<lang name="lbl_autoSize" value="Auto-rozměr"/>
+	<lang name="lbl_transparent" value="Transparentní"/>
+	<lang name="lbl_showPreview" value="Zobrazit ukázku"/>
+	<lang name="lbl_objectName" value="Název objektu"/>
+	<lang name="lbl_barcodeType" value="Čárovýkód typ:"/>
+
+	<lang name="lbl_borderSize" value="Velikost okraje:"/>
+	<lang name="lbl_borderType" value="Typ okraje:"/>
+	<lang name="lbl_registers" value="Variabilní pole"/>
+	<lang name="lbl_imagePath" value="Zdroj obrázku"/>
+	<lang name="lbl_allowResize" value="Povolit změnu velikosti"/>
+	<lang name="lbl_objectSize" value="Velikost objektu"/>
+	<lang name="lbl_objectPosition" value="Pozice"/>
+	<lang name="lbl_encoderConstant" value="Enkoder konstanta"/>	
+	<lang name="lbl_conveyorSpeed" value="Rychlost dopravníku"/>
+	<lang name="lbl_triggerType" value="Snímač typ"/>
+	<lang name="lbl_triggerSignalMode" value="Druh signálu snímače"/>
+	<lang name="lbl_impulseGeneratorSource" value="Zdroj impulzů generátoru"/>
+	<lang name="lbl_resolution" value="Rozlišení"/>
+	<lang name="lbl_printDistance" value="Počáteční vzdálenost"/>
+	<lang name="lbl_textRepetition" value="Opakování textu"/>
+	<lang name="lbl_repetitionDistance" value="Tisková mezeru"/>
+	<lang name="lbl_reversePrint" value="Reverzní tisk"/>
+	<lang name="lbl_upsideDownPrint" value="Vertikální směr"/>
+	<lang name="lbl_shaftDirection" value="Směr tisku"/>
+	<lang name="lbl_textHeight" value="Výška textu"/>
+	<lang name="lbl_cleaningRows" value="Odstranění řad"/>
+	<lang name="lbl_pressure" value="Tlak"/>
+	<lang name="lbl_PhotocellSource" value="Fotočidlo zdroj"/>
+	<lang name="lbl_dotSize" value="Velikost bodu"/>
+	<lang name="lbl_parameterRange" value="Rozsah parametrů"/>
+	<lang name="lbl_newWorkspaceWidth" value="Nová šířka pracplochy"/>
+	<lang name="lbl_settings_general" value="Hlavní"/>
+	<lang name="lbl_settings_date" value="Datum/Čas"/>
+	<lang name="lbl_imageWrongType" value="Možné jen PNG soubory."/>
+	<lang name="lbl_projectImportWrongType" value="Možné jen ZIP soubory."/>
+	<lang name="lbl_fontWrongType" value="Možné jen TTF soubory."/>
+	<lang name="lbl_txtFileWrongType" value="Možné jen TXT soubory."/>
+	<lang name="lbl_currentPrinterDate" value="Aktuální datum tiskárny:"/>
+	<lang name="lbl_currentPrinterTime" value="Aktuální čas tiskárny:"/>
+	<lang name="lbl_dateOffset" value="Datum nastavení:"/>
+	<lang name="lbl_timeOffset" value="Čas nastavení:"/>
+	<lang name="lbl_dateSeparator" value="Oddělovač datumu:"/>
+
+	<lang name="lbl_timeSeparator" value="Oddělovač času:"/>
+	<lang name="lbl_dateFormat" value="Formát datumu:"/>
+	<lang name="lbl_timeFormat" value="Formát času:"/>
+	<lang name="lbl_date" value="Datum (da-mo-year):"/>
+	<lang name="lbl_time" value="Čas (hr:min:sec):"/>
+	<lang name="lbl_formattingString" value="Formátování řádku:"/>
+	<lang name="lbl_advanced" value="Rozšířené"/>
+	<lang name="lbl_quickPreview" value="Rychlý přehled"/>
+	<lang name="lbl_showExpertsSettings" value="Zobrazit expertní nastavení"/>
+	<lang name="lbl_DateTimeHelp1" value="%a - Zkrácený týden\\\\\\\n%A - Celý týden\\\\\\\n%b - Zkrácený měsíc\\\\\\\n%B - Celý měsíc\\\\\\\n%c - Datum a čas\\\\\\\n%d - Den v měsíci (1-31)\\\\\\\n%H - Hodina (24-hodinový systém)\\\\\\\n%I - Hodina (12-hodinový systém)\\\\\\\n%j - Den v roce (1-366)\\\\\\\n%m - Měsíc (1-12)\\\\\\\n%M - Minuta (0-59)\\\\\\\n"/>
+	<lang name="lbl_DateTimeHelp2" value="%p - AM/PM pro 12-hodinový systém\\\\\\\n%S - Sekunda (0-60)\\\\\\\n%U - Číslo týdne od neděle\\\\\\\n%w - Den v týdnu (0-6) od neděle\\\\\\\n%W - Číslo týdne od pondělí\\\\\\\n%x - Celé datum\\\\\\\n%X - Celý čas\\\\\\\n%y - Letopočet (poslední dvě číslice)\\\\\\\n%Y - Celý letopočet\\\\\\\n%Z - Časové pásmo\\\\\\\n%% - Tisk znaků%\\\\\\\n"/>
+	<lang name="lbl_min" value="Min"/>
+	<lang name="lbl_max" value="Max"/>
+	<lang name="lbl_startValue" value="Start hodnota"/>
+	<lang name="lbl_step" value="Krok"/>
+	<lang name="lbl_length" value="Délka"/>
+	<lang name="lbl_prefix" value="Předpona"/>
+	<lang name="lbl_suffix" value="Přípona"/>
+	<lang name="lbl_startMode" value="Počáteční hodnota"/>
+	<lang name="lbl_lastValue" value="Poslední hodnota"/>
+	<lang name="lbl_showThisCounter" value="Zobraz toto počítadlo"/>
+	<lang name="lbl_incrementOrder" value="Vzestupné pořadí"/>
+	<lang name="lbl_ObjectNormalBarcode" value="Normální čárkód"/>
+	<lang name="lbl_ObjectNormalText" value="Normální text"/>
+	<lang name="lbl_ObjectDateTime" value="Datum/Čas"/>
+	<lang name="lbl_ObjectCounter" value="Počítadlo"/>
+	<lang name="lbl_ObjectComPort" value="Komunikační port"/>
+	<lang name="lbl_ObjectTxtFile" value="Textový soubor"/>
+	<lang name="lbl_ObjectConvertTo" value="Konvertovat objekt do:"/>
+	<lang name="lbl_port" value="Port:"/>
+	<lang name="lbl_baud" value="Baud rate:"/>
+	<lang name="lbl_onPrintStart" value="V průběhu startu:"/>
+	<lang name="lbl_onDataProcess" value="V datovém procesu:"/>
+	<lang name="lbl_onPrintFinish" value="Na závěr tisku:"/>
+	<lang name="lbl_filePath" value="Zdroj souboru:"/>
+	<lang name="lbl_lineCount" value="Pčet řad:"/>
+	<lang name="lbl_all" value="Vše"/>
+	<lang name="lbl_lineStep" value="Krok na řádek:"/>
+	<lang name="lbl_lineMax" value="Řadek max:"/>
+	<lang name="lbl_fillIn" value="Vyplnit"/>
+	<lang name="lbl_event" value="Událost"/>
+	<lang name="lbl_space" value="Mezera"/>
+	<lang name="lbl_doNothing" value="Nečinnost"/>
+
+	<lang name="lbl_stopPrinting" value="Stop tisku"/>
+	<lang name="lbl_printerStatus" value="Stav tiskárny:"/>
+	<lang name="lbl_currentProject" value="Aktuální projekt:"/>
+	<lang name="lbl_editorLoading" value="Načítání editoru...\nČekejte prosím..."/>
+	<lang name="lbl_paramsPreview" value="Param přehled"/>
+	<lang name="lbl_currentEncoderConstant" value="Aktuální konstanta enkonderu"/>
+	<lang name="lbl_currentConveyorSpeed" value="Aktuální rychlost dopravníku"/>
+	<lang name="lbl_showHelp" value="Zobraz nápovědu"/>
+	<lang name="lbl_parametersSource" value="Parametry zdroj:"/>
+	<lang name="lbl_parametersFile" value="Parametery soubor:"/>
+	<lang name="lbl_localParameters" value="Lokální parametry"/>
+	<lang name="lbl_externalParameters" value="Externí parametry"/>
+	<lang name="lbl_oldPassword" value="Staré heslo"/>
+	<lang name="lbl_newPassword" value="Nové heslo"/>
+	<lang name="lbl_retypePassword" value="Znovu zadat heslo"/>
+	<lang name="lbl_detecting" value="detekce"/>
+	<lang name="lbl_saveChanges" value="uložit změny"/>
+	<lang name="lbl_paramsContinuous" value="Kontinuélně"/>
+	<lang name="lbl_counterStartValue" value="Počítadlo %d start hodnota"/>
+	<lang name="lbl_lineStartValue" value="Řádek start hodnota"/>
+	<lang name="lbl_enableAutoStart" value="Umožnit autostart"/>
+	<lang name="lbl_gotoEditorPage" value="Na stránku editoru &gt;" />
+	<lang name="lbl_availableVersions" value="Možné verze:" />
+	<lang name="lbl_networkResources" value="Síťové zdroje:" />
+	<lang name="lbl_gotoWebpage" value="Na webstránky" />
+	<lang name="lbl_none" value="žádný" />
+	<lang name="lbl_bind" value="spojit" />
+	<lang name="lbl_box" value="box"/>
+	<lang name="lbl_installInProjectDir" value="instalovat do projekt adresáře" />
+	<lang name="lbl_createInSeparateDir" value="Vytvořit projekt v samostatném adresáři" />
+	<lang name="lbl_helpLanguage" value="Jazyk nápověda:"/>
+	<lang name="lbl_startEditor" value="Editor:"/>
+	<lang name="lbl_startPrinter" value="Tiskárna:" />	
+	<lang name="lbl_printoutPreviewFirst" value="ukaž první výtisk" />
+	<lang name="lbl_printoutPreviewNext" value="ukaž další výtisk" />
+	<lang name="lbl_mustEdit" value="Tento objekt musí být upraven před spuštěnímdo tisku" />
+	<lang name="lbl_xcoord" value="x souřadnice" />
+	<lang name="lbl_ycoord" value="y souřadnice" />
+	<lang name="lbl_width" value="šířka" />
+	<lang name="lbl_height" value="výška" />	
+	<lang name="lbl_helpWelcome" value="EBS-2500 Manuál"/>
+	<lang name="lbl_printManual" value="Tisk manuál"/>
+	<lang name="lbl_pdfManual" value="Stažení manuálu v PDF" />
+	<lang name="lbl_unknown" value="Nemožný"/>
+	<lang name="lbl_checking" value="Kontrolování..." />
+
+	<lang name="lbl_printerName" value="Název tiskárny" />
+	<lang name="lbl_printerIP" value="IP tiskárny" />
+	<lang name="lbl_printerModel" value="Typ tiskárny"/>
+	<lang name="lbl_hideTrash" value="Skrýt koš" />
+	<lang name="lbl_emptyTrash" value="Vysypat koš" />
+	<lang name="lbl_hideClipboard" value="Skrýt schránku" />
+	<lang name="lbl_emptyClipboard" value="Vyprázdnit schránku" />
+	<lang name="lbl_px" value="px"/>
+	<lang name="lbl_cm" value="cm"/>
+	<lang name="lbl_emptyProject" value="Projekt je prázdný." />
+	<lang name="lbl_translatedText" value="Přeložený text"/>
+	<lang name="lbl_originalText" value="Originální text"/>
+	<lang name="lbl_menuItems" value="Menu položek" />
+
+	<lang name="lbl_signature" value="Podpis" />
+	<lang name="lbl_communicationsMode" value="Mód - čekání:" />
+	<lang name="lbl_readyToPrintAfter" value="Připraven k tisku po" />
+	<lang name="lbl_asciiCode" value="ASCII kód" />
+	<lang name="lbl_communicationsMode_1" value="Časový interval (ms)"/>
+	<lang name="lbl_communicationsMode_2" value="Data množství" />
+	<lang name="lbl_communicationsMode_3" value="Ukončovací znak" />
+	<lang name="lbl_communicationsMode_4" value="Oddělovače shromážděných údajů" />
+
+	<lang name="lbl_bitCount" value="Bit počet" />
+	<lang name="lbl_sendingMessagesFormat" value="Zaslání formátu zprávy" />
+	<lang name="lbl_normal" value="Normál" />
+	<lang name="lbl_hexadecimal" value="Hexadecimal"/>
+	<lang name="lbl_noDataAction" value="Žádná data" />
+	<lang name="lbl_nothing" value="Nic" />
+	<lang name="lbl_blank" value="Prázdný" />
+	<lang name="lbl_lastMessage" value="Poslední zpráva" />
+	<lang name="lbl_noPrintout" value="Žadný tisk" />
+	<lang name="lbl_procFormattingString" value="Formátování řady" />
+
+	<lang name="lbl_separatorDataCount" value="Oddělovač dat"/>
+	<lang name="lbl_separatorObject" value="Objekt %d"/>
+
+	<lang name="lbl_separatorCharacter" value="Oddělovač znaků" />
+	<lang name="lbl_dataBuffering" value="Ukládání dat" />
+	<lang name="lbl_disabled" value="Zakazaný" />
+	<lang name="lbl_enabled" value="Povolený" />
+	<lang name="lbl_reportLevel" value="Report" />
+	<lang name="lbl_isLinked" value="Objekt připojen" />
+
+	<lang name="lbl_basicStatistics" value="Základní statistiky" />
+	<lang name="lbl_OperateTime" value="Operační čas" />
+	<lang name="lbl_MadePrintouts" value="Udělat výtisk" />
+	<lang name="lbl_extraStatistics" value="Extra statistiky" />
+	<lang name="lbl_project" value="Projekt" />
+	<lang name="lbl_report" value="Report"/>
+	<lang name="lbl_userInfoReport" value="Uživatel info report"/>
+	<lang name="lbl_serviceInfoReport" value="Servis info report"/>
+	<lang name="lbl_infoReport" value="Info report"/>
+	<lang name="lbl_lineThickness" value="Síla čáry" />
+
+	<lang name="lbl_filled" value="Vyplněn" />
+	<lang name="lbl_invert" value="Inverzní" />
+
+	<lang name="lbl_pixCount" value="Pixely počet" />
+	<lang name="lbl_printoutPerLiter" value="Tisků na litr" />
+	<lang name="lbl_printoutPerBootle" value="Tisků na láhev" />
+	<lang name="lbl_autoAdjustText" value="Auto nastavení textu" />
+	<lang name="lbl_pleaseSelectFileToImport" value="Vyberte soubor pro import"/>
+	<lang name="lbl_projectImported" value="Projekt %s importován"/>
+	<lang name="lbl_projectNotImported" value="Nelze importovat projekt %s"/>
+
+	<lang name="lbl_fileInformation" value="Soubor informace"/>
+
+	<lang name="lbl_withoutScaling" value="Bez měřítka"/>
+	<lang name="lbl_fitFrameToContent" value="Připojit k obsahu rámce"/>
+	<lang name="lbl_fitContentToFrame" value="Připojit obsah k rámci"/>
+	<lang name="lbl_rowMultiply" value="Násobení řad"/>
+
+	<lang name="lbl_EBSInternalFonts" value="Interní písmo"/>
+	<lang name="lbl_TTFDefaultFonts" value="Výchozí typ písma"/>
+	<lang name="lbl_TTFUserFonts" value="Uživatelský typ písma"/>
+
+	<lang name="lbl_import_ebseditorimport" value="Import EBS WWW editoru projektu"/>
+	<lang name="lbl_import_ebs250import" value="Import EBS 250 souboru projektu"/>
+	<lang name="lbl_import_conversionFromEBS250" value="Převod EBS 250 souboru projektu do WWW editoru projektu"/>
+	<lang name="lbl_selectOptionPackageFile" value="Možnosti souboru k instalaci" />
+	<lang name="lbl_resetCounterVF" value="Upozornění: Některé čítače jsou nastaveny na minimální, nebo maximální hodnotu. U těchto čítačů nebude možné změnit počáteční hodnotu. Tyto položky jsou vyznačeny šedě." />
+	<lang name="lbl_pleaseWait" value="Prosím čekejte..."/>
+	<lang name="lbl_lineType" value="Typ linky"/>
+	<lang name="lbl_lineSolid" value="Nepřerušovaná" />
+	<lang name="lbl_lineDashed" value="Přerušovaná" />
+	<lang name="lbl_lineDotted" value="Tečkovaná" />
+	<lang name="lbl_discharging" value="Baterie"/>
+	<lang name="lbl_charging" value="Nabíjení"/>
+	<lang name="lbl_charged" value="Nabito"/>
+	<lang name="lbl_charged_connected" value="Nabito a připojeno"/>
+	<lang name="lbl_discharged" value="Vybito"/>
+	<lang name="lbl_discharged_connected" value="Vybito a připojeno"/>
+	<lang name="lbl_inkstatus" value="Stav inkoustového zásobníku:"/>
+	<lang name="lbl_inklevel" value="Hladina inkoustu:"/>
+	<lang name="lbl_inkcolour" value="Barva inkoustu:"/>
+	<lang name="lbl_batteryStatus" value="Stav baterie:"/>
+	<lang name="lbl_letterSpacing" value="Mezera mezi písmenama:"/>
+	<lang name="lbl_maxRepeatCount" value="Maximánlní počet opakování:"/>
+	<lang name="lbl_scriptName" value="Název skriptu:"/>
+	<lang name="lbl_noScript" value="Žádný skript"/>
+	<lang name="lbl_action" value="Akce" />
+	<lang name="lbl_saveToDisk" value="Uložit na disk" />
+	<lang name="lbl_sendToPrinter" value="Poslat do tiskárny" />
+
+	<lang name="lbl_printableObject" value="Objekt je možné vytisknout" />
+	<lang name="lbl_linkedToObjects" value="Spojit s objekty" />
+	<lang name="lbl_contentFormat" value="Formát obsahu" />
+
+	<lang name="lbl_currentPoint" value="Aktuální bod:" />
+	<lang name="lbl_changePoint" value="Změna bodu" />
+	<lang name="lbl_horizontalDistance" value="Horuzontální vzdálenost:" />
+	<lang name="lbl_verticalDistance" value="Vertikální vzdálenost:" />
+
+	<lang name="lbl_printerNetwork_search" value="Vyhledávání tiskáren... prosím čekejte..."/>
+	<lang name="lbl_printerNetwork_select" value="Zvolte tiskárny, které chcete přidat do sítě" />
+	<lang name="lbl_selectAll" value="Vybrat vše" />
+	<lang name="lbl_deselectAll" value="Zrušit vše" />
+	<lang name="lbl_printerNetwork_addPrinter" value="Přidat tiskárnu" />
+	<lang name="lbl_printerNetwork_noPrinters" value="Nenalezena žádná tiskárna!" />
+	<lang name="lbl_selectedFileIsUnsuporrted" value="Vybraný soubor není podporován." />
+	<lang name="lbl_confirmMessage" value="Potvrdit zprávu" />
+
+	<lang name="lbl_autoRefresh" value="Automatické obnovování" />
+	<lang name="lbl_after" value="po" />
+	<lang name="lbl_seconds" value="sekundy" />
+	<lang name="lbl_timeToRefresh" value="Čas do obnovení:" />
+	<lang name="lbl_availablePrinters" value="Dostupné tiskárny:" />
+	<lang name="lbl_export" value="Export"/>
+	<lang name="lbl_editorLog" value="Log editoru" />
+	<lang name="lbl_printerLog" value="Log tiskárny" />
+	<lang name="lbl_externalParamsFileNotFound" value="Externí soubor parametrů tisku nebyl nalezen" />
+	<lang name="lbl_pleaseSelectPrintingParams" value="Prosím vyberte parametry tisku pro tento projekt."/>
+	<lang name="lbl_defaultPrintHeadParams" value="Parametry výchozí tiskové hlavy" />
+	<lang name="lbl_projectLocalParams" value="Místní parametry projektu" />
+	<lang name="lbl_msgAll" value="Vše" />
+	<lang name="lbl_msgInformations" value="Informace" />
+	<lang name="lbl_msgWarnings" value="Upozornění" />
+	<lang name="lbl_msgErrors" value="Chybové hlášení" />
+	<lang name="lbl_msgDeleteAll" value="Vymazat všechny zprávy" />
+	<lang name="lbl_msgDeleteInformations" value="Vymazat všechny informace" />
+	<lang name="lbl_msgDeleteWarnings" value="Vymazat všechny upozornění" />
+	<lang name="lbl_msgDeleteErrors" value="Vymazat všechny chybové hlášení" />
+	<lang name="lbl_searchResults" value="Výsledek vyhledávání" />
+	<lang name="lbl_clipboard" value="Schránka" />
+	<lang name="lbl_trash" value="Koš" />
+	<lang name="lbl_printersNetwork" value="Síť tiskáren" />
+	<lang name="lbl_selectObject" value="Výběr objektu" />
+	<lang name="lbl_objectsList" value="Seznam objektů" />
+	<lang name="lbl_or" value="nebo" />
+	<lang name="lbl_scaling" value="Měřítko" />
+	<lang name="lbl_format" value="Formát" />
+	<lang name="lbl_rectangle" value="Obdélník" />
+	<lang name="lbl_square" value="Čtverec" />
+	<lang name="lbl_auto" value="Auto"/>
+	<lang name="lbl_deleteRecoveryFile" value="Smazat obnovené soubory" />
+</Labels>
+<Tooltips>
+	<lang name="tooltip_createNewDirectory" value="Vytvořit nový adresář"/>
+	<lang name="tooltip_removeDirectory" value="Odstranit vybraný adresář"/>
+	<lang name="tooltip_rename" value="Přejmenovat"/>
+	<lang name="tooltip_cut" value="Vyjmout"/>
+	<lang name="tooltip_copy" value="Kopírovat"/>
+	<lang name="tooltip_paste" value="Vložit"/>
+	
+	<lang name="tooltip_printParameters" value="Zobrazit okno tiskových parametrů"/>
+	<lang name="tooltip_normalCursor" value="Normální kurzor"/>
+	<lang name="tooltip_createTextObject" value="Vytvořit objekt text"/>
+	<lang name="tooltip_createImageObject" value="Vytvořit objekt obrázek"/>
+	<lang name="tooltip_createShapeObject" value="Vytvořit objekt tvar"/>
+	<lang name="tooltip_createBarcodeObject" value="Vytvořit objekt čárkód"/>
+	<lang name="tooltip_zoomInProject" value="Zvětšit"/>
+	<lang name="tooltip_zoomOutProject" value="Zmenšit"/>
+	<lang name="tooltip_zoomNormalProject" value="Reální velikost"/>
+	<lang name="tooltip_cutObject" value="Vyjmout objekt"/>
+	<lang name="tooltip_copyObject" value="Kopírovat objekt"/>
+	<lang name="tooltip_showHideClipboard" value="Zobrazit/Skrýt schránku"/>
+	<lang name="tooltip_showHideTrash" value="Zobrazit/Skrýt koš"/>
+	<lang name="tooltip_projectPreview" value="Ukázka výtisku"/>
+	<lang name="tooltip_reloadProjectWorkspace" value="Změnit velikost prac plochy"/>
+	<lang name="tooltip_printerNetwork" value="Síť tiskárny"/>
+	<lang name="tooltip_moveObjectUpDown" value="Přesuň objekt nahoru/dolů"/>
+	<lang name="tooltip_turnOffPrinter" value="Vypnout/Restartovat/Připojit"/>
+	<lang name="tooltip_moveObjectLeft" value="Přesuň objekt 1px doleva"/>
+	<lang name="tooltip_moveObjectRight" value="Přesuň objekt 1px doprava"/>
+	<lang name="tooltip_moveObjectUp" value="Přesuň objekt 1px nahoru"/>
+	<lang name="tooltip_moveObjectDown" value="Přesuň objekt 1px dolů"/>
+	<lang name="tooltip_hideWindow" value="Skrýt okno"/>
+	<lang name="tooltip_showWindow" value="Zobrazit okno"/>
+	<lang name="tooltip_showHelp" value="Zobrazit nápovědu"/>
+	<lang name="tooltip_showBackground" value="Zobrazit pozadí"/>
+	<lang name="tooltip_closeWindow" value="Zavřít okno"/>
+	<lang name="tooltip_showFontWindow" value="Zobrazit okno fontů"/>
+	<lang name="tooltip_toogleDate" value="Přepnout datum"/>
+	<lang name="tooltip_toogleTime" value="Přepnout čas"/>
+	<lang name="tooltip_changeDateTimeOrder" value="Změna datumu/času"/>
+	<lang name="tooltip_alignLeft" value="Zarovnat vlevo"/>
+	<lang name="tooltip_alignCenter" value="Zarovnat doprostřed"/>
+	<lang name="tooltip_alignRight" value="Zarovnat vpravo"/>
+	<lang name="tooltip_createSpecialObject" value="Vytvořit speciální objekt"/>
+	
+	<lang name="tooltip_saveProject" value="Uložit projekt"/>
+	<lang name="tooltip_openProject" value="Otevřít projekt"/>
+	<lang name="tooltip_workspaceWidth" value="Změna šířky pracovního prostoru"/>
+	<lang name="tooltip_showObjectParameters" value="Zobrazit okno prametrů objektu"/>
+	<lang name="tooltip_deleteObject" value="Vymazat objekt"/>
+	<lang name="tooltip_showObjectsList" value="Ukázat/skrýt seznam objektů"/>
+</Tooltips>
+<WTitles>
+	<lang name="wtitle_projectNew" value="Nový projekt"/>
+	<lang name="wtitle_projectOpen" value="Otevřít projekt pro editaci"/>
+	<lang name="wtitle_projectOpenForPrinter" value="Otevřít projekt pro tisk"/>
+	<lang name="wtitle_projectSaveAs" value="Uložit jako"/>
+	<lang name="wtitle_projectParams" value="Parametry tisku"/>
+	<lang name="wtitle_editor_settings" value="Hlavní nastavení"/>
+	<lang name="wtitle_encoderConstantSettings" value="Parametry dopravníku"/>
+	<lang name="wtitle_printer_control" value="Ovládání tiskárny"/>
+	<lang name="wtitle_installImage" value="Instalovat nový obrázek"/>
+	<lang name="wtitle_workspaceWidth" value="Šířka pracovní plochy"/>
+	<lang name="wtitle_purge" value="Proplach"/>
+	<lang name="wtitle_log" value="Přihlášení"/>
+
+	<lang name="wtitle_addUser" value="doplň uživatele"/>
+	<lang name="wtitle_editUser" value="Upravit uživatele"/>
+	<lang name="wtitle_deleteUser" value="Smazat uživatele"/>
+	<lang name="wtitle_addGroup" value="Doplň skupinu"/>
+	<lang name="wtitle_editGroup" value="Upravit skupinu"/>
+	<lang name="wtitle_deleteGroup" value="Smazat skupinu"/>
+	<lang name="wtitle_installFont" value="Instalovat nový font"/>
+	<lang name="wtitle_installTxtFile" value="Instalovat nový textový souborl"/>
+	<lang name="wtitle_message" value="Zpráva"/>
+	<lang name="wtitle_messages" value="Zprávy"/>
+	<lang name="wtitle_objectParams" value="Parametry objektu"/>
+	<lang name="wtitle_filename" value="Název souboru"/>
+	<lang name="wtitle_folderName" value="Název složky"/>
+	<lang name="wtitle_rename" value="Přejmenovat"/>
+	<lang name="wtitle_fontsManager" value="Správce typů fontů"/>
+	<lang name="wtitle_textsFilesManager" value="Správce textových souborů"/>
+	<lang name="wtitle_uninstallFont" value="Odinstalovat font"/>
+	<lang name="wtitle_fontSize" value="Velikost fontu"/>
+	<lang name="wtitle_imagesManager" value="Správce obrázků"/>
+	<lang name="wtitle_uninstallImage" value="Odinstalovat obrázek"/>
+	<lang name="wtitle_reportProblem" value="Připravit oznámení o problému"/>
+	<lang name="wtitle_projectPreview" value="Zobrazení projektu"/>
+	<lang name="wtitle_usersManager" value="Srávce uživatelů"/>
+	<lang name="wtitle_printersNetworkManager" value="Správce sítě tiskáren"/>
+	<lang name="wtitle_objectPreview" value="Zobrazení objektu"/>
+	<lang name="wtitle_moduleInfo" value="Modul info"/>
+	<lang name="wtitle_accountManagement" value="Vedení účtu"/>
+	<lang name="wtitle_variableFields" value="Variabilní pole"/>
+	<lang name="wtitle_resetVariableField" value="Smazat variabilní pole"/>
+	<lang name="wtitle_browseParamsFiles" value="Prohlížení parametrů"/>
+	<lang name="wtitle_printoutCost" value="Cena výtisku"/>
+	<lang name="wtitle_serviceReport" value="Report"/>
+	<lang name="wtitle_mustEdit" value="Úpravy objektů"/>
+	<lang name="wtitle_installOption" value="Instalační nabídka"/>
+	<lang name="wtitle_size" value="Velikost"/>
+	<lang name="wtitle_position" value="Pozice"/>
+	<lang name="wtitle_printerNetwork" value="Síť tiskáren"/>
+	<lang name="wtitle_addPrinter" value="Doplň tiskárnu"/>
+	<lang name="wtitle_editPrinter" value="Upravit tiskárnu"/>	
+	<lang name="wtitle_deletePrinter" value="Smazat tiskárnu"/>
+	<lang name="wtitle_softwareUpgrade" value="Upgrade softwaru"/>
+	<lang name="wtitle_printoutPreview" value="Zobrazení tisku"/>
+	<lang name="wtitle_enterPassword" value="Vložit heslo"/>
+	<lang name="wtitle_statistics" value="Statistiky"/>
+	<lang name="wtitle_clearStatistics" value="Smazat statistiky"/>
+	<lang name="wtitle_projectImport" value="Import projektu"/>
+	<lang name="wtitle_projectExport" value="Export projektu"/>
+	<lang name="wtitle_puiPreview" value="LCD náhled"/>
+	<lang name="wtitle_simulatePrintout" value="Simulace tisku" />
+	<lang name="wtitle_firmware_ugprade_info" value="Informace o aktualizaci software"/>
+	<lang name="wtitle_printerUpdate" value="Aktualizace" />
+	<lang name="wtitle_scanPrintersNetwork" value="Prohledat síť tiskáren" />
+	<lang name="wtitle_selectPrintingParams" value="Výběr parametrů tisku" />
+</WTitles>
+<Buttons>
+	<lang name="btn_saveChanges" value="Uložit změny"/>
+	<lang name="btn_yes" value="Ano"/>
+	<lang name="btn_no" value="Ne"/>
+	<lang name="btn_ok" value="OK"/>
+	<lang name="btn_reload" value="Obnovení editoru"/>
+	<lang name="btn_apply" value="Aplikovat"/>
+	<lang name="btn_confirm" value="Potvrdit"/>
+	<lang name="btn_cancel" value="Zrušit"/>
+	<lang name="btn_rename" value="Přejmenovat"/>
+	<lang name="btn_shutdown" value="Vypnout"/>
+	<lang name="btn_restart" value="Restartovat"/>
+	<lang name="btn_logout" value="Odhlásit"/>
+	<lang name="btn_createFolder" value="Vytvořit složku"/>
+	<lang name="btn_createProject" value="Vytvořit projekt"/>
+	<lang name="btn_openProject" value="Otevřít projekt"/>
+	<lang name="btn_openProjectForPrinting" value="Otevřít projekt\npro tisk"/>
+	<lang name="btn_deleteSelectedImage" value="Odstranit vybraný obrázek"/>
+	<lang name="btn_installNewImage" value="Instaovat nový obrázek"/>
+	<lang name="btn_selectImage" value="Vyberte obrázek"/>
+	<lang name="btn_closeWindow" value="Zavřít okno"/>
+	<lang name="btn_installSelectedImage" value="Instalovat vybraný obrázek"/>
+	<lang name="btn_selectFont" value="Vybrat font"/>
+	<lang name="btn_installNewFont" value="Instalovat nový font"/>
+	<lang name="btn_deleteSelectedFont" value="Smazat vybraný font"/>
+	<lang name="btn_installSelectedFont" value="Instalovat vybraný font"/>
+	<lang name="btn_deleteSelectedTxtFile" value="Smazat vybraný textový soubor"/>
+	<lang name="btn_installNewTxtFile" value="Instalovat nový taxtový soubor"/> 
+	<lang name="btn_installSelectedTxtFile" value="Instalovat vybraný textový soubor"/>
+	<lang name="btn_addUser" value="Přidat uživatele"/>
+	<lang name="btn_editUser" value="Upravit uživatele"/>
+	<lang name="btn_deleteUser" value="Smazat uživatele"/>
+	<lang name="btn_addGroup" value="Přidat skupinu"/>
+	<lang name="btn_editGroup" value="Upravit skupinu"/>
+	<lang name="btn_deleteGroup" value="Smazat skupinu"/>
+	<lang name="btn_add" value="Přidat"/>
+	<lang name="btn_save" value="Uložit"/>
+
+	<lang name="btn_browse" value="Prohlížet"/>
+	<lang name="btn_saveProject" value="Uložit projekt"/>
+	<lang name="btn_setPrintHeadDefault" value="Výchozí nastavení parametrů tiskové hlavy"/>
+	<lang name="btn_reloadLogFile" value="Obnovit soubor protokolu"/>
+	<lang name="btn_clearLogFile" value="Vymazat soubor protokolu"/>
+	<lang name="btn_next" value="Další"/>
+	<lang name="btn_groupPriorityUp" value="Pohyb nahoru"/>
+	<lang name="btn_groupPriorityDown" value="Pohyb dolu"/>
+	<lang name="btn_variableFields" value="Variabilní pole"/>
+	<lang name="btn_startPrint" value="Start tisku"/>
+	<lang name="btn_stopPrint" value="Stop tisku"/>
+	<lang name="btn_printingParams" value="Tiskové\nparamety"/>
+	<lang name="btn_purgeOn" value="Proplach zap"/>
+	<lang name="btn_purgeOff" value="Proplach vyp"/>
+	<lang name="btn_currentPrinterDateTime" value="Získání data/času z tiskárny"/>
+	<lang name="btn_currentComputerDateTime" value="Získání data/času z počítače"/>
+	<lang name="btn_setPrinterDateTime" value="Nastavení data/času v tiskárně"/>
+	<lang name="btn_selectFile" value="Vytvořit nový soubor"/>
+	<lang name="btn_createNewFile" value="Vybrat soubor"/>
+	<lang name="btn_detectEncoderConst" value="Detekovat\konstanta encoderu"/>
+	<lang name="btn_detectConveyorSpeed" value="Detekovat\rychlost dopravníku"/>
+	<lang name="btn_detectEncoderConstStop" value="Stop detekce\konstanta encoderu"/>
+	<lang name="btn_detectConveyorSpeedStop" value="Stop detekce\rychlost dopravníku"/>
+	<lang name="btn_useCurrent" value="Použít aktuální nastavení"/>
+	<lang name="btn_resetVF" value="Obnovit\nV.F."/>
+	<lang name="btn_setSize" value="Nastavení velikosti"/>
+	<lang name="btn_reportWait" value="Generování zprávy... prosím čekej..."/>
+	<lang name="btn_reportComplete" value="Klikněte pro stažení servisní zprávy."/>
+	<lang name="btn_reportError" value="Chyba! Klikněte pro detail."/>
+	<lang name="btn_installPackageWait" value="Instalace možnosti... prosím čekej..."/>
+	<lang name="btn_installPackageComplete" value="Možnosti nainstalovány. Klikni pro zavření."/>
+	<lang name="btn_installPackageError" value="Chyba! Možnost není nainstalována."/>
+	<lang name="btn_nextObject" value="Další\objekt"/>
+	<lang name="btn_addPrinter" value="Přidat tiskárnu"/>
+	<lang name="btn_editPrinter" value="Upravit tiskárnu"/>
+	<lang name="btn_deletePrinter" value="Smazat tiskárnu"/>
+	<lang name="btn_searchPrinters" value="Vyhledat tiskárnu"/>
+	<lang name="btn_clearStatistics" value="Vymazat statistiky"/>
+	<lang name="btn_exportImages" value="Exportovat všechny obrázky"/>
+	<lang name="btn_exportAllProjects" value="Exportovat všechny projekty"/>
+	<lang name="btn_exportSelectedProject" value="Exportovat vybrané projekty"/>
+	<lang name="btn_importFile" value="Importovat soubor"/>
+	<lang name="btn_generate" value="Generovat" />
+	<lang name="btn_uploadFile" value="Výběr souboru aktualizace" />
+	<lang name="btn_restartContinue" value="Restart tiskárny pro pokračování aktualizace" />
+	<lang name="btn_addToList" value="Přidat do seznamu" />
+	<lang name="btn_shutdownAllPrinters" value="Vypnout všechny tiskárny" />
+	<lang name="btn_installPackage" value="Instalace" />
+	<lang name="btn_installingPackage" value="Instalace volby... prosím čekejte..."/>
+	<lang name="btn_login" value="Přihlášení" />
+	<lang name="btn_selectParamsFile" value="Výběr souboru parametrů" />
+	<lang name="btn_selectLoginImage" value="Výběr uživatele" />
+	<lang name="btn_usePrintHeadDefault" value="Použít výchozí tiskací hlavu" />
+	<lang name="btn_userProjectLocalParams" value="Použít místní parametry projektu" />
+	<lang name="btn_addSelectedPrinters" value="Přidat vybrané tiskárny" />
+	<lang name="btn_invertSelection" value="Obrácený výběr" />
+	<lang name="btn_restoreObject" value="Obnovit objekt" />
+	<lang name="btn_pasteObject" value="Vložit objekt" />
+</Buttons>
+<Messages>
+	<lang name="msg_startPrintOperation" value="Chcete začít tisknout?"/>
+	<lang name="msg_deleteImage" value="Smazat tento obrázek?"/>
+	<lang name="msg_deleteFont" value="Smazat tento font?"/>
+	<lang name="msg_deleteTxtFile" value="Smazat tento textový soubor?"/>
+	<lang name="msg_deleteObject" value="Smazat tento objekt?"/>
+	<lang name="msg_deleteUser" value="Smazat uživatele [b]%s[/b]?"/>
+	<lang name="msg_deletePrinter" value="Smazat tiskárnu [b]%s[/b]?"/>
+	<lang name="msg_deleteGroup" value="Smazat skupinu [b]%s[/b]?"/>
+	<lang name="msg_projectNotSaved" value="Projekt neuložen\nUložit nyní?"/>
+	<lang name="msg_fileExistsReplace" value="Soubor již existuje. Přepsat?"/>
+	<lang name="msg_fileExists" value="Soubor již existuje."/>
+	<lang name="msg_deleteProject" value="Smazat tento projekt?"/>
+	<lang name="msg_deleteFolder" value="Odstranit tuto složku a všechny údaje, které obsahuje?"/>
+	<lang name="msg_whatWouldYouLikeToDo" value="Co si přejete udělat?"/>
+	<lang name="msg_settingsSavedSuccessfully" value="Nastavení bylo úspěšně uloženo.\nEditor by měl být přeložen v tomto okamžiku.\nObnovit?"/>
+	<lang name="msg_projectForDifferentPrintHead" value="Tento projekt není určen pro stávající typ tiskové hlavy.\nOtevřít tento projekt?"/>
+	<lang name="msg_someoneLoggedIn" value="Uživatel %s je přihlášen z IP adresy %s.\nChcete vynutit přihlašovací údaje?"/>
+	<lang name="msg_projectSaved" value="Projekt uložen."/>
+
+	<lang name="msg_projectCreated" value="Projekt byl úspěšně vytvořen."/>
+	<lang name="msg_projectDeleted" value="Vybraný projekt úspěšně smazán."/>
+	<lang name="msg_cantDeleteDefaultFont" value="Nelze smazat tiskový font."/>
+	<lang name="msg_cantDeleteAdministrator" value="Nelze smazat [b]Administrator[/b]."/>
+	<lang name="msg_cantRenameBecauseFileExists" value="Cílový soubor/dir již existuje."/>
+	<lang name="msg_fontDeleted" value="Vybraný font úspěšně smazán."/>
+	<lang name="msg_txtFileDeleted" value="Vybraný textový soubor úspěšně smazán."/>
+	<lang name="msg_imageDeleted" value="Vybraný obrázek úspěšně smazán."/>
+	<lang name="msg_noFileSelected" value="Není vybrán soubor.\nVyberte soubor a zkuste to znovu."/>
+	<lang name="msg_noUserSelected" value="Není vybrán uživatel.\nVyberte uživatele a zkuste to znovu."/>
+	<lang name="msg_noPrinterSelected" value="Není vybrána žádná tiskárna.\nVyberte tiskárnu a zkuste to znovu."/>
+	<lang name="msg_selectProjectFileFirst" value="Vyberte první soubor projektu."/>
+	<lang name="msg_objectNotSelected" value="Není vybrán objekt."/>
+	<lang name="msg_ExternParamsFileNotSelected" value="Není vybrán soubor.\nVyberte externí Params souboru nebo přepněte do lokálních parametrů."/>
+	<lang name="msg_printParamsSet" value="Tiskové parametry projektu jsou stanoveny úspěšně."/>
+	<lang name="msg_paramsOutOfRange" value="Některé parametry jsou mimo rozsah."/>
+	<lang name="msg_noPrintHeadDefinedInProject" value="Žádný typ hlavy není definován pro tento projekt.Nelze určit řadu parametrů, tj. výška tiskové hlavy, rozlišení atd..."/>
+	<lang name="msg_incorrectPassword" value="Nesprávné heslo."/>
+	<lang name="msg_cantLoginBecauseToLowPriority" value="Uživatel %s je nyní přihlášen.\nVaše priorita je příliš nízká na to použít editor v této chvíli."/>
+	<lang name="msg_enterLoginFirst" value="Prosím zadejte uživatele."/>
+	<lang name="msg_enterPassFirst" value="Prosím zadejte heslo."/>	
+	<lang name="msg_enterGroupNameFirst" value="Zadejte prosím název skupiny."/>
+	<lang name="msg_selectAtLeastOneGroup" value="Prosím zvolte aspoň jednu skupinu."/>
+	<lang name="msg_loginInUse" value="Vybrané přihlášení se již používá.\nVyberte jiný a zkuste to znovu."/>
+	<lang name="msg_groupInUse" value="Tahle skupina již existuje.\nZadejte jiný název a zkuste to znovu."/>
+	<lang name="msg_passwordsNotEqual" value="Hesla se neshodují."/>
+
+	<lang name="msg_oldPasswordIsEmpty" value="První zadejte staré heslo."/>
+	<lang name="msg_oldPasswordIsBad" value="Staré heslo se neshoduje se současným heslem."/>
+	<lang name="msg_allDataInObjectWillBeLost" value="Veškeré údaje v tomto objektu budou ztraceny.\nChcete přesto pokračovat?"/>
+	<lang name="msg_wrongParams" value="Jeden z parametrů čítače je špatně nastaven (min &gt; max). Požadujete obrácené pořadí?"/>
+	<lang name="msg_updateExternFileParams" value="Změny budou mít vliv na všechny projekty, které používají tento soubor vnějších parametrů.\nChcete přesto pokračovat?"/>	
+	<lang name="msg_clearCacheReminder" value="Byla nalezena odlišná verze editoru\nDoporučeno vymazat mezipaměť prohlížeče."/>
+	<lang name="msg_aboutWindow" value="EBS 2500 Uživatelské rozhraní%s\n\n[b]EBS Ink-Jet Systeme GmbH[/b]\nAlte Ziegelei 19-25\nD-51588 Nümbrecht-Elsenroth\nDEUTSCHLAND\n\n+49 (0)2293/939-0\nFax +49 (0)2293/939-3\n\nE-Mail: mail@ebs-inkjet.de\nWWW: http://www.ebs-inkjet.de"/>
+	<lang name="msg_resetCounterVF" value="Pozor: K provedení této operace se ujistěte, že současný projekt není v tisku.\nTato operace se týká právě uložené hodnoty a 'Start hodnotu' polí každé části čítače."/>
+	<lang name="msg_resetTxtFileVF" value="Attention: to perform this operation please ensure that current project is not being printed.\nThis operation affects currently stored values and 'Line start value' field."/>
+	<lang name="msg_wrongProjectFilename" value="Název souboru projektu nesmí obsahovat následující znaky .,/\\#%*?:{}|"/>
+	<lang name="msg_communicationError" value="Chyba komunikace\\nTiskárna nereaguje. Zkontrolujte prosím systém\\na zkuste to znovu. Pokud tiskárna je zaneprázdněn kvůli\\nrychlý tisk, prosím zastavte ji a zkuste to znovu." />
+	<lang name="msg_errorJavaScript" value="Kritická chyba!\\nJavaScript je zakázán.\\nProsím zapněte je a zkuste to znovu." />
+	<lang name="msg_errorPendrive" value="Kritická chyba!\\nPendrive údaje chybí nebo jsou neplatná.\\nZkontrolujte pendrive a zkuste to znovu." />
+	<lang name="msg_errorBrowserNotSupported" value="Varování!\\nTento prohlížeč není podporován.\\nProsím, použijte prohlížeč Mozilla Firefox." />
+	<lang name="msg_projectPriorityTooLow" value="Některé projekty jsou právě otevřeny pro úpravy na LCD tiskárny.\\nVaše priorita je příliš nízká na to otevřít projekt v této chvíli." />
+	<lang name="msg_projectOpenedFromLCDWnd" value="Některé projekty se v současné době upravují na LCD tiskárny.\\nVynutit otevření?." />
+	<lang name="msg_projectClosed" value="Projekt uzavřen, protože začala editace z LCD tiskárny." />
+	<lang name="msg_printerDateTimeSetSuccessfull" value="Tiskárna datum/čas úspěšně uloženy."/>
+	<lang name="msg_clipboardEmpty" value="Schránka je prázdná." />
+
+	<lang name="msg_improper_poweroff" value="Varování! Detekováno nesprávné vypnutí, což může způsobit poškození dat nebo poruchu zařízení. Prosím, vždy následujte postup vypnutí."/>
+	<lang name="msg_printerNetworkEmptyFields" value="Musíte zadat název tiskárny a IP adresu."/>
+	<lang name="msg_printerNetworkIPExists" value="Tiskárna s touto IP adresou je již na seznamu."/>
+	<lang name="msg_printerNetworkBadIP" value="Nesprávná IP adresa."/>
+	<lang name="msg_cantDeleteCurrentUser" value="Můžete smazat aktuálně přihlášeného uživatele."/>
+	<lang name="msg_clearStatistics" value="Jste si jisti, že chcete smazat statistiky?"/>
+	<lang name="msg_printerNetworkProjectExported" value="Projekt byl úspěšně exportován."/>
+	<lang name="msg_lineDividersMaxReached" value="Maximální počet řádků byl dosažen." />
+	<lang name="msg_simulationPrintoutTooBig" value="Tisk je příliš velký.\n\nAktuální tisk obsahuje: %s px\nMaximální tisk může obsahovat: %s px\n\nProsím změňte některý z následujících parametrů a vyzkoušejte znouvu.\n\nHorizontální vzdálenost: %s px\nVertikální vzdálenost: %s px\nVelikost bodu: %s px\Šířka pracovního prostoru: %s px\n"/>
+</Messages>
+<StatusMessages>
+	<lang name="msg_E01000" value="(E01000) Chyba: Problém s alokací vnitřní paměti. Tiskárna nebude fungovat správně. Prosím otevřte projekt znovu, pokud to nepomůže, restartujte tiskárnu." />
+	<lang name="msg_E01010" value="(E01010) Chyba: Šířka projektu je příliš malá. Šířka byla tiskárnou automaticky opravena na nejmenší možnou hodnotu." />
+	<lang name="msg_E01011" value="(E01011) Chyba: Výška projektu je příliš malá. Výška projektu byla tiskárnou automaticky opravena na nejmenší možnou hodnotu." />
+	<lang name="msg_E01015" value="(E01015) Chyba: Velikost projektu je příliš velká. Šířka byla tiskárnou automaticky opravena na maximální hodnotu." />
+
+	<lang name="msg_E1000" value="(E1000) Chyba: Nelze získat oprávnění administrátora k vypnutí systému!"/>
+	<lang name="msg_E1001" value="(E1001) Chyba: Šablona projektu neexistuje!"/>
+	<lang name="msg_E1002" value="(E1002) Chyba: Načítání projektu selhalo!"/>
+	<lang name="msg_E1003" value="(E1003) Chyba: Načítání projektu se nezdařilo - projektový soubor neexistuje!"/>
+	<lang name="msg_E1004" value="(E1004) Chyba: Nelze nastavit oprávnění uživatele k restartování systému!"/>
+	<lang name="msg_E1100" value="(E1100) Chyba: Nelze provést tuto operaci, protože žádný projekt není otevřen!"/>
+	<lang name="msg_E10100" value="(E10100) Chyba: Nelze načíst projekt z vybraného souboru! Soubor neobsahuje žádné informace o projektu, nebo je poškozen. Operace byla přerušena!"/>
+	<lang name="msg_E10101" value="(E10101) Chyba: Nelze načíst nastavení projektu! Pomocí výchozího nastavení ... nutné nastavit správné nastavení uživatelem."/>
+	<lang name="msg_E10102" value="(E10102) Chyba: Nelze načíst parametry tisku pro tento projekt! Použití výchozích parametrů ... nutné nastavit správné parametry (Výchozí parametry mohou být nesprávné pro aktuální tiskovou hlavou)."/>
+	<lang name="msg_E11010" value="(E11010) Chyba: Variabilní pole \'Text pole\': Nelze otevřít soubor!"/>
+	<lang name="msg_E11011" value="(E11011) Chyba: Variabilní pole \'Text pole\': Problém s otevřením / přístup k souboru na dané trati!"/>
+	<lang name="msg_E11020" value="(E11020) Chyba: Variabilní pole \'COM PORT\': Nelze otevřít port!"/>
+	<lang name="msg_E11021" value="(E11021) Chyba: Variabilní pole \'COM PORT\': Komunikační port není otevřen! Komunikace přerušena!"/>
+	<lang name="msg_E11022" value="(E11022) Chyba: Variabilní pole \'COM PORT\': Read / Write operace se nezdařila!"/>
+	<lang name="msg_E11036" value="(E11036) Chyba: Problém provedení čárového kódu! Zkontrolujte data nebo nastavení a opravite je v případě potřeby."/>
+	<lang name="msg_D0100" value="Tisk vyp. (připraven)"/>
+	<lang name="msg_D0101" value="Tisk zap. (čekej)"/>
+	<lang name="msg_D0102" value="Tisk zap. (tiskne)"/>
+	<lang name="msg_D0000" value="Ovladač není přítomen"/>
+	<lang name="msg_D0001" value="Chyba při odesílání příkazu k ovladači tiskárny"/>
+	<lang name="msg_D0002" value="Neznámý stav tiskárny"/>
+	<lang name="msg_D0003" value="Projekt není vybrán"/>
+	<lang name="msg_D0110" value="Měřící vzdálenost, projděte body:1 - 2 - 3"/>
+	<lang name="msg_W1111" value="(W1111)Varování!: Vynechán tisk(y)! Některé výtisky mohou být nesprávné. Rychlost tisku může být příliš rychlá na vybraný projekt."/>
+	<lang name="msg_W1112" value="(W1112) Varování!: Projekt nelze vytisknout - byl spuštěn před přípravou dat k tisku. Přeskočeny výtisk (y):"/>
+	<lang name="msg_W2000" value="(W2000) Varování!: Data do tiskové fronty byly přehlceny,další údaje nebudou shromažďovány. Udělat výtisk a uvolnit tak tiskové fronty" />
+	<lang name="msg_W2001" value="(W2001) Varování!: Tiskárna přijala příliš velké množství dat, bez ukončovacího znaku! Redundantní data vstoupila do další položky ve frontě" />
+	<lang name="msg_W3000" value="(W3000)Varování!: Odpadní láhev je přeplněna! Prosím vyprázdnite láhev. Další čištění může zničit vzduchovou pumpu. Stlačte tlačítko OK po vyprázdnění láhve."/>
+
+	<lang name="msg_E10000" value="(E10000) Chyba: Nelze nahrát požadovaná data objektu ze složky objektu!" />
+	<lang name="msg_E10103" value="(E10103) Chyba: Nelze nahrát parametry tisku z externí složky! Použijte místní parametry!" />
+	<lang name="msg_E10104" value="(E10104) Chyba: Projekt nelze uložit (nelze vytvořit adresářový strom obsahující projekt)"/>
+	<lang name="msg_E10105" value="(E10105) Chyba: Projekt nelze uložit (uložení není povoleno v danné oblasti)" />
+	<lang name="msg_E11023" value="(E11023) Chyba: Proměnné pole &quot;COM PORT&quot; :  Kritická chyba při zpracování přijatých dat!" />
+	<lang name="msg_E11024" value="(E11024) Chyba: Proměnné pole &quot;COM PORT&quot; : Vybraný COM PORT nelze otevřít dvakrát (i.e. projekt využívající tento COM PORT by neměl být otevřen pro tisk a zároveň pro editaci. Můžete pokračovat, ale proměnné pole nebude pracovat.)"/>
+	<lang name="msg_E11030" value="(E11030) Chyba: Data čárového kódu jsou nesprávná (detekovány nepovolené znaky v aktuálním typu čárového kódu)! Prosím opravte data."/>
+	<lang name="msg_E11031" value="(E11031) Chyba: Délka čárového kódu je nesprávná! Prosím opravte data."/>
+	<lang name="msg_E11035" value="(E11035) Chyba: Nelze nahrát popis vybraného čárového kódu z databáze tiskárny. To se může stát, pokud byl váš projekt vytvořen na nové tiskárně, která využívá více typů čárových kódů (nebo databáze čárových kódů je obsazena)."/>
+
+	<lang name="msg_I99000" value="(I99000) Nový inkoustová nádoba úspěšně přijata."/>
+	<lang name="msg_E99000" value="(E99000) Není registrována žádná inkoustová nádoba v systému."/>
+	<lang name="msg_E99001" value="(E99001) Nesprávné údaje inkoustové nádoby od systému IMS. Inkoust odmítnut!" />
+	<lang name="msg_E99002" value="(E99002) Nesprávné parametry inkoustu. Inkoust odmítnut!"/>
+	<lang name="msg_E99003" value="(E99003) Starý inkoust - kontejner odmítnut!"/>
+	<lang name="msg_E99004" value="(E99004) Inkoust pro jiný typ tiskové hlavy - kontejner odmítnut!"/>
+	<lang name="msg_W99005" value="(W99005) Rozdílná barva ikoustu než byla použitá naposled - prosím vypláchnite tiskárnu."/>
+	<lang name="msg_E99005" value="(E99005) Jiná barva inkoustu, než dříve používaná - kontejner odmítnut!"/>
+	<lang name="msg_E99006" value="(E99006) Odlišný Typ inkoustu než dříve používaný - kontejner odmítnut!"/>
+	<lang name="msg_E99007" value="(E99007) Odlišný typ solventu než dříve používaný - kontejner odmítnut!"/>
+	<lang name="msg_E99020" value="(E99020) Inkoustová nádoba již používána s touto tiskárnou. Inkoust odmítnut!"/>
+	<lang name="msg_E99021" value="(E99021) Inkoustová nádoba je deaktivována (již byla schválena v jiné tiskárně). Inkoust odmítnut!"/>
+	<lang name="msg_E99022" value="(E99022) Inkoustová náplň registrovaná v systému je využita a deaktivována. Zaregistrujete nový kontejner!"/>
+	<lang name="msg_E99023" value="(E99023)  Inkoustová náplň je deaktivována (byla spotřebována). Inkoustová náplň odmítnuta!"/>
+	<lang name="msg_W99023" value="(W99023) Hladina inkoustu je kriticky nízká!"/>
+	<lang name="msg_E99024" value="(E99024) Selhání inkoustového zásobníku, nebo žádný zásobník!" />
+	<lang name="msg_I99024" value="(I99024) Inkoustová komora prázdná (žádný inkoust)"/>
+	<lang name="msg_E99050" value="(E99050) Žádná tiskárna ID (následujte ID programovací postup pro nová zařízení!)"/>
+	<lang name="msg_E99051" value="(E99051) Žádná tiskárna ID nebo nesprávné číslo tiskárny. Tiskárnu nelze použít! Prosím, kontaktujte svého distributora."/>
+	<lang name="msg_I99070" value="(I99070) Prázdná láhev"/>
+	<lang name="msg_I99100" value="(I99100) Není registrována žádná inkoustová nádoba v systému. Zaregistrujte si inkoust a zahajte tisk."/>
+	<lang name="msg_E99100" value="(E99100) Není registrována žádná inkoustová nádoba v systému. Zaregistrujte si inkoust a zahajte tisk."/>
+	<lang name="msg_I99110" value="(I99110) Tiskárna byla odemčena podle kódu na zbývající pracovní čas: %s"/> 
+	<lang name="msg_I99111" value="(I99111) Kód pro jednorázové heslo úspěšně přijat."/>
+	<lang name="msg_I99112" value="(I99112) Typ inkoustu byl změněn - můžete přijmout / zaregistrovat nový inkoust"/>
+	<lang name="msg_W99112" value="(W99112) Typ inkoustu nebyl změněn. Prosím zkuste to znovu"/>
+	<lang name="msg_E99120" value="(E99120) One Time Password nebyl vytvořen, prosím zkuste to znovu později."/>
+	<lang name="msg_E99121" value="(E99121) Neplatný kód pro jednorázové heslo"/>
+	<lang name="msg_E99122" value="(E99122) Překročen limit špatných odpovědí. Tiskárna se vypne"/>
+	<lang name="msg_W99123" value="(W99123) Kód přijat, ale volbu nelze použít." />
+	<lang name="msg_W99124" value="(W99124) Kód přijat, ale byla vybrána špatná volba." />
+	<lang name="msg_E99130" value="(E99130) Interní baterie byla poškozena. Prosím vyměnte baterii! Je-li baterie vyměněna poté restartujte tiskárnu"/>
+	<lang name="msg_I99130" value="(I99130) Interní baterie byla poškozena. Prosím vyměnte baterii! Je-li baterie vyměněna poté restartujte tiskárnu"/>
+
+	<lang name="msg_E99140" value="(E99140) Nová CPU deska nemůže být přijata!" />
+	<lang name="msg_I99140" value="(I99140) Nová CPU deska úspěšně přijata!" />
+	<lang name="msg_E99141" value="(E99141) Deska CPU nebyla přijata! Prosím kontaktujte autorizovaného prodejce!"/>
+	<lang name="msg_E99142" value="(E99142) Chyba autorizace: deska CPU nebyla přijata! Chyba komunikace CPU desky. Prosím kontaktujte autorizovaného prodejce." />
+
+
+	<lang name="msg_S90010" value="Aktivní" />
+	<lang name="msg_S90020" value="Deaktivováno" />
+	<lang name="msg_S90030" value="Selhala náplň, nebo chybí." />
+	<lang name="msg_S90040" value="Čip není registrován" />
+	<lang name="msg_S90050" value="Tiskárna odemknuta" />
+
+</StatusMessages>
+<Barcodes>
+	<lang name="bar_Code_11" value="[b] Znaková sada: [/b] číselná 0-9 a pomlčka \n[b] Délka: [/b] proměnná \n[b] Popis:[/ b] Používá se v telekomunikačním průmyslu."/>
+	<lang name="bar_Code_25_Industrial" value="[b] Znaková sada:[/b] číselné 0-9\n[b] Délka:[/b] proměnná\n[b]Popis:[/b] Také známý jako kód 2 z 5 a kód 25 Industrial. Spíše starý kód pro průmyslové použití."/>		
+	<lang name="bar_Code_25_Interleaved" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] proměnná\n[b]popis:[/b] Také známý jako kód 2 z 5 prokládaný. Průmyslové použití."/>
+	<lang name="bar_Code_25_IATA" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] proměnná\n[b]popis:[/b] Varianta kódu 2 z 5 používaný v leteckém průmyslu."/>
+	<lang name="bar_Code_25_DataLogic" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] proměnná\n[b]popis:[/b] Varianta kódu 2 z 5."/>	
+	<lang name="bar_Code_39" value="[b]Znaková sada:[/b] A-Z, 0-9, 5 speciálních znaků\n[b]délka:[/b] proměnná\n[b]popis:[/b] Také známý jako 3 z 9. Často používaný typ s vlastní kontrolou."/>		
+	<lang name="bar_Code_39_Extended" value="[b]Znaková sada:[/b] ASCII (127 znaků)\n[b]délka:[/b] proměnná\n[b]popis:[/b] Také známý jako kód 3 z 9 prodloužený.Rozšířená verze kódu 39."/>
+	<lang name="bar_EAN" value="[b]Znaková sada:[/b] číselná 0-9\n[b] délka:[/b] odpovídá zvolenému typu EAN čárového kódu\n[b] popis:[/b] Kód EAN se používá především v supermarketech k identifikaci výrobku v místě prodeje. Obsahuje standardy pro EAN-2 a EAN-5 doplněk, EAN-8 a EAN-13, které kódují 2, 5, 7 nebo 12 místné číslo. Následující příklad bude kódovat symbol EAN-8 s EAN-5 doplněk: 1234567 + 12345."/>
+	<lang name="bar_GS1_128" value="[b]Znaková sada:[/b] ASCII\n[b] délka:[/b] proměnná\n[b] popis:[/b] EAN/UCC 128 je speciální forma kódu 128. Používá se pro výrobky a palety v obchodu a průmyslu. Mohou být kódovány více než jedním datovým polem uvnitř jednoho čárového kódu za použití identifikátoru (příklad: [01] 2345, kdy 01 specifikuje identifikátor aplikace)"/>
+	<lang name="bar_Codabar" value="[b]Znaková sada:[/b] 0-9, 6 speciálních znaků\n[b] délka: [/b] proměnná\n[b] popis:[/b] Dříve standardně používaný pro transfuzní služby. Může kódovat libovolné délky řetězeců začínajících a končících písmeny AD a obsahujících mezi těmito písmeny čísla 0-9, pomlčka (-), dolar ($), dvojtečka (:), lomítko (/), tečka (.) nebo znaménko plus (+). Příklad: A$12+$34C"/>
+	<lang name="bar_Code_128" value="[b]Znaková sada:[/b] Rozšířené ASCII\n[b] délka:[/b] proměnná\n[b] popis:[/b] Jedním z nejvíce používaných 1D čárových kódů. Moderní typ čárového kódu velmi komprimovaných dat (příklad: [1] 2345)."/>
+	<lang name="bar_Leitcode" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] 14\n[b]popis:[/b] Leitcode používá Deutsche Post/DHL. Poslední číslice je vypočtena automaticky (kontrolní hodnota) - jen 13 znaků by mělo být upřesněno."/>
+	<lang name="bar_Identcode" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] 12\n[b]popis:[/b] Identcode používá Deutsche Post/DHL. Poslední číslice je vypočtena automaticky (kontrolní hodnota) - jen 11 znaků by mělo být upřesněno."/>
+	<lang name="bar_Code_16k" value="[b]Znaková sada:[/b] ASCII\n[b]délka:[/b] proměnná\n[b]popis:[/b] Skládaná symbolika založena na kódu 128."/>
+
+	<lang name="bar_Code_93" value="[b]Znaková sada:[/b] A-Z, 0-9, 5 speciálních znaků\n[b]Délka:[/b] proměnná\n[b]popis:[/b] Stejná znaková sada jako kód 39, ale kompaktnější kód, který vyžaduje méně místa."/>	
+	<lang name="bar_GS1_DataBar-14" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] 14\n[b]popis:[/b] Nový systém kódování EAN. Poslední číslice je vypočtena automaticky (kontrolní hodnota) - jen (až) 13 znaků by mělo být specifikováno."/>
+	<lang name="bar_GS1_DataBar_Limited" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] 13\n[b]popis:[/b] Nový systém kódování EAN."/>	
+	<lang name="bar_GS1_DataBar_Expanded" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] proměnná\n[b]popis:[/b] Náhrada za GS1-128. Také známý jako rozšířený RSS, se jedná o proměnnou délku symboliky schopen kódování dat z řady AIs v jednom symbolu. AIs by měly být uzavřen v [hranatých závorkách] ve vstupních datech. Příklad: [01]1236[3202]0125[15]9874."/>
+	<lang name="bar_Telepen_Alpha" value="[b]Znaková sada:[/b] ASCII\n[b]délka:[/b] proměnná\n[b]popis:[/b] Obecné schéma kódování. Často se používá v knihovnách."/>
+	<lang name="bar_UPC-A" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] 12\n[bpopis:[/b] UPC Kód je standardní verze UPC kódu a má 12 číslic. To je také nazýváno UPC 12 a je velmi podobný EAN kódu. Poslední číslice je vypočtena automaticky (kontrolní hodnota) - jen 11 znaky by mělo být upřesněno."/>
+	<lang name="bar_UPC-E" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] 8\n[b]popis:[/b] Je to krátká verze UPC-A pro velmi malé produkty. Poslední číslice je vypočítána automaticky (kontrolní hodnota) - pouze 7 znaků by mělo být upřesněno."/>
+	<lang name="bar_PostNet" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] proměnná\n[b]popis:[/b] Tento kód se používá ke zlepšení rychlosti třídění a doručování poštovních zásilek."/>	
+	<lang name="bar_MSI_Plessey" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] proměnná\n[b]popis:[/b] Starý systém používaný obvykle v britském průmyslu."/>
+	<lang name="bar_Pharmacode_One-Track" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] -\n[b]popis:[/b] Pharmacode, také známý jako farmaceutický binární kód, je standardní čárový kód, používaný ve farmaceutickém průmyslu jako ovládání systému balení."/>	
+	<lang name="bar_Pharmacode_Two-Track" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] -\n[b]popis:[/b] Pharmacode (variace ve dvou rovinách), také známý jako farmaceutický binární kód, je čárový kód standard, používaný ve farmaceutickém průmyslu jako ovládání systému balení."/>
+
+	<lang name="bar_PZN" value="[b]Znaková sada:[/b] číselná 0-9\n[b]délka:[/b] 7\n[b]popis:[/b] Centrální číslo pro medicínu. Speciálně pro kód 39."/>
+	<lang name="bar_PDF417" value="[b] Znaková sada:[/b] prodloužený ASCII\n[b]délka:[/b] proměnná\n[b]popis:[/b] 2D čárový kód pro kódování objemného textu nebo dat pouze v jednom kódu. Populární v kurýrním průmyslu."/>
+	<lang name="bar_PDF417_Truncated" value="[b]Znaková sada:[/ b] prodloužený ASCII\n[b]délka:[/b] proměnná\n[b]popis:[/b] 2D čárový kód pro kódování objemného textu nebo dat pouze v jednom kódu. Populární v kurýrní průmyslu."/>
+	<lang name="bar_QR_Code" value="[b]Znaková sada:[/b] prodloužený ASCII\n[b]délka:[/b] proměnná\n [b]popis:[/b] Kompaktní kód velmi oblíbený mezi uživateli telefonů s kamerou."/>	
+	<lang name="bar_Australia_Post_4-State" value="[b]Znaková sada:[/b] A-Z, 0-9\n[b]délka:[/b] proměnná\n[b]popis:[/b] Pro identifikaci poštovních zásilek v Austrálii."/>
+	<lang name="bar_Royal_Mail_4-State" value="[b]Znaková sada:[/b] A-Z, 0-9\n[b]délka:[/b] proměnná\n[b]popis:[/b] The Royal Mail 4 State Customer Code (RM4SCC) byl vytvořen pro automatické třídění poštovních procesů."/>
+	<lang name="bar_DataMatrix" value="[b]Znaková sada:[/b] ASCII\n[/b]délka:[/b] proměnná\n[b]popis:[/b] 2D čárový kód pro kódování objemného textu nebo dat pouze v jednom kódu."/>	
+	<lang name="bar_MicroPDF417" value="[b]Znaková sada:[/b] prodloužený ASCII\n[b]délka:[/b] proměnná\n[b]popis:[/b] Snížená plocha verze PDF417."/>
+	<lang name="bar_template" value="[b]Znaková sada:[/b] ASCII\n[b]délka:[/b] proměnná\n[b]popis:[/b] popis"/>	
+</Barcodes>
+</EBS_EditorLanguage>
+	
+<EBS_LCDGUI>
+<WTitles>
+	<lang name="wtitle_cControlScreen" value="Stav tiskárny"/>
+	<lang name="wtitle_cMainScreen" value="TiskárnaUI"/>
+	<lang name="wtitle_message" value="Zprávy"/>
+	<lang name="wtitle_error" value="Chyba"/>
+	<lang name="wtitle_warning" value="Varování"/>
+	<lang name="wtitle_cProjectPreview" value="Náhled projektu"/>
+	<lang name="wtitle_cProjectSelector" value="Vybrat projekt"/>
+	<lang name="wtitle_cSetupScreen" value="Nastavení"/>
+	<lang name="wtitle_cServiceScreen" value="Servis"/>
+	<lang name="wtitle_password" value="Prosím vložte heslo"/>
+
+	<lang name="wtitle_cNewObjectDialog" value="Zvolte nový typ objektu"/>
+	<lang name="wtitle_cFontSelector" value="Volba písma"/>
+	<lang name="wtitle_cFileSelector" value="Výběr souboru"/>
+
+	<lang name="window_title_wifi_status" value="Stav bezdrátové sítě"/>
+	<lang name="wtitle_cPrintingParamsScreen" value="Parametry tisku"/>
+	<lang name="w_title_edit_choice" value="Co chete upravit?"/>
+	<lang name="w_title_factory_tunig" value="Tovární nastavení a servis"/>
+	<lang name="window_title_printer_status" value="Stav tiskárny"/>
+	<lang name="wtitle_Add_wifi_network" value="Přidat bezdrátovou síť"/>
+	<lang name="wtitle_Edit_wifi_settings" value="Upravit nastavení bezdrátové sítě"/>
+
+	<lang name="window_title_alert" value="Výstarha!"/>
+	<lang name="wtitle_cInfoScreen" value="Informace o produktu"/>
+	<lang name="wtitle_cBatteryDialog" value="Stav baterie"/>
+	<lang name="wtitle_cBottleDialog" value="Stav inkoustové láhve"/>
+	<lang name="wtitle_cPurgeScreen" value="Očistit"/>
+	<lang name="window_title_turnoff" value="Vyberte volbu"/>
+
+
+	<lang name="window_title_file_presenter" value="Obsah textového souboru"/>
+	<lang name="wtitle_cDataTimeDialog" value="Prosím nastavte čas/datum"/>
+	<lang name="wtitle_cDataTimeDialogShort" value="Set time/date"/>
+	<lang name="wtitle_cEditorScreen" value="Editor"/>
+	<lang name="wtitle_cGeneralSetupDialog" value="Generální nastavení"/>
+	<lang name="wtitle_cPendriveScreen" value="Obnovit obrazovku"/>
+	<lang name="wtitle_cPowerManager" value="Řízení spotřeby"/>
+	<lang name="wtitle_cSoundSetupDialog" value="Nastavení zvuku"/>
+	<lang name="wtitle_cUnclockScreen" value="Odemčení obrazovky"/>
+	<lang name="wtitle_cUserManager" value="Správa uživatelů"/>
+	<lang name="wtitle_cUserScr" value="Správa uživatelů"/>
+	<lang name="wtitle_firmware_update_detected" value="Aktualizace firmwaru"/>
+	<lang name="wtitle_illegal_filename" value="Nesprávný název souboru"/>
+	<lang name="wtitle_image_selection" value="Prosím vyberte obrázek"/>
+	<lang name="wtitle_LowBatteryAlert" value="Varování! Výstražný stav baterie!"/>
+	<lang name="wtitle_PrintHeadMismatch" value="Varování! Nesoulad projektu a tiskové hlavy!"/>
+	<lang name="wtitle_select_project" value="Prosím vyberte projekt"/>
+	<lang name="wtitle_text_file_selection" value="Prosím vyberte textový soubor"/>
+	<lang name="wtitle_connection_error" value="Chyba spojení!"/>
+	<lang name="wtitle_cTurnOffDealyScreen" value="Vypni tiskárnu v"/>
+
+	<lang name="wtitle_import_message" value="Zpráva o importu projektu"/>
+	<lang name="wtitle_import_messageShort" value="Import report"/>
+	<lang name="wtitle_export_message" value="Zpráva o exportu projektu"/>
+	<lang name="wtitle_export_messageShort" value="Export report"/>
+	<lang name="wtitle_cExportSelectionDialog" value="Prosím vyberte metodu exportu"/>
+	<lang name="wtitle_cExportSelectionDialogShort" value="Export method"/>
+
+	<lang name="wtitle_bt_devices_scan" value="Správa Bluetooth zařízení"/>
+
+	<lang name="wtitle_firmware_ugprade_info" value="Informace o aktualizaci firmwaru."/>
+
+	<lang name="wtitle_cProjectPropertiesDialog" value="Vlastnosti projektu"/>
+
+	<lang name="wtitle_cBluetoothDialog" value="Stav Bluetooth"/>
+
+	<lang name="wtitle_pm_message" value="Zpráva"/>
+	
+	<lang name="wtitle_cMessagesDialog" value="Zprávy"/>
+
+	<lang name="wtitle_wifi_list_dialog" value="Správa Wifi sítí"/>
+
+	<lang name="wtitle_cPendriveDialog" value="Stav zařízení velkého úložiště"/>
+	<lang name="wtitle_cPendriveDialogShort" value="Mass storage device"/>
+	<lang name="wtitle_cUpgradeFirmwareDialog" value="Aktualizace firmwaru tiskárny"/>
+	<lang name="wtitle_cUpgradeFirmwareDialogShort" value="Upgrade firmware"/>
+
+	<lang name="wtitle_PleaseSelectFileForImport" value="Prosím vyberte soubor pro export"/>
+	<lang name="wtitle_cExportProjectSelector" value="Vyberte projekt pro export"/>
+
+	<lang name="wtitle_cObjectListDialog" value="Objekty / schránka / koš"/>
+	<lang name="wtitle_ProjectNotFound" value="Chyba"/>
+	<lang name="wtitle_EditProjectName" value="Vložte název projektu"/>
+	<lang name="wtitle_Confirmation" value="Potvrďte"/>
+	<lang name="window_kernel_missmatch" value="Chyba"/>
+
+	<lang name="wtitle_cRestoreDialog" value="Obnova systémových dat"/>
+	<lang name="wtitle_new_directory_name" value="Prosím zadejte nový název adresáře"/>
+	<lang name="wtitle_Select" value="Vyberte"/>
+
+	<lang name="wtitle_firmware_ugprade_error" value="Firmware upgrade error."/>
+
+</WTitles>
+<Labels>
+	<lang name="lbl_status" value="Stav:"/>
+	<lang name="lbl_project" value="Projekt:"/>
+	<lang name="lbl_directories" value="Adresáře:"/>
+	<lang name="lbl_projects" value="Projekty:"/>
+	<lang name="lbl_inklevel" value="Hladina Ink"/>
+	<lang name="lbl_ipmodeselect" value="IP adresa tiskárny:"/>
+	<lang name="lbl_dhcp" value="Automaticky (DHCP)"/>
+	<lang name="lbl_static" value="Manuálně (Static)"/>
+	<lang name="lbl_ip" value="IP:"/>
+	<lang name="lbl_netmask" value="Netmask:"/>
+	<lang name="lbl_gateway" value="Gateway:"/>
+	<lang name="lbl_dns" value="DNS:"/>
+	<lang name="lbl_messages" value="Zprávy:"/>
+	<lang name="lbl_autostart" value="Autostart aktuální projekt:"/>
+	<lang name="lbl_TxtRepetitions" value="Text opakování"/>
+	<lang name="lbl_internalGenerator" value="Vnitřní generátor"/>
+	<lang name="lbl_externalSource" value="Externí zdroj"/>
+	<lang name="lbl_edge" value="Hrana"/>
+	<lang name="lbl_level" value="Úroveň"/>
+	<lang name="lbl_positiveEdge" value="Náběžná hrana"/>
+	<lang name="lbl_negativeEdge" value="Sestupná hrana"/>
+	<lang name="lbl_highLevel" value="Vysoká úroveň"/>
+	<lang name="lbl_lowLevel" value="Nízká úroveň"/>
+	<lang name="lbl_normal" value="Normální"/>
+	<lang name="lbl_hex" value="Hexadecimální"/>
+	<lang name="lbl_flipped" value="Převrácený"/>
+	<lang name="lbl_reversed" value="Obrácený"/>
+	<lang name="lbl_internal" value="Interní"/>
+	<lang name="lbl_external" value="Externí"/>
+	<lang name="lbl_both" value="both"/>
+	<lang name="lbl_currentuser" value="Současný uživatel:"/>
+	<lang name="lbl_editor" value="Editor:"/>
+	<lang name="lbl_printer" value="Printer:"/>
+	<lang name="lbl_items" value="položky"/>
+	<lang name="lbl_one_time_code" value="odemknout kód"/>
+	<lang name="lbl_unlock_code" value="aktivační kód"/>
+
+	<lang name="lbl_new_object_selection" value="Zvolte nový typ objektu"/>
+	<lang name="lbl_text_object" value="Normalní text"/>
+	<lang name="lbl_datetime_object" value="Datum / čas"/>
+	<lang name="lbl_counter_object" value="Čítač"/>
+	<lang name="lbl_comport_object" value="Komunikační port"/>
+	<lang name="lbl_texfile_object" value="Textový soubor"/>
+	<lang name="lbl_line_divider" value="Oddělovač"/>
+	<lang name="lbl_image_object" value="Obrázek"/>
+	<lang name="lbl_barcode_object" value="Barcode"/>
+	<lang name="lbl_quick_preview" value="Rychlý náhled:"/>
+	<lang name="lbl_image_path" value="Cesta obrázku:"/>
+	<lang name="lbl_transform_mode" value="povolit změnu velikosti:"/>
+	<lang name="lbl_text" value="Text:"/>
+	<lang name="lbl_printer_time" value="Čas tiskárny: "/>
+	<lang name="lbl_date_offset" value="Datumové vyrovnání:"/>
+	<lang name="lbl_time_offset" value="Časové vyrovnání:"/>
+	<lang name="lbl_object_properties" value="Vlastnosti objektů"/>
+	<lang name="lbl_object_name" value="název objektu:"/>
+	<lang name="lbl_position" value="Pozice:"/>
+	<lang name="lbl_size" value="Velikost:"/>
+	<lang name="lbl_autosize" value="Autovelikost:"/>
+	<lang name="lbl_transparent" value="Transparentně:"/>
+	<lang name="lbl_object_rotation" value="Otočení objektu:"/>
+	<lang name="lbl_text_properties" value="Vlastnosti textu"/>
+	<lang name="lbl_fontname" value="Název písma:"/>
+	<lang name="lbl_fontsize" value="Velikost písma:"/>
+	<lang name="lbl_font_constrain_proportions" value="Zachovat proporce písma:"/>
+	<lang name="lbl_line_spacing" value="řádkování:"/>
+	<lang name="lbl_must_edit" value="Úprava textu před tiskem je zahájena:"/>
+	<lang name="lbl_advance_properties" value="Pokročilé vlastnosti"/>
+	<lang name="lbl_date_separator" value="Oddělovač data:"/>
+	<lang name="lbl_date_format" value="Formát datumu:"/>
+	<lang name="lbl_time_separator" value="Oddělovač času:"/>
+	<lang name="lbl_time_format" value="Formát času:"/>
+	<lang name="lbl_formatting_string_edition" value="Povolit formátovací řetězec Edition:"/>
+	<lang name="lbl_formatting_string" value="Formátování řetězce:"/>
+	<lang name="lbl_barcode_properties" value="Vlastnosti čárového kódu"/>
+	<lang name="lbl_barcode_type" value="Typ čároveho kódu:"/>
+	<lang name="lbl_border_type" value="Typ ohraničení:"/>
+	<lang name="lbl_none" value="žádný"/>
+	<lang name="lbl_bind" value="vázat"/>
+	<lang name="lbl_box" value="box"/>
+	<lang name="lbl_border_size" value="Hranice velikosti:"/>
+	<lang name="lbl_barcode_desc" value="Stručný popis čárového kódu:"/>
+	<lang name="lbl_counter_properties" value="Čítač %i vlastnosti"/>
+	<lang name="lbl_visible" value="Zobrazit tento čítač:"/>
+	<lang name="lbl_min" value="Min"/>
+	<lang name="lbl_max" value="Max"/>
+	<lang name="lbl_Start_mode" value="Startovací mód"/>
+	<lang name="lbl_start_value" value="Počáteční hodnota"/>
+	<lang name="lbl_last_value" value="Poslední hodnota"/>
+	<lang name="lbl_step" value="Krok:"/>
+	<lang name="lbl_lenght" value="Délka:"/>
+	<lang name="lbl_fillin" value="Vyplnit:"/>
+	<lang name="lbl_suffix" value="Přípona:"/>
+	<lang name="lbl_space" value="Mezera"/>
+	<lang name="lbl_select_image_file" value="Prosím, vyberte soubor s obrázkem..."/>
+	<lang name="lbl_enter_text" value="Zadejte text..."/>
+	<lang name="lbl_font_preview" value="Náhled písma:"/>
+	<lang name="lbl_font_set" value="Písma:"/>
+	<lang name="lbl_factory_default" value="Standardní"/>
+	<lang name="lbl_Users" value="Uživatelé"/>
+	<lang name="lbl_enter_filename" value="Zadejte název souboru..."/>
+
+	<lang name="lbl_object_position_x" value="Object pozicer x"/>
+	<lang name="lbl_object_position_y" value="Object pozice y"/>
+	<lang name="lbl_object_width" value="Šířka objektu"/>
+	<lang name="lbl_object_height" value="Výška objektu"/>
+	<lang name="lbl_font_width" value="Šířka písma"/>
+	<lang name="lbl_font_height" value="Výška písma"/>
+	<lang name="lbl_turnoffnow" value="Vypnout nyní"/>
+
+
+	<lang name="lbl_configure" value="Konfigurace"/>
+	<lang name="lbl_wifi_on" value="Zap"/>
+	<lang name="lbl_wifi_off" value="Vyp"/>
+	<lang name="lbl_purge" value="Očistit"/>
+	<lang name="lbl_print_test" value="Tisk"/>
+	<lang name="lbl_tune" value="Naladit"/>
+	<lang name="lbl_speed" value="Rychlost tisku"/>
+	<lang name="lbl_drop" value="Počet kapek"/>
+	<lang name="lbl_bat_temp" value="Teplota"/>
+	<lang name="lbl_capacity" value="Kapacita"/>
+	<lang name="lbl_current" value="Aktuální"/>
+	<lang name="lbl_voltage" value="Napětí"/>
+	<lang name="lbl_bat_status" value="Stav baterie"/>
+	<lang name="lbl_discharging" value="Vybíjení"/>
+	<lang name="lbl_charging" value="Nabíjení"/>
+	<lang name="lbl_missing" value="Chybějící"/>
+	<lang name="lbl_unknown" value="Neznámé"/>
+	<lang name="lbl_charged" value="Nabito"/>
+	<lang name="lbl_Unchanged" value="Vybito"/>
+	<lang name="lbl_wifi_signal" value="Úroveň signálu"/>
+	<lang name="lbl_wifi_bssid" value="BSSID"/>
+	<lang name="lbl_wifi_ssid" value="SSID"/>
+	<lang name="lbl_wifi_ip" value="IP adresa"/>
+	<lang name="lbl_wifi_status" value="Stav"/>
+	<lang name="lbl_wifi_channel" value="Kanál"/>
+	<lang name="lbl_disable_this_network" value="Nepřipojeno k této síti"/>
+	<lang name="lbl_wifi_security" value="Bezpečnostní"/>
+	<lang name="lbl_wifi_psk" value="Předsdílený klíč"/>
+	<lang name="lbl_wifi_psk_type" value="Typ klíče"/>
+	<lang name="wifi_unknown" value="Neznámé"/>
+	<lang name="wifi_scanning" value="Snímání"/>
+	<lang name="wifi_associating" value="Sdružuje"/>
+	<lang name="wifi_disconnected" value="Rozpojeno"/>
+	<lang name="wifi_connected" value="Spojeno"/>
+	<lang name="wifi_waiting_for_ip" value="Čekání na IP adresu"/>
+	<lang name="wifi_sec_802.1x" value=""/>
+	<lang name="wifi_sec_WPA2/EAP" value="WPA2/EAP"/>
+	<lang name="wifi_sec_WPA2/PSK" value="WPA2/PSK"/>
+	<lang name="wifi_sec_WPA/EAP" value="WPA/EAP"/>
+	<lang name="wifi_sec_WPA/PSK" value="WPA/PSK"/>
+	<lang name="wifi_sec_WEP" value="WEP"/>
+	<lang name="wifi_sec_none" value="Žádný"/>
+	<lang name="wifi_psk_ascii" value="ASCII"/>
+	<lang name="wifi_psk_hex" value="HEX"/>
+	<lang name="lbl_edit_panel" value="Edice"/>
+	<lang name="lbl_service_panel" value="Servisní možnosti"/>
+	<lang name="lbl_printer_version" value="Tiskárna"/>
+	<lang name="lbl_system_version" value="Verze systému"/>
+	<lang name="lbl_pui_version" value="PUI"/>
+	<lang name="lbl_pm_version" value="Správce tiskárny"/>
+	<lang name="lbl_wifi_networks:" value="Bezdrátové sítě:"/>
+	<lang name="lbl_inkcolour" value="Barva inkoustu"/>
+	<lang name="lbl_expiration_date" value="Datum spotřeby"/>
+	<lang name="lbl_acceptance_date" value="Datum přijetí"/>
+	<lang name="lbl_Login" value="Přihlášení"/>
+
+	<lang name="lbl_normal_level" value="Normální jas obrazovky"/>
+	<lang name="lbl_turnoff_time" value="Vypnout obrazovku po"/>
+	<lang name="lbl_dim_time" value="Ztlumit obrazovku po"/>
+	<lang name="lbl_dimmed_level" value="Tlumený jas obrazovky"/>
+	<lang name="lbl_never" value="Nikdy"/>
+	<lang name="lbl_Date" value="Datum"/>
+	<lang name="lbl_Time" value="Čas"/>
+
+	<lang name="lbl_enable_counter_section_number" value="Povolit počítadlo sekcí %i"/>
+	<lang name="lbl_object_properties_page" value="Geometrie"/>
+	<lang name="lbl_main_properties_page" value="Hlavní"/>
+	<lang name="lbl_advance_properties_page" value="Moderní"/>
+	<lang name="lbl_text_properties_page" value="Text"/>
+	<lang name="lbl_Bluetooth_settings" value="Nastavení Bluetooth"/>
+	<lang name="lbl_Communication" value="Komunikace"/>
+	<lang name="lbl_General" value="Generální"/>
+	<lang name="lbl_Basic" value="Základní"/>
+	<lang name="lbl_Basic_Settings" value="Běžný"/>
+	<lang name="lbl_Advanced" value="Moderní"/>
+	<lang name="lbl_Messages" value="Zprávy"/>
+	<lang name="lbl_Warnings" value="Varování"/>
+	<lang name="lbl_ascii_code" value="ASCII kód"/>
+	<lang name="lbl_Baud_rate" value="Přenosová rychlost"/>
+	<lang name="lbl_Bit_count" value="Počet bitů"/>
+	<lang name="lbl_Bluetooth" value="Bluetooth"/>
+	<lang name="lbl_BatteryLowWarningSound" value="Varovný signál nízké úrovně baterie"/>
+	<lang name="lbl_Communication_properties_page" value="Komunikace"/>
+	<lang name="lbl_Communication_type" value="Typ komunikace"/>
+	<lang name="lbl_Network_configuration_method" value="Metoda konfigurace"/>
+	<lang name="lbl_Confirm_password" value="Potvrdit heslo"/>
+	<lang name="lbl_Current_password" value="Aktuální heslo"/>
+	<lang name="lbl_New_password" value="Nové heslo"/>
+	<lang name="lbl_data_buffering" value="Ukládání dat do vyrovnávací paměti"/>
+	<lang name="lbl_day" value="Den"/>
+	<lang name="lbl_deactivation_date" value="Deaktivace datumu"/>
+	<lang name="lbl_Do_nothing" value="Nic nedělat"/>
+	<lang name="lbl_Empty" value="Tisk prázdného objektu"/>
+	<lang name="lbl_Last_message" value="Tisk poslední zprávy"/>
+	<lang name="lbl_Disabled" value="Zakázat"/>
+	<lang name="lbl_Enabled" value="Povolit"/>
+	<lang name="lbl_Enable_sound" value="Povolit zvuk"/>
+	<lang name="lbl_Errorsound" value="Chybový zvukový signál"/>
+	<lang name="lbl_FileModification:" value="Modifikace souboru"/>
+	<lang name="lbl_File_path" value="Cesta k souboru"/>
+	<lang name="lbl_Group_name" value="Název skupiny"/>
+	<lang name="lbl_hour" value="Hodina"/>
+	<lang name="lbl_Image_preview" value="Náhled"/>
+	<lang name="lbl_ImageSize:" value="Velikost obrázku:"/>
+	<lang name="lbl_IMSAcceptSound" value="Zvukový signál přijetí inkoustu"/>
+	<lang name="lbl_Keyboard_audio_feedback" value="Zvuková zpětná vazba klávesnice"/>
+	<lang name="lbl_Language" value="Jazyk"/>
+	<lang name="lbl_Laser" value="Laser"/>
+	<lang name="lbl_Letterspacing" value="Odstup mezi písmeny"/>
+	<lang name="lbl_Line_count" value="Počet řádků"/>
+	<lang name="lbl_Line_last_value" value="Hodnota posledního řádku"/>
+	<lang name="lbl_Line_max" value="Maximální hodnota řádku"/>
+	<lang name="lbl_Line_start_value" value="Hodnota počátečního řádku"/>
+	<lang name="lbl_Line_step" value="Krok řádku"/>
+	<lang name="lbl_login_name" value="Uživatelské přihlašovací jméno"/>
+	<lang name="lbl_MessagesSound" value="Zvukový signál zprávy"/>
+	<lang name="lbl_minute" value="Minuta"/>
+	<lang name="lbl_month" value="Měsíc"/>
+	<lang name="lbl_No_data_action" value="Žádné data"/>
+	<lang name="lbl_Port" value="Port"/>
+	<lang name="lbl_Power" value="Napájení"/>
+	<lang name="lbl_PrinterOffSound" value="Zvukový signál vypnutí tiskárny"/>
+	<lang name="lbl_printing" value="Tisk"/>
+	<lang name="lbl_printing_and_purge" value="Tisk a proplach"/>
+	<lang name="lbl_Raport" value="Zpráva"/>
+	<lang name="lbl_ready_to_print_after" value="Připraveno k tisku po"/>
+	<lang name="lbl_Rowmultiply" value="Násobení řádku"/>
+	<lang name="lbl_second" value="Sekunda"/>
+	<lang name="lbl_Sending_msgs_format" value="Formát posílaných zpráv"/>
+	<lang name="lbl_set_date_time" value="nastavit datum/čas"/>
+	<lang name="lbl_Shape_object" value="Tvar"/>
+	<lang name="lbl_Sound" value="Zvuk"/>
+	<lang name="lbl_StartPrintingSound" value="Zvukový signál začátku tisku"/>
+	<lang name="lbl_StopPrintingSound" value="Zvukový signál konce tisku"/>
+	<lang name="lbl_textfile_object" value="Textový soubor"/>
+	<lang name="lbl_Time_interval_[ms]" value=""/>
+	<lang name="lbl_Data_count" value="Počet údajů"/>
+	<lang name="lbl_End_character" value="Koncový znak"/>
+	<lang name="lbl_TooFastPrintingSound" value="Zvukové varování příliš rychlého tisku"/>
+	<lang name="lbl_Touchscreen_audio_feedback" value="Audio zpětná vazba dotykové obrazovky"/>
+	<lang name="lbl_unlock_and_restore" value="Odemknout a obnovit"/>
+	<lang name="lbl_User_icon" value="Uživatelská ikona"/>
+	<lang name="lbl_Users:" value="Uživatelé:"/>
+	<lang name="lbl_version" value="Verze"/>
+	<lang name="lbl_WarningSound" value="Varovný zvukový signál"/>
+	<lang name="lbl_wifi" value="WIFI"/>
+	<lang name="lbl_year" value="Rok"/>
+	<lang name="lbl_Locale_settings" value="Místní nastavení"/>
+	<lang name="lbl_User_settings" value="Uživatelské nastavení"/>
+	<lang name="lbl_wifi_disabled" value="WIFI zakázána"/>
+	<lang name="lbl_Wifi_settings" value="Nastavení WIFI"/>
+	<lang name="lbl_wifi_mac" value="MAC adresa"/>
+	<lang name="lbl_btaddress" value="Bluetooth adresa"/>
+	<lang name="lbl_btname" value="Popisný název Bluetooth"/>
+	<lang name="lbl_Disconnected" value="Odpojeno"/>
+	<lang name="lbl_Pressure" value="Tlak"/>
+	<lang name="lbl_Intensivity" value="Intensivita"/>
+	<lang name="lbl_On" value="Zap"/>
+	<lang name="lbl_Off" value="Vyp"/>
+	<lang name="lbl_Scan" value="Skenovat"/>
+	<lang name="lbl_Export_all" value="Všechny projekty"/>
+	<lang name="lbl_Export_single" value="Jediný projekt"/>
+	<lang name="lbl_Export" value="Export"/>
+	<lang name="lbl_Import" value="Import"/>
+	<lang name="lbl_Upgrade" value="Upgrade"/>
+	<lang name="lbl_Enable_screen_lock" value="Povolení uzamčení obrazovky"/>
+
+	<lang name="lbl_detected_bt_devices:" value="Rozpoznané Bluetooth zařízení"/>
+	<lang name="lbl_btremoteaddress" value="Vzdálená adresa"/>
+	<lang name="lbl_Disconnect" value="Odpojit"/>
+	<lang name="lbl_disconnect" value="Odpojit"/>
+	<lang name="lbl_Connected" value="Spojeno"/>
+	<lang name="lbl_Connecting..." value=""/>
+	<lang name="lbl_Connected_BT" value="Spojeno s Bluetooth zařízením"/>
+
+	<lang name="lbl_solventtype" value="Typ solventu"/>
+	<lang name="lbl_colourtype" value="Typ barvy"/>
+	<lang name="lbl_Nonpigment" value="Bezpigmentová"/>
+	<lang name="lbl_Pigment" value="Pigmentová"/>
+	<lang name="lbl_Acetone" value="Aceton"/>
+	<lang name="lbl_Ethanol" value="Ethanol"/>
+	<lang name="lbl_MEK" value="MEK"/>
+	<lang name="lbl_Glikol" value="Glikol"/>
+	<lang name="lbl_Water" value="Vodní báze"/>
+	<lang name="lbl_Mek+Eth++" value="MEK + Ethanol"/>
+
+	<lang name="lbl_Settings" value="Nastavení"/>
+
+	<lang name="lbl_Size_unit" value="Jednotková velikost"/>
+	<lang name="lbl_Workspace_width" value="Šířka projektu"/>
+
+
+	<lang name="lbl_Resolution" value="Rozlišení"/>
+	<lang name="lbl_scanning" value="Snímání"/>
+	<lang name="lbl_FitFrame2Text" value="Připojení rámce k obsahu"/>
+	<lang name="lbl_FitText2Frame" value="Připojení obsahu k rámci"/>
+	<lang name="lbl_Without_scalling" value="Bez měřítka"/>
+	<lang name="lbl_Scaling" value="Měřítko"/>
+	<lang name="lbl_must_edit_counter" value="Editovat čítač před zpuštěním tisku"/>
+	<lang name="lbl_Filled" value="Naplněno"/>
+	<lang name="lbl_Invert" value="Invertní"/>
+	<lang name="lbl_Line_width" value="Šířka čáry"/>
+
+	<lang name="lbl_Shape_objects" value="Tvary"/>
+	<lang name="lbl_Other_objects" value="Ostatní"/>
+	<lang name="lbl_Text_objects" value="Text"/>
+	<lang name="lbl_Shape_object_elpise" value="Elipsa"/>
+	<lang name="lbl_Shape_object_line" value="Čára"/>
+	<lang name="lbl_Shape_object_rectangle" value="Obdélník"/>
+
+	<lang name="lbl_printer_id" value="Sériové číslo"/>
+	<lang name="lbl_barcode_signature" value="Podpis"/>
+
+	<lang name="lbl_Modification:" value="Poslední změny:"/>
+	<lang name="lbl_EBSCloud" value="EBS Cloud"/>
+
+	<lang name="lbl_Errors" value="Chyby"/>
+	<lang name="lbl_Other" value="Ostatní"/>
+
+	<lang name="lbl_Media_size" value="Velikost zařízení"/>
+	<lang name="lbl_Media_used" value="Využívaný prostor"/>
+	<lang name="lbl_Media_available" value="Prostor k dispozici"/>
+
+	<lang name="lbl_avr_version" value="AVR firmware"/>
+
+	<lang name="lbl_Auto_turnoff_time" value="Čas vypnutí tiskárny"/>
+
+	<lang name="lbl_Objects_list" value="Objekty"/>
+	<lang name="lbl_Clipboard" value="Schránka"/>
+	<lang name="lbl_Trash" value="Koš"/>
+
+	<lang name="lbl_Manage" value="Spravovat"/>
+
+	<lang name="lbl_basicStatistics" value="Základní statistiky"/>
+	<lang name="lbl_report" value="Zpráva"/>
+	<lang name="lbl_userInfoReport" value="Uživatel"/>
+	<lang name="lbl_serviceInfoReport" value="Servis"/>
+	<lang name="lbl_infoReport" value="Celkový"/>
+	<lang name="lbl_OperateTime" value="Pracovní čas"/>
+	<lang name="lbl_MadePrintouts" value="Výtisky"/>
+	<lang name="lbl_ExploitationStat" value="Statistiky využívání"/>
+	<lang name="lbl_ClearStatUser" value="Vyčistit uživatelské zprávy"/>
+	<lang name="lbl_ClearStatService" value="Vymazat servisní zprávy"/>
+	<lang name="lbl_pwrm_version" value="Zprávce napájení"/>
+	<lang name="lbl_SimpleMenu" value="Jednoduchá nabídka"/>
+	<lang name="lbl_tools_panel" value="Nástroje"/>
+	<lang name="lbl_Detailed_information" value="Detailní informace"/>
+	<lang name="lbl_param_tab1" value="Nastavení teček"/>
+	<lang name="lbl_param_tab2" value="Pozice"/>
+	<lang name="lbl_Clear_stats" value="Vymazat"/>
+	<lang name="lbl_Enable_networking" value="Povolit síťování"/>
+	<lang name="lbl_Configure_network_with_DHCP" value="Automatická konfigurace sítě (s DHPC)"/>
+	<lang name="lbl_Current_IP" value="Aktuální IP"/>
+	<lang name="lbl_network" value="Síť"/>
+	<lang name="lbl_ExpertSettings" value="Expertní nastavení"/>
+	<lang name="lbl_OnPrintStart" value="Na start tisku"/>
+	<lang name="lbl_OnDataProcess" value="Na zpracování dat"/>
+	<lang name="lbl_OnPrintFinish" value="Na závěr tisku"/>
+	<lang name="lbl_FormatString" value="Formátovací řetězec"/>
+	<lang name="lbl_connecting" value="Spojování"/>
+
+	<lang name="lbl_enter_filter_string" value="Prosím zadejte filtrovací řetězec"/>
+	<lang name="lbl_message_repeated_n_times" value="Zprávu opakujte %i krát."/>
+
+</Labels>
+
+<Buttons>
+	<lang name="btn_mainmenu" value="hlavní menu"/>
+	<lang name="btn_Start" value="Start"/>
+	<lang name="btn_Stop" value="Stop"/>
+	<lang name="btn_maincontrol" value="Hlavní ovládání"/>
+	<lang name="btn_Setup" value="Nastavení"/>
+	<lang name="btn_Exit" value="Vypnout"/>
+	<lang name="btn_Yes" value="Ano"/>
+	<lang name="btn_No" value="Ne"/>
+	<lang name="btn_Cancel" value="Zrušit"/>
+	<lang name="btn_Ok" value="OK"/>
+	<lang name="btn_next" value="další zpráva"/>
+	<lang name="btn_prev" value="předchozí zpráva"/>
+	<lang name="btn_back" value="zpět"/>
+	<lang name="btn_Preview" value="Náhled"/>
+	<lang name="btn_Edit" value="Editovat"/>
+	<lang name="btn_Save" value="Uložit"/>
+	<lang name="btn_Apply" value="Aplikovat"/>
+	<lang name="btn_Clear" value="Vyčistit"/>
+	<lang name="btn_Open_project" value="Otevřít projekt"/>
+	<lang name="btn_Purgeon" value="Očistit"/>
+	<lang name="btn_Longpurgeon" value="Dlouhé čištění"/>
+	<lang name="btn_Purgeoff" value="Stop čištění"/>
+	<lang name="btn_Service" value="Servis"/>
+	<lang name="btn_Printer_control" value="Ovládání tiskárny"/>
+	<lang name="btn_Logout" value="Odhlásit se"/>
+	<lang name="btn_creatependrive" value="obnovení pera"/>
+	<lang name="btn_Retry" value="Opakování"/>
+	<lang name="btn_Printing_parameters" value="Parametry tisku"/>
+	<lang name="btn_Create_new_project" value="Vytvořit nový projekt"/>
+	<lang name="btn_Unlock" value="Odemknutí"/>
+
+	<lang name="btn_Save_and_exit" value="Uložit a opustit"/>
+	<lang name="btn_Project_close" value="Zavřít projekt"/>
+
+	<lang name="btn_printing_params" value="Parametry tisku"/>
+	<lang name="btn_Project" value="Projekt"/>
+	<lang name="btn_Parameters" value="Parametry"/>
+	<lang name="btn_Create_project" value="Vytvořit projekt"/>
+	<lang name="btn_Create_list" value="Vytvořit seznam"/>
+	<lang name="btn_Edit_project" value="Editace projektu"/>
+	<lang name="btn_Edit_list" value="Editovat seznam"/>
+
+	<lang name="btn_Purge" value="Čištění"/>
+	<lang name="btn_LongPurge" value="Dlouhé čištění"/>
+	<lang name="btn_Restore" value="Obnovit"/>
+	<lang name="btn_Info" value="Informace o produktu"/>
+	<lang name="btn_Show_messages" value="Zobrazit zprávy"/>
+	<lang name="btn_Off" value="Vyp"/>
+	<lang name="btn_Restart" value="Restart"/>
+
+	<lang name="btn_confirm_upgrade" value="Potvrdit aktualizaci"/>
+
+	<lang name="btn_Accept" value="Akceptovat"/>
+	<lang name="btn_Factory" value="Továrna"/>
+	<lang name="btn_Menu" value="Nabídka"/>
+	<lang name="btn_Mesure" value="Opatření"/>
+	<lang name="btn_Reject" value="Odmítnout"/>
+
+	<lang name="btn_RemoteUnlock" value="Dálkové odemknutí"/>
+	<lang name="btn_Upgrade" value="Aktualizace"/>
+
+	<lang name="btn_Statistics" value="Statistiky"/>
+	<lang name="btn_Messages" value="Zprávy"/>
+	<lang name="btn_Tools" value="Nástroje"/>
+	<lang name="btn_Usb" value="Usb"/>
+	<lang name="btn_Tuning" value="Naladit"/>
+	<lang name="btn_ShortInfo" value="Informace"/>
+	<lang name="btn_LockScreen" value="Uzamknutí obrazovky"/>
+	<lang name="btn_Continue_edition" value="Pokračovat v editaci"/>
+
+</Buttons>
+<Messages>
+	<lang name="msg_D0100" value="Tisk vyp (ready)"/>
+	<lang name="msg_D0101" value="Tisk zap (čekejte)"/>
+	<lang name="msg_D0102" value="Tisk zap (tiskne)"/>
+	<lang name="msg_D0000" value="Ovladač není k dispozici"/>
+	<lang name="msg_D0001" value="Chyba při odesílání příkazu k ovladači tiskárny"/>
+	<lang name="msg_D0002" value="Neznámý stav tiskárny"/>
+	<lang name="msg_D0003" value="Není vybrán projekt"/>
+	<lang name="msg_turnOffPrinter" value="Chcete vypnout tiskárnu ?"/>
+	<lang name="msg_projectDirDoNotExist" value="Chyba! Projekt neexistuje!"/>
+	<lang name="msg_projectDirPermisionError" value="Chyba! Nelze načíst projekt!"/>
+	<lang name="msg_notProjectFile" value="Chyba! Neplatný soubor projektu!"/>
+	<lang name="msg_useDefaultNetConfig" value="Síť konfiguračního souboru není k dispozici. Použití továrního nastavení"/>	
+	<lang name="msg_AccessDenied" value="Nelze uložit konfiguraci sítě - přístup zamítnut"/>
+	<lang name="msg_canNotSaveNetConfigDiskFull" value="Nelze uložit konfiguraci sítě - disk plný"/>
+	<lang name="msg_canNotSaveNetConfigNoPendrive" value="Nelze uložit konfiguraci sítě - pendrive není k dispozici"/>
+	<lang name="msg_editValueError" value="Nesprávná hodnota polí zobrazená červevně. Prosím opravte a zkuste to znovu"/>
+	<lang name="msg_wrongNetmask" value="Nesprávné hodnoty síťové masky."/>
+	<lang name="msg_canNotReconfigureNet" value="Nelze překonfigurovat síťové rozhraní."/>
+	<lang name="msg_deleteAllMessages" value="Opravdu chcete odstranit všechny zprávy?"/>
+	<lang name="msg_confirmAllMessages" value="Opravdu chcete označit všechny zprávy jako přečtené a odstranit?"/>
+	<lang name="msg_reopenProject" value="Aktuální soubor projektu byl změněn. Chcete znovu otevřít?"/>	
+	<lang name="msg_ipnotallocated" value="IP adresa není přidělena"/>
+	<lang name="msg_password_error" value="Nesprávné heslo! Zkuste to znovu!"/>
+	<lang name="msg_cancel_edition" value="Jste si jisti, že chcete zrušit editaci? \n Veškeré změny budou ztraceny!"/>
+	<lang name="msg_paramsOutOfRange" valuse="Chyba! Parametry označené červeně jsou mimo rozsah! Opravte chybu a zkuste to znovu" value="Chyba ! Parametry označeny červeně jsou mimo rozsah ! Prosím opravte chybu a zkuste to znovu."/>
+	<lang name="msg_resetCounterVF" value="Pozor: K provedení této operace se ujistěte, že aktuální projekt není tištěn. \n Tato operace ovlivňuje aktuálně uložené hodnoty a hodnoty startu pole každého úseku čítače."/>
+	<lang name="msg_editProjectWhenPrintOn" value="Varování ! Projekt vybraný k editaci se právě tiskne. Nebude možné vynulovat čítače! Chcete pokračovat ?"/>
+	<lang name="msg_powerOff_in_x_sec" value="Tiskárna se vypne za %d sec."/>
+	<lang name="msg_please_wait" value="prosím čekej..."/>
+	<lang name="msg_shutdown_in_progress" value="Vypínání..."/>
+
+	<lang name="msg_improper_poweroff" value="Varování ! Nesprávné detekování, což může způsobit poškození dat nebo poruchu zařízení. Prosím vždy postupujte podle pokynů k vypnutí."/>
+	<lang name="msg_open_project_error" value="Chyba!  Načítání projektu selhalo!"/>
+	<lang name="msg_editor_communication_error" value="Chyba v komunikaci. Modul editoru nereaguje. Zkontrolujte systém a zkuste to znovu. Pokud je tiskárna zaneprázdněna kvůli rychlému tisku, prosím zastavte ji a zkuste to znovu." />
+	<lang name="msg_edit_project_priority_too_low" value="Některý projekt je aktuálně otevřen pro úpravy ve WWW editoru. \n Vaše priorita je příliš nízká k otevření projektu." />
+	<lang name="msg_confirm_forced_edition" value="Některý projekt je aktuálně otevřený pron úpravy ve WWW editoru. \n Chcete přesto otevřít?" />
+	<lang name="msg_projectEditedByWWW" value="Projekt uzavřen, protože některý jiný je editován ve WWW editoru." />
+	<lang name="msg_long_purge_confirmation" value="Chystáte se zpustit proces dlouhého čistštění. Obvykle se používá po nové instalaci tiskárny k vyplnění prázdného inkoustového systému, nebo k odstranění vzduchu z celého inkoustového systému. Tento proces má velkou spotřebu inkoustu. Vždy můžete proces dlouhého čištění zastavit tlačítkem stop čištění. \n\nZačít čištění?"/>
+	<lang name="msg_long_purge_in_progress" value="Probíhá čištění. \nZbývající čas: %d [s]"/>
+	<lang name="msg_restore_storage_data" value="Chcete VYMAZAT VŠE z obsahu vnitřní paměti a obnovit tovární nastavení? Veškeré data a nastavení tiskárny BUDOU ZTRACENY !"/>
+	<lang name="msg_stop_and_restore_data" value="Varování! Tisk je zapnutý! Chcete zastavit tisk a obnovit obsah vnitřní paměti do továrního nastavení? Data projektů a nastavení tiskárny BUDOU ZTRACENY!" />
+	<lang name="msg_pendrive_error" value="Varování ! Ovladač pera není přítomen nebo je poškozen. Můžete vypnout tiskárnu a poté nainstalovat správný ovladač, nebo obnovit poškozený obsah ovladače do továrního nastavení. Stiskněte vyp pro vypnutí tiskárny, nebo obnova pro obnovení obsahu ovladače pera.  " />
+	<lang name="msg_pendrive_restore" value="Prosím ujistěte se, že je v USB slotu tiskárny správný ovladač pera. Veškerý předešlý obsah bude vymazán a obnoven do továrního nastavení. Pro pokračování stiskněte ok, pro přerušení stlačte přerušit." />
+	<lang name="msg_pendrive_restore_ok" value="Obsah ovladače pera byl úspěšně obnoven. Je požadován restart. Prosím stlačte ok, tiskárna bude vypnuta." />
+	<lang name="msg_creating_pendrive" value="Prosím čekejte...Opravování ovladače pera...\n \nNEVYPÍNEJTE TISKÁRNU, NEBO BUDOU ZNIČENY SYSTÉMOVÉ SOUBORY!!!" />
+	<lang name="msg_resetCounterVF_warning" value="Varování: Některý z čítačů je nastaven na jeho minimální, nebo maximální hodnotu Pro tento čítač nebude možná změna jejo počáteční hodnoty. Tyto položky jsou vyznačeny šedě.." />
+	<lang name="msg_messages_alert" value="Pozor! \nSeznam zpráv obsahuje novou informaci, kterou je nutno přečíst a potvrdit."/>
+
+	<lang name="msg_deleteSelectedObject" value="Jste si jisti, že chcete smazat vybraný objekt?"/>
+	<lang name="msg_create_project_error" value="Chyba! Vytvoření nového projektu selhalo!"/>
+	<lang name="msg_confirm_file_overwrite" value="Soubor %s existuje, chcete jej přepsat ?"/>
+	<lang name="msg_confirm_position_change" value="Potvrdit změnu pozice?"/>
+	<lang name="msg_confirm_size_change" value="Potvrdit změnu velikosti?"/>
+
+	<lang name="msg_confirmExternParamsFile" value="Varování ! Projekt používá externí soubor pro definici parametrů. Jakákoliv změna může ovlivnit další projekty! Opravdu chcete editovat tiskové parametry?"/>
+	<lang name="msg_externParamsFileNotFound" value="Chyba ! Projekt používá externí soubor pro definici parametrů, ale soubor neexistuje! Opravte tuto chybu a zkuste to znovu!"/>
+
+	<lang name="msg_confirm_wifi_network_delete" value="Opravdu chcete vymazat konfiguraci pro vybranou bezdrátovou síť?"/>
+
+	<lang name="msg_restore_storage_damaged" value="Varování ! Vnitřní úložný prostor je poškozen. Můžete obnovit data do továrního nastavení. Stiskněte vyp k vypnutí tiskárny, nebo obnovit k obnovení továrního obsahu dat."/>
+	<lang name="msg_restore_storage_confirm" value="Veškerý obsah bude vymazán a obnoven do továrního nastavení. Stiskněte ok pro pokračování, nebo zrušit pro přerušení."/>
+	<lang name="msg_restore_storage_ok" value="Obsah vnitřního úložného prostoru byl úspěšně obnoven. Je požadován restart. Prosím stiskněte ok, tiskárna bude restartována."/>
+	<lang name="msg_restore_storage_warning" value="Prosím čekejte...Obnova vnitřního úložného prostoru...\n \nNEVYPÍNEJTE TISKÁRNU,NEBO BUDOU POŠKOZENY SYSTÉMOVÉ SOUBORY!!!"/>
+	<lang name="msg_firmware_upgrade_detected" value="Velkokapacitní paměťové zařízení obsahuje aktualizaci firmwaru. Aktualizační postup vyžaduje restart tiskárny. Pokud chcete pokračovat, stiskněte provést aktualizaci a čekat na vypnutí zařízení. Přístroj znovu zapněte."/>
+
+
+	<lang name="msg_enter_new_password" value="Vložte nové heslo."/>
+	<lang name="msg_confirm_new_password" value="Opakujte nové heslo."/>
+	<lang name="msg_enter_login_name" value="Vložte uživatelské jméno."/>
+	<lang name="msg_import_error" value="Chyba importovaného souboru %s!"/>
+	<lang name="msg_import_ok" value="Soubor %s byl úspěšně importován."/>
+	<lang name="msg_export_error" value="Chyba exportovaných souborů projektu!"/>
+	<lang name="msg_export_ok" value="Export byl úspěšný ! Soubor %s byl vytvořen v hlavním adresáři USB zařízení."/>
+
+	<lang name="msg_firmware_upgrade_reboot_info" value="Tiskárna je připravena k aktualizaci. Stiskněte ok pro vypnutí tiskárny. Po vypnutí tiskárny ji opět zapněte, aktualizace bude pokračovat. To zabere nějakou dobu - prosím buďte trpěliví a nevypínejte tiskárnu."/>
+
+	<lang name="msg_One_time_code_generated" value="Jednorázový vygenerovaný kód. Prosím zadejte platný odemykací kód a potvrďte jej tlačítkem pro odemknutí."/>
+	<lang name="msg_OneTimeCodeError" value="Chyba generování jednorázového kódu. Zavřete okno a zkuste znovu!"/>
+
+	<lang name="msg_PrintHeadMismatch" value="Varování ! Vybraný projekt byl vytvořen pro jiný typ tiskárny (NE PRO HandJet EBS260)!"/>
+	<lang name="msg_PrintHeadMismatchOpenFail" value="Varování ! Nelze otevřít vybraný projekt. Byl vytvořen pro jiný typ tiskárny / tiskovou hlavu."/>
+
+	<lang name="msg_remote_unlock_transmitted" value="Tiskárna odeslala žádost pro odemknutí ke vzdálenému serveru pro odemknutí. Postup může trvat cca 5 min. Po úspěšném odemknutí tiskárny se vám zobrazí potvrzovací zpráva."/>
+	<lang name="msg_RemoteUnlockTxError" value="Tiskárna nemůže odeslat žádost pro odemknutí ke vzdálenému servru! Prosím zkontrolujte internetové spojení a zkuste to znovu."/>
+
+
+	<lang name="msg_unlock_successful" value="Tiskárna byla úspěšně odemknuta."/>
+	<lang name="msg_unlock_error" value="Chyba odemknutí tiskárny (kód pro odemknutí zamítnut, nebo chyba spojení). Prosím zkuste to znovu."/>
+	<lang name="msg_printer_in_purge_mode" value="Tiskárna je v čistícím módu. Pro začátek procesu čištění prosím stiskněte a držte spoštěcí tlačítko. K opuštění módu čištění prosím stiskněte tlačítko stop, nebo zavřete toto okno."/>
+
+	<lang name="msg_autoPowerOff_in_x_sec" value="Tiskrna nebyla delší dobu používána a vypne se za %d sec."/>
+	<lang name="msg_EmergencyOff_in_x_sec" value="Kritická úroveň baterie!!! Tiskárna se vypne za %d sec."/>
+	<lang name="msg_low_battery_warning" value="Varování! Nízká úroveň baterie. Co nejdříve ji nabijte."/>
+
+	<lang name="msg_clearStatistics" value="Opravdu chcete vymazat statistiky?"/>
+	<lang name="msg_resolutionOutOfRange" value="Chyba! Rozlišení je mimo rozsah ! Prosím opakujte měření."/>
+	<lang name="msg_confirm_bt_device_delete" value="Opravdu chcete odstranit vybrané bluetooth zařízení z paměti zařízení?"/>
+	<lang name="msg_confirm_close" value="Opravdu chcete zavřít toto okno? Veškeré změny budou ztraceny!!!"/>
+	<lang name="msg_confirm_user_delete" value="Opravdu chcete vymazat vybraného uživatele?"/>
+	<lang name="msg_ProjectNotFound" value="Soubor projektu %s nebyl nalezen."/>
+	<lang name="msg_IllegalCharInFileName" value="Jméno souboru obsahuje nepovolené znaky. Prosím používejte poze písmena latinské abecedy, čísla a následující speciální znaky: _ . - \n \nChce potvrdit nový název souboru?"/>
+	<lang name="msg_kernel_missmatch_message" value="Varování! Vnitřní software tiskárny je nekompletní! \nProsím obnovte vnitřní paměť, nebo pokud to nepomůže, udělejte poslední aktualizaci ještě jednou. Pokud problém přetrvává, kontaktujte servisní středisko."/>
+
+	<lang name="msg_Can_not_perform_operation_project_selected_for_printing" value="Chyba! Operaci nelze provést! Projekt je vybrán pro tisk!"/>
+	<lang name="msg_confirmFileRemove" value="Chcete vymazat soubor/adresář %s ?"/>
+	<lang name="msg_Error_setting_bluetooth_friendly_name" value="Nelze nastavit popisný název bluetooth zařízení - chyba modulu komunikace!"/>
+	<lang name="msg_Illegal_bluetooth_friendly_name" value="Nelze nastavit popisný název bluetooth zařízení - název je neplatný!"/>
+	<lang name="msg_wasteBottleOverflow" value="Odpadní láhev inkoustu je plná. Prosím vyprádněte ji!"/>
+	<lang name="msg_wifi_connection_error" value="Chyba spojení bezdrátové sítě. Prosím zkontrolujte nastavení a zkuste to znovu."/>
+
+	<lang name="msg_PrinterFirmware2Old" value="Printer firmware version is too old. Direct upgrade is impossible. \nVersion information: \nPrinter firmware: %s1 \nUpgrade file: %s2 \nMinimum required: %s3"/>
+	<lang name="msg_UprgadeFileOlderThanCurrent" value="Printer firmware version is later than the upgrade file selected. \nVersion information: \nPrinter firmware: %s1 \nUpgrade file: %s2"/>
+	<lang name="msg_UprgadeFileSameAsPresent" value="Printer firmware has already been updated. \nVersion information: \nPrinter firmware: %s1 \nUpgrade file: %s2"/>
+	<lang name="msg_UprgadeFileInvalid" value="The selected upgrade file is invalid or damaged!"/>
+	<lang name="msg_ParamOutOfRange" value="Error ! Mesured value is out of valid range ! Please try again!"/>
+	<lang name="msg_beta_version_warrning" value="Please be aware that this software version is for development purposes only and as such may contain bugs causing problems.\n By pressing &quot;OK&quot; you are confirming usage on your own responsibility." />
+</Messages>
+</EBS_LCDGUI>
+<EBS_Common>
+	<Labels>
+		<lang name="lbl_Yellow" value="Yellow"/>
+		<lang name="lbl_Colorless" value="Colorless"/>
+		<lang name="lbl_Red" value="Red"/>
+		<lang name="lbl_Blue" value="Blue"/>
+		<lang name="lbl_Black" value="Black"/>
+		<lang name="lbl_Ultraviolet" value="Ultraviolet"/>
+		<lang name="lbl_White" value="White"/>
+		<lang name="lbl_Green" value="Green"/>
+		<lang name="lbl_statistics" value="Statistics" />
+		<lang name="lbl_Orginal" value="Orginal" />
+		<lang name="lbl_Recovery" value="Recovery" />
+		<lang name="lbl_saveRecoveryAs" value="Save recovery file as" />
+		<lang name="lbl_continueEdit" value="Continue\nedition"/>
+		<lang name="lbl_distance" value="Vzdálenost"/>
+		<lang name="lbl_spacer" value="Spacer"/>
+		<lang name="lbl_externalscript" value="External script name"/>
+		<lang name="lbl_Printhead:" value="Název tiskové hlavy:"/>
+	</Labels>
+	<Messages>
+		<lang name="msg_deleteRecoveryFile" value="NOTE! Confirmation of selection will delete the backup!" />
+		<lang name="msg_RecoveryFileSelection" value="Detected rescue version of project. \nPlease select which version do you want to edit. Original project or restored version ?"/>
+		<lang name="msg_ConfirmRecoveryRemoval" value="Do you want to delete recovery file ?"/>
+		<lang name="msg_DelRecoveryWithoutRescue" value="Do you want continue and REMOVE recovery file without restoring it? This decision can not be undone !"/>
+	</Messages>
+	<WTitles>
+		<lang name="wtitle_cProjectRecoveryDialog" value="Project recovery"/>
+	</WTitles>
+</EBS_Common>
+</EBS_LanguageFile>

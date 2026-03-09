@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_LanguageFile>
+<param name="Version" value="2022.01.21"/> 
+<param name="EditedBy" value="GrzesiekP"/>
+<EBS_PrinterLocaleSettings>
+<param name="LC_ALL" value="tu_TU.UTF-8"/>
+</EBS_PrinterLocaleSettings>
+
+<EBS_PUI_FontSettings>
+	<param name="DefaultFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="DefaultFontSmallSize" value="9"/>
+	<param name="DefaultFontNormalSize" value="12"/>
+	<param name="DefaultFontLargeSize" value="14"/>
+	<param name="PinyinFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="PinyinFontSize" value="16"/>
+	<param name="ButtonFontSize" value="12"/>
+	<param name="LabelFontSize" value="11"/>
+	<param name="TextFontSize" value="12"/>
+	<param name="MessageFontSize" value="12"/>
+	<param name="EditFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="EditFontSize" value="16"/>
+</EBS_PUI_FontSettings>
+
+<EBS_ParametersUnitsLanguage>
+	<lang name="EncoderConstant_Unit" value="[impulses/m]"/>
+	<lang name="ConveyorSpeed_Unit" value="[m/dk]"/>
+	<lang name="ImpulseGeneratorSource_Unit" value="[dahili / harici]"/>
+	<lang name="TriggerType_Unit" value="[alçak/yüksek]"/>
+	<lang name="TriggerSignalMode_Unit" value="[pozitif/negatif kenar]|[yüksek/alçak seviye]"/>
+	<lang name="Resolution_Unit" value="[dpm] (dots per meter)"/>
+	<lang name="PrintDistance_Unit" value="[mm]"/>
+	<lang name="TxtRepetitions_Unit" value="[baskılar]"/>
+	<lang name="RepetitionDistance_Unit" value="[mm]"/>
+	<lang name="RowMultiply_Unit" value="[satırlar]"/>
+	<lang name="UpsideDownPrint_Unit" value="[kapalı/açık]"/>
+	<lang name="ReversePrint_Unit" value="[kapalı/açık]"/>
+	<lang name="TextHeight_Unit" value="[mm]"/>
+	<lang name="CleaningRows_Unit" value="[satırlar]"/>
+	<lang name="Pressure_Unit" value="[bar]"/>
+	<lang name="PhotocellSource_Unit" value="[dahili / harici / hepsi]"/>
+</EBS_ParametersUnitsLanguage>
+
+<EBS_EditorLanguage>
+<Menu>
+	<lang name="menu_projects" value="Projeler"/>
+	<lang name="menu_projectNew" value="Yeni proje oluştur"/>
+	<lang name="menu_projectOpen" value="Proje aç"/>
+	<lang name="menu_projectSave" value="Kaydet"/>
+	<lang name="menu_projectSaveAs" value="Farklı kaydet..."/>
+	<lang name="menu_projectClose" value="Projeyi kapat"/>
+	<lang name="menu_projectParams" value="Baskı değerleri"/>
+	<lang name="menu_tools" value="Araçlar"/>
+	<lang name="menu_toolsImagesManager" value="Resim yöneticisi"/>
+	<lang name="menu_toolsFontsManager" value="Font yöneticisi"/>
+	<lang name="menu_toolsTextFilesManager" value="Yazı dosyaları yönetimi"/>
+	<lang name="menu_toolsUsersManager" value="Kullanıcı yönetimi"/>
+	<lang name="menu_toolsReportProblem" value="Hata raporu hazırlama"/>
+	<lang name="menu_toolsWorkspaceSize" value="yazı genişliği"/>
+	<lang name="menu_toolsPrintersNetworkManager" value="Yazıcı ağ yönetimi"/>
+	<lang name="menu_settingsGeneral" value="Genel ayarlar"/>
+	<lang name="menu_settingsEncoderConstant" value="konveyör değerleri"/>
+	<lang name="menu_settings" value="Ayarlar"/>
+	<lang name="menu_service" value="Servis"/>
+	<lang name="menu_servicePurge" value="Purge"/>
+	<lang name="menu_serviceLog" value="Log"/>
+	<lang name="menu_printer_control" value="Yazıcı kontrol"/>
+	<lang name="menu_about" value="Hakkında"/>
+	<lang name="menu_toolsLanguageManager" value="Dil yönetimi"/>
+	<lang name="menu_toolsAccountManagement" value="Hesap yönetimi"/>
+	<lang name="menu_moduleInfo" value="Modul bilgi"/>
+	<lang name="menu_phpshell" value="PHP Shell"/>
+	<lang name="menu_softwareUpgrade" value="Yazılım yükseltme"/>
+	<lang name="menu_touchscreenCalibration" value="Dokunmatik kalibrasyon"/>
+	<lang name="menu_ObjectNormalText" value="Normal yazı"/>
+	<lang name="menu_ObjectNormalBarcode" value="Normal barkod"/>
+	<lang name="menu_ObjectDateTime" value="Tarih/Saat"/>
+	<lang name="menu_ObjectCounter" value="Sayıcı"/>
+	<lang name="menu_ObjectComPort" value="İletişim portu"/>
+	<lang name="menu_ObjectTxtFile" value="Yazı dosyası"/>
+	<lang name="menu_printoutCost" value="Baskı maliyet"/>
+	<lang name="menu_serviceReport" value="Servis raporu oluşturma"/>
+	<lang name="menu_installOption" value="Kurulum seçeneği"/>
+	<lang name="menu_statistics" value="İşletme raporu"/>
+	<lang name="menu_info" value="Bilgi"/>
+	<lang name="menu_ObjectShapeLine" value="Çizgi"/>
+	<lang name="menu_ObjectShapeRectangle" value="Dikdörtgen"/>
+	<lang name="menu_ObjectShapeElipse" value="Elips"/>
+	<lang name="menu_projectImport" value="Proje al"/>
+	<lang name="menu_projectExport" value="Proje gönder"/>
+	<lang name="menu_puiPreview" value="LCD görünüm"/>
+	<lang name="menu_barcode" value="Barkod"/>
+	<lang name="menu_lineDivider" value="Çizgi bölücü" />
+	<lang name="menu_simulatePrintout" value="Baskı önizleme" />
+	<lang name="menu_printerUpdate" value="Güncelleştirme" />
+	<lang name="menu_openPrinterControl" value="Yazıcı kontrollerini aç" />
+	<lang name="menu_sendProjectToPrinter" value="Projeyi yazıcıya gönder" />
+	<lang name="menu_openWUI" value="Web arayüzünü aç" />
+	<lang name="menu_restartPrinter" value="Yazıcıyı yeniden başlat" />
+	<lang name="menu_shutdownPrinter" value="Yazıcıyı kapat" />
+</Menu>
+<Labels>
+	<lang name="lbl_loggedAs" value="Kullanıcı olarak giriş yaptı: "/>
+	<lang name="lbl_startupWhatWouldYouLikeToDo" value="Ne yapmak istiyor sunuz?"/>
+	<lang name="lbl_startupCreateNewProject" value="Yeni proje&#13;&#10;oluştur"/>
+	<lang name="lbl_startupOpenProject" value="Projeyi&#13;&#10;düzenlemek için aç"/>
+	<lang name="lbl_startupOpenProjectForPrinter" value="Yazdırmak&#13;&#10;projeyi aç"/>
+	<lang name="lbl_startupChangeEditorSettings" value="Düzenleyici&#13;&#10;ayarlarını değiştir"/>
+	<lang name="lbl_startupPrinterControl" value="Yazıcı&#13;&#10;kontrolü"/>
+	<lang name="lbl_language" value="Dil:"/>
+	<lang name="lbl_originalLanguage" value="Orjinal dil:"/>
+	<lang name="lbl_printerType" value="Yazıcı tipi:"/>
+	<lang name="lbl_filename" value="Dosya adı:"/>
+	<lang name="lbl_directory" value="Dizin:"/>
+	<lang name="lbl_showFilesOnList" value="Dosya listesini göster"/>
+	<lang name="lbl_clipboardContent" value="Pano içeriği:"/>
+	<lang name="lbl_empty" value="boş"/>
+
+	<lang name="lbl_currentDirectory" value="Varsayılan dizin:"/>
+	<lang name="lbl_projectPreview" value="Proje öngörünüm:"/>
+	<lang name="lbl_projectInformation" value="Proje bilgi:"/>
+	<lang name="lbl_lastModification" value="Son değiştirme:"/>
+	<lang name="lbl_imagePreview" value="Resim öngörünüm:"/>
+	<lang name="lbl_imageInstalled" value="Resim %s yüklendi"/>
+	<lang name="lbl_imageNotInstalled" value="Resim yüklenemiyor %s"/>
+	<lang name="lbl_pleaseSelectImageToInstall" value="Lütfen yüklenecek resimi seçin:"/>
+	<lang name="lbl_fontPreview" value="Font öngörünüm:"/>
+	<lang name="lbl_fontType" value="Font tipi:"/>
+	<lang name="lbl_pleaseSelectFontToInstall" value="Lütfen yüklenecek fontu seçin:"/>
+	<lang name="lbl_pleaseSelectTxtFileToInstall" value="Lütfen yüklenecek yazıyı seçin:"/>
+	<lang name="lbl_fontInstalled" value="Font %s yüklendi"/>
+	<lang name="lbl_fontNotInstalled" value="Font yüklenemiyor %s"/>
+	<lang name="lbl_txtFileInstalled" value="Yazı dosyası %s yüklendi"/>
+	<lang name="lbl_txtFileNotInstalled" value="Yazı dosyası yüklenemiyor %s"/>
+
+	<lang name="lbl_users" value="Kullanıcılar"/>
+	<lang name="lbl_groups" value="Gruplar"/>
+	<lang name="lbl_userInformation" value="Kullanıcı bilgi: "/>
+	<lang name="lbl_lastLogin" value="Son bağlantı:"/>
+	<lang name="lbl_avaiableUsers" value="Mevcut kullanıcılar:"/>
+	<lang name="lbl_avaiableGroups" value="Mevcut gruplar:"/>
+	<lang name="lbl_enableAutoLogin" value="Oto-bağlantı devrede"/>
+	<lang name="lbl_login" value="Bağlantı"/>
+	<lang name="lbl_password" value="Şifre"/>
+
+	<lang name="lbl_userImage" value="Kullanıcı resim"/>
+	<lang name="lbl_addUserToThisGroup" value="Bu gruba kullanıcı ekle"/>
+	<lang name="lbl_groupName" value="Grup ismi"/>
+	<lang name="lbl_groupImage" value="Grup resim"/>
+	<lang name="lbl_groupsPrivilages" value="Grup ayrıcalıkları"/>
+	<lang name="lbl_objectParams" value="Nesne değişkenleri"/>
+	<lang name="lbl_deleteObject" value="Nesne sil"/>
+	<lang name="lbl_text" value="Yazı"/>
+	<lang name="lbl_fontName" value="Font ismi"/>
+	<lang name="lbl_fontSize" value="Font boyutu"/>
+	<lang name="lbl_fontSizeX" value="X"/>
+	<lang name="lbl_fontSizeY" value="Y"/>
+	<lang name="lbl_constrainProportions" value="Sabit oran"/>
+	<lang name="lbl_objectRotation" value="Nesneyi döndür"/>
+	<lang name="lbl_lineSpacing" value="Satır aralığı:"/>
+	<lang name="lbl_enterFontSize" value="Yazı tipi boyutunu giriniz"/>
+	<lang name="lbl_autoSize" value="Auto-size"/>
+	<lang name="lbl_transparent" value="Şeffaf"/>
+	<lang name="lbl_showPreview" value="Ön görünüm"/>
+	<lang name="lbl_objectName" value="Nesne ismi"/>
+	<lang name="lbl_barcodeType" value="Barkod tipi:"/>
+
+	<lang name="lbl_borderSize" value="Kenar boyutu:"/>
+	<lang name="lbl_borderType" value="Kenar tipi:"/>
+	<lang name="lbl_registers" value="Değişken alanlar"/>
+	<lang name="lbl_imagePath" value="Resim yolu"/>
+	<lang name="lbl_allowResize" value="Ölçülendirme devrede"/>
+	<lang name="lbl_objectSize" value="Nesne boyu"/>
+	<lang name="lbl_objectPosition" value="Pozisyon"/>
+	<lang name="lbl_encoderConstant" value="Enkoder sabiti"/>
+	<lang name="lbl_conveyorSpeed" value="Konveyör hızı"/>
+	<lang name="lbl_triggerType" value="Tetik tipi"/>
+	<lang name="lbl_triggerSignalMode" value="Tetik sinyal modu"/>
+	<lang name="lbl_impulseGeneratorSource" value="Darbe üretici kaynağı"/>
+	<lang name="lbl_resolution" value="Çözünürlük"/>
+	<lang name="lbl_printDistance" value="İlk mesafe"/>
+	<lang name="lbl_textRepetition" value="Baskı tekrarlama"/>
+	<lang name="lbl_repetitionDistance" value="Baskı aralığı"/>
+	<lang name="lbl_reversePrint" value="Yatay çevirme"/>
+	<lang name="lbl_upsideDownPrint" value="Dikey çevirme"/>
+	<lang name="lbl_shaftDirection" value="Baskı yönü"/>
+	<lang name="lbl_textHeight" value="Mesaj yüksekliği"/>
+	<lang name="lbl_cleaningRows" value="Satırları temizle"/>
+	<lang name="lbl_pressure" value="Basınç"/>
+	<lang name="lbl_PhotocellSource" value="Fotosel kaynağı"/>
+	<lang name="lbl_dotSize" value="Nokta boyutu"/>
+	<lang name="lbl_parameterRange" value="Değişken katsayısı"/>
+	<lang name="lbl_newWorkspaceWidth" value="Yeni çalışma alanı genişliği"/>
+	<lang name="lbl_settings_general" value="Genel ayarlar"/>
+	<lang name="lbl_settings_date" value="Tarih ve saat"/>
+	<lang name="lbl_imageWrongType" value="Sadece PNG dosyaları yüklenebilir."/>
+	<lang name="lbl_projectImportWrongType" value="Sadece ZIP dosyaları yüklenebilir."/>
+	<lang name="lbl_fontWrongType" value="Sadece TTF dosyları yüklenebilir."/>
+	<lang name="lbl_txtFileWrongType" value="Sadece TXT dosyaları yüklenebilir."/>
+	<lang name="lbl_currentPrinterDate" value="Güncel yazıcı tarihi:"/>
+	<lang name="lbl_currentPrinterTime" value="Güncel yazıcı zamanı:"/>
+	<lang name="lbl_dateOffset" value="Tarih ayarı:"/>
+	<lang name="lbl_timeOffset" value="Zaman ayarı:"/>
+	<lang name="lbl_dateSeparator" value="Tarih bölme işareti:"/>
+
+	<lang name="lbl_timeSeparator" value="Zaman bölme işareti:"/>
+	<lang name="lbl_dateFormat" value="Tarih formatı:"/>
+	<lang name="lbl_timeFormat" value="Zaman formatı:"/>
+	<lang name="lbl_date" value="Tarih (gün-ay-yıl):"/>
+	<lang name="lbl_time" value="Zaman (saat:dakika:saniye):"/>
+	<lang name="lbl_formattingString" value="Dizi biçimi:"/>
+	<lang name="lbl_advanced" value="Gelişmiş Ayarlar"/>
+	<lang name="lbl_quickPreview" value="Hızlı önizleme"/>
+	<lang name="lbl_showExpertsSettings" value="İleri ayarları göster"/>
+	<lang name="lbl_DateTimeVFFormattingStringHelp1" value="%a - Kısaltılmış Haftanın günü\\\\\\&#13;&#10;%A - Haftanın günü tamamı\\\\\\&#13;&#10;%b - Kısaltılmış ay\\\\\\&#13;&#10;%B - Ay tamamı\\\\\\&#13;&#10;%c - Tarih ve saat tamamı\\\\\\&#13;&#10;%d - Ayın günü (1-31)\\\\\\&#13;&#10;%H - Saat (24-saat)\\\\\\&#13;&#10;%I - Saat (12-saat)\\\\\\&#13;&#10;%j - Senenin günü (1-366)\\\\\\&#13;&#10;%m - Ay (1-12)\\\\\\&#13;&#10;%M - Dakika (0-59)\\\\\\&#13;&#10;"/>
+	<lang name="lbl_DateTimeVFFormattingStringHelp2" value="%p - Gündüz/Gece 12-saat sistemi\\\\\\&#13;&#10;%S - Dakika (0-60)\\\\\\&#13;&#10;%U - Haftanın sayısı Pazar gününden itibaren\\\\\\&#13;&#10;%w - Haftanın günü (0-6) Pazar gününden\\\\\\&#13;&#10;%W - Haftanın günü Pazartesi gününden\\\\\\&#13;&#10;%x - Tarih tamamı\\\\\\&#13;&#10;%X - Günün saati\\\\\\&#13;&#10;%y - Senenin son iki rakam\\\\\\&#13;&#10;%Y - Sene tamamı\\\\\\&#13;&#10;%Z - Zaman dilimi\\\\\\&#13;&#10;%% - Basılan karakter %\\\\\\&#13;&#10;"/>
+	<lang name="lbl_min" value="Min"/>
+	<lang name="lbl_max" value="Maks"/>
+	<lang name="lbl_startValue" value="Başlangıç değeri"/>
+	<lang name="lbl_step" value="Adım"/>
+	<lang name="lbl_length" value="Uzunluk"/>
+	<lang name="lbl_prefix" value="Önek"/>
+	<lang name="lbl_suffix" value="Sonek"/>
+	<lang name="lbl_startMode" value="Başlangıç modu"/>
+	<lang name="lbl_lastValue" value="Son değer"/>
+	<lang name="lbl_showThisCounter" value="Sayıcıyı göster"/>
+	<lang name="lbl_incrementOrder" value="Artış değeri"/>
+	<lang name="lbl_ObjectNormalBarcode" value="Normal barkod"/>
+	<lang name="lbl_ObjectNormalText" value="Normal metin"/>
+	<lang name="lbl_ObjectDateTime" value="Tarih/Zaman"/>
+	<lang name="lbl_ObjectCounter" value="Sayıcı"/>
+	<lang name="lbl_ObjectComPort" value="İletişim portu"/>
+	<lang name="lbl_ObjectTxtFile" value="Metin dosyası"/>
+	<lang name="lbl_ObjectConvertTo" value="Nesneyi çevir:"/>
+	<lang name="lbl_port" value="Bağlantı noktası:"/>
+	<lang name="lbl_baud" value="Veri hızı:"/>
+	<lang name="lbl_onPrintStart" value="Baskıya başladığında:"/>
+	<lang name="lbl_onDataProcess" value="veri akış işlemi:"/>
+	<lang name="lbl_onPrintFinish" value="Baskıyı bitirdiğinde:"/>
+	<lang name="lbl_filePath" value="Dosya yolu:"/>
+	<lang name="lbl_lineCount" value="Satır sayısı:"/>
+	<lang name="lbl_all" value="Hepsi"/>
+	<lang name="lbl_lineStep" value="Satır adımı:"/>
+	<lang name="lbl_lineMax" value="Satır maks:"/>
+	<lang name="lbl_fillIn" value="Doldur"/>
+	<lang name="lbl_event" value="Sonuç"/>
+	<lang name="lbl_space" value="Boşluk"/>
+	<lang name="lbl_doNothing" value="Birşey yapma"/>
+
+	<lang name="lbl_stopPrinting" value="Baskıyı durdur"/>
+	<lang name="lbl_printerStatus" value="Yazıcı durumu:"/>
+	<lang name="lbl_currentProject" value="Mevcut proje:"/>
+	<lang name="lbl_editorLoading" value="Editör yükleniyor...&#13;&#10;Lütfen bekleyin..."/>
+	<lang name="lbl_paramsPreview" value="Parametreler öngörünüm"/>
+	<lang name="lbl_currentEncoderConstant" value="Mevcut enkoder değeri"/>
+	<lang name="lbl_currentConveyorSpeed" value="Mevcut konveyör hız değeri"/>
+	<lang name="lbl_showHelp" value="Yardımı göster"/>
+	<lang name="lbl_parametersSource" value="Parametre kaynağı:"/>
+	<lang name="lbl_parametersFile" value="Parametre dosyası:"/>
+	<lang name="lbl_localParameters" value="Dahili parametreler"/>
+	<lang name="lbl_externalParameters" value="Harici parametreler"/>
+	<lang name="lbl_oldPassword" value="Eski şifre"/>
+	<lang name="lbl_newPassword" value="Yeni şifre"/>
+	<lang name="lbl_retypePassword" value="Şifreyi tekrar gir"/>
+	<lang name="lbl_detecting" value="belirleniyor"/>
+	<lang name="lbl_saveChanges" value="değişiklikleri kaydet"/>
+	<lang name="lbl_paramsContinuous" value="Devamlı"/>
+	<lang name="lbl_counterStartValue" value="Sayıcı başlangıç değeri %d "/>
+	<lang name="lbl_lineStartValue" value="Satır başlangıç değeri"/>
+	<lang name="lbl_enableAutoStart" value="Otomatik başlama devrede"/>
+	<lang name="lbl_gotoEditorPage" value="Editör düzenleme sayfasına git >" />
+	<lang name="lbl_availableVersions" value="Kullanılan versiyonlar:" />
+	<lang name="lbl_networkResources" value="Ağ kaynağı:" />
+	<lang name="lbl_gotoWebpage" value="Web sayfasına git" />
+	<lang name="lbl_none" value="yok" />
+	<lang name="lbl_bind" value="bağla" />
+	<lang name="lbl_box" value="kutu" />
+	<lang name="lbl_installInProjectDir" value="Proje dizinine kur" />
+	<lang name="lbl_createInSeparateDir" value="Proje dizini oluştur" />
+	<lang name="lbl_helpLanguage" value="Dil yardımı:"/>
+	<lang name="lbl_startEditor" value="Editor:" />
+	<lang name="lbl_startPrinter" value="Yazıcı:" />
+	<lang name="lbl_printoutPreviewFirst" value="ilk yazı çıktısını göster" />
+	<lang name="lbl_printoutPreviewNext" value="sonraki yazı çıktısını göster" />
+	<lang name="lbl_mustEdit" value="Yazdırma başlamadan düzenlenmiş olmalıdır" />
+	<lang name="lbl_xcoord" value="x kordinatı" />
+	<lang name="lbl_ycoord" value="y kordinatı" />
+	<lang name="lbl_width" value="genişlik" />
+	<lang name="lbl_height" value="yükseklik" />
+	<lang name="lbl_helpWelcome" value="EBS Web Kullanıcı Arayüzü" />
+	<lang name="lbl_printManual" value="Elle baskı" />
+	<lang name="lbl_pdfManual" value="PDF el kitabı indir" />
+	<lang name="lbl_unknown" value="Ulaşılamıyor" />
+	<lang name="lbl_checking" value="Kontrol ediliyor..." />
+
+	<lang name="lbl_printerName" value="Yazıcı ismi" />
+	<lang name="lbl_printerIP" value="Yazıcı IP" />
+	<lang name="lbl_printerModel" value="Yazıcı model"/>
+	<lang name="lbl_hideTrash" value="Çöpü gizle" />
+	<lang name="lbl_emptyTrash" value="Çöpü boşalt" />
+	<lang name="lbl_hideClipboard" value="Notu gizle" />
+	<lang name="lbl_emptyClipboard" value="Notu sil" />
+	<lang name="lbl_px" value="px" />
+	<lang name="lbl_cm" value="cm" />
+	<lang name="lbl_emptyProject" value="Proje boş." />
+	<lang name="lbl_translatedText" value="Çevrilen metin" />
+	<lang name="lbl_originalText" value="Orjinal metin" />
+	<lang name="lbl_menuItems" value="Menu öğeleri" />
+
+	<lang name="lbl_signature" value="İmza" />
+	<lang name="lbl_communicationsMode" value="Durum – için bekleniyor:" />
+	<lang name="lbl_readyToPrintAfter" value="Sonraki baskıya hazır" />
+	<lang name="lbl_asciiCode" value="ASCII kod" />
+	<lang name="lbl_communicationsMode_1" value="Zaman aralığı (ms)" />
+	<lang name="lbl_communicationsMode_2" value="Veri miktarı" />
+	<lang name="lbl_communicationsMode_3" value="Son karakter" />
+	<lang name="lbl_communicationsMode_4" value="Toplanan veriyi ayırıcılar" />
+
+	<lang name="lbl_bitCount" value="Bit sayısı" />
+	<lang name="lbl_sendingMessagesFormat" value="Mesaj gönderim formatı" />
+	<lang name="lbl_normal" value="Normal" />
+	<lang name="lbl_hexadecimal" value="Hexadecimal" />
+	<lang name="lbl_noDataAction" value="Data akışı yok" />
+	<lang name="lbl_nothing" value="Hiçbirşey" />
+	<lang name="lbl_blank" value="Son nesneyi yaz" />
+	<lang name="lbl_lastMessage" value="Son mesajı yaz" />
+	<lang name="lbl_noPrintout" value="Baskı yok" />
+	<lang name="lbl_procFormattingString" value="Proc Biçim Dizisi" />
+
+	<lang name="lbl_separatorDataCount" value="Veri sayısı bölme" />
+	<lang name="lbl_separatorObject" value="Objec %d" />
+
+	<lang name="lbl_separatorCharacter" value="Bölme karakteri" />
+	<lang name="lbl_dataBuffering" value="Önbellek" />
+	<lang name="lbl_disabled" value="Devre dışı" />
+	<lang name="lbl_enabled" value="Devrede" />
+	<lang name="lbl_reportLevel" value="İstatistikler" />
+	<lang name="lbl_isLinked" value="Nesne bağlandı" />
+
+	<lang name="lbl_basicStatistics" value="Basit istatistik" />
+	<lang name="lbl_OperateTime" value="Çalışma Zamanı" />
+	<lang name="lbl_MadePrintouts" value="Yazılan baskı adedi" />
+	<lang name="lbl_extraStatistics" value="Ek istatistikler" />
+	<lang name="lbl_project" value="Proje" />
+	<lang name="lbl_report" value="Rapor" />
+	<lang name="lbl_userInfoReport" value="Kullanıcı bilgi raporu" />
+	<lang name="lbl_serviceInfoReport" value="Servis bilgi raporu" />
+	<lang name="lbl_infoReport" value="Bilgi raporu" />
+	<lang name="lbl_lineThickness" value="Sıra koyuluğu" />
+
+	<lang name="lbl_filled" value="Dolu" />
+	<lang name="lbl_invert" value="Çevir" />
+
+	<lang name="lbl_pixCount" value="Nokta sayısı" />
+	<lang name="lbl_printoutPerLiter" value="1 Litre baskı adedi" />
+	<lang name="lbl_printoutPerBootle" value="1 kartuş baskı adedi" />
+	<lang name="lbl_autoAdjustText" value="Otomatik mesaj ayarı" />
+	<lang name="lbl_pleaseSelectFileToImport" value="Lütfen veri dosyasını seçin" />
+	<lang name="lbl_projectImported" value="Proje %s yüklendi"/>
+	<lang name="lbl_projectNotImported" value="Proje yüklenemiyor %s"/>
+
+	<lang name="lbl_fileInformation" value="Dosya bilgisi"/>
+
+	<lang name="lbl_withoutScaling" value="Ölçülendirme dışı"/>
+	<lang name="lbl_fitFrameToContent" value="İçeriği çerçevele"/>
+	<lang name="lbl_fitContentToFrame" value="Çerçeveye sığdır"/>
+	<lang name="lbl_rowMultiply" value="Sıra tekrarı"/>
+
+	<lang name="lbl_EBSInternalFonts" value="EBS dahili fontlar"/>
+	<lang name="lbl_TTFDefaultFonts" value="Ayarlı True Type fontlar"/>
+	<lang name="lbl_TTFUserFonts" value="Kullanıcılar True Type fontlar"/>
+
+	<lang name="lbl_import_ebseditorimport" value="EBS WWW proje düzenleyiciye gönder"/>
+	<lang name="lbl_import_ebs250import" value="EBS 250 proje dosyasına gönder"/>
+	<lang name="lbl_import_conversionFromEBS250" value="EBS 250 proje dosyasını WWW proje düzenleyicisi ile çevir..."/>
+	<lang name="lbl_selectOptionPackageFile" value="Seçili dosya opsiyonunu kur" />
+	<lang name="lbl_resetCounterVF_constant_start_value" value="Uyarı: Bazı sayaçlar minimum veya maksimal değere sıfırlanacak şekilde ayarlanır. Başlangıç ​​değerini değiştiren sayaçlar için imkansız olacaktır. Bu alanlar gri olarak işaretlendi "/>
+	<lang name="lbl_pleaseWait" value="Lütfen bekleyin..."/>
+	<lang name="lbl_lineType" value="Satır şekli" />
+	<lang name="lbl_lineSolid" value="Dolu" />
+	<lang name="lbl_lineDashed" value="Çizgi biçimi" />
+	<lang name="lbl_lineDotted" value="Noktalı" />
+	<lang name="lbl_discharging" value="Pilde"/>
+	<lang name="lbl_charging" value="Şarj oluyor"/>
+	<lang name="lbl_charged" value="Şarj oldu"/>
+	<lang name="lbl_charged_connected" value="Bağlandı ve şarj oldu"/>
+	<lang name="lbl_discharged" value="Boşaldı"/>
+	<lang name="lbl_discharged_connected" value="Bağlandı ve boşaldı"/>
+	<lang name="lbl_inkstatus" value="Mürekkep kartuşu durumu:"/>
+	<lang name="lbl_inklevel" value="Mürekkep seviyesi:"/>
+	<lang name="lbl_inkcolour" value="Mürekkep rengi:"/>
+	<lang name="lbl_batteryStatus" value="Pil durumu:"/>
+	<lang name="lbl_letterSpacing" value="Karakter boşluğu:"/>
+	<lang name="lbl_maxRepeatCount" value="Maks. Tekrar sayısı:"/>
+	<lang name="lbl_scriptName" value="Komut ismi:"/>
+	<lang name="lbl_noScript" value="Komut yok"/>
+	<lang name="lbl_action" value="Hareket" />
+	<lang name="lbl_saveToDisk" value="Diske kaydet" />
+	<lang name="lbl_sendToPrinter" value="Yazıcıya gönder" />
+
+	<lang name="lbl_printableObject" value="Nesne basılabilir" />
+	<lang name="lbl_linkedToObjects" value="Nesneler bağlanmış" />
+	<lang name="lbl_contentFormat" value="Format içeriği" />
+
+	<lang name="lbl_currentPoint" value="Geçerli nokta:" />
+	<lang name="lbl_changePoint" value="Değişen nokta" />
+	<lang name="lbl_horizontalDistance" value="Yatay mesafe:" />
+	<lang name="lbl_verticalDistance" value="Dikey mesafe:" />
+
+	<lang name="lbl_printerNetwork_search" value="Yazıcılar aranıyor... Lütfen bekleyin..." />
+	<lang name="lbl_printerNetwork_select" value="Ağa eklemek istediğiniz yazıcıları seçin" />
+	<lang name="lbl_selectAll" value="Hepsini seç" />
+	<lang name="lbl_deselectAll" value="Seçimi iptal et" />
+	<lang name="lbl_printerNetwork_addPrinter" value="Yazıcı ekle" />
+	<lang name="lbl_printerNetwork_noPrinters" value="Yazıcılar bulunamadı!" />
+	<lang name="lbl_selectedFileIsUnsuporrted" value="Seçili dosya desteklenmiyor." />
+	<lang name="lbl_confirmMessage" value="Mesajı doğrulayın" />
+
+	<lang name="lbl_autoRefresh" value="Otomatik yenileme" />
+	<lang name="lbl_after" value="sonra" />
+	<lang name="lbl_seconds" value="saniyeler" />
+	<lang name="lbl_timeToRefresh" value="Zamanı yenile:" />
+	<lang name="lbl_availablePrinters" value="Ulaşılabilir yazıcılar:" />
+	<lang name="lbl_export" value="Dışarı gönder" />
+	<lang name="lbl_editorLog" value="Düzenleyici kayıt" />
+	<lang name="lbl_printerLog" value="Yazıcı kayıt" />
+	<lang name="lbl_externalParamsFileNotFound" value="Harici yazdırma parametreleri bulunamadı %s " />
+	<lang name="lbl_pleaseSelectPrintingParams" value="Lütfen bu proje ile kullanılacak yazdırma ayarlarını seçin." />
+	<lang name="lbl_defaultPrintHeadParams" value="Seçili yazıcı kafa ayarları" />
+	<lang name="lbl_projectLocalParams" value="Proje dahili ayarlar" />
+	<lang name="lbl_msgAll" value="Tümü" />
+	<lang name="lbl_msgInformations" value="Bilgilendirmeler" />
+	<lang name="lbl_msgWarnings" value="Uyarılar" />
+	<lang name="lbl_msgErrors" value="Hatalar" />
+	<lang name="lbl_msgDeleteAll" value="Bütün mesajları sil" />
+	<lang name="lbl_msgDeleteInformations" value="Bütün bilgilendirmeleri sil" />
+	<lang name="lbl_msgDeleteWarnings" value="Bütün uyarıları sil" />
+	<lang name="lbl_msgDeleteErrors" value="Bütün hataları sil" />
+	<lang name="lbl_searchResults" value="Arama sonuçları" />
+	<lang name="lbl_clipboard" value="Pano" />
+	<lang name="lbl_trash" value="Çöp" />
+	<lang name="lbl_printersNetwork" value="Yazıcı ağ ayarları" />
+	<lang name="lbl_selectObject" value="Nesne seç" />
+	<lang name="lbl_objectsList" value="Nesne listesi" />
+	<lang name="lbl_or" value="veya" />
+	<lang name="lbl_scaling" value="Ölçeklendirme" />
+	<lang name="lbl_format" value="Format" />
+	<lang name="lbl_rectangle" value="Dikdörtgen" />
+	<lang name="lbl_square" value="Kare" />
+	<lang name="lbl_auto" value="Otomatik" />
+	<lang name="lbl_deleteRecoveryFile" value="Silinen dosyaları kurtar" />
+</Labels>
+<Tooltips>
+	<lang name="tooltip_createNewDirectory" value="Yeni dizin oluştur"/>
+	<lang name="tooltip_removeDirectory" value="Seçili dosya veya dizini sil"/>
+	<lang name="tooltip_rename" value="İsim değiştir"/>
+	<lang name="tooltip_cut" value="Kes"/>
+	<lang name="tooltip_copy" value="Kopyala"/>
+	<lang name="tooltip_paste" value="Ekle"/>
+	
+	<lang name="tooltip_printParameters" value="Yazdırma ayarları penceresini göster"/>
+	<lang name="tooltip_normalCursor" value="Normal kursor"/>
+	<lang name="tooltip_createTextObject" value="Metin nesnesi oluştur"/>
+	<lang name="tooltip_createImageObject" value="Resim nesnesi oluştur"/>
+	<lang name="tooltip_createShapeObject" value="Şekil nesnesi oluştur"/>
+	<lang name="tooltip_createBarcodeObject" value="Barkod nesnesi oluştur"/>
+	<lang name="tooltip_zoomInProject" value="Yakınlaştır"/>
+	<lang name="tooltip_zoomOutProject" value="Uzaklaştır"/>
+	<lang name="tooltip_zoomNormalProject" value="Gerçek boyut"/>
+	<lang name="tooltip_cutObject" value="Nesneyi kes"/>
+	<lang name="tooltip_copyObject" value="Nesneyi kopyala"/>
+	<lang name="tooltip_showHideClipboard" value="Panoyu Göster/Gizle"/>
+	<lang name="tooltip_showHideTrash" value="Çöp Gözter/Gizle"/>
+	<lang name="tooltip_projectPreview" value="Baskı çıktı öngösterim"/>
+	<lang name="tooltip_reloadProjectWorkspace" value="Proje çalışma alanını yeniden yükle"/>
+	<lang name="tooltip_printerNetwork" value="Yazıcı ayarları"/>
+	<lang name="tooltip_moveObjectUpDown" value="Nesneleri taşı yukarı/aşağı"/>
+	<lang name="tooltip_turnOffPrinter" value="Kapat/Yeniden Başlat/Oturumu Kapat"/>
+	<lang name="tooltip_moveObjectLeft" value="Nesneyi 1px sola getir"/>
+	<lang name="tooltip_moveObjectRight" value="Nesneyi 1px sağa getir"/>
+	<lang name="tooltip_moveObjectUp" value="Nesneyi 1px yukarı çıkar"/>
+	<lang name="tooltip_moveObjectDown" value="Nesneyi 1px aşağı indir"/>
+	<lang name="tooltip_hideWindow" value="Pencereyi gizle"/>
+	<lang name="tooltip_showWindow" value="Pencereyi göster"/>
+	<lang name="tooltip_showHelp" value="Yardımı göster"/>
+	<lang name="tooltip_showBackground" value="Arkaplanı görüntülemek için tıklayın "/>
+	<lang name="tooltip_closeWindow" value="Pencereyi kapat"/>
+	<lang name="tooltip_showFontWindow" value="Font yönetim penceresini göster"/>
+	<lang name="tooltip_toogleDate" value="Tarihi değiştir"/>
+	<lang name="tooltip_toogleTime" value="Saati değiştir"/>
+	<lang name="tooltip_changeDateTimeOrder" value="Tarih/saat sistemini değiştir"/>
+	<lang name="tooltip_alignLeft" value="Sola hizala"/>
+	<lang name="tooltip_alignCenter" value="Ortaya hizala"/>
+	<lang name="tooltip_alignRight" value="Sağa hizala"/>
+	<lang name="tooltip_createSpecialObject" value="Özel nesne oluştur"/>
+	
+	<lang name="tooltip_saveProject" value="Projeyi kaydet"/>
+	<lang name="tooltip_openProject" value="Projeyi aç"/>
+	<lang name="tooltip_workspaceWidth" value="Çalışma alanı genişliğini değiştir"/>
+	<lang name="tooltip_showObjectParameters" value="Nesne ayar penceresini göster"/>
+	<lang name="tooltip_deleteObject" value="Nesneyi sil"/>
+	<lang name="tooltip_showObjectsList" value="Proje listesini Göster/Gizle"/>
+</Tooltips>
+<WTitles>
+	<lang name="wtitle_projectNew" value="Yeni proje oluştur"/>
+	<lang name="wtitle_projectOpen" value="Düzenleme için proje aç"/>
+	<lang name="wtitle_projectOpenForPrinter" value="Yazdırma için proje aç"/>
+	<lang name="wtitle_projectSaveAs" value="Farklı kaydet..."/>
+	<lang name="wtitle_projectParams" value="Yazdırma ayarları"/>
+	<lang name="wtitle_editor_settings" value="Genel ayarlar"/>
+	<lang name="wtitle_encoderConstantSettings" value="Konveyör ayarları"/>
+	<lang name="wtitle_printer_control" value="Yazıcı kontrol"/>
+	<lang name="wtitle_installImage" value="Yeni resim yükle"/>
+	<lang name="wtitle_workspaceWidth" value="Yazdırma alanı genişliği"/>
+	<lang name="wtitle_purge" value="Purge"/>
+	<lang name="wtitle_log" value="Kayıtlar"/>
+
+	<lang name="wtitle_addUser" value="Kullanıcı ekle"/>
+	<lang name="wtitle_editUser" value="Kullanıcı düzenle"/>
+	<lang name="wtitle_deleteUser" value="Kullanıcı sil"/>
+	<lang name="wtitle_addGroup" value="Grup ekle"/>
+	<lang name="wtitle_editGroup" value="Grup düzenle"/>
+	<lang name="wtitle_deleteGroup" value="Grup sil"/>
+	<lang name="wtitle_installFont" value="Yeni font yükle"/>
+	<lang name="wtitle_installTxtFile" value="Yeni metin dosyası yükle"/>
+	<lang name="wtitle_message" value="Mesaj"/>
+	<lang name="wtitle_messages" value="Mesajlar"/>
+	<lang name="wtitle_objectParams" value="Nesne ayarları"/>
+	<lang name="wtitle_filename" value="Dosya adı"/>
+	<lang name="wtitle_folderName" value="Dizin adı"/>
+	<lang name="wtitle_rename" value="İsim değiştir"/>
+	<lang name="wtitle_fontsManager" value="Font yöneticisi"/>
+	<lang name="wtitle_textsFilesManager" value="Metin dosya yöneticisi"/>
+	<lang name="wtitle_uninstallFont" value="Font sil"/>
+	<lang name="wtitle_fontSize" value="Font boyutu"/>
+	<lang name="wtitle_imagesManager" value="Resim yöneticisi"/>
+	<lang name="wtitle_uninstallImage" value="Resim sil"/>
+	<lang name="wtitle_reportProblem" value="Sorun raporu hazırla"/>
+	<lang name="wtitle_projectPreview" value="Proje öngösterim"/>
+	<lang name="wtitle_usersManager" value="Kullanıcılar yönetimi"/>
+	<lang name="wtitle_printersNetworkManager" value="Yazıcı ağ ayarları"/>
+	<lang name="wtitle_objectPreview" value="Nesne öngösterim"/>
+	<lang name="wtitle_moduleInfo" value="Modul bilgisi"/>
+	<lang name="wtitle_accountManagement" value="Hesap yönetimi"/>
+	<lang name="wtitle_variableFields" value="Değişken alanları"/>
+	<lang name="wtitle_resetVariableField" value="Değişken alanını sıfırla"/>
+	<lang name="wtitle_browseParamsFiles" value="Ayar dosyalarını araştır"/>
+	<lang name="wtitle_printoutCost" value="Baskı maliyeti"/>
+	<lang name="wtitle_serviceReport" value="Raporlar"/>
+	<lang name="wtitle_mustEdit" value="Nesne düzenleme"/>
+	<lang name="wtitle_installOption" value="Özellik yükleme"/>
+	<lang name="wtitle_size" value="Boyut"/>
+	<lang name="wtitle_position" value="Posizyon"/>
+	<lang name="wtitle_printerNetwork" value="Yazıcı ağ"/>
+	<lang name="wtitle_addPrinter" value="Yazıcı ekle"/>
+	<lang name="wtitle_editPrinter" value="Yazıcı düzenle"/>
+	<lang name="wtitle_deletePrinter" value="Yazıcı sil"/>
+	<lang name="wtitle_softwareUpgrade" value="Yazılım yükseltme"/>
+	<lang name="wtitle_printoutPreview" value="Baskı önizleme"/>
+	<lang name="wtitle_enterPassword" value="Şifre gir"/>
+	<lang name="wtitle_statistics" value="İstatistikler"/>
+	<lang name="wtitle_clearStatistics" value="İstatistikleri sil"/>
+	<lang name="wtitle_projectImport" value="Proje al"/>
+	<lang name="wtitle_projectExport" value="Proje gönder"/>
+	<lang name="wtitle_puiPreview" value="LCD Öngösterim"/>
+	<lang name="wtitle_simulatePrintout" value="Baskı örneği gösterimi" />
+	<lang name="wtitle_firmware_ugprade_info" value="Yazılım yükseltme hakkında bilgilendirme"/>
+	<lang name="wtitle_printerUpdate" value="Güncelleme" />
+	<lang name="wtitle_scanPrintersNetwork" value="Ağ üzerinde yazıcıları ara" />
+	<lang name="wtitle_selectPrintingParams" value="Baskı ayarlarını seç" />
+</WTitles>
+<Buttons>
+	<lang name="btn_saveChanges" value="Değişikleri kaydet"/>
+	<lang name="btn_yes" value="Evet"/>
+	<lang name="btn_no" value="Hayır"/>
+	<lang name="btn_ok" value="Tamam"/>
+	<lang name="btn_reload" value="Düzenleyiciyi yeniden yükle"/>
+	<lang name="btn_apply" value="Uygula"/>
+	<lang name="btn_confirm" value="Onayla"/>
+	<lang name="btn_cancel" value="iptal"/>
+	<lang name="btn_rename" value="Yeniden isimlendir"/>
+	<lang name="btn_shutdown" value="Kapat"/>
+	<lang name="btn_restart" value="Yeniden başlat"/>
+	<lang name="btn_logout" value="Çıkış"/>
+	<lang name="btn_createFolder" value="Dosya oluştur"/>
+	<lang name="btn_createProject" value="Proje oluştur"/>
+	<lang name="btn_openProject" value="Proje aç"/>
+	<lang name="btn_openProjectForPrinting" value="Baskı için&#13;&#10;proje açılıyor"/>
+	<lang name="btn_deleteSelectedImage" value="Seçili resmi sil"/>
+	<lang name="btn_installNewImage" value="Yeni resim yükle"/>
+	<lang name="btn_selectImage" value="Resim seç"/>
+	<lang name="btn_closeWindow" value="Pencereyi kapat"/>
+	<lang name="btn_installSelectedImage" value="Seçili resmi yükle"/>
+	<lang name="btn_selectFont" value="Font seç"/>
+	<lang name="btn_installNewFont" value="Yeni font yükle"/>
+	<lang name="btn_deleteSelectedFont" value="Seçili fontu sil"/>
+	<lang name="btn_installSelectedFont" value="Seçili fontu yükle"/>
+	<lang name="btn_deleteSelectedTxtFile" value="Seçili metin dosyasını sil"/>
+	<lang name="btn_installNewTxtFile" value="Yeni metin dosyası yükle"/>
+	<lang name="btn_installSelectedTxtFile" value="Seçili metin dosyasını yükle"/>
+	<lang name="btn_addUser" value="Kullanıcı ekle"/>
+	<lang name="btn_editUser" value="Kullanıcı düzenle"/>
+	<lang name="btn_deleteUser" value="Kullanıcı sil"/>
+	<lang name="btn_addGroup" value="Grup ekle"/>
+	<lang name="btn_editGroup" value="Grup düzenle"/>
+	<lang name="btn_deleteGroup" value="Grup sil"/>
+	<lang name="btn_add" value="Ekle"/>
+	<lang name="btn_save" value="Kaydet"/>
+
+	<lang name="btn_browse" value="Araştır"/>
+	<lang name="btn_saveProject" value="Proje kaydet"/>
+	<lang name="btn_setPrintHeadDefault" value="Varsayılan yazıcı kafa ayarlarını uygula"/>
+	<lang name="btn_reloadLogFile" value="Log dosyasını yükle"/>
+	<lang name="btn_clearLogFile" value="Log dosyasını sil"/>
+	<lang name="btn_next" value="Sonraki"/>
+	<lang name="btn_groupPriorityUp" value="Yukarı taşı"/>
+	<lang name="btn_groupPriorityDown" value="Aşağı taşı"/>
+	<lang name="btn_variableFields" value="Değişken alanlar"/>
+	<lang name="btn_startPrint" value="Yazdırmayı başlat"/>
+	<lang name="btn_stopPrint" value="Yazdırmayı durdur"/>
+	<lang name="btn_printingParams" value="Yazdırma&#13;&#10;ayarları"/>
+	<lang name="btn_purgeOn" value="Purge aç"/>
+	<lang name="btn_purgeOff" value="Purge kapa"/>
+	<lang name="btn_currentPrinterDateTime" value="Yazıcıdan tarih/zaman bilgisini al"/>
+	<lang name="btn_currentComputerDateTime" value="Bilgisayardan tarih/zaman bilgisini al"/>
+	<lang name="btn_setPrinterDateTime" value="Yazıcı tarih/zaman ayarı"/>
+	<lang name="btn_selectFile" value="Dosya seç"/>
+	<lang name="btn_createNewFile" value="Yeni dosya oluştur"/>
+	<lang name="btn_detectEncoderConst" value="Encoder değeri belirle"/>
+	<lang name="btn_detectConveyorSpeed" value="Konveyör hızı belirle"/>
+	<lang name="btn_detectEncoderConstStop" value="Encoder ölçmeyi durdur"/>
+	<lang name="btn_detectConveyorSpeedStop" value="Konveyör hızı ölçmeyi durdur"/>
+	<lang name="btn_useCurrent" value="Geçerli ayarı kullan"/>
+	<lang name="btn_resetVF" value="Sııfırla V.F."/>
+	<lang name="btn_setSize" value="Ayar boyutu"/>
+	<lang name="btn_reportWait" value="Rapor oluştur... lütfen bekleyin..."/>
+	<lang name="btn_reportComplete" value="Servis raporunu indir."/>
+	<lang name="btn_reportError" value="Hata oluştu! Detaylar için tıklayın."/>
+	<lang name="btn_installPackageWait" value="Opsiyon yükleniyor... lütfen bekleyin..."/>
+	<lang name="btn_installPackageComplete" value="Opsiyon yüklendi. Kapatmak için tıklayın."/>
+	<lang name="btn_installPackageError" value="Hata oluştu! Opsiyon yüklenemiyor."/>
+	<lang name="btn_nextObject" value="Diğer nesne"/>
+	<lang name="btn_addPrinter" value="Yazıcı ekle"/>
+	<lang name="btn_editPrinter" value="Yazıcı düzenle"/>
+	<lang name="btn_deletePrinter" value="Yazıcı sil"/>
+	<lang name="btn_searchPrinters" value="Yazıcı ara"/>
+	<lang name="btn_clearStatistics" value="İstatistikleri temizle"/>
+	<lang name="btn_exportImages" value="bütün resimler"/>
+	<lang name="btn_exportAllProjects" value="bütün değerler"/>
+	<lang name="btn_exportSelectedProject" value="Seçili proje"/>
+	<lang name="btn_importFile" value="Dosya al"/>
+	<lang name="btn_generate" value="Oluştur" />
+	<lang name="btn_uploadFile" value="Güncelleştirme dosyası seçin" />
+	<lang name="btn_restartContinue" value="Güncelleştirme için yazıcıyı kapatıp açın" />
+	<lang name="btn_addToList" value="Listeye ekleyin" />
+	<lang name="btn_shutdownAllPrinters" value="Yazıcıları kapatın" />
+	<lang name="btn_installPackage" value="Paketi yükleyin" />
+	<lang name="btn_installingPackage" value="Opsiyon yükleniyor... lütfen bekleyin..." />
+	<lang name="btn_login" value="Bağlan" />
+	<lang name="btn_selectParamsFile" value="Parametreler dosyasını seçin" />
+	<lang name="btn_selectLoginImage" value="Bağlantı resmini seçin" />
+	<lang name="btn_usePrintHeadDefault" value="Ayarlı yazıcı kafa değerlerini kullan" />
+	<lang name="btn_userProjectLocalParams" value="Dahili parametreleri kullan" />
+	<lang name="btn_addSelectedPrinters" value="Seçili yazıcıları ekle" />
+	<lang name="btn_invertSelection" value="Ters seçim" />
+	<lang name="btn_restoreObject" value="Nesneyi düzelt" />
+	<lang name="btn_pasteObject" value="Nesne ekle" />
+</Buttons>
+<Messages>
+	<lang name="msg_startPrintOperation" value="Yazdırmayı başlatmak istiyor musunuz?"/>
+	<lang name="msg_deleteImage" value="Resmi sil?"/>
+	<lang name="msg_deleteFont" value="Fontu sil?"/>
+	<lang name="msg_deleteTxtFile" value="Mesaj dosyasını sil?"/>
+	<lang name="msg_deleteObject" value="Nesneyi sil?"/>
+	<lang name="msg_deleteUser" value="Kullanıcı sil [b]%s[/b]?"/>
+	<lang name="msg_deletePrinter" value="Yazıcı sil [b]%s[/b]?"/>
+	<lang name="msg_deleteGroup" value="Grubu sil [b]%s[/b]?"/>
+	<lang name="msg_projectNotSaved" value="Proje kaydedilmedi&#13;&#10;Şimdi kaydet?"/>
+	<lang name="msg_fileExistsReplace" value="Dosya ismi var. Üstüne yazmak ister misiniz?"/>
+	<lang name="msg_fileExists" value="Dosya ismi var."/>
+	<lang name="msg_deleteProject" value="Bu projeyi sil?"/>
+	<lang name="msg_deleteFolder" value="Bu dosyayı tüm içerikle silmek ister misiniz?"/>
+	<lang name="msg_whatWouldYouLikeToDo" value="Ne yapmak istiyorsunuz?"/>
+	<lang name="msg_settingsSavedSuccessfully" value="Değerler başarıyla kaydedildi.&#13;&#10;Editor yeniden yüklenecek.&#13;&#10;Yüklensin mi?"/>
+	<lang name="msg_projectForDifferentPrintHead" value="Bu proje bu yazıcı için uygun değil.&#13;&#10;Açmak istiyor musunuz?"/>
+	<lang name="msg_someoneLoggedIn" value="Kullanıcı %s IP addresinden bağlanmış  %s.&#13;&#10;Bağlantı devam etsin mi?"/>
+	<lang name="msg_projectSaved" value="Proje kaydedildi."/>
+
+	<lang name="msg_projectCreated" value="Proje oluşturma başarılı."/>
+	<lang name="msg_projectDeleted" value="Seçili proje başarıyla silindi."/>
+	<lang name="msg_cantDeleteDefaultFont" value="Yazıcı fontu silinemiyor."/>
+	<lang name="msg_cantDeleteAdministrator" value="Yönetici [b]silinemiyor[/b]."/>
+	<lang name="msg_cantRenameBecauseFileExists" value="Hedef dosya/dizin kullanımda."/>
+	<lang name="msg_fontDeleted" value="Seçilen font başarıyla silindi."/>
+	<lang name="msg_txtFileDeleted" value="Seçilen mesaj dosyası başarıyla silindi."/>
+	<lang name="msg_imageDeleted" value="Seçilen imaj dosyası başarıyla silindi."/>
+	<lang name="msg_noFileSelected" value="Seçili dosya bulunamadı.&#13;&#10;Lütfen dosya seçin ve tekrar deneyin."/>
+	<lang name="msg_noUserSelected" value="Kullanıcı seçilmedi.&#13;&#10;Lütfen kullanıcı seçin ve tekrar deneyin."/>
+	<lang name="msg_noPrinterSelected" value="Yazıcı seçilmedi.&#13;&#10;Lütfen yazıcı seçin ve tekrar deneyin."/>
+	<lang name="msg_selectProjectFileFirst" value="Lütfen ilk proje dosyasını seçin."/>
+	<lang name="msg_objectNotSelected" value="Nesne seçilmedi."/>
+	<lang name="msg_ExternParamsFileNotSelected" value="Dosya seçilmedi.&#13;&#10;Lütfen harici parametreler dosyasını seçin veya dahili parametreleri seçin."/>
+	<lang name="msg_printParamsSet" value="Yazı parametreleri proje için başarıyla oluşturuldu."/>
+	<lang name="msg_paramsOutOfRange" value="Bazı parametreler değerlerin dışında."/>
+	<lang name="msg_noPrintHeadDefinedInProject" value="Bu proje için tanımlanabilir yazıcı kafa tipi yok. Tanımlanabilir parametreler oluşturulamıyor örnek yazıcı kafa yüksekliği, çözünürlük vb..."/>
+	<lang name="msg_incorrectPassword" value="Hatalı şifre."/>
+	<lang name="msg_cantLoginBecauseToLowPriority" value="Kullanıcı %s bağlantısı devam ediyor.&#13;&#10;Sizin kullanıcı haklarınız yeterli değil."/>
+	<lang name="msg_enterLoginFirst" value="Lütfen kullanıcı bilgilerinizi giriniz."/>
+	<lang name="msg_enterPassFirst" value="Lütfen şifrenizi giriniz."/>
+	<lang name="msg_enterGroupNameFirst" value="Lütfen grup isminizi giriniz."/>
+	<lang name="msg_selectAtLeastOneGroup" value="Lütfen en az bir grup seçiniz."/>
+	<lang name="msg_loginInUse" value="Seçili kullanıcı bağlantısı devam ediyor.&#13;&#10;Başka bir kullanıcı seçip tekrar deneyin."/>
+	<lang name="msg_groupInUse" value="Bu grup kullanımda.&#13;&#10;Farklı bir isim girip tekrar deneyin."/>
+	<lang name="msg_passwordsNotEqual" value="Şifre bulunamadı."/>
+
+	<lang name="msg_oldPasswordIsEmpty" value="Eski şifrenizi giriniz."/>
+	<lang name="msg_oldPasswordIsBad" value="Eski şifre hatalı."/>
+	<lang name="msg_allDataInObjectWillBeLost" value="Bütün bilgiler silinecek.&#13;&#10;Devam etmek istiyor musunuz?"/>
+	<lang name="msg_wrongParams" value="En az bir bölümde parametreler yanlış (min &gt; max).&#13;&#10;Sayma sırasını ters çevirmek istiyor musunuz?"/>
+	<lang name="msg_updateExternFileParams" value="Değişiklikler bu harici parametre dosyasını kullanan tüm projeleri etkileyecektir.&#13;&#10;Devam etmek istiyor musunuz ?"/>
+	<lang name="msg_clearCacheReminder" value="Farklı düzenleyici versiyonu bulundu.&#13;&#10;Tarayıcı ön hafızayı temizlemeniz önerilir." />
+	<lang name="msg_aboutWindow" value="EBS Web Kullanıcı Arayüzü %s&#13;&#10;Yazıcı versiyonu: %s&#13;&#10;Sistem versiyonu: %s&#13;&#10;PUI versiyonu: %s&#13;&#10; Yazıcı yönetici versiyonu: %s&#13;&#10;&#13;&#10;[b]EBS Ink-Jet Systeme GmbH[/b]&#13;&#10;Alte Ziegelei 19-25&#13;&#10;D-51588 Nümbrecht-Elsenroth&#13;&#10;DEUTSCHLAND&#13;&#10;&#13;&#10;+49 (0)2293/939-0&#13;&#10;Fax +49 (0)2293/939-3&#13;&#10;&#13;&#10;E-Mail: mail@ebs-inkjet.de&#13;&#10;WWW: http://www.ebs-inkjet.de&#13;&#10;Alize Otomasyon ve Kodlama&#13;&#10;www.alize.com.tr&#13;&#10;alize@alize.com.tr" />
+	<lang name="msg_resetCounterVF" value="Dikkat: bu işlemi gerçekleştirmek için geçerli projenin yazdırılmadığından emin olun.&#13;&#10;Bu işlem sayaç bölümünü saklanan değerleri ve 'Başlangıç değeri' sayıcısının değerini değiştirir."/>
+	<lang name="msg_resetTxtFileVF" value="Dikkat: bu işlemi gerçekleştirmek için geçerli projenin yazdırılmadığından emin olun.&#13;&#10;Bu işlem sayaç bölümünü saklanan değerleri ve 'Başlangıç değeri' sayıcısının değerini değiştirir."/>
+	<lang name="msg_wrongProjectFilename" value="Proje dosya adı aşağıdaki karakterleri içeremez .,/\\#%*?:{}|"/>
+	<lang name="msg_communicationError" value="İletişim hatası\nYazıcı cevap vermiyor. Lütfen sistemi kontrol edin\nve tekrar deneyin. Eğer yazıcı meşgul ise\nhızlı yazım nedeniyle, lütfen durdurun ve tekrar deneyin." />
+	<lang name="msg_errorJavaScript" value="Kritik hata!\nJavaScript devre dışı.\nLütfen açın ve tekrar deneyin." />
+	<lang name="msg_errorPendrive" value="Kritik hata!\nFlashbellek arızalı veya yok.\nLütfen flashbelleği kontrol edip tekrar deneyin." />
+	<lang name="msg_errorBrowserNotSupported" value="Uyarı!\nTarayıcı desteklenmiyor.\nLütfen Mozilla Firefox kullanın." />
+	<lang name="msg_projectPriorityTooLow" value="LCD ekranda bazı projeler düzenleme için açılmış.\nSizin proje açma önceliğiniz uygun değil." />
+	<lang name="msg_projectOpenedFromLCDWnd" value="LCD ekransa bazı projeler düzenleme için açılmış.\nYinede açmak istiyor musunuz ?" />
+	<lang name="msg_projectClosed" value="Proje kapatıldı çünkü başka kullanıcı LCD düzenlemeyi aktif hale getirdi." />
+	<lang name="msg_printerDateTimeSetSuccessfull" value="Yazıcı tarih/saat başarıyla kaydedildi." />
+	<lang name="msg_clipboardEmpty" value="Pano boş." />
+
+	<lang name="msg_improper_poweroff" value="Uyarı! Uygun olmayan kapatma tespit edildi. Cihazın arızalanmasına veya veri kaybına neden olabilir. Lütfen her zaman önerilen uygun kapatma kurallarını uygulayın."/>
+	<lang name="msg_printerNetworkEmptyFields" value="Yazıcı ismi ve IP adresini girmelisiniz."/>
+	<lang name="msg_printerNetworkIPExists" value="Yazıcı bu IP adresi ile zaten listede kullanılmaktadır."/>
+	<lang name="msg_printerNetworkBadIP" value="Geçersiz IP adresi."/>
+	<lang name="msg_cantDeleteCurrentUser" value="Şu anda giriş yapan kullanıcıyı silemezsiniz."/>
+	<lang name="msg_clearStatistics" value="İstatistikleri silmek istiyor musunuz ?"/>
+	<lang name="msg_printerNetworkProjectExported" value="Proje başarıyla gönderildi."/>
+	<lang name="msg_lineDividersMaxReached" value="Maksimum sayıda satır bölücüye ulaşıldı." />
+	<lang name="msg_simulationPrintoutTooBig" value="Baskı çok büyük.\n\nGüncel baskı içeriği: %s px\nMaksimum baskı içeriği: %s px\n\nLütfen aşağıdaki parametrelerden en az birini değiştirin.\n\nYatay mesafe: %s px\nDikey mesafe: %s px\nNokta boyutu: %s px\nÇalışma alanı genişliği: %s px\n" />
+</Messages>
+<StatusMessages>
+	<lang name="msg_E01000" value="(E01000) HATA: Dahili bellek ayırma sorunu. Yazıcı düzgün çalışmıyor. Lütfen projeyi yeniden açın, eğer yardımcı olmazsa, yazıcıyı yeniden başlatın veya projeyi yeniden oluşturun." />
+	<lang name="msg_E01010" value="(E01010) HATA: Proje genişliği çok küçük. Genişlik yazıcı tarafından mevcut en küçük değere otomatik olarak düzeltildi." />
+	<lang name="msg_E01011" value="(E01011) HATA: Proje yüksekliği çok küçük. Yükseklik yazıcı tarafından mevcut en küçük değere otomatik olarak düzeltildi." />
+	<lang name="msg_E01015" value="(E01015) HATA: Proje boyutu çok büyük. Genişlik yazıcı tarafından maksimum değere otomatik olarak düzeltildi." />
+
+	<lang name="msg_E1000" value="(E1000) HATA: Sistemi durdurmak için kök izinleri ayarlanamıyor!"/>
+	<lang name="msg_E1001" value="(E1001) HATA: Şablon projesi yok!"/>
+	<lang name="msg_E1002" value="(E1002) HATA: Proje yüklenemedi!"/>
+	<lang name="msg_E1003" value="(E1003) HATA: Proje yüklenemedi - proje dosyası mevcut değil!"/>
+	<lang name="msg_E1004" value="(E1004) HATA: Sistemi yeniden başlatmak için kök izinleri ayarlanamıyor!"/>
+	<lang name="msg_E1100" value="(E1100) HATA: Hiçbir proje açık olmadığı için bu işlemi gerçekleştiremiyoruz!"/>
+	<lang name="msg_E10100" value="(E10100) HATA: Seçili dosyadan proje yüklenemiyor! Dosya hiçbir proje bilgisi içermiyor veya bozulmuş. İşlem iptal edildi!"/>
+	<lang name="msg_E10101" value="(E10101) HATA: Proje ayarları yüklenemiyor! Varsayılan ayarlar kullanılacak... Doğru ayarları yapmak için kullanıcı müdahalesi gerekiyor."/>
+	<lang name="msg_E10102" value="(E10102) HATA: Bu proje için yazdırma ayarları yüklenemiyor! Varsayılan ayarlar kullanılacak…Uygun parametreleri ayarlamak için kullanıcı müdahalesi gereklidir (varsayılan geçerli parametreler baskı kafası için hatalı olabilir)."/>
+	<lang name="msg_E11010" value="(E11010) HATA: Değişken alan \'Metin Dosyası\': Dosya açılmıyor!"/>
+	<lang name="msg_E11011" value="(E11011) HATA: Değişken alan \'Metin dosyası\': Belirli bir satırdaki dosyayı açma/dosyaya erişme ile ilgili sorun!"/>
+	<lang name="msg_E11020" value="(E11020) HATA: Değişken alan \'COM PORT\': Bağlantı noktası açılamıyor!"/>
+	<lang name="msg_E11021" value="(E11021) HATA: Değişken alan \'COM PORT\': Bağlantı portu açık değil! Bağlantı kesildi!"/>
+	<lang name="msg_E11022" value="(E11022) HATA: Değişken alan \'COM PORT\': Okuma/Yazma işlemi başarısız!"/>
+	<lang name="msg_E11036" value="(E11036) HATA: Barkod oluşturma sorunu! Lütfen barkod verilerini/ayarlarını kontrol edin ve gerekirse düzeltin."/>
+	<lang name="msg_D0100" value="Yazım kapalı (hazır)"/>
+	<lang name="msg_D0101" value="Yazım açık (bekliyor)"/>
+	<lang name="msg_D0102" value="Yazım açık (yazıyor)"/>
+	<lang name="msg_D0000" value="Sürücü yok"/>
+	<lang name="msg_D0001" value="Yazıcı sürücüsüne komut gönderirken hata oluştu"/>
+	<lang name="msg_D0002" value="Yazıcı durumu bilinmiyor"/>
+	<lang name="msg_D0003" value="Proje seçilmedi"/>
+	<lang name="msg_D0110" value="Mesafeyi ölçme, ölçüm noktalarına gidin:1 - 2 - 3"/>
+	<lang name="msg_W1111" value="(W1111) UYARI: Baskı(lar) atlandı! Bazı baskılar doğru olmayabilir. Seçilen proje için baskı hızı yüksek olabilir."/>
+	<lang name="msg_W1112" value="(W1112) UYARI: Proje yazdırılamıyor - veriler yazdırılmadan önce tetiklendi. Atlanan baskı(lar):" />
+	<lang name="msg_W2000" value="(W2000) UYARI: Baskı sırasında veriler birikti, bir sonraki veriler toplanmayacak. Baskı sırası ürününü serbest bırakmak için çıktı alın" />
+	<lang name="msg_W2001" value="(W2001) UYARI: Yazıcı sonlandırma karakteri olmadan çok fazla veri aldı! Gereksiz veri sıraya alındı" />
+	<lang name="msg_W3000" value="(W3000) UYARI: Atık şişesi taşmış! Lütfen şişeyi boşaltın. Sonraki purge işlemi hava pompasına zarar verebilir. Şişeyi boşalttıktan sonra OK ( TAMAM ) butonuna basın." />
+
+	<lang name="msg_E10000" value="(E10000) HATA: Proje dosyasından gerekli nesne verilerini yükleyemiyor!" />
+	<lang name="msg_E10103" value="(E10103) HATA: Harici dosyadan yazdırma parametreleri yüklenemiyor! Dahili parametreler kullanılıyor!" />
+	<lang name="msg_E10104" value="(E10104) HATA: Proje kaydedilemiyor (proje dizin ağacını oluşturamıyor)" />
+	<lang name="msg_E10105" value="(E10105) HATA: Proje kaydedilemiyor (belirlenen alana kaydedilemiyor)" />
+	<lang name="msg_E11023" value="(E11023) HATA: Değişken alan 'COM PORT': Alınan bilgilerin işlenmesi sırasında tehlikeli hata oluştu!" />
+	<lang name="msg_E11024" value="(E11024) HATA: Değişken alan 'COM PORT': Seçili COM PORT iki kez açılamıyor (  bu com port bağlantı noktasını kullanan projeler aynı anda yazdırma ve düzenleme için açık olmamalıdır. Deavm edebilirsiniz ancak değişken alan çalışmaz.)" />
+	<lang name="msg_E11030" value="(E11030) HATA: Barkod verisi yanlış (geçerli olmayan karakterler tespit edildi)! Lütfen verileri düzeltin." />
+	<lang name="msg_E11031" value="(E11031) HATA: Barkod data uzunluğu hatalı! Lütfen verileri düzeltin." />
+	<lang name="msg_E11035" value="(E11035) HATA: Veri tabanından seçilen barkod açıklaması yüklenemiyor. Projeniz daha fazla barkod türü işleyen daha yeni bir yazıcıyla oluşturulmuş olabilir (veya yazıcı barkod veritabanı bozulmuş olabilir)." />
+
+	<lang name="msg_I99000" value="(I99000) Yeni mürekkep şişesi başarıyla kabul edildi."/>
+	<lang name="msg_E99000" value="(E99000) Sistemde kayıtlı mürekkep şişesi yok."/>
+	<lang name="msg_E99001" value="(E99001) IMS sisteminden alınan mürekkep doğrulama bilgileri hatalı. Mürekkep kabul edilmedi!" />
+	<lang name="msg_E99002" value="(E99002) Hatalı mürekkep şişesi parametresi. Mürekkep kabul edilmedi!"/>
+	<lang name="msg_E99003" value="(E99003) Tarihi geçmiş mürekkep - Şişe kabul edilmedi!"/>
+	<lang name="msg_E99004" value="(E99004) Mürekkep farklı bir yazıcı için - şişe kabul edilmedi!"/>
+	<lang name="msg_W99005" value="(W99005) Kullanılandan farklı renk mürekkep - lütfen sistemi temizleyin"/>
+	<lang name="msg_E99005" value="(E99005) Kullanılandan farklı renk mürekkep - şişe kabul edilmedi!"/>
+	<lang name="msg_E99006" value="(E99006) Kullanılandan farklı tip mürekkep - şişe kabul edilmedi!"/>
+	<lang name="msg_E99007" value="(E99007) Kullanılandan farklı tip solvent - şişe kabul edilmedi!"/>
+	<lang name="msg_E99020" value="(E99020) Mürekkep şişesi bu yazıcıda zaten kullanılıyordu. Mürekkep şişesi kabul edilmedi!"/>
+	<lang name="msg_E99021" value="(E99021) Mürekkep şişesi devre dışı bırakılmıştır (başka bir yazıcıda daha önce kullanılmış). Mürekkep şişesi kabul edilmedi"/>
+	<lang name="msg_E99022" value="(E99022) Sistemde kayıtlı olan mürekkep tipi kullanılır ve devre dışı bırakılır. Lütfen yeni mürekkep tipi kaydettirin!"/>
+	<lang name="msg_E99023" value="(E99023) Mürekkep şişesi devre dışı bırakıldı (tüketildi). Mürekkep şişesi kabul edilmedi!"/>
+	<lang name="msg_W99023" value="(W99023) Mürekkep seviyesi kritik derecede düşük!"/>
+	<lang name="msg_E99024" value="(E99024) Mürekkep şişesi hatalı veya yok!" />
+	<lang name="msg_I99024" value="(I99024) Mürekkep haznesi boş (mürekkep yok)"/>
+	<lang name="msg_E99050" value="(E99050) Yazıcı kimliği yok (lütfen yeni cihazlar için kimlik programlama işlemini takip edin!)"/>
+	<lang name="msg_E99051" value="(E99051) Yazıcı kimliği yok veya hatalı. Yazıcı kullanılamıyor! Lütfen servisi arayın."/>
+	<lang name="msg_I99070" value="(I99070) Boş kartuş"/>
+	<lang name="msg_I99100" value="(I99100) Sistemde kayıtlı mürekkep yok. Lütfen yazdırmaya başlamak için mürekkebinizi kaydettirin."/>
+	<lang name="msg_E99100" value="(E99100) Sistemde kayıtlı mürekkep yok. Lütfen yazdırmaya başlamak için mürekkebinizi kaydettirin."/>
+	<lang name="msg_I99110" value="(I99110) Yazıcı kullanım kilidi açıldı Kalan süre: %s"/>
+	<lang name="msg_I99111" value="(I99111) Bir kerelik şifre kodu başarıyla kabul edildi."/>
+	<lang name="msg_I99112" value="(I99112) Mürekkep tipi değiştirildi - kabul edildi / kaydedebilirsiniz"/>
+	<lang name="msg_W99112" value="(W99112) Mürekkep tipi değişmedi. Lütfen tekrar deneyin"/>
+	<lang name="msg_E99120" value="(E99120) Tek kullanımlık şifre oluşturulamadı, Lütfen tekrar deneyin."/>
+	<lang name="msg_E99121" value="(E99121) Tek kullanımlık şifre için geçersiz kod"/>
+	<lang name="msg_E99122" value="(E99122) Hatalı işlem limiti aşıldı. Yazıcı kapanacak"/>
+	<lang name="msg_W99123" value="(W99123) Kod kabul edildi, ama opsiyon kullanılamıyor!" />
+	<lang name="msg_W99124" value="(W99124) Kod kabul edildi, ama opsiyon seçimi hatalı!" />
+	<lang name="msg_E99130" value="(E99130) Pil hasar görmüş. Lütfen değiştirin ve yazıcıyı yeniden başlatın! Eğer pil değiştirildiyse yazıcıyı yeniden başlatın"/>
+	<lang name="msg_I99130" value="(I99130) Pil hasar görmüş. Lütfen değiştirin ve yazıcıyı yeniden başlatın! Eğer pil değiştirildiyse yazıcıyı yeniden başlatın"/>
+
+	<lang name="msg_E99140" value="(E99140) Yeni CPU kartı yetkilendirilemiyor!" />
+	<lang name="msg_I99140" value="(I99140) Yeni CPU kartı yetkilendirilemiyor!" />
+	<lang name="msg_E99141" value="(E99141) CPU kartı yetkili değil! Lütfen servisi arayınız!" />
+	<lang name="msg_E99142" value="(E99142) Yetkilendirme Hatası: CPU kartı yetkilendirilemiyor! CPU kart iletişim HATASI. Lütfen servisi arayınız." />
+
+
+	<lang name="msg_S90010" value="Aktif" />
+	<lang name="msg_S90020" value="Devredışı" />
+	<lang name="msg_S90030" value="Şişe Arızalı veya Yok" />
+	<lang name="msg_S90040" value="Transponder yok veya tanıtılmamış" />
+	<lang name="msg_S90050" value="Yazıcı kilidi Açılmış" />
+
+</StatusMessages>
+<Barcodes>
+	<lang name="bar_Code_11" value="[b]Harf Kümesi:[/b] sayısal 0-9 ve çizgi\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Telekomünikasyon endüstrisinde kullanılır."/>
+	<lang name="bar_Code_25_Industrial" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Ayrıca Code 2 - 5 ve Code 25 olarakda bilinir. Kullanımı daha eskidir."/>		
+	<lang name="bar_Code_25_Interleaved" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Ayrıca Code 2 - 5 Interleaved olarakda bilinir. Endüstriyel kullanım."/>
+	<lang name="bar_Code_25_IATA" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Code 2 - 5 farklı kullanım şekli havayolu endüstrisinde kullanılır."/>
+	<lang name="bar_Code_25_DataLogic" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Code 2 - 5 farklı kullanım şekli."/>	
+	<lang name="bar_Code_39" value="[b]Harf Kümesi:[/b] A-Z, 0-9, 5 özel karakterler\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Code 3 - 9 olarakda bilinir. Genellikle otomatik kontrol için kullanılır."/>		
+	<lang name="bar_Code_39_Extended" value="[b]Harf Kümesi:[/b] ASCII (127 karakter)\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Code 3 - 9 Genişletilmiş kod olarakda bilinir. Code 39 genişletilmesi."/>
+	<lang name="bar_EAN" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] seçilen EAN barkod tipine karşılık gelen\n[b]Açıklama:[/b] EAN kodu süpermarketlerde satış noktasında ürün tanımlamak için kullanılır. Sırasıyla 2, 5, 7 veya 12 basamaklı sayıları kodlayan EAN-2 ve EAN-5 eklenti kodları, EAN-8 ve EAN-13 için standartlar içerir. Aşağıdaki örnek, EAN-5 eklentili bir EAN-8 simgesini kodlar: 1234567+12345."/>
+	<lang name="bar_GS1_128" value="[b]Harf Kümesi:[/b] ASCII\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] EAN / UCC 128, Code 128'in özel bir formudur. Ticari ve sanayide mallar ve paletler için kullanılır. Uygulama Tanımlayıcılarını kullanarak bir barkoda birden fazla veri alanı kodlanmış olabilir (örnek: [01] 2345 Burada 01, Uygulama Tanımlayıcı'yı belirtir)"/>
+	<lang name="bar_Codabar" value="[b]Harf Kümesi:[/b] 0-9, 6 özel karakterler\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Transfüzyon servisleri tarafından kullanılan eski standart. Codabar, 0-9, tire (-), dolar ($), iki nokta üst üste (:), eğik çizgi (/), tam stop (.) Veya sayıları içeren ve AD harfleriyle başlayan ve biten herhangi bir uzunluk dizesini kodlayabilir. artı (+). Örnek: A $ 12 + $ 34C"/>
+	<lang name="bar_Code_128" value="[b]Harf kümesi:[/b] Genişletilmiş ASCII\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] En çok kullanılan 1D barkod sembolojilerinden biri. Modern barkod tipi, oldukça sıkıştırılmış verilere sahiptir (örnek: [1] 2345). "/>
+	<lang name="bar_Leitcode" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] 14\n[b]Açıklama:[/b] Leitcode Deutschen Post / DHL tarafından kullanılır. Son basamak otomatik olarak hesaplanır (kontrol değeri) - yalnızca 13 karakter belirtilmelidir. "/>
+	<lang name="bar_Identcode" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] 12\n[b]Açıklama:[/b] Identcode, Deutschen Post / DHL tarafından kullanılır. Son basamak otomatik olarak hesaplanır (kontrol değeri) - yalnızca 11 karakter belirtilmelidir. "/>
+	<lang name="bar_Code_16k" value="[b]Harf Kümesi:[/b] ASCII\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Yığılmış sembol bazlı Code 128."/>
+
+	<lang name="bar_Code_93" value="[b]Harf Kümesi:[/b] A-Z, 0-9, 5 özel karakterler\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Code 39 ile aynı karakterler ancak daha az alan gerektiren daha sıkıştırılmış kod."/>	
+	<lang name="bar_GS1_DataBar-14" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] 14\n[b]Açıklama:[/b] Yeni GTIN kodlama sistemi. Son basamak otomatik olarak hesaplanır (kontrol değeri) yalnızca 13 karakter belirtilmelidir."/>
+	<lang name="bar_GS1_DataBar_Limited" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] 13\n[b]Açıklama:[/b] Yeni GTIN kodlama sistemi."/>	
+	<lang name="bar_GS1_DataBar_Expanded" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] GS1-128 yerine kullanılır. Genişletilmiş RSS, tek bir sembolden veri şifreleme yeteneğine sahip değişken uzunluklu bir semboldür. Şifreli veri sembolleri [köşeli parantez] içine alınmalıdır. Örnek: [01]1236[3202]0125[15]9874"/>
+	<lang name="bar_Telepen_Alpha" value="[b]Harf Kümesi:[/b] ASCII\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Genel kodlama şeması. Genellikle kütüphanelerde kullanılır."/>
+	<lang name="bar_UPC-A" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] 12\n[b]Açıklama:[/b] UPC A kodu, UPC kodunun standart sürümüdür ve 12 hanelidir. Buna UPC 12 denir ve EAN koduna çok benzerdir. Son basamak otomatik olarak hesaplanır (kontrol değeri) - yalnızca 11 karakter belirtilmelidir."/>
+	<lang name="bar_UPC-E" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] 8\n[b]Açıklama:[/b] Bu son derece küçük ürünler için UPC-A'nın kısa sürümüdür. Son rakam otomatik olarak hesaplanır (kontrol değeri) - yalnızca 7 karakter belirtilmelidir. "/>
+	<lang name="bar_PostNet" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Bu kod sistemi, posta sıralama ve gönderme hızını yükseltmek için kullanılır."/>	
+	<lang name="bar_MSI_Plessey" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] İngiliz endüstrisinde yaygın olan eski bir sistem."/>
+	<lang name="bar_Pharmacode_One-Track" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] -\n[b]Açıklama:[/b]Eczacılığa ait ikili kod olarakda bilinir, ilaç endüstrisinde ambalaj kontrol sistemi olarak kullanılan barkod sistemidir."/>	
+	<lang name="bar_Pharmacode_Two-Track" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] -\n[b]Açıklama:[/b] İlaç İkili Kod olarak da bilinen Pharmacode (iki yönlü bir varyasyon), ilaç endüstrisinde ambalaj kontrol sistemi olarak kullanılan bir barkod standardıdır. "/>
+
+	<lang name="bar_PZN" value="[b]Harf Kümesi:[/b] sayısal 0-9\n[b]Uzunluk:[/b] 7\n[b]Açıklama:[/b] Kod 39' un özel şekli. Eczacılık sektöründe tıp için kullanılır."/>
+	<lang name="bar_PDF417" value="[b]Harf Kümesi:[/b] Genişletilmiş ASCII\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Toplu metin veya verileri tek kodla kodlamak için 2D barkod. Kurye sektöründe popüler. "/>
+	<lang name="bar_PDF417_Truncated" value="[b]Harf Kümesi:[/b] Genişletilmiş ASCII\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Toplu metin veya verileri tek kodla kodlamak için 2D barkod. Kurye sektöründe popüler. "/>
+	<lang name="bar_QR_Code" value="[b]Harf Kümesi:[/b] Genişletilmiş ASCII\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Telefon kamerası kullanıcılarıyla popüler olan son derece kompakt bir kod. "/>	
+	<lang name="bar_Australia_Post_4-State" value="[b]Harf Kümesi:[/b] A-Z, 0-9\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Avustralya'daki posta öğelerinin tanımlanması için. "/>
+	<lang name="bar_Royal_Mail_4-State" value="[b]Harf Kümesi:[/b] A-Z, 0-9\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Royal Mail 4 Eyalet Müşteri Kodu (RM4SCC), otomatik posta sıralama işlemleri için kullanılır. "/>
+	<lang name="bar_DataMatrix" value="[b]Harf Kümesi:[/b] ASCII\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Komple metin veya verilerini tek bir kodla kodlamak için kullanılan 2D barkod. "/>	
+	<lang name="bar_MicroPDF417" value="[b]Harf Kümesi:[/b] Genişletilmiş ASCII\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] PDF417 boşluğu azaltılmış versiyonu."/>
+	<lang name="bar_template" value="[b]Harf Kümesi:[/b] ASCII\n[b]Uzunluk:[/b] değişken\n[b]Açıklama:[/b] Açıklama"/>	
+</Barcodes>
+</EBS_EditorLanguage>
+	
+<EBS_LCDGUI>
+<WTitles>
+	<lang name="wtitle_cControlScreen" value="Yazıcı durumu"/>
+	<lang name="wtitle_cMainScreen" value="YazıcıUI"/>
+	<lang name="wtitle_message" value="Mesaj"/>
+	<lang name="wtitle_error" value="Hata"/>
+	<lang name="wtitle_warning" value="Uyarı"/>
+	<lang name="wtitle_cProjectPreview" value="Proje öngörünüm"/>
+	<lang name="wtitle_cProjectSelector" value="Proje seçimi"/>
+	<lang name="wtitle_cSetupScreen" value="Yazıcı ayarı"/>
+	<lang name="wtitle_cServiceScreen" value="Servis"/>
+	<lang name="wtitle_password" value="Lütfen şifre giriniz"/>
+
+	<lang name="wtitle_cNewObjectDialog" value ="Yeni nesne tipi seçimi"/>
+	<lang name="wtitle_cNewObjectDialogShort" value ="New object type"/>
+	<lang name="wtitle_cFontSelector" value="Font seçimi"/>
+	<lang name="wtitle_cFileSelector" value="Dosya seçimi"/>
+
+	<lang name="window_title_wifi_status" value="Kablosuz ağ durumu"/>
+	<lang name="wtitle_cPrintingParamsScreen" value="Yazdırma parametreleri"/>
+	<lang name="w_title_edit_choice" value="Ne düzenlemek istiyorsunuz?"/>
+	<lang name="w_title_factory_tunig" value="Fabrika ayarları ve servis"/>
+	<lang name="window_title_printer_status" value="Yazıcı durumu"/>
+	<lang name="wtitle_Add_wifi_network" value="Kablosuz ağ ekle"/>
+	<lang name="wtitle_Edit_wifi_settings" value="Kablosuz ağ ayarları düzenle"/>
+
+	<lang name="window_title_alert" value="Alarm!"/>
+	<lang name="wtitle_cInfoScreen" value="Ürün bilgisi"/>
+	<lang name="wtitle_cBatteryDialog" value="Batarya durumu"/>
+	<lang name="wtitle_cBottleDialog" value="Mürekkep şişesi durumu"/>
+	<lang name="wtitle_cPurgeScreen" value="Purge"/>
+	<lang name="window_title_turnoff" value="Opsiyon seçimi"/>
+
+
+	<lang name="window_title_file_presenter" value="Metin dosyası içeriği"/>
+	<lang name="wtitle_cDataTimeDialog" value="Lütfen saat / tarih ayarını yapınız"/>
+	<lang name="wtitle_cDataTimeDialogShort" value="Set time/date"/>
+	<lang name="wtitle_cEditorScreen" value="Düzenleyici"/>
+	<lang name="wtitle_cGeneralSetupDialog" value="Genel ayarlar"/>
+	<lang name="wtitle_cPendriveScreen" value="Ekran yenile"/>
+	<lang name="wtitle_cPowerManager" value="Güç yönetimi"/>
+	<lang name="wtitle_cSoundSetupDialog" value="Ses ayarı"/>
+	<lang name="wtitle_cUnclockScreen" value="Ekran kilidi"/>
+	<lang name="wtitle_cUserManager" value="Kullanıcı yönetimi"/>
+	<lang name="wtitle_cUserScr" value="Kullanıcı yönetimi"/>
+	<lang name="wtitle_firmware_update_detected" value="Yazılım yükseltme"/>
+	<lang name="wtitle_illegal_filename" value="Geçersiz dosya ismi"/>
+	<lang name="wtitle_image_selection" value="Lütfen resim seçiniz"/>
+	<lang name="wtitle_LowBatteryAlert" value="Uyarı! Pil seviye alarmı!"/>
+	<lang name="wtitle_PrintHeadMismatch" value="Uyarı! Proje ve yazıcı kafa hatalı!"/>
+	<lang name="wtitle_select_project" value="Lütfen proje seçiniz"/>
+	<lang name="wtitle_text_file_selection" value="Lütfen metin dosyası seçiniz"/>
+	<lang name="wtitle_connection_error" value="Bağlantı hatası!"/>
+	<lang name="wtitle_cTurnOffDealyScreen" value="Yazıcıyı kapatın"/>
+
+	<lang name="wtitle_import_message" value="Proje raporunu al"/>
+	<lang name="wtitle_import_messageShort" value="Import report"/>
+	<lang name="wtitle_export_message" value="Proje raporunu gönder"/>
+	<lang name="wtitle_export_messageShort" value="Export report"/>
+	<lang name="wtitle_cExportSelectionDialog" value="Lütfen gönderme yöntemini seçin"/>
+	<lang name="wtitle_cExportSelectionDialogShort" value="Export method"/>
+
+	<lang name="wtitle_bt_devices_scan" value="Bluetooth cihaz yönetimi"/>
+
+	<lang name="wtitle_firmware_ugprade_info" value="Yazılım yükseltme bilgisi."/>
+
+	<lang name="wtitle_cProjectPropertiesDialog" valuse="Proje içeriği"/>
+
+	<lang name="wtitle_cBluetoothDialog" value="Bluetooth durumu"/>
+
+	<lang name="wtitle_pm_message" value="Mesajlar"/>
+	
+	<lang name="wtitle_cMessagesDialog" value="Mesajlar"/>
+
+	<lang name="wtitle_wifi_list_dialog" value="Kablosuz ağ yönetimi"/>
+
+	<lang name="wtitle_cPendriveDialog" value="Yığın depolama devresi durumu"/>
+	<lang name="wtitle_cPendriveDialogShort" value="Mass storage device"/>
+	<lang name="wtitle_cUpgradeFirmwareDialog" value="Yazıcı yazılımı yükseltme"/>
+	<lang name="wtitle_cUpgradeFirmwareDialogShort" value="Upgrade firmware"/>
+
+	<lang name="wtitle_PleaseSelectFileForImport" value="Lütfen almak için dosya seçin"/>
+	<lang name="wtitle_cExportProjectSelector" value="Göndermek için dosya seçin"/>
+
+	<lang name="wtitle_cObjectListDialog" value="Nesneler / Pano / Çöp"/>
+	<lang name="wtitle_ProjectNotFound" value="Hata"/>
+	<lang name="wtitle_EditProjectName" value="Proje ismi giriniz"/>
+	<lang name="wtitle_Confirmation" value="Onayla"/>
+	<lang name="window_kernel_missmatch" value="Dahili yazılım hatası"/>
+
+	<lang name="wtitle_cRestoreDialog" value="Restore system data"/>
+	<lang name="wtitle_new_directory_name" value="Please enter directory name..."/>
+	<lang name="wtitle_Select" value="Select"/>
+
+	<lang name="wtitle_firmware_ugprade_error" value="Firmware upgrade error."/>
+
+</WTitles>
+<Labels>
+	<lang name="lbl_status" value="Durum"/>
+	<lang name="lbl_project" value="Proje"/>
+	<lang name="lbl_directories" value="Dizinler"/>
+	<lang name="lbl_projects" value="Projeler"/>
+	<lang name="lbl_inklevel" value="Mürekkep seviyesi"/>
+	<lang name="lbl_ipmodeselect" value="Yazıcı IP adresi"/>
+	<lang name="lbl_dhcp" value="Otomatik (DHCP)"/>
+	<lang name="lbl_static" value="Manuel (Static)"/>
+	<lang name="lbl_ip" value="IP"/>
+	<lang name="lbl_netmask" value="Netmask"/>
+	<lang name="lbl_gateway" value="Gateway"/>
+	<lang name="lbl_dns" value="DNS"/>
+	<lang name="lbl_messages" value="Mesajlar"/>
+	<lang name="lbl_autostart" value="Geçerli projeyi otomatik başlat"/>
+	<lang name="lbl_TxtRepetitions" value="Çıktı tekrarı"/>
+	<lang name="lbl_internalGenerator" value="Dahili üreteç"/>
+	<lang name="lbl_externalSource" value="Harici kaynak"/>
+	<lang name="lbl_edge" value="Kenar"/>
+	<lang name="lbl_level" value="Seviye"/>
+	<lang name="lbl_positiveEdge" value="Pozitif kenar"/>
+	<lang name="lbl_negativeEdge" value="Negatif kenar"/>
+	<lang name="lbl_highLevel" value="Yüksek seviye"/>
+	<lang name="lbl_lowLevel" value="Alçak seviye"/>
+	<lang name="lbl_normal" value="Normal"/>
+	<lang name="lbl_hex" value="Hexadesimal"/>
+	<lang name="lbl_flipped" value="Döndürülme"/>
+	<lang name="lbl_reversed" value="Ters çevirme"/>
+	<lang name="lbl_internal" value="Dahili"/>
+	<lang name="lbl_external" value="Harici"/>
+	<lang name="lbl_both" value="İkisi de"/>
+	<lang name="lbl_currentuser" value="Varsayılan kullanıcı:"/>
+	<lang name="lbl_editor" value="Düzenleyici:"/>
+	<lang name="lbl_printer" value="Yazıcı:"/>
+	<lang name="lbl_items" value="öğeler"/>
+	<lang name="lbl_one_time_code" value="Kilitleri kaldırma"/>
+	<lang name="lbl_unlock_code" value="Aktivasyon kodu"/>
+
+	<lang name="lbl_new_object_selection" value ="Yeni nesne tipi seçimi"/>
+	<lang name="lbl_text_object" value="Normal metin"/>
+	<lang name="lbl_datetime_object" value="Tarih / zaman"/>
+	<lang name="lbl_counter_object" value="Sayıcı"/>
+	<lang name="lbl_comport_object" value="İletişim portu"/>
+	<lang name="lbl_texfile_object" value="Metin dosyası"/>
+	<lang name="lbl_line_divider" value="Satır bölücü"/>
+	<lang name="lbl_image_object" value="Resim"/>
+	<lang name="lbl_barcode_object" value="Barkod"/>
+	<lang name="lbl_quick_preview" value="Hızlı öngörünüm"/>
+	<lang name="lbl_image_path" value="Resim yolu"/>
+	<lang name="lbl_transform_mode" value="Boyutlandırma etkin"/>
+	<lang name="lbl_text" value="Metin"/>
+	<lang name="lbl_printer_time" value="Yazıcı zamanı"/>
+	<lang name="lbl_date_offset" value="Tarih güncelle"/>
+	<lang name="lbl_time_offset" value="Saat güncelle"/>
+	<lang name="lbl_object_properties" value="Nesne özellikleri"/>
+	<lang name="lbl_object_name" value="Nesne ismi"/>
+	<lang name="lbl_position" value="Pozisyon"/>
+	<lang name="lbl_size" value="Boyut"/>
+	<lang name="lbl_autosize" value="Otomatik boyut"/>
+	<lang name="lbl_transparent" value="Şeffaf"/>
+	<lang name="lbl_object_rotation" value="Nesne yönü"/>
+	<lang name="lbl_text_properties" value="Metin içeriği"/>
+	<lang name="lbl_fontname" value="Font ismi"/>
+	<lang name="lbl_fontsize" value="Font boyutu"/>
+	<lang name="lbl_font_constrain_proportions" value="Yazı boyu oranlarını sınırla"/>
+	<lang name="lbl_line_spacing" value="Satır aralığı"/>
+	<lang name="lbl_must_edit" value="Yazdırmaya başlamadan metni düzenle"/>
+	<lang name="lbl_advance_properties" value="Gelişmiş özellikler"/>
+	<lang name="lbl_date_separator" value="Tarih bölücü"/>
+	<lang name="lbl_date_format" value="Tarih formatı"/>
+	<lang name="lbl_time_separator" value="Zaman bölücü"/>
+	<lang name="lbl_time_format" value="Zaman formatı"/>
+	<lang name="lbl_formatting_string_edition" value="Satır biçimlendirmaya izin ver"/>
+	<lang name="lbl_formatting_string" value="Satır formatla"/>
+	<lang name="lbl_barcode_properties" value="Barkod içerikleri"/>
+	<lang name="lbl_barcode_type" value="Barkod tipi"/>
+	<lang name="lbl_border_type" value="Kenar tipi"/>
+	<lang name="lbl_none" value="yok"/>
+	<lang name="lbl_bind" value="bağla"/>
+	<lang name="lbl_box" value="kutu"/>
+	<lang name="lbl_border_size" value="Kenar boyutu"/>
+	<lang name="lbl_barcode_desc" value="Barkod kısa açıklama"/>
+	<lang name="lbl_counter_properties" value="Sayılan %i içerikler"/>
+	<lang name="lbl_visible" value="Sayıcıyı göster"/>
+	<lang name="lbl_min" value="Min"/>
+	<lang name="lbl_max" value="Maks"/>
+	<lang name="lbl_Start_mode" value="Başlangıç modu"/>
+	<lang name="lbl_start_value" value="Baştan başla"/>
+	<lang name="lbl_last_value" value="Son yazılan"/>
+	<lang name="lbl_step" value="Adım"/>
+	<lang name="lbl_lenght" value="Uzunluk"/>
+	<lang name="lbl_fillin" value="Doldur"/>
+	<lang name="lbl_suffix" value="Son ek"/>
+	<lang name="lbl_space" value="Boşluk"/>
+	<lang name="lbl_select_image_file" value="Lütfen imaj dosyası seçin..."/>
+	<lang name="lbl_enter_text" value="Metni buraya girin..."/>
+	<lang name="lbl_font_preview" value="Font öngörünüm:"/>
+	<lang name="lbl_font_set" value="Font ayarı:"/>
+	<lang name="lbl_factory_default" value="Geçerli ayar"/>
+	<lang name="lbl_Users" value="Kullanıcılar"/>
+	<lang name="lbl_enter_filename" value="Dosya ismi girin..."/>
+
+	<lang name="lbl_object_position_x" value="Nesne pozisyonu x"/>
+	<lang name="lbl_object_position_y" value="Nesne pozisyonu y"/>
+	<lang name="lbl_object_width" value="Nesne genişliği"/>
+	<lang name="lbl_object_height" value="Nesne yüksekliği"/>
+	<lang name="lbl_font_width" value="Font genişliği"/>
+	<lang name="lbl_font_height" value="Font yüksekliği"/>
+	<lang name="lbl_turnoffnow" value="Şimdi kapat"/>
+
+
+	<lang name="lbl_configure" value="Yapılandır"/>
+	<lang name="lbl_wifi_on" value="Aç"/>
+	<lang name="lbl_wifi_off" value="Kapa"/>
+	<lang name="lbl_purge" value="Purge"/>
+	<lang name="lbl_print_test" value="Yaz"/>
+	<lang name="lbl_tune" value="Ayar"/>
+	<lang name="lbl_speed" value="Yazdırma hızı"/>
+	<lang name="lbl_drop" value="Damla numarası"/>
+	<lang name="lbl_bat_temp" value="Sıcaklık"/>
+	<lang name="lbl_capacity" value="Kapasite"/>
+	<lang name="lbl_current" value="Akım"/>
+	<lang name="lbl_voltage" value="Voltaj"/>
+	<lang name="lbl_bat_status" value="Batarya durumu"/>
+	<lang name="lbl_discharging" value="Deşarj"/>
+	<lang name="lbl_charging" value="Şarj oluyor"/>
+	<lang name="lbl_missing" value="Yok"/>
+	<lang name="lbl_unknown" value="Bilinmiyor"/>
+	<lang name="lbl_charged" value="Şarjlı"/>
+	<lang name="lbl_Unchanged" value="Değişmemiş"/>
+	<lang name="lbl_wifi_signal" value="Sinyal seviyesi"/>
+	<lang name="lbl_wifi_bssid" value="BSSID"/>
+	<lang name="lbl_wifi_ssid" value="SSID"/>
+	<lang name="lbl_wifi_ip" value="IP adres"/>
+	<lang name="lbl_wifi_status" value="Durum"/>
+	<lang name="lbl_wifi_channel" value="Kanal"/>
+	<lang name="lbl_disable_this_network" value="Bu ağa bağlanmayın"/>
+	<lang name="lbl_wifi_security" value="Güvenlik"/>
+	<lang name="lbl_wifi_psk" value="Önceden paylaşılan Anahtar"/>
+	<lang name="lbl_wifi_psk_type" value="Anahtar tipi"/>
+	<lang name="wifi_unknown" value="Bilinmiyor"/>
+	<lang name="wifi_scanning" value="Taranıyor"/>
+	<lang name="wifi_associating" value="Birleştiriliyor"/>
+	<lang name="wifi_disconnected" value="Bağlantı koptu"/>
+	<lang name="wifi_connected" value="Bağlandı"/>
+	<lang name="wifi_waiting_for_ip" value="IP adres bekleniyor"/>
+	<lang name="wifi_sec_802.1x" value="802.1x(EAP)"/>
+	<lang name="wifi_sec_WPA2/EAP" value="WPA2/EAP"/>
+	<lang name="wifi_sec_WPA2/PSK" value="WPA2/PSK"/>
+	<lang name="wifi_sec_WPA/EAP" value="WPA/EAP"/>
+	<lang name="wifi_sec_WPA/PSK" value="WPA/PSK"/>
+	<lang name="wifi_sec_WEP" value="WEP"/>
+	<lang name="wifi_sec_none" value="Yok"/>
+	<lang name="wifi_psk_ascii" value="ASCII"/>
+	<lang name="wifi_psk_hex" value="HEX"/>
+	<lang name="lbl_edit_panel" value="Düzenleme"/>
+	<lang name="lbl_service_panel" value="Servis opsiyonları"/>
+	<lang name="lbl_printer_version" value="Yazıcı"/>
+	<lang name="lbl_system_version" value="Sistem Versiyonu"/>
+	<lang name="lbl_pui_version" value="PUI"/>
+	<lang name="lbl_pm_version" value="Yazıcı Yönetimi"/>
+	<lang name="lbl_wifi_networks:" value="Kablosuz ağlar:"/>
+	<lang name="lbl_inkcolour" value="Mürekkep rengi"/>
+	<lang name="lbl_expiration_date" value="Son kullanma tarihi"/>
+	<lang name="lbl_acceptance_date" value="Yüklenme tarihi"/>
+	<lang name="lbl_Login" value="Bağlan"/>
+
+	<lang name="lbl_normal_level" value="Normal ekran parlaklığı"/>
+	<lang name="lbl_turnoff_time" value="Sonra ekranı kapat"/>
+	<lang name="lbl_dim_time" value="Sonra ekranı kıs"/>
+	<lang name="lbl_dimmed_level" value="Ekran aydınlatma ayarı"/>
+	<lang name="lbl_never" value="asla"/>
+	<lang name="lbl_Date" value="Tarih [YYYY MM DD]"/>
+	<lang name="lbl_Time" value="Zaman [HH:MM]"/>
+
+	<lang name="lbl_enable_counter_section number" value="Sayıcı bülümü etkin %i"/>
+	<lang name="lbl_object_properties_page" value="Geometri"/>
+	<lang name="lbl_main_properties_page" value="Ana"/>
+	<lang name="lbl_advance_properties_page" value="Gelişmiş"/>
+	<lang name="lbl_text_properties_page" value="Metin"/>
+	<lang name="lbl_Bluetooth_settings" value="Bluetooth ayarları"/>
+	<lang name="lbl_Communication" value="İletişim"/>
+	<lang name="lbl_General" value="Genel"/>
+	<lang name="lbl_Basic" value="Basit"/>
+	<lang name="lbl_Basic_Settings" value="Ortak"/>
+	<lang name="lbl_Advanced" value="Gelişmiş"/>
+	<lang name="lbl_Messages" value="Mesajlar"/>
+	<lang name="lbl_Warnings" value="Uyarılar"/>
+	<lang name="lbl_ascii_code" value="ASCII kod"/>
+	<lang name="lbl_Baud_rate" value="Baud rate"/>
+	<lang name="lbl_Bit_count" value="Bit count"/>
+	<lang name="lbl_Bluetooth" value="Bluetooth"/>
+	<lang name="lbl_BatteryLowWarningSound" value="Batarya düşük uyarı sesi"/>
+	<lang name="lbl_Communication_properties_page" value="İletişim"/>
+	<lang name="lbl_Communication_type" value="İletişim tipi"/>
+	<lang name="lbl_Network_configuration_method" value="Düzenleme yöntemi"/>
+	<lang name="lbl_Confirm_password" value="Şifreyi doğrula"/>
+	<lang name="lbl_Current_password" value="Geçerli şifre"/>
+	<lang name="lbl_New_password" value="Yeni şifre"/>
+	<lang name="lbl_data_buffering" value="Bilgi arabellek"/>
+	<lang name="lbl_day" value="gün"/>
+	<lang name="lbl_deactivation_date" value="Devreden çıkarma tarihi"/>
+	<lang name="lbl_Do_nothing" value="Bir şey yapma"/>
+	<lang name="lbl_Empty" value="Boş nesneyi yazdır"/>
+	<lang name="lbl_Last_message" value="Son mesajı yazdır"/>
+	<lang name="lbl_Disabled" value="Devredışı"/>
+	<lang name="lbl_Enabled" value="Devrede"/>
+	<lang name="lbl_Enable_sound" value="Ses açık"/>
+	<lang name="lbl_Errorsound" value="Hata ses sinyali"/>
+	<lang name="lbl_FileModification:" value="Dosya değişikliği:"/>
+	<lang name="lbl_File_path" value="Dosya yolu"/>
+	<lang name="lbl_Group_name" value="Grup ismi"/>
+	<lang name="lbl_hour" value="saat"/>
+	<lang name="lbl_Image_preview" value="Resim öngösterim"/>
+	<lang name="lbl_ImageSize:" value="Resim boyutu:"/>
+	<lang name="lbl_IMSAcceptSound" value="Mürekkep kabul edildi sesli sinyali"/>
+	<lang name="lbl_Keyboard_audio_feedback" value="Klavye basma sesi"/>
+	<lang name="lbl_Language" value="Dil"/>
+	<lang name="lbl_Laser" value="Lazer"/>
+	<lang name="lbl_Letterspacing" value="Harf boşluğu"/>
+	<lang name="lbl_Line_count" value="Satır sayısı"/>
+	<lang name="lbl_Line_last_value" value="Satır son değeri"/>
+	<lang name="lbl_Line_max" value="Satır maksimum değeri"/>
+	<lang name="lbl_Line_start_value" value="Satır başlangıç değeri"/>
+	<lang name="lbl_Line_step" value="Satır adımı"/>
+	<lang name="lbl_login_name" value="Kullanıcı bağlantı ismi"/>
+	<lang name="lbl_MessagesSound" value="Mesaj ses sinyali"/>
+	<lang name="lbl_minute" value="dakika"/>
+	<lang name="lbl_month" value="ay"/>
+	<lang name="lbl_No_data_action" value="Bilgi akışı yok"/>
+	<lang name="lbl_Port" value="Port"/>
+	<lang name="lbl_Power" value="Güç"/>
+	<lang name="lbl_PrinterOffSound" value="Yazıcı sinyal sesi kapalı"/>
+	<lang name="lbl_printing" value="yazıyor"/>
+	<lang name="lbl_printing_and_purge" value="yaz ve purge"/>
+	<lang name="lbl_Raport" value="Rapor"/>
+	<lang name="lbl_ready_to_print_after" value="Sonra yazdırmaya hazır"/>
+	<lang name="lbl_Rowmultiply" value="Satır çoğaltma"/>
+	<lang name="lbl_second" value="saniye"/>
+	<lang name="lbl_Sending_msgs_format" value="Mesaj gönderme biçimi"/>
+	<lang name="lbl_set_date_time" value="tarih/saat ayarı"/>
+	<lang name="lbl_Shape_object" value="Şekil"/>
+	<lang name="lbl_Sound" value="Ses"/>
+	<lang name="lbl_StartPrintingSound" value="Yazdırmaya başlama ses sinyali"/>
+	<lang name="lbl_StopPrintingSound" value="Yazdırmayı durdurma ses sinyali"/>
+	<lang name="lbl_textfile_object" value="metin dosyası"/>
+	<lang name="lbl_Time_interval_[ms]" value="Zaman aralığı [ms]"/>
+	<lang name="lbl_Data_count" value="Veri sayısı"/>
+	<lang name="lbl_End_character" value="Bitirme karakteri"/>
+	<lang name="lbl_TooFastPrintingSound" value="Çok hızlı baskı uyarı sesi"/>
+	<lang name="lbl_Touchscreen_audio_feedback" value="Dokunmatik ekran tuş sesi"/>
+	<lang name="lbl_unlock_and_restore" value="kilidi aç ve yeniden başlat"/>
+	<lang name="lbl_User_icon" value="Kullanıcı simgesi"/>
+	<lang name="lbl_Users:" value="Kullanıcılar:"/>
+	<lang name="lbl_version" value="versiyon"/>
+	<lang name="lbl_WarningSound" value="Uyarı sinyal sesi"/>
+	<lang name="lbl_wifi" value="WIFI"/>
+	<lang name="lbl_year" value="yıl"/>
+	<lang name="lbl_Locale_settings" value="Yerel ayarlar"/>
+	<lang name="lbl_User_settings" value="Kullanıcı ayarları"/>
+	<lang name="lbl_wifi_disabled" value="WIFI devredışı"/>
+	<lang name="lbl_Wifi_settings" value="WIFI ayarları"/>
+	<lang name="lbl_wifi_mac" value="MAC adresi"/>
+	<lang name="lbl_btaddress" value="Bluetooth adresi"/>
+	<lang name="lbl_btname" value="Uygun Bluetooth ismi"/>
+	<lang name="lbl_Disconnected" value="Bağlantı kesildi"/>
+	<lang name="lbl_Pressure" value="Basınç"/>
+	<lang name="lbl_Intensivity" value="Yoğunluk"/>
+	<lang name="lbl_On" value="Aç"/>
+	<lang name="lbl_Off" value="Kapa"/>
+	<lang name="lbl_Scan" value="Tara"/>
+	<lang name="lbl_Export_all" value="Bütün projeler"/>
+	<lang name="lbl_Export_single" value="Tek proje"/>
+	<lang name="lbl_Export" value="Gönder"/>
+	<lang name="lbl_Import" value="Al"/>
+	<lang name="lbl_Upgrade" value="Yükselt"/>
+	<lang name="lbl_Enable_screen_lock" value="Ekran kilidini aç"/>
+
+	<lang name="lbl_detected_bt_devices:" value="Bulunan Bluetooth cihazlar:"/>
+	<lang name="lbl_btremoteaddress" value="Uzak bağlantı"/>
+	<lang name="lbl_Disconnect" value="Bağlantı koptu"/>
+	<lang name="lbl_disconnect" value="bağlantı koptu"/>
+	<lang name="lbl_Connected" value="Bağlandı"/>
+	<lang name="lbl_Connecting..." value="Bağlanıyor, lütfen bekleyin ..."/>
+	<lang name="lbl_Connected_BT" value="Bleutooth cihaza bağlandı"/>
+
+	<lang name="lbl_solventtype" value="Solvent tipi"/>
+	<lang name="lbl_colourtype" value="Renk tipi"/>
+	<lang name="lbl_Nonpigment" value="Pigmentsiz"/>
+	<lang name="lbl_Pigment" value="Pigment"/>
+	<lang name="lbl_Acetone" value="Aseton"/>
+	<lang name="lbl_Ethanol" value="Ethanol"/>
+	<lang name="lbl_MEK" value="MEK"/>
+	<lang name="lbl_Glikol" value="Glikol"/>
+	<lang name="lbl_Water" value="Su"/>
+	<lang name="lbl_Mek+Eth++" value="MEK + Ethanol"/>
+
+	<lang name="lbl_Settings" value="Ayarlar"/>
+
+	<lang name="lbl_Size_unit" value="Boyut birimi"/>
+	<lang name="lbl_Workspace_width" value="Proje genişliği"/>
+
+
+	<lang name="lbl_Resolution" value="Çözünürlük"/>
+	<lang name="lbl_scanning" value="taranıyor"/>
+	<lang name="lbl_FitFrame2Text" value="Çerçeveye sığdır"/>
+	<lang name="lbl_FitText2Frame" value="İçeriği çerçeveye al"/>
+	<lang name="lbl_Without_scalling" value="Ölçeklendirme dışı"/>
+	<lang name="lbl_Scaling" value="Ölçeklendirme"/>
+	<lang name="lbl_must_edit_counter" value="Baskı başlamadan önce sayacı düzenleyin"/>
+	<lang name="lbl_Filled" value="Dolu"/>
+	<lang name="lbl_Invert" value="Çevir"/>
+	<lang name="lbl_Line_width" value="Satır genişliği"/>
+
+	<lang name="lbl_Shape_objects" value="Şekiller"/>
+	<lang name="lbl_Other_objects" value="Diğer"/>
+	<lang name="lbl_Text_objects" value="Metin"/>
+	<lang name="lbl_Shape_object_elpise" value="Elips"/>
+	<lang name="lbl_Shape_object_line" value="Çizgi"/>
+	<lang name="lbl_Shape_object_rectangle" value="Dikdörtgen"/>
+
+	<lang name="lbl_printer_id" value="Seri numara"/>
+	<lang name="lbl_barcode_signature" value="İmza"/>
+
+	<lang name="lbl_Modification:" value="Son değiştirme:"/>
+	<lang name="lbl_EBSCloud" value="EBS Bulut"/>
+
+	<lang name="lbl_Errors" value="Hatalar"/>
+	<lang name="lbl_Other" value="Diğer"/>
+
+	<lang name="lbl_Media_size" value="Cihaz boyutu"/>
+	<lang name="lbl_Media_used" value="Kullanılan boşluk"/>
+	<lang name="lbl_Media_available" value="Ulaşılabilir boşluk"/>
+
+	<lang name="lbl_avr_version" value="AVR yazılımı"/>
+
+	<lang name="lbl_Auto_turnoff_time" value="Yazıcı kapatma süresi"/>
+
+	<lang name="lbl_Objects_list" value="Nesneler"/>
+	<lang name="lbl_Clipboard" value="Pano"/>
+	<lang name="lbl_Trash" value="Çöp"/>
+
+	<lang name="lbl_Manage" value="Yönetim"/>
+
+	<lang name="lbl_basicStatistics" value="Basit istatistik"/>
+	<lang name="lbl_report" value="Rapor"/>
+	<lang name="lbl_userInfoReport" value="Kullanıcı"/>
+	<lang name="lbl_serviceInfoReport" value="Servis"/>
+	<lang name="lbl_infoReport" value="Toplam"/>
+	<lang name="lbl_OperateTime" value="Çalışma zamanı"/>
+	<lang name="lbl_MadePrintouts" value="Baskı adedi"/>
+	<lang name="lbl_ExploitationStat" value="Kullanım istatistiği"/>
+	<lang name="lbl_ClearStatUser" value="Kullanıcı raporlarını sil"/>
+	<lang name="lbl_ClearStatService" value="Servis raporlarını sil"/>
+	<lang name="lbl_pwrm_version" value="Güç Yönetimi"/>
+	<lang name="lbl_SimpleMenu" value="Basit menu"/>
+	<lang name="lbl_tools_panel" value="Araçlar"/>
+	<lang name="lbl_Detailed_information" value="Detaylı bilgi"/>
+	<lang name="lbl_param_tab1" value="Damla ayarları"/>
+	<lang name="lbl_param_tab2" value="Pozisyon"/>
+	<lang name="lbl_Clear_stats" value="Temizle"/>
+	<lang name="lbl_Enable_networking" value="Ağ oluşturmayı etkinleştir"/>
+	<lang name="lbl_Configure_network_with_DHCP" value="Otomatik yapılandır (DHCP)"/>
+	<lang name="lbl_Current_IP" value="Geçerli IP"/>
+	<lang name="lbl_network" value="Ağ"/>
+	<lang name="lbl_ExpertSettings" value="Üst seviye ayarlar"/>
+	<lang name="lbl_OnPrintStart" value="Baskı başlıyor"/>
+	<lang name="lbl_OnDataProcess" value="Veri işleminde"/>
+	<lang name="lbl_OnPrintFinish" value="Baskı bitiriliyor"/>
+	<lang name="lbl_FormatString" value="Biçimlendirme dizesi"/>
+	<lang name="lbl_connecting" value ="bağlanıyor"/>
+
+</Labels>
+
+<Buttons>
+	<lang name="btn_mainmenu" value="ana menü"/>
+	<lang name="btn_Start" value="Başlat"/>
+	<lang name="btn_Stop" value="Dur"/>
+	<lang name="btn_maincontrol" value="ana kontrol"/>
+	<lang name="btn_Setup" value="Ayar"/>
+	<lang name="btn_Exit" value="Kapat"/>
+	<lang name="btn_Yes" value="Evet"/>
+	<lang name="btn_No" value="Hayır"/>
+	<lang name="btn_Cancel" value="İptal"/>
+	<lang name="btn_Ok" value="TAMAM"/>
+	<lang name="btn_next" value="Sonraki mesaj"/>
+	<lang name="btn_prev" value="Önceki mesaj"/>
+	<lang name="btn_back" value="Geri"/>
+	<lang name="btn_Preview" value="Öngörünüm"/>
+	<lang name="btn_Edit" value="Düzenleme"/>
+	<lang name="btn_Save" value="kayıt"/>
+	<lang name="btn_Apply" value="uygula"/>
+	<lang name="btn_Clear" value="TEMİZLE"/>
+	<lang name="btn_Open_project" value="Projeyi aç"/>
+	<lang name="btn_Purgeon" value="Purge"/>
+	<lang name="btn_Longpurgeon" value="Uzun purge"/>
+	<lang name="btn_Purgeoff" value="Purge durdur"/>
+	<lang name="btn_Service" value="Servis"/>
+	<lang name="btn_Printer_control" value="Yazıcı kontrol"/>
+	<lang name="btn_Logout" value="Çıkış"/>
+	<lang name="btn_creatependrive" value="kalemi geri yükle"/>
+	<lang name="btn_Retry" value="tekrar dene"/>
+	<lang name="btn_Printing_parameters" value="Yazdırma parametreleri"/>
+	<lang name="btn_Create_new_project" value="Yeni proje oluştur"/>
+	<lang name="btn_Unlock" value="Kilidi aç"/>
+
+	<lang name="btn_Save_and_exit" value="Kaydet ve çık"/>
+	<lang name="btn_Project_close" value="Projeyi kapat"/>
+
+	<lang name="btn_printing_params" value="Yazdırma parametreleri"/>
+	<lang name="btn_Project" value="Proje"/>
+	<lang name="btn_Parameters" value="Parametreler"/>
+	<lang name="btn_Create_project" value="Proje Oluştur"/>
+	<lang name="btn_Create_list" value="Liste Oluştur"/>
+	<lang name="btn_Edit_project" value="Proje düzenleme"/>
+	<lang name="btn_Edit_list" value="Liste Düzenle"/>
+
+	<lang name="btn_Purge" value="Purge"/>
+	<lang name="btn_LongPurge" value="Uzun purge"/>
+	<lang name="btn_Restore" value="Geri Yükle"/>
+	<lang name="btn_Info" value="Ürün bilgisi"/>
+	<lang name="btn_Show_messages" value="Mesajları göster"/>
+	<lang name="btn_Off" value="Kapat"/>
+	<lang name="btn_Restart" value="Yeniden başla"/>
+
+	<lang name="btn_confirm_upgrade" value="Yükseltmeyi onayla"/>
+
+	<lang name="btn_Accept" value="Onayla"/>
+	<lang name="btn_Factory" value="Fabrika"/>
+	<lang name="btn_Menu" value="Menü"/>
+	<lang name="btn_Mesure" value="Ölçü"/>
+	<lang name="btn_Reject" value="Reddet"/>
+
+	<lang name="btn_RemoteUnlock" value="Uzaktan kilit aç"/>
+	<lang name="btn_Upgrade" value="Güncelle"/>
+
+	<lang name="btn_Statistics" value="İstatistikler"/>
+	<lang name="btn_Messages" value="Mesajlar"/>
+	<lang name="btn_Tools" value="Araçlar"/>
+	<lang name="btn_Usb" value="Usb"/>
+	<lang name="btn_Tuning" value="Ayar"/>
+	<lang name="btn_ShortInfo" value="Bilgi"/>
+	<lang name="btn_LockScreen" value="Ekran kilidi"/>
+	<lang name="btn_Continue_edition" value="Düzenlemeye devam et" />
+
+</Buttons>
+<Messages>
+	<lang name="msg_D0100" value="Yazdırmayı kapat (hazır)"/>
+	<lang name="msg_D0101" value="Yazdırmayı aç (bekleniyor)"/>
+	<lang name="msg_D0102" value="Yazdırmayı aç (yazıyor)"/>
+	<lang name="msg_D0000" value="Sürücü mevcut değil"/>
+	<lang name="msg_D0001" value="Yazıcı sürücüsüne komut gönderirken hata oluştu "/>
+	<lang name="msg_D0002" value="Yazıcı durumu bilinmiyor "/>
+	<lang name="msg_D0003" value="Proje seçilmemiş"/>
+	<lang name="msg_turnOffPrinter" value="Yazıcıyı şimdi kapatmak istiyor musunuz?"/>
+	<lang name="msg_projectDirDoNotExist" value="Hata! Proje dizini yok! "/>
+	<lang name="msg_projectDirPermisionError" value="Hata! Proje dizini okunamıyor!" />
+	<lang name="msg_notProjectFile" value="Hata! Geçerli bir proje dosyası değil! "/>
+	<lang name="msg_useDefaultNetConfig" value="Ağ yapılandırma dosyası mevcut değil. Varsayılan fabrika ayarları kullanılıyor" />
+	<lang name="msg_AccessDenied" value="Ağ yapılandırması kaydedilemiyor - erişim engellendi "/>
+	<lang name="msg_canNotSaveNetConfigDiskFull" value="Ağ yapılandırması kaydedilemiyor - disk dolu "/>
+	<lang name="msg_canNotSaveNetConfigNoPendrive" value="Ağ yapılandırması kaydedilemiyor - USB bellek yok "/>
+	<lang name="msg_editValueError" value="Kırmızı renkte görüntülenen alanların değeri yanlış. Lütfen düzeltip tekrar deneyin "/>
+	<lang name="msg_wrongNetmask" value="Yanlış ağmaskesi değeri."/>
+	<lang name="msg_canNotReconfigureNet" value="Ağ arayüzü yeniden yapılandırılamıyor. "/>
+	<lang name="msg_deleteAllMessages" value="Tüm mesajları gerçekten silmek istiyor musun? "/>
+	<lang name="msg_confirmAllMessages" value="Gerçekten tüm iletileri okundu olarak işaretlemek ve silmek istiyor musunuz? "/>
+	<lang name="msg_reopenProject" value="Mevcut proje dosyası değiştirildi. Onu tekrar açmak istiyor musun? "/>
+	<lang name="msg_ipnotallocated" value="IP addresi ayrılmamış"/>
+	<lang name="msg_password_error" value="Hatalı şifre! Tekrar deneyin!"/>
+	<lang name="msg_cancel_edition" value="Düzenlemeyi iptal etmek istediğinizden emin misiniz? \nTüm değişiklikler kaybolacak! "/>
+	<lang name="msg_paramsOutOfRange" valuse="Hata ! Kırmızı ile işaretlenmiş parametreler aralık dışındadır! Lütfen hatayı düzeltip tekrar deneyin "/>
+	<lang name="msg_resetCounterVF" value="Dikkat: Bu işlemi gerçekleştirmek için lütfen geçerli projenin yazdırılmadığından emin olun. \nBu işlem, her bir karşı bölümün şu an saklanan değerlerini ve Başlama değeri alanlarını etkiler." />
+	<lang name="msg_editProjectWhenPrintOn" value="Warrning ! The project you have selected for editing is currently being printed. It will not be possible to reset counters ! Do you want to continue ?"/>
+	<lang name="msg_powerOff_in_x_sec" value="Yazıcı kapatılacak %d sn."/>
+	<lang name="msg_please_wait" value="Lütfen bekleyin..."/>
+	<lang name="msg_shutdown_in_progress" value="Kapatılıyor..."/>
+
+	<lang name="msg_improper_poweroff" value="Uyarı ! Yanlış kapatma tespit edildi, bu da veri bozulmasına veya cihazın arızalanmasına neden olabilir. Lütfen daima kapatma prosedürünü uygulayın." />
+	<lang name="msg_open_project_error" value="Hata ! Proje yüklenemedi!" />
+	<lang name="msg_editor_communication_error" value="İletişim hatası düzenleme modülü yanıt vermiyor Lütfen sistemi kontrol edin ve tekrar deneyin. Hızlı yazdırma nedeniyle yazıcı meşgul ise lütfen durdurup tekrar deneyin." />
+	<lang name="msg_edit_project_priority_too_low" value="Bazı projeler şu anda WWW editörü tarafından düzenlenmek üzere açıldı. \nÖnceliğiniz şu anda projeyi açmak için yeterli değil." />
+	<lang name="msg_confirm_forced_edition" value="Bazı projeler şu anda WWW düzenleyicisi tarafından düzenlenmek üzere açıldı. \nUyarıları zorlamak istiyor musunuz?" />
+	<lang name="msg_projectEditedByWWW" value="Birisi WWW editöründe baskı başlattığı için proje kapandı." />
+	<lang name="msg_long_purge_confirmation" value = "Uzun bir boşaltma işlemini başlatmak üzeresiniz.Yeni mürekkep sistemini doldurmak veya havayı tüm mürekkep sisteminden çıkarmak için genellikle yeni bir yazıcı kurulumundan sonra kullanılır.Bu işlem yüksek bir mürekkep tüketimine sahiptir. &quot;purge durdur&quot; button. \n \nPurg başlasın mı?" />
+	<lang name="msg_long_purge_in_progress" value="Purg işlemi başladı. \nKalan züre: %d [s]" />
+	<lang name="msg_restore_storage_data" value="HEPSİNİ SİL dahili depolama içeriğini kullanmak ve fabrika ayarlarına dönmek istior musunuz? Bütün projeler ve kayıtlI yazıcı ayarları SIFIRLANACAK !" />
+	<lang name="msg_stop_and_restore_data" value="Uyarı! Yazdırma açık ! Yazdırmayı durdurmak ve fabrika ayarlarına dönmek istiyor musunuz? Bütün projeler ve kayıtlI yazıcı ayarları SIFIRLANACAK !" />
+	<lang name="msg_pendrive_error" value="Uyarı USB bellek mevcut değil veya hasar görmüş Yazıcıyı kapatabilir ve sonra da doğru USB belleği yükleyebilir veya hasar görmüş USB bellek içeriğine fabrika varsayılanlarını geri yükleyebilirsiniz. Basın &quot;kapat&quot; yazıcıyı şimdi kapat veya &quot;USB belleği yeniden yükle&quot; USB bellek içeriğini yeniden başlat." />
+	<lang name="msg_pendrive_restore" value="Please make sure there is a correct pendrive in printer USB slot. All previous contents will be errased and restored to factory defaults. To continue press &quot;ok&quot;, to cancel press &quot;cancel&quot;." />
+	<lang name="msg_pendrive_restore_ok" value="USB bellek içeriği yeniden yükleme başarılı. Yeniden başlatmak gerekli. Lütfen basın &quot;tamam&quot;, yazıcı kapatılacak." />
+	<lang name="msg_creating_pendrive" value="Lütfen bekleyin…USB bellek yeniden yükleniyor... \n \NYAZICIYI KAPATMAYIN SİSTEM DOSYALARI VEYA YAZICI ZARAR GÖREBİLİR!!!" />
+	<lang name="msg_resetCounterVF_warning" value="Uyarı: Bazı sayaçlar minimum ve maksimum değerler için ayarlandı. Sayıcı değerlerini değiştirerek başlatılamaz. Bu satırlar gri olarak işaretlendi." />
+	<lang name="msg_messages_alert" value="Uyarı! \nMesaj listesi okunup doğrulanması gereken yeni bilgiler içeriyor." />
+
+	<lang name="msg_deleteSelectedObject" value="Seçili nesneleri silmek istiyor musunuz ?"/>
+	<lang name="msg_create_project_error" value="Hata ! Yeni proje dosyası oluşturulamadı!"/>
+	<lang name="msg_confirm_file_overwrite" value="Dosya %s var, üstüne yazmak istiyor musunuz ?"/>
+	<lang name="msg_confirm_position_change" value="Pozisyon değişimini onaylıyor musun? "/>
+	<lang name="msg_confirm_size_change" value="Boyut değişimini onaylıyor musun?" />
+
+	<lang name="msg_confirmExternParamsFileEdition" value="Uyarı ! Projeniz parametreleri tanımlamak için harici dosyayı kullanır Herhangi bir değişiklik diğer projeleri etkileyebilir! Gerçekten baskı parametrelerini değiştirmek istiyor musunuz?" />
+	<lang name="msg_externParamsFileNotFound" value="Hata ! Projeniz parametre tanımlaması için harici dosya kullanıyor ancak dosya mevcut değil! Lütfen bu hatayı düzeltip tekrar deneyin!" />
+
+	<lang name="msg_confirm_wifi_network_delete" value="Seçilen kablosuz ağ için yapılandırmayı silmek istediğinizden emin misiniz?" />
+
+	<lang name="msg_restore_storage_damaged" value="Uyarı ! Dahili depolama verileri bozuk. Hasarlı verileri varsayılan fabrika ayarlarına geri yükleyebilirsiniz. Basın &quot;kapat&quot; yazıcıyı şimdi kapat veya &quot;yeniden başlat&quot; to fabrika ayarlarını geri yükle."/>
+	<lang name="msg_restore_storage_confirm" value="Önceki tüm içerikler silinmiş ve fabrika varsayılanlarına geri yüklenecek. Devam etmek için basın &quot;tamam&quot;, iptal et &quot;iptal&quot;."/>
+	<lang name="msg_restore_storage_ok" value="Dahili depolama içeriği başarıyla geri yüklendi. Yeniden başlatma gerekiyor. Lütfen basın &quot;tamam&quot;, yazıcı yeniden başlatılacak."/>
+	<lang name="msg_restore_storage_warning" value="Lütfen bekleyin…Dahili hafıza yeniden yükleniyor... \n \nYAZICIYI KAPATMAYIN YAZICI  VEYA SİSTEM DOSYALARI ZARAR GÖREBİLİR!!!"/>
+	<lang name="msg_firmware_upgrade_detected" value="Toplu hafıza cihazı yazılım yükseltme içeriyor. Yükseltme işlemi yazıcının yeniden başlatmasını gerektiriyor. Devam etmek istiyorsanız basınız &quot;yükseltmeyi yap&quot; cihazın kapanmasını bekleyin. Ardından cihazı tekrar açın."/>
+
+
+	<lang name="msg_enter_new_password" value="Yeni şifreyi girin."/>
+	<lang name="msg_confirm_new_password" value="Yeni şifreyi tekrar girin."/>
+	<lang name="msg_enter_login_name" value="Kullanıcı ismini girin."/>
+	<lang name="msg_import_error" value="Dosya yükleme hatası %s!"/>
+	<lang name="msg_import_ok" value="Dosya %s başarıyla gönderildi."/>
+	<lang name="msg_export_error" value="Proje dosyalarını dışa aktarırken hata oluştu!"/>
+	<lang name="msg_export_ok" value="Yükleme başarılı ! Dosya %s USB hafıza üzerinde ana dosya gönderi bilgisi oluşturuldu."/>
+
+	<lang name="msg_firmware_upgrade_reboot_info" value="Yazıcı güncelleme için hazır. Yazıcıyı &quot;ok&quot; kapatma tuşuna basın. Kapandıktan sonra tekrar açın, güncelleme devam edecektir. Bekleyiniz -  yazıcıyı kapatmayınız!"/>
+
+	<lang name="msg_One_time_code_generated" value="Tek seferlik kod oluşturuldu. Lütfen kilit açma kodunu giriniz ve kilit açma tuşuna basınız."/>
+	<lang name="msg_OneTimeCodeError" value="Tek seferlik kod oluşturulurken hata oluştu. Pencereyi kapatın ve tekrar deneyin!"/>
+
+	<lang name="msg_PrintHeadMismatch" value="Uyarı ! Seçili proje farklı tip yazıcı için oluşturuldu. (EBS Handjet 260 için değil)!"/>
+	<lang name="msg_PrintHeadMismatchOpenFail" value="Uyarı ! Seçili proje açılamıyor. Farklı tip yazıcı / yazıcı kafa için oluşturulmuş."/>
+
+	<lang name="msg_remote_unlock_transmitted" value="Yazıcı kilit açmak için uzak sunucudan talepte bulundu. Kilit açma işlemi 5 dakika kadar sürebilir. Kilit açıldıktan sonra doğrulama mesajı ekranda gösterilecektir."/>
+	<lang name="msg_RemoteUnlockTxError" value="Yazıcı kilit açmak için uzak sunucuya talepte bulunamıyor! Lütfen internet bağlantınızı kontrol edin ve yeniden deneyin."/>
+
+
+	<lang name="msg_unlock_successful" value="Yazıcı kilidi başarıyla açıldı."/>
+	<lang name="msg_unlock_error" value="Yazıcı kilit açma hatası ( Kilit açma kodu iptal edildi veya bağlantı hatası ). Lütfen tekrar deneyin."/>
+	<lang name="msg_printer_in_purge_mode" value="Yazıcı purge modunda. Purge işlemine başlamak için tetik butonuno basın ve bekleyin. Purge modundan çıkmak için  &quot;Stop&quot; butona basın veya pencereyi kapatın."/>
+
+	<lang name="msg_autoPowerOff_in_x_sec" value="Yazıcı uzun süre kullanılmadı ve kapatılacak %d sec."/>
+	<lang name="msg_EmergencyOff_in_x_sec" value="Pil kritik seviyede !!! Yazıcı kapanacak %d sec."/>
+	<lang name="msg_low_battery_warning" value="Uyarı ! Pil seviyesi düşük. Pil şarj edilmeli."/>
+
+	<lang name="msg_clearStatistics" value="İstatistikleri silmek istediğinize emin misiniz ?"/>
+	<lang name="msg_resolutionOutOfRange" value="Hata ! Çözünürlük alan dışında ! Lütfen tekrar ölüçülendirmeyi deneyin"/>
+	<lang name="msg_confirm_bt_device_delete" value="Seçili bluetooth cihazı silmek istediğinize emin misiniz?"/>
+	<lang name="msg_confirm_close" value="Pencereyi kapatmak istediğinize emin misiniz ? Bütün değişiklikler kaybedilecek!!!"/>
+	<lang name="msg_confirm_user_delete" value="Seçili kullanıcıyı silmek istiyor musunuz?"/>
+	<lang name="msg_ProjectNotFound" value="Proje dosyası %s bulunamadı!"/>
+	<lang name="msg_IllegalCharInFileName" value="Dosya ismi uygun olmayan karakterler içeriyor. Lütfen uygun karakterleri kullanın , sayılar ve takip eden özel karakterler : &quot;_&quot;,&quot;.&quot;,&quot;-&quot;. \n \nYeni dosya ismi girmek ister misiniz ?"/>
+	<lang name="msg_kernel_missmatch_message" value="Warning ! Printer internal software is incomlete! \nPlease restore internal memory, or if it does not help do the last update once again. If the problem persists, contact the service center."/>
+
+	<lang name="msg_Can_not_perform_operation_project_selected_for_printing" value="Error ! Cannot perform the operation ! Project selected for printing !"/> 
+	<lang name="msg_confirmFileRemove" value="Do you want to delete the file/directory %s ?"/> 
+	<lang name="msg_Error_setting_bluetooth_friendly_name" value="Cannot set the Bluetooth device friendly name - internal error !"/> 
+	<lang name="msg_Illegal_bluetooth_friendly_name" value="Can not set Bluetooth device friendly name - the name is invalid !"/> 
+	<lang name="msg_wasteBottleOverflow" value="Waste- ink bottle is full. Please empty it !"/> 
+	<lang name="msg_wifi_connection_error" value="Wireless network connection error. Please check configuration and try again."/> 
+
+	<lang name="msg_PrinterFirmware2Old" value="Printer firmware version is too old. Direct upgrade is impossible. \nVersion information: \nPrinter firmware: %s1 \nUpgrade file: %s2 \nMinimum required: %s3"/>
+	<lang name="msg_UprgadeFileOlderThanCurrent" value="Printer firmware version is later than the upgrade file selected. \nVersion information: \nPrinter firmware: %s1 \nUpgrade file: %s2"/>
+	<lang name="msg_UprgadeFileSameAsPresent" value="Printer firmware has already been updated. \nVersion information: \nPrinter firmware: %s1 \nUpgrade file: %s2"/>
+	<lang name="msg_UprgadeFileInvalid" value="The selected upgrade file is invalid or damaged!"/>
+	<lang name="msg_ParamOutOfRange" value="Error ! Mesured value is out of valid range ! Please try again!"/>
+	<lang name="msg_beta_version_warrning" value="Please be aware that this software version is for development purposes only and as such may contain bugs causing problems.\n By pressing &quot;OK&quot; you are confirming usage on your own responsibility." />
+</Messages>
+</EBS_LCDGUI>
+<EBS_Common>
+	<Labels>
+		<lang name="lbl_Yellow" value="Sarı"/>
+		<lang name="lbl_Colorless" value="Renksiz"/>
+		<lang name="lbl_Red" value="Kırmızı"/>
+		<lang name="lbl_Blue" value="Mavi"/>
+		<lang name="lbl_Black" value="Siyah"/>
+		<lang name="lbl_Ultraviolet" value="Ultraviyole"/>
+		<lang name="lbl_White" value="Beyaz"/>
+		<lang name="lbl_Green" value="Yeşil"/>
+		<lang name="lbl_statistics" value="İstatistikler" />
+		<lang name="lbl_Orginal" value="Orjinal" />
+		<lang name="lbl_Recovery" value="Kurtarma" />
+		<lang name="lbl_saveRecoveryAs" value="Kayıtlı dosyayı kurtar" />
+		<lang name="lbl_continueEdit" value="Devam\ndüzenle" />
+		<lang name="lbl_distance" value="mesafe"/>
+		<lang name="lbl_spacer" value="Spacer"/>
+		<lang name="lbl_externalscript" value="External script name"/>
+		<lang name="lbl_Printhead:" value="Yazıcı ismi:"/>
+	</Labels>
+	<Messages>
+		<lang name="msg_deleteRecoveryFile" value="NOT! Seçimin onaylanması yedeklemeyi silecek!" />
+		<lang name="msg_RecoveryFileDetected_SelectFileToEdit" value="Projenin kurtarma sürümü tespit edildi. \nLütfen hangi versiyonu düzenlemek istediğinizi seçin. Orijinal veyaz düzenlenmiş versiyon ?"/>
+		<lang name="msg_Do_you_want_delete_recovery_file" value="Kurtarma dosyasını silmek istiyor musunuz ?"/>  
+		<lang name="msg_Do_you_want_continue_AND_DELETE_recovery_file" value="Geri yükleme yapmadan kurtarma dosyasını silmek istiyor musunuz? İşlem geri alınamaz !"/>	
+	</Messages>
+	<WTitles>
+		<lang name="wtitle_cProjectRecoveryDialog" value="Proje kurtarma"/>
+	</WTitles>
+</EBS_Common>
+</EBS_LanguageFile>

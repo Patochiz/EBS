@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_LanguageFile>
+<param name="Version" value="2022.01.21"/> 
+<param name="EditedBy" value="GrzesiekP"/>
+<EBS_PrinterLocaleSettings>
+<param name="LC_ALL" value="de_DE.UTF-8"/>
+</EBS_PrinterLocaleSettings>
+
+<EBS_PUI_FontSettings>
+	<param name="DefaultFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="DefaultFontSmallSize" value="9"/>
+	<param name="DefaultFontNormalSize" value="12"/>
+	<param name="DefaultFontLargeSize" value="14"/>
+	<param name="PinyinFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="PinyinFontSize" value="16"/>
+	<param name="ButtonFontSize" value="12"/>
+	<param name="LabelFontSize" value="11"/>
+	<param name="TextFontSize" value="12"/>
+	<param name="MessageFontSize" value="12"/>
+	<param name="EditFontName" value="/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"/>
+	<param name="EditFontSize" value="16"/>
+</EBS_PUI_FontSettings>
+
+<EBS_ParametersUnitsLanguage>
+	<lang name="EncoderConstant_Unit" value="[Impulse/m]"/>
+	<lang name="ConveyorSpeed_Unit" value="[m/min]"/>
+	<lang name="ImpulseGeneratorSource_Unit" value="[interner Generator / externe Quelle]"/>
+	<lang name="TriggerType_Unit" value="[Flanke/Pegel]"/>
+	<lang name="TriggerSignalMode_Unit" value="[positive Flanke/negative Flanke]|[high-Pegel/low-Pegel]"/>
+	<lang name="Resolution_Unit" value="[dpm] (Punkte pro Meter)"/>
+	<lang name="PrintDistance_Unit" value="[mm]"/>
+	<lang name="TxtRepetitions_Unit" value="[Ausdrucke]"/>
+	<lang name="RepetitionDistance_Unit" value="[mm]"/>
+	<lang name="RowMultiply_Unit" value="[Reihen]"/>
+	<lang name="UpsideDownPrint_Unit" value="[aus/ein]"/>
+	<lang name="ReversePrint_Unit" value="[aus/ein]"/>
+	<lang name="TextHeight_Unit" value="[mm]"/>
+	<lang name="CleaningRows_Unit" value="[Reihen]"/>
+	<lang name="Pressure_Unit" value="[bar]"/>
+	<lang name="PhotocellSource_Unit" value="[intern / extern / beide]"/>
+</EBS_ParametersUnitsLanguage>
+
+<EBS_EditorLanguage>
+<Menu>
+	<lang name="menu_projects" value="Projekte"/>
+	<lang name="menu_projectNew" value="Neues Projekt"/>
+	<lang name="menu_projectOpen" value="Projekt öffnen"/>
+	<lang name="menu_projectSave" value="Speichern"/>
+	<lang name="menu_projectSaveAs" value="Speichern unter..."/>
+	<lang name="menu_projectClose" value="Projekt schließen"/>
+	<lang name="menu_projectParams" value="Druckparameter"/>
+	<lang name="menu_tools" value="Bearbeiten"/>
+	<lang name="menu_toolsImagesManager" value="Grafikverwaltung"/>
+	<lang name="menu_toolsFontsManager" value="Schriftartenverwaltung"/>
+	<lang name="menu_toolsTextFilesManager" value="Textdateiverwaltung"/>
+	<lang name="menu_toolsUsersManager" value="Benutzerverwaltung"/>
+	<lang name="menu_toolsReportProblem" value="Fehlerreport erstellen"/>
+	<lang name="menu_toolsWorkspaceSize" value="Druckbereichsgröße"/>
+	<lang name="menu_toolsPrintersNetworkManager" value="Druckernetzwerkverwaltung"/>
+	<lang name="menu_settingsGeneral" value="Grundeinstellungen"/>
+	<lang name="menu_settingsEncoderConstant" value="Bandgeschwindigkeit"/>
+	<lang name="menu_settings" value="Einstellungen"/>
+	<lang name="menu_service" value="Service"/>
+	<lang name="menu_servicePurge" value="Spülen"/>
+	<lang name="menu_serviceLog" value="Protokoll"/>
+	<lang name="menu_printer_control" value="Druckerkontrolle"/>	
+	<lang name="menu_about" value="Über"/>		
+	<lang name="menu_toolsLanguageManager" value="Sprachenverwaltung"/>
+	<lang name="menu_toolsAccountManagement" value="Benutzereinstellungen"/>
+	<lang name="menu_moduleInfo" value="Info über Modul"/>
+	<lang name="menu_phpshell" value="PHP Shell"/>
+	<lang name="menu_softwareUpgrade" value="Software-Aktualisierung"/>
+	<lang name="menu_touchscreenCalibration" value="Touchscreen-Kalibrierung"/>
+	<lang name="menu_ObjectNormalText" value="Normaler Text"/>
+	<lang name="menu_ObjectNormalBarcode" value="Normaler Barcode"/>
+	<lang name="menu_ObjectDateTime" value="Datum/Zeit"/>
+	<lang name="menu_ObjectCounter" value="Zähler"/>
+	<lang name="menu_ObjectComPort" value="Übertragungskanal"/>
+	<lang name="menu_ObjectTxtFile" value="Textdatei einfügen"/>
+	<lang name="menu_printoutCost" value="Druck-Kosten"/>
+	<lang name="menu_serviceReport" value="Service-Report erstellen"/>
+	<lang name="menu_installOption" value="Option installieren"/>
+	<lang name="menu_statistics" value="Nutzungs-Statistiken"/>
+	<lang name="menu_info" value="Info"/>
+	<lang name="menu_ObjectShapeLine" value="Linie"/>
+	<lang name="menu_ObjectShapeRectangle" value="Rechteck"/>
+	<lang name="menu_ObjectShapeElipse" value="Ellipse"/>	
+	<lang name="menu_projectImport" value="Projekt importieren"/>
+	<lang name="menu_projectExport" value="Projekt exportieren"/>
+	<lang name="menu_puiPreview" value="LCD-Vorschau"/>	
+	<lang name="menu_barcode" value="Barcode"/> 
+	<lang name="menu_lineDivider" value="Zeilentrenner" />
+	<lang name="menu_simulatePrintout" value="Drucksimulation" />
+	<lang name="menu_printerUpdate" value="Update" />
+	<lang name="menu_openPrinterControl" value="Druckersteuerung öffnen" />
+	<lang name="menu_sendProjectToPrinter" value="Projekt zum Drucker übertragen" />
+	<lang name="menu_openWUI" value="Editor öffnen" />
+	<lang name="menu_restartPrinter" value="Drucker neu starten" />
+	<lang name="menu_shutdownPrinter" value="Drucker ausschalten" />
+</Menu>
+<Labels>
+	<lang name="lbl_loggedAs" value="Angemeldet als:"/>
+	<lang name="lbl_startupWhatWouldYouLikeToDo" value="Was möchten Sie tun?"/>
+	<lang name="lbl_startupCreateNewProject" value="Neues Projekt\nerstellen\n\n"/>
+	<lang name="lbl_startupOpenProject" value="Projekt\nbearbeiten\n\n"/>
+	<lang name="lbl_startupOpenProjectForPrinter" value="Projekt öffnen\nzum Drucken\n"/>
+	<lang name="lbl_startupChangeEditorSettings" value="Editor-Einstellungen ändern"/>
+	<lang name="lbl_startupPrinterControl" value="Druckerkontrolle\n\n"/>
+	<lang name="lbl_language" value="Sprache:"/>
+	<lang name="lbl_originalLanguage" value="Original-Sprache:"/>
+	<lang name="lbl_printerType" value="Druckertyp:"/>
+	<lang name="lbl_filename" value="Dateiname:"/>
+	<lang name="lbl_directory" value="Verzeichnis:"/>
+	<lang name="lbl_showFilesOnList" value="Dateiliste"/>
+	<lang name="lbl_clipboardContent" value="Zwischenablage:"/>
+	<lang name="lbl_empty" value="leer"/>
+
+	<lang name="lbl_currentDirectory" value="Aktuelles Verzeichnis:"/>
+	<lang name="lbl_projectPreview" value="Projekt-Vorschau:"/>
+	<lang name="lbl_projectInformation" value="Projekt-Information:"/>
+	<lang name="lbl_lastModification" value="Letzte Änderung:"/>
+	<lang name="lbl_imagePreview" value="Grafik-Vorschau:"/>
+	<lang name="lbl_imageInstalled" value="Grafik '%s' geladen"/>
+	<lang name="lbl_imageNotInstalled" value="Grafik '%s' laden nicht möglich"/>
+	<lang name="lbl_pleaseSelectImageToInstall" value="Bitte Grafik wählen:"/>
+	<lang name="lbl_fontPreview" value="Schrift-Vorschau:"/>
+	<lang name="lbl_fontType" value="Schriftart:"/>
+	<lang name="lbl_pleaseSelectFontToInstall" value="Bitte Schriftart wählen:"/>
+	<lang name="lbl_pleaseSelectTxtFileToInstall" value="Bitte Textdatei wählen:"/>
+	<lang name="lbl_fontInstalled" value="Schriftart '%s' geladen"/>
+	<lang name="lbl_fontNotInstalled" value="Schriftart '%s' hinzufügen nicht möglich"/>
+	<lang name="lbl_txtFileInstalled" value="Textdatei %s geladen"/>
+	<lang name="lbl_txtFileNotInstalled" value="Textdatei %s hinzufügen nicht möglich"/>
+
+	<lang name="lbl_users" value="Benutzer"/>
+	<lang name="lbl_groups" value="Gruppen"/>
+	<lang name="lbl_userInformation" value="Benutzerinformation:"/>
+	<lang name="lbl_lastLogin" value="Letzte Anmeldung:"/>
+	<lang name="lbl_avaiableUsers" value="Vorhandene Benutzer:"/>
+	<lang name="lbl_avaiableGroups" value="Vorhandene Gruppen:"/>
+	<lang name="lbl_enableAutoLogin" value="Auto-Anmeldung ermöglichen"/>
+	<lang name="lbl_login" value="Anmeldung"/>
+	<lang name="lbl_password" value="Passwort"/>
+
+	<lang name="lbl_userImage" value="Benutzerlogo"/>	
+	<lang name="lbl_addUserToThisGroup" value="Benutzer dieser Gruppe hinzufügen"/>
+	<lang name="lbl_groupName" value="Gruppenname"/>	
+	<lang name="lbl_groupImage" value="Gruppenlogo"/>	
+	<lang name="lbl_groupsPrivilages" value="Gruppenrechte"/>	
+	<lang name="lbl_objectParams" value="Objektparameter"/>
+	<lang name="lbl_deleteObject" value="Objekt löschen"/>
+	<lang name="lbl_text" value="Text"/>
+	<lang name="lbl_fontName" value="Schriftart"/>
+	<lang name="lbl_fontSize" value="Schriftgrad"/>
+	<lang name="lbl_fontSizeX" value="X"/>
+	<lang name="lbl_fontSizeY" value="Y"/>
+	<lang name="lbl_constrainProportions" value="Gleiche Proportionen"/>
+	<lang name="lbl_objectRotation" value="Objekt drehen"/>
+	<lang name="lbl_lineSpacing" value="Zeilenabstand:"/>
+	<lang name="lbl_enterFontSize" value="Schriftgrad eingeben"/>
+	<lang name="lbl_autoSize" value="Auto-Größe"/>
+	<lang name="lbl_transparent" value="Transparent"/>
+	<lang name="lbl_showPreview" value="Vorschau"/>
+	<lang name="lbl_objectName" value="Objektname"/>
+	<lang name="lbl_barcodeType" value="Barcode-Typ"/>
+
+	<lang name="lbl_borderSize" value="Rahmengröße:"/>
+	<lang name="lbl_borderType" value="Rahmentyp:"/>
+	<lang name="lbl_registers" value="Variable Felder"/>
+	<lang name="lbl_imagePath" value="Grafikdatei"/>
+	<lang name="lbl_allowResize" value="Größenänderung zulassen"/>
+	<lang name="lbl_objectSize" value="Objektgröße"/>
+	<lang name="lbl_objectPosition" value="Position"/>
+	<lang name="lbl_encoderConstant" value="Encoderkonstante"/>	
+	<lang name="lbl_conveyorSpeed" value="Geschwindigkeit"/>
+	<lang name="lbl_triggerType" value="Triggertyp"/>
+	<lang name="lbl_triggerSignalMode" value="Triggerpegel"/>
+	<lang name="lbl_impulseGeneratorSource" value="Impulsgenerator"/>
+	<lang name="lbl_resolution" value="Auflösung"/>
+	<lang name="lbl_printDistance" value="Anfangs-Druckabstand"/>
+	<lang name="lbl_textRepetition" value="Druckwiederholung"/>
+	<lang name="lbl_repetitionDistance" value="Wiederholen-Abstand"/>
+	<lang name="lbl_reversePrint" value="Horizontal spiegeln"/>
+	<lang name="lbl_upsideDownPrint" value="Vertikal spiegeln"/>
+	<lang name="lbl_shaftDirection" value="Druckrichtung"/>
+	<lang name="lbl_textHeight" value="Texthöhe"/>
+	<lang name="lbl_cleaningRows" value="Reinigungs-Druckreihen"/>
+	<lang name="lbl_pressure" value="Druck"/>
+	<lang name="lbl_PhotocellSource" value="Fotozellen-Auswahl"/>
+	<lang name="lbl_dotSize" value="Tropfengröße"/>
+	<lang name="lbl_parameterRange" value="Parameterbereich"/>
+	<lang name="lbl_newWorkspaceWidth" value="Druckbereichslänge"/>
+	<lang name="lbl_settings_general" value="Allgemein"/>
+	<lang name="lbl_settings_date" value="Datum/Zeit"/>
+	<lang name="lbl_imageWrongType" value="Es sind nur PNG-Dateien zulässig."/>
+	<lang name="lbl_projectImportWrongType" value="Es sind nur ZIP-Dateien zulässig."/>
+	<lang name="lbl_fontWrongType" value="Es sind nur TTF-Dateien zulässig."/>
+	<lang name="lbl_txtFileWrongType" value="Es sind nur TXT-Dateien zulässig."/>
+	<lang name="lbl_currentPrinterDate" value="Aktuelles Druckerdatum:"/>
+	<lang name="lbl_currentPrinterTime" value="Aktuelle Druckerzeit:"/>
+	<lang name="lbl_dateOffset" value="Datum-Offset:"/>
+	<lang name="lbl_timeOffset" value="Zeit-Offset:"/>
+	<lang name="lbl_dateSeparator" value="Datum-Separator:"/>
+
+	<lang name="lbl_timeSeparator" value="Zeit-Separator:"/>
+	<lang name="lbl_dateFormat" value="Datum-Format:"/>
+	<lang name="lbl_timeFormat" value="Zeit-Format:"/>
+	<lang name="lbl_date" value="Datum (TT-MM-JJJJ):"/>
+	<lang name="lbl_time" value="Zeit (HH:MM:SS):"/>
+	<lang name="lbl_formattingString" value="Benutzerdefiniert:"/>
+	<lang name="lbl_advanced" value="Editieren"/>
+	<lang name="lbl_quickPreview" value="Quick-Vorschau"/>
+	<lang name="lbl_showExpertsSettings" value="Experten-Modus"/>
+	<lang name="lbl_DateTimeHelp1" value="%a - Wochentag, Kurzform\n%A - Wochentag, ausgeschrieben\n%b - Monat, Kurzform\n%B - Monat, ausgeschrieben\n%c - Komplettes Datum und Zeit\n%d - Tag des Monats (1-31)\n%H - Stunde (24-Stundensystem)\n%I - Stunde (12-Stundensystem)\n%j - Tag des Jahres (1-366)\n%m - Monat (1-12)\n%M - Minute (0-59)"/>
+	<lang name="lbl_DateTimeHelp2" value="%p - AM/PM für 12-Stundensystem\n%S - Sekunde (0-60)\n%U - Kalenderwoche ab Sonntag\n%w - Wochentag (0-6) ab Sonntag\n%W - Kalenderwoche ab Montag\n%x - komplettes Datum\n%X - komplette Zeit des Tages\n%y - Jahr, zweistellig\n%Y - Jahr, vierstellig\n%Z - Zeitzone\n%% - %-Zeichen drucken"/>
+	<lang name="lbl_min" value="Min"/>
+	<lang name="lbl_max" value="Max"/>
+	<lang name="lbl_startValue" value="Startwert"/>
+	<lang name="lbl_step" value="Schrittweite"/>
+	<lang name="lbl_length" value="Länge"/>
+	<lang name="lbl_prefix" value="Präfix"/>
+	<lang name="lbl_suffix" value="Suffix"/>
+	<lang name="lbl_startMode" value="Startmodus"/>
+	<lang name="lbl_lastValue" value="Letzter Wert"/>
+	<lang name="lbl_showThisCounter" value="Diesen Zähler drucken"/>
+	<lang name="lbl_incrementOrder" value="Zählrichtung"/>
+	<lang name="lbl_ObjectNormalBarcode" value="Normaler Barcode"/>
+	<lang name="lbl_ObjectNormalText" value="Normaler Text"/>
+	<lang name="lbl_ObjectDateTime" value="Datum/Zeit"/>
+	<lang name="lbl_ObjectCounter" value="Zähler"/>
+	<lang name="lbl_ObjectComPort" value="Kommunikations-Port"/>
+	<lang name="lbl_ObjectTxtFile" value="Textdatei"/>
+	<lang name="lbl_ObjectConvertTo" value="Objekt konvertieren nach:"/>
+	<lang name="lbl_port" value="Port:"/>
+	<lang name="lbl_baud" value="Baudrate:"/>
+	<lang name="lbl_onPrintStart" value="Druckstart:"/>
+	<lang name="lbl_onDataProcess" value="Druckausführung:"/>
+	<lang name="lbl_onPrintFinish" value="Druckende:"/>
+	<lang name="lbl_filePath" value="Dateipfad:"/>
+	<lang name="lbl_lineCount" value="Zeilenanzahl:"/>
+	<lang name="lbl_all" value="Alle"/>
+	<lang name="lbl_lineStep" value="Zeilenschritt:"/>
+	<lang name="lbl_lineMax" value="max. Zeilen:"/>
+	<lang name="lbl_fillIn" value="Führende Nullen"/>
+	<lang name="lbl_event" value="Ereignis"/>
+	<lang name="lbl_space" value="Leerstelle"/>
+	<lang name="lbl_doNothing" value="Nichts tun"/>
+
+	<lang name="lbl_stopPrinting" value="Druckstopp"/>
+	<lang name="lbl_printerStatus" value="Druckerstatus:"/>
+	<lang name="lbl_currentProject" value="Aktuelles Projekt:"/>
+	<lang name="lbl_editorLoading" value="Editor wird geladen...\nBitte warten..."/>
+	<lang name="lbl_paramsPreview" value="Parameter-Vorschau"/>
+	<lang name="lbl_currentEncoderConstant" value="Aktuelle Encoderkonstante"/>
+	<lang name="lbl_currentConveyorSpeed" value="Aktuelle Geschwindigkeit"/>
+	<lang name="lbl_showHelp" value="Hilfe anzeigen"/>
+	<lang name="lbl_parametersSource" value="Parameter-Quelle:"/>
+	<lang name="lbl_parametersFile" value="Parameter-Datei:"/>
+	<lang name="lbl_localParameters" value="Lokale Parameter"/>
+	<lang name="lbl_externalParameters" value="Externe Parameter"/>
+	<lang name="lbl_oldPassword" value="Altes Passwort"/>
+	<lang name="lbl_newPassword" value="Neues Passwort"/>
+	<lang name="lbl_retypePassword" value="Passwort wiederholen"/>
+	<lang name="lbl_detecting" value="detecting"/>
+	<lang name="lbl_saveChanges" value="Speichern"/>
+	<lang name="lbl_paramsContinuous" value="Kontinuierlich"/>
+	<lang name="lbl_counterStartValue" value="Zähler %d Startwert"/>
+	<lang name="lbl_lineStartValue" value="Zeilen-Startwert"/>
+	<lang name="lbl_enableAutoStart" value="Autostart"/>
+	<lang name="lbl_gotoEditorPage" value="Zur Editor-Seite &gt;"/>
+	<lang name="lbl_availableVersions" value="Verfügbare Versionen:"/>
+	<lang name="lbl_networkResources" value="Netzwerk-Ressourcen:"/>
+	<lang name="lbl_gotoWebpage" value="Zur Webseite"/>
+	<lang name="lbl_none" value="kein"/>
+	<lang name="lbl_bind" value="oben-unten"/>
+	<lang name="lbl_box" value="komplett"/>
+	<lang name="lbl_installInProjectDir" value="Im Projekt-Verzeichnis installieren"/>
+	<lang name="lbl_createInSeparateDir" value="Projekt in separatem Verzeichnis erstellen"/>
+	<lang name="lbl_helpLanguage" value="Hilfe-Sprache"/>
+	<lang name="lbl_startEditor" value="Editor:"/>
+	<lang name="lbl_startPrinter" value="Drucker:"/>
+	<lang name="lbl_printoutPreviewFirst" value="ErsterAusdruck"/>
+	<lang name="lbl_printoutPreviewNext" value="Nächster Ausdruck"/>
+	<lang name="lbl_mustEdit" value="Dieses Objekt muss vor dem Druckstart editiert werden"/>
+	<lang name="lbl_xcoord" value="X-Koordinaten"/>
+	<lang name="lbl_ycoord" value="Y-Koordinaten"/>
+	<lang name="lbl_width" value="Breite"/>
+	<lang name="lbl_height" value="Höhe"/>
+	<lang name="lbl_helpWelcome" value="Willkommen zur EBS-Editor-Hilfe"/>
+	<lang name="lbl_printManual" value="Handbuch drucken"/>
+	<lang name="lbl_pdfManual" value="Handbuch als PDF erstellen"/>
+	<lang name="lbl_unknown" value="Nicht verfügbar"/>
+	<lang name="lbl_checking" value="Checking..."/>
+
+	<lang name="lbl_printerName" value="Druckername"/>
+	<lang name="lbl_printerIP" value="Drucker-IP"/>
+	<lang name="lbl_printerModel" value="Drucker-Modell"/>
+	<lang name="lbl_hideTrash" value="Papierkorb ausblenden"/>
+	<lang name="lbl_emptyTrash" value="Papierkorb leeren"/>
+	<lang name="lbl_hideClipboard" value="Zwischenablage ausblenden"/>
+	<lang name="lbl_emptyClipboard" value="Zwischenablage leeren"/>
+	<lang name="lbl_px" value="px"/>
+	<lang name="lbl_cm" value="cm"/>
+	<lang name="lbl_emptyProject" value="Projekt ist leer."/>
+	<lang name="lbl_translatedText" value="Übersetzter Text"/>
+	<lang name="lbl_originalText" value="Original-Text"/>
+	<lang name="lbl_menuItems" value="Menü-Punkte"/>
+
+	<lang name="lbl_signature" value="Unterschrift"/>
+	<lang name="lbl_communicationsMode" value="Übertragungsende:"/>
+	<lang name="lbl_readyToPrintAfter" value="Druckbereit nach"/>
+	<lang name="lbl_asciiCode" value="ASCII-Kode"/>
+	<lang name="lbl_communicationsMode_1" value="Zeitintervall (ms)"/>
+	<lang name="lbl_communicationsMode_2" value="Zeichenanzahl"/>
+	<lang name="lbl_communicationsMode_3" value="Endzeichen"/>
+	<lang name="lbl_communicationsMode_4" value="Eingang aller Separatoren" />
+
+	<lang name="lbl_bitCount" value="Datenbits"/>
+	<lang name="lbl_sendingMessagesFormat" value="Sendeformat"/>
+	<lang name="lbl_normal" value="Normal"/>
+	<lang name="lbl_hexadecimal" value="Hexadezimal"/>
+	<lang name="lbl_noDataAction" value="Wenn keine Daten"/>
+	<lang name="lbl_nothing" value="nicht drucken"/>
+	<lang name="lbl_blank" value="leeres Feld"/>
+	<lang name="lbl_lastMessage" value="letzter Text"/>
+	<lang name="lbl_noPrintout" value="kein Druck"/>
+	<lang name="lbl_procFormattingString" value="Prozessor-Kommandozeile"/>
+
+	<lang name="lbl_separatorDataCount" value="Register-Anzahl"/>
+	<lang name="lbl_separatorObject" value="Objekt %d"/>
+
+	<lang name="lbl_separatorCharacter" value="Trennzeichen"/>
+	<lang name="lbl_dataBuffering" value="Datenpufferung"/>
+	<lang name="lbl_disabled" value="Aus"/>
+	<lang name="lbl_enabled" value="Ein"/>
+	<lang name="lbl_reportLevel" value="Statistik" />
+	<lang name="lbl_isLinked" value="gelinktes Objekt" />
+
+	<lang name="lbl_basicStatistics" value="Basis-Statistiken" />
+	<lang name="lbl_OperateTime" value="Betriebszeiten" />
+	<lang name="lbl_MadePrintouts" value="ausgeführte Ausdrucke" />
+	<lang name="lbl_extraStatistics" value="zusätzliche Statistiken" />
+	<lang name="lbl_project" value="Projekt" />
+	<lang name="lbl_report" value="Bericht" />
+	<lang name="lbl_userInfoReport" value="Benutzerbericht" />
+	<lang name="lbl_serviceInfoReport" value="Servicebericht" />
+	<lang name="lbl_infoReport" value="EBS-Bericht" />
+	<lang name="lbl_lineThickness" value="Linienstärke" />
+
+	<lang name="lbl_filled" value="Füllung" />
+	<lang name="lbl_invert" value="Inversion" />
+
+	<lang name="lbl_pixCount" value="Pixelanzahl" />
+	<lang name="lbl_printoutPerLiter" value="Anzahl Ausdrücke/Liter" />
+	<lang name="lbl_printoutPerBootle" value="Anzahl Ausdrücke/Flasche" />
+	<lang name="lbl_autoAdjustText" value="Text-Selbstanpassung" />
+	<lang name="lbl_pleaseSelectFileToImport" value="Datei zum Importieren wählen" />
+	<lang name="lbl_projectImported" value="Projekt %s wurde importiert"/>
+	<lang name="lbl_projectNotImported" value="Projekt %s kann nicht importiert werden"/>
+
+	<lang name="lbl_fileInformation" value="Datei-Information"/>
+
+	<lang name="lbl_withoutScaling" value="Keine Anpassung"/>
+	<lang name="lbl_fitFrameToContent" value="Feld an Inhalt anpassen"/>
+	<lang name="lbl_fitContentToFrame" value="Inhalt an Feld anpassen"/>
+	<lang name="lbl_rowMultiply" value="Reihenwiederholung"/>
+
+	<lang name="lbl_EBSInternalFonts" value="EBS-interne Fonts"/>
+	<lang name="lbl_TTFDefaultFonts" value="Standard True Type -Fonts"/>
+	<lang name="lbl_TTFUserFonts" value="Benutzer True Type -Fonts"/>
+
+	<lang name="lbl_import_ebseditorimport" value="EBS-Editor-Projekt importieren"/>
+	<lang name="lbl_import_ebs250import" value="EBS 250-Projekt importieren"/>
+	<lang name="lbl_import_conversionFromEBS250" value="EBS 250-Projektdatei in Editor-Projektdatei konvertieren..."/>
+	<lang name="lbl_selectOptionPackageFile" value="Optionsdatei auswählen" />
+	<lang name="lbl_resetCounterVF" value="Achtung: Einige Zähler sind so eingestellt, dass sie auf ihre Minimal- oder Maximal-Werte zurückgesetzt werden. Für diese Zähler ist eine Änderung des Startwertes unmöglich. Solche Felder sind grau hinterlegt."/>
+	<lang name="lbl_pleaseWait" value="Bitte warten..."/>
+	<lang name="lbl_lineType" value="Linientyp" />
+	<lang name="lbl_lineSolid" value="Durchgehend" />
+	<lang name="lbl_lineDashed" value="Gestrichelt" />
+	<lang name="lbl_lineDotted" value="Gepunktet" />
+	<lang name="lbl_discharging" value="Batterie"/>
+	<lang name="lbl_charging" value="Laden"/>
+	<lang name="lbl_charged" value="Geladen"/>
+	<lang name="lbl_charged_connected" value="Geladen und angeschlossen"/>
+	<lang name="lbl_discharged" value="Leer"/>
+	<lang name="lbl_discharged_connected" value="Entladen und angeschlossen"/>
+	<lang name="lbl_inkstatus" value="Kartuschen-Status:"/>
+	<lang name="lbl_inklevel" value="Tintenstand"/>
+	<lang name="lbl_inkcolour" value="Tintenfarbe:"/>
+	<lang name="lbl_batteryStatus" value="Batterie-Status:"/>
+	<lang name="lbl_letterSpacing" value="Zeichenabstand:"/>
+	<lang name="lbl_maxRepeatCount" value="Max. Wiederholungen:"/>
+	<lang name="lbl_scriptName" value="Script-Name:"/>
+	<lang name="lbl_noScript" value="Kein Script"/>
+	<lang name="lbl_action" value="Aktion" />
+	<lang name="lbl_saveToDisk" value="Auf Festplatte speichern" />
+	<lang name="lbl_sendToPrinter" value="An Drucker übertragen" />
+
+	<lang name="lbl_printableObject" value="Objekt ist druckbar" />
+	<lang name="lbl_linkedToObjects" value="Mit Objekten verknüpft" />
+	<lang name="lbl_contentFormat" value="Inhalts-Format" />
+
+	<lang name="lbl_currentPoint" value="Aktueller Punkt:" />
+	<lang name="lbl_changePoint" value="Punkt ändern" />
+	<lang name="lbl_horizontalDistance" value="Horizontaler Abstand:" />
+	<lang name="lbl_verticalDistance" value="Vertikaler Abstand:" />
+
+	<lang name="lbl_printerNetwork_search" value="Suche Drucker... bitte warten..." />
+	<lang name="lbl_printerNetwork_select" value="Wählen Sie die Drucker für Ihr Netzwerk aus" />
+	<lang name="lbl_selectAll" value="Alle auswählen" />
+	<lang name="lbl_deselectAll" value="Keine auswählen" />
+	<lang name="lbl_printerNetwork_addPrinter" value="Drucker hinzufügen" />
+	<lang name="lbl_printerNetwork_noPrinters" value="Keine Drucker gefunden!" />
+	<lang name="lbl_selectedFileIsUnsuporrted" value="Gewählte Datei wird nicht unterstützt." />
+	<lang name="lbl_confirmMessage" value="Meldung bestätigen" />
+
+	<lang name="lbl_autoRefresh" value="Aut. aktualisieren" />
+	<lang name="lbl_after" value="nach" />
+	<lang name="lbl_seconds" value="Sekunden" />
+	<lang name="lbl_timeToRefresh" value="Aktualisierungs-Intervall:" />
+	<lang name="lbl_availablePrinters" value="Verfügbare Drucker:" />
+	<lang name="lbl_export" value="Export" />
+	<lang name="lbl_editorLog" value="Editor-Log" />
+	<lang name="lbl_printerLog" value="Drucker-Log" />
+	<lang name="lbl_externalParamsFileNotFound" value="Externe Druckparameter-Datei %s nicht gefunden" />
+	<lang name="lbl_pleaseSelectPrintingParams" value="Bitte Druckparameter für dieses Projekt wählen." />
+	<lang name="lbl_defaultPrintHeadParams" value="Standard-Schreibkopfparameter" />
+	<lang name="lbl_projectLocalParams" value="Lokale Projektparameter" />
+	<lang name="lbl_msgAll" value="Alle" />
+	<lang name="lbl_msgInformations" value="Informationen" />
+	<lang name="lbl_msgWarnings" value="Warnungen" />
+	<lang name="lbl_msgErrors" value="Fehler" />
+	<lang name="lbl_msgDeleteAll" value="Alle Meldungen löschen" />
+	<lang name="lbl_msgDeleteInformations" value="Alle Informationen löschen" />
+	<lang name="lbl_msgDeleteWarnings" value="Alle Warnungen löschen" />
+	<lang name="lbl_msgDeleteErrors" value="Alle Fehler löschen" />
+	<lang name="lbl_searchResults" value="Suchergebnisse" />
+	<lang name="lbl_clipboard" value="Zwischenablage" />
+	<lang name="lbl_trash" value="Papierkorb" />
+	<lang name="lbl_printersNetwork" value="Druckernetzwerk" />
+	<lang name="lbl_selectObject" value="Objekt wählen" />
+	<lang name="lbl_objectsList" value="Objektliste" />
+	<lang name="lbl_or" value="oder" />
+	<lang name="lbl_scaling" value="Skalierung" />
+	<lang name="lbl_format" value="Format" />
+	<lang name="lbl_rectangle" value="Rechteck" />
+	<lang name="lbl_square" value="Quadrat" />
+	<lang name="lbl_auto" value="Auto" />
+	<lang name="lbl_deleteRecoveryFile" value="Wiederherstellungsdatei löschen" />
+</Labels>
+<Tooltips>
+	<lang name="tooltip_createNewDirectory" value="Neues Verzeichnis"/>
+	<lang name="tooltip_removeDirectory" value="Ausgewählte Datei / Verzeichnis löschen "/>
+	<lang name="tooltip_rename" value="Umbenennen"/>
+	<lang name="tooltip_cut" value="Ausschneiden"/>
+	<lang name="tooltip_copy" value="Kopieren"/>
+	<lang name="tooltip_paste" value="Einfügen"/>
+	
+	<lang name="tooltip_printParameters" value="Druckparameter einstellen"/>
+	<lang name="tooltip_normalCursor" value="Normaler Cursor"/>
+	<lang name="tooltip_createTextObject" value="Textobjekt erstellen"/>
+	<lang name="tooltip_createImageObject" value="Grafikobjekt erstellen"/>
+	<lang name="tooltip_createShapeObject" value="Rahmenobjekt erstellen"/>
+	<lang name="tooltip_createBarcodeObject" value="Barcodeobjekt erstellen"/>
+	<lang name="tooltip_zoomInProject" value="Vergrößern"/>
+	<lang name="tooltip_zoomOutProject" value="Verkleinern"/>
+	<lang name="tooltip_zoomNormalProject" value="Originalgröße"/>
+	<lang name="tooltip_cutObject" value="Objekt ausschneiden"/>
+	<lang name="tooltip_copyObject" value="Objekt kopieren"/>
+	<lang name="tooltip_showHideClipboard" value="Zwischenablage verstecken / anzeigen"/>
+	<lang name="tooltip_showHideTrash" value="Papierkorb verstecken / anzeigen"/>
+	<lang name="tooltip_projectPreview" value="Druckvorschau "/>
+	<lang name="tooltip_reloadProjectWorkspace" value="Aktualisieren"/>
+	<lang name="tooltip_printerNetwork" value="Druckernetzwerk"/>
+	<lang name="tooltip_moveObjectUpDown" value="Objekt auf-, abbewegen"/>
+	<lang name="tooltip_turnOffPrinter" value="Ausschalten/Neu starten/Abmelden"/>
+	<lang name="tooltip_moveObjectLeft" value="Objekt 1 px nach links"/>
+	<lang name="tooltip_moveObjectRight" value="Objekt 1 px nach rechts"/>
+	<lang name="tooltip_moveObjectUp" value="Objekt 1 px hoch"/>
+	<lang name="tooltip_moveObjectDown" value="Objekt 1 px nach unten"/>
+	<lang name="tooltip_hideWindow" value="Fenster minimieren"/>
+	<lang name="tooltip_showWindow" value="Fenster aufklappen"/>
+	<lang name="tooltip_showHelp" value="Hilfe aufrufen"/>
+	<lang name="tooltip_showBackground" value="Hintergrund hervorheben"/>
+	<lang name="tooltip_closeWindow" value="Fenster schließen"/>
+	<lang name="tooltip_showFontWindow" value="Schriftartenverwaltung anzeigen"/>
+	<lang name="tooltip_toogleDate" value="Datum umschalten"/>
+	<lang name="tooltip_toogleTime" value="Zeit umschalten"/>
+	<lang name="tooltip_changeDateTimeOrder" value="Datum/Zeit-Reihenfolge ändern"/>
+	<lang name="tooltip_alignLeft" value="Ausrichtung links"/>
+	<lang name="tooltip_alignCenter" value="Ausrichtung Mitte"/>
+	<lang name="tooltip_alignRight" value="Ausrichtung rechts"/>
+	<lang name="tooltip_createSpecialObject" value="Spezialobjekt erstellen"/>
+	
+	<lang name="tooltip_saveProject" value="Projekt speichern"/>
+	<lang name="tooltip_openProject" value="Projekt öffnen"/>
+	<lang name="tooltip_workspaceWidth" value="Druckbereichsgröße ändern"/>
+	<lang name="tooltip_showObjectParameters" value="Objekt-Parameter anzeigen"/>
+	<lang name="tooltip_deleteObject" value="Objekt löschen"/>
+	<lang name="tooltip_showObjectsList" value="Objektliste anzeigen/verbergen"/>
+</Tooltips>
+<WTitles>
+	<lang name="wtitle_projectNew" value="Neues Projekt"/>
+	<lang name="wtitle_projectOpen" value="Projekt öffnen zum Editieren"/>
+	<lang name="wtitle_projectOpenForPrinter" value="Projekt öffnen zum Drucken"/>
+	<lang name="wtitle_projectSaveAs" value="Speichern als..."/>
+	<lang name="wtitle_projectParams" value="Druck-Parameter"/>
+	<lang name="wtitle_editor_settings" value="Grundeinstellungen"/>
+	<lang name="wtitle_encoderConstantSettings" value="Bandgeschwindigkeit"/>
+	<lang name="wtitle_printer_control" value="Druckerkontrolle"/>
+	<lang name="wtitle_installImage" value="Neue Grafik installieren"/>
+	<lang name="wtitle_workspaceWidth" value="Druckbereich"/>
+	<lang name="wtitle_purge" value="Spülen"/>
+	<lang name="wtitle_log" value="Protokoll"/>
+
+	<lang name="wtitle_addUser" value="Benutzer hinzufügen"/>
+	<lang name="wtitle_editUser" value="Benutzer bearbeiten"/>
+	<lang name="wtitle_deleteUser" value="Benutzer löschen"/>
+	<lang name="wtitle_addGroup" value="Gruppe hinzufügen"/>
+	<lang name="wtitle_editGroup" value="Gruppe bearbeiten"/>
+	<lang name="wtitle_deleteGroup" value="Gruppe löschen"/>
+	<lang name="wtitle_installFont" value="Neue Schriftart hinzufügen"/>
+	<lang name="wtitle_installTxtFile" value="Neue Textdatei hinzufügen"/>
+	<lang name="wtitle_message" value="Mitteilung"/>
+	<lang name="wtitle_messages" value="Mitteilungen"/>
+	<lang name="wtitle_objectParams" value="Objektparameter"/>
+	<lang name="wtitle_filename" value="Dateiname"/>
+	<lang name="wtitle_folderName" value="Ordnername"/>
+	<lang name="wtitle_rename" value="Umbenennen"/>
+	<lang name="wtitle_fontsManager" value="Schriftartenverwaltung"/>
+	<lang name="wtitle_textsFilesManager" value="Textdateiverwaltung"/>
+	<lang name="wtitle_uninstallFont" value="Schriftart deinstallieren"/>
+	<lang name="wtitle_fontSize" value="Schriftgrad"/>
+	<lang name="wtitle_imagesManager" value="Grafikverwaltung"/>
+	<lang name="wtitle_uninstallImage" value="Grafik deinstallieren"/>
+	<lang name="wtitle_reportProblem" value="Fehlerreport erstellen"/>
+	<lang name="wtitle_projectPreview" value="Projekt-Vorschau"/>
+	<lang name="wtitle_usersManager" value="Benutzerverwaltung"/>
+	<lang name="wtitle_printersNetworkManager" value="Druckernetzwerkverwaltung"/>
+	<lang name="wtitle_objectPreview" value="Objekt-Vorschau"/>
+	<lang name="wtitle_moduleInfo" value="Modul-Info"/>
+	<lang name="wtitle_accountManagement" value="Benutzereinstellungen"/>
+	<lang name="wtitle_variableFields" value="Variable Felder"/>
+	<lang name="wtitle_resetVariableField" value="Var. Feld zurücksetzen"/>
+	<lang name="wtitle_browseParamsFiles" value="Parameterdatei suchen"/>
+	<lang name="wtitle_printoutCost" value="Druck-Kosten"/>
+	<lang name="wtitle_serviceReport" value="Report"/>
+	<lang name="wtitle_mustEdit" value="Objekte editieren"/>
+	<lang name="wtitle_installOption" value="Option installieren"/>
+	<lang name="wtitle_size" value="Größe"/>
+	<lang name="wtitle_position" value="Position"/>
+	<lang name="wtitle_printerNetwork" value="Druckernetzwerk"/>
+	<lang name="wtitle_addPrinter" value="Drucker hinzufügen"/>
+	<lang name="wtitle_editPrinter" value="Drucker bearbeiten"/>	
+	<lang name="wtitle_deletePrinter" value="Drucker löschen"/>
+	<lang name="wtitle_softwareUpgrade" value="Software-Aktualisierung"/>
+	<lang name="wtitle_printoutPreview" value="Druckvorschau"/>
+	<lang name="wtitle_enterPassword" value="Passwort eingeben"/>
+	<lang name="wtitle_statistics" value="Statistiken"/>
+	<lang name="wtitle_clearStatistics" value="Statistiken löschen"/>
+	<lang name="wtitle_projectImport" value="Projekt importieren"/>
+	<lang name="wtitle_projectExport" value="Projekt exportieren"/>
+	<lang name="wtitle_puiPreview" value="LCD-Vorschau"/>
+	<lang name="wtitle_simulatePrintout" value="Drucksimulation" />
+	<lang name="wtitle_firmware_ugprade_info" value="Information über Software-Update"/>
+	<lang name="wtitle_printerUpdate" value="Update" />
+	<lang name="wtitle_scanPrintersNetwork" value="Druckernetzwerk scannen" />
+	<lang name="wtitle_selectPrintingParams" value="Druckparameter wählen" />
+</WTitles>
+<Buttons>
+	<lang name="btn_saveChanges" value="Speichern"/>
+	<lang name="btn_yes" value="Ja"/>
+	<lang name="btn_no" value="Nein"/>
+	<lang name="btn_ok" value="OK"/>
+	<lang name="btn_reload" value="Editor neu laden"/>
+	<lang name="btn_apply" value="Anwenden"/>
+	<lang name="btn_confirm" value="Bestätigen"/>
+	<lang name="btn_cancel" value="Abbrechen"/>
+	<lang name="btn_rename" value="Umbenennen"/>
+	<lang name="btn_shutdown" value="Ausschalt."/>
+	<lang name="btn_restart" value="Neustart"/>
+	<lang name="btn_logout" value="Abmeld."/>
+	<lang name="btn_createFolder" value="Neuer Ordner"/>
+	<lang name="btn_createProject" value="Neues Projekt"/>
+	<lang name="btn_openProject" value="Projekt öffnen"/>
+	<lang name="btn_openProjectForPrinting" value="Projekt öffnen \nzum Drucken"/>
+	<lang name="btn_deleteSelectedImage" value="Ausgewählte Grafik löschen"/>
+	<lang name="btn_installNewImage" value="Neue Grafik hinzufügen"/>
+	<lang name="btn_selectImage" value="Grafik auswählen"/>
+	<lang name="btn_closeWindow" value="Fenster schließen"/>
+	<lang name="btn_installSelectedImage" value="Ausgewählte Grafik hinzufügen"/>
+	<lang name="btn_selectFont" value="Schriftart auswählen"/>
+	<lang name="btn_installNewFont" value="Neue Schriftart hinzufügen"/>
+	<lang name="btn_deleteSelectedFont" value="Ausgewählte Schriftart löschen"/>
+	<lang name="btn_installSelectedFont" value="Ausgewählte Schriftart hinzufügen"/>
+	<lang name="btn_deleteSelectedTxtFile" value="Ausgewählte Textdatei löschen"/>
+	<lang name="btn_installNewTxtFile" value="Neue Textdatei hinzufügen"/>
+	<lang name="btn_installSelectedTxtFile" value="Ausgewählte Textdatei hinzufügen"/>
+	<lang name="btn_addUser" value="Benutzer hinzufügen"/>
+	<lang name="btn_editUser" value="Benutzer bearbeiten"/>
+	<lang name="btn_deleteUser" value="Benutzer löschen"/>
+	<lang name="btn_addGroup" value="Gruppe hinzufügen"/>
+	<lang name="btn_editGroup" value="Gruppe bearbeiten"/>
+	<lang name="btn_deleteGroup" value="Gruppe löschen"/>
+	<lang name="btn_add" value="Hinzufügen"/>
+	<lang name="btn_save" value="Speichern"/>
+
+	<lang name="btn_browse" value="Auswählen"/>
+	<lang name="btn_saveProject" value="Projekt speichern"/>
+	<lang name="btn_setPrintHeadDefault" value="Standard-Parameter"/>
+	<lang name="btn_reloadLogFile" value="Aktualisieren"/>
+	<lang name="btn_clearLogFile" value="Protokoll löschen"/>
+	<lang name="btn_next" value="Weiter"/>
+	<lang name="btn_groupPriorityUp" value="Aufwärts"/>
+	<lang name="btn_groupPriorityDown" value="Abwärts"/>
+	<lang name="btn_variableFields" value="Variable Felder"/>
+	<lang name="btn_startPrint" value="Druckstart"/>
+	<lang name="btn_stopPrint" value="Druckstopp"/>
+	<lang name="btn_printingParams" value="Druck-\nParameter"/>
+	<lang name="btn_purgeOn" value="Spülen ein"/>
+	<lang name="btn_purgeOff" value="Spülen aus"/>
+	<lang name="btn_currentPrinterDateTime" value="Datum/Zeit vom Drucker lesen"/>
+	<lang name="btn_currentComputerDateTime" value="Datum/Zeit vom PC lesen"/>
+	<lang name="btn_setPrinterDateTime" value="Datum/Zeit speichern"/>
+	<lang name="btn_selectFile" value="Datei auswählen"/>
+	<lang name="btn_createNewFile" value="Neue Datei"/>
+	<lang name="btn_detectEncoderConst" value="Encoderkonstante messen"/>
+	<lang name="btn_detectConveyorSpeed" value="Bandgeschwindigkeit messen"/>
+	<lang name="btn_detectEncoderConstStop" value="Messen der Encoderkonstante anhalten"/>
+	<lang name="btn_detectConveyorSpeedStop" value="Messen der Bandgeschwindigkeit anhalten"/>
+	<lang name="btn_useCurrent" value="Aktuelle Einstellungen benutzen"/>
+	<lang name="btn_resetVF" value="Reset V.F."/>
+	<lang name="btn_setSize" value="Übernehmen"/>
+	<lang name="btn_reportWait" value="Report wird erstellt... bitte warten..."/>
+	<lang name="btn_reportComplete" value="Klicken um den Report zu speichern."/>
+	<lang name="btn_reportError" value="Fehler! Klicken für Details."/>
+	<lang name="btn_installPackageWait" value="Option wir installiert... bitte warten..."/>
+	<lang name="btn_installPackageComplete" value="Option installiert. Klicken zum Beenden."/>
+	<lang name="btn_installPackageError" value="Fehler! Option nicht installiert."/>
+	<lang name="btn_nextObject" value="Nächstes Objekt"/>
+	<lang name="btn_addPrinter" value="Drucker hinzufügen"/>
+	<lang name="btn_editPrinter" value="Drucker bearbeiten"/>
+	<lang name="btn_deletePrinter" value="Drucker löschen"/>
+	<lang name="btn_searchPrinters" value="Drucker suchen"/>
+	<lang name="btn_clearStatistics" value="Statistiken löschen"/>
+	<lang name="btn_exportImages" value="Alle Bilder"/>
+	<lang name="btn_exportAllProjects" value="Alle Projekte"/>
+	<lang name="btn_exportSelectedProject" value="ausgewähltes Projekt"/>
+	<lang name="btn_importFile" value="Datei importieren"/>
+	<lang name="btn_generate" value="Erstellen" />
+	<lang name="btn_uploadFile" value="Update-Datei auswählen" />
+	<lang name="btn_restartContinue" value="Drucker neu starten um Update abzuschließen" />
+	<lang name="btn_addToList" value="Zur Liste hinzufügen" />
+	<lang name="btn_shutdownAllPrinters" value="Alle Drucker ausschalten" />
+	<lang name="btn_installPackage" value="Paket installieren" />
+	<lang name="btn_installingPackage" value="Option wird installiert … bitte warten…" />
+	<lang name="btn_login" value="Login" />
+	<lang name="btn_selectParamsFile" value="Parameterdatei wählen" />
+	<lang name="btn_selectLoginImage" value="Login-Symbol wählen" />
+	<lang name="btn_usePrintHeadDefault" value="Schreibkopf-Standard benutzen" />
+	<lang name="btn_userProjectLocalParams" value="Lokale Druckparameter benutzen" />
+	<lang name="btn_addSelectedPrinters" value="Gewählten Drucker hinzufügen" />
+	<lang name="btn_invertSelection" value="Auswahl invertieren" />
+	<lang name="btn_restoreObject" value="Objekt wiederherstellen" />
+	<lang name="btn_pasteObject" value="Objekt einfügen" />
+</Buttons>
+<Messages>
+	<lang name="msg_startPrintOperation" value="Möchten Sie den Druck starten?"/>
+	<lang name="msg_deleteImage" value="Grafik löschen?"/>
+	<lang name="msg_deleteFont" value="Schriftart löschen?"/>
+	<lang name="msg_deleteTxtFile" value="Textdatei löschen?"/>
+	<lang name="msg_deleteObject" value="Objekt löschen?"/>
+	<lang name="msg_deleteUser" value="Benutzer [b]%s[/b] löschen?"/>
+	<lang name="msg_deletePrinter" value="Drucker [b]%s[/b] löschen?"/>
+	<lang name="msg_deleteGroup" value="Gruppe [b]%s[/b] löschen?"/>
+	<lang name="msg_projectNotSaved" value="Projekt wurde noch nicht gespeichert.\nJetzt speichern?"/>
+	<lang name="msg_fileExistsReplace" value="Datei besteht bereits. Überschreiben?"/>
+	<lang name="msg_fileExists" value="Datei besteht bereits."/>
+	<lang name="msg_deleteProject" value="Projekt löschen?"/>
+	<lang name="msg_deleteFolder" value="Ordner und gesamten Inhalt löschen?"/>
+	<lang name="msg_whatWouldYouLikeToDo" value="Was möchten Sie tun?"/>
+	<lang name="msg_settingsSavedSuccessfully" value="Einstellungen erfolgreich gespeichert.\nNeustart des Editors erforderlich.\nJetzt neu starten?"/>
+	<lang name="msg_projectForDifferentPrintHead" value="Dieses Projekt ist nicht für den aktuellen Druckertyp geeignet.\nTrotzdem öffnen?"/>
+	<lang name="msg_someoneLoggedIn" value="Benutzer %s ist angemeldet von IP-Adresse %s.\nMöchten Sie eine Anmeldung erzwingen?"/>
+	<lang name="msg_projectSaved" value="Projekt gespeichert."/>
+
+	<lang name="msg_projectCreated" value="Projekt erfolgreich erstellt."/>
+	<lang name="msg_projectDeleted" value="Ausgewähltes Projekt erfolgreich gelöscht."/>
+	<lang name="msg_cantDeleteDefaultFont" value="Systemzeichensatz kann nicht gelöscht werden."/>
+	<lang name="msg_cantDeleteAdministrator" value="[b]Administrator[/b] kann nicht gelöscht werden."/>
+	<lang name="msg_cantRenameBecauseFileExists" value="Zieldatei / -Verzeichnis existiert bereits."/>
+	<lang name="msg_fontDeleted" value="Ausgewählte Schriftart erfolgreich gelöscht."/>
+	<lang name="msg_txtFileDeleted" value="Ausgewählte Textdatei erfolgreich gelöscht."/>
+	<lang name="msg_imageDeleted" value="Ausgewählte Grafik erfolgreich gelöscht."/>
+	<lang name="msg_noFileSelected" value="Keine Datei ausgewählt.\nBitte Datei auswählen und wiederholen."/>
+	<lang name="msg_noUserSelected" value="Kein Benutzer ausgewählt.\nBitte Benutzer wählen und wiederholen."/>
+	<lang name="msg_noPrinterSelected" value="Kein Drucker ausgewählt.\nBitte Drucker wählen und wiederholen."/>
+	<lang name="msg_selectProjectFileFirst" value="Bitte zuerst Projekt-Datei wählen."/>
+	<lang name="msg_objectNotSelected" value="Kein Objekt ausgewählt."/>
+	<lang name="msg_ExternParamsFileNotSelected" value="Keine Datei ausgewählt.\nBitte externe Parameter-Datei auswählen oder auf lokale Parameter umschalten."/>
+	<lang name="msg_printParamsSet" value="Druckparameter erfolgreich eingestellt."/>
+	<lang name="msg_paramsOutOfRange" value="Einige Parameter sind außerhalb des zulässigen Bereichs."/>
+	<lang name="msg_noPrintHeadDefinedInProject" value="Druckertyp ist für dieses Projekt nicht festgelegt. Mehrere Parameter können nicht bestimmt werden, z.B. Druckhöhe, Auflösung, usw..."/>
+	<lang name="msg_incorrectPassword" value="Falsches Passwort."/>
+	<lang name="msg_cantLoginBecauseToLowPriority" value="Benutzer %s ist gerade angemeldet.\nSie sind nicht berechtigt, den Editor zurzeit zu benutzen."/>
+	<lang name="msg_enterLoginFirst" value="Bitte zuerst anmelden."/>
+	<lang name="msg_enterPassFirst" value="Bitte Benutzer-Passwort eingeben."/>	
+	<lang name="msg_enterGroupNameFirst" value="Bitte zuerst Gruppenname eingeben."/>
+	<lang name="msg_selectAtLeastOneGroup" value="Mindestens eine Gruppe muss ausgewählt werden."/>
+	<lang name="msg_loginInUse" value="Gewähltes Login wird zurzeit benutzt.\nBitte anderes wählen und wiederholen."/>
+	<lang name="msg_groupInUse" value="Diese Gruppe existiert bereits.\nBitte anderen Namen eingeben und wiederholen."/>
+	<lang name="msg_passwordsNotEqual" value="Passwörter stimmen nicht überein."/>
+
+	<lang name="msg_oldPasswordIsEmpty" value="Sie müssen erst das alte Passwort eingeben."/>
+	<lang name="msg_oldPasswordIsBad" value="Das alte Passwort stimmt nicht mit der Eingabe überein."/>
+	<lang name="msg_allDataInObjectWillBeLost" value="Kompletter Objektinhalt wird gelöscht.\nFortsetzen?"/>
+	<lang name="msg_wrongParams" value="Falsche Zähler-Parameter (min &gt; max) in mindestens einem Bereich.\nMöchten Sie die Zählrichtung umkehren?"/>
+	<lang name="msg_updateExternFileParams" value="Die Änderungen betreffen alle Projekte, die diese Parameter-Datei benutzen.\nFortsetzen?"/>	
+	<lang name="msg_clearCacheReminder" value="Andere Editor-Version gefunden.\nEs wird empfohlen, den Browser-Cache zu löschen."/>
+	<lang name="msg_aboutWindow" value="EBS Editor %s\nDrucker-Version: %s\nSystem-Version: %s\nPUI-Version: %s\n Drucker-Manager-Version: %s\n\nEBS Ink-Jet Systeme GmbH\nAlte Ziegelei 19-25\nD-51588 Nümbrecht-Elsenroth\nDEUTSCHLAND\n\n+49 (0)2293/939-0\nFax +49 (0)2293/939-3\n\nE-Mail: mail@ebs-inkjet.de\nwww.ebs-inkjet.de"/>
+	<lang name="msg_resetCounterVF" value="Achtung: Um diesen Vorgang durchzuführen, stellen Sie sicher, dass das aktuelle Projekt nicht gedruckt wird.\nDer Vorgang überschreibt aktuell gespeicherte \nWerte und Startwert - Felder aller Zähler."/>
+	<lang name="msg_resetTxtFileVF" value="Achtung: Um diesen Vorgang durchzuführen, stellen Sie sicher, dass das aktuelle Projekt nicht gedruckt wird.\nDer Vorgang überschreibt aktuell gespeicherte Werte und das 'Zeilen-Start-Wert'-Feld."/>
+	<lang name="msg_wrongProjectFilename" value="Projektname darf kein '.,/\#%*?:{}|äöüßÄÖÜ' enthalten."/>
+	<lang name="msg_communicationError" value="Kommunikationsfehler\nDrucker antwortet nicht. Bitte System überprüfen\nund erneut versuchen. Wenn das System gerade druckt,\nbitte stoppen und erneut versuchen."/>
+	<lang name="msg_errorJavaScript" value="Kritischer Fehler!\nJavaScript ist deaktiviert.\nBitte aktivieren und erneut versuchen."/>
+	<lang name="msg_errorPendrive" value="Kritischer Fehler!\nUSB-Stick-Daten nicht vorhanden oder beschädigt.\nBitte Stick überprüfen und erneut versuchen."/>
+	<lang name="msg_errorBrowserNotSupported" value="Warnung!\nDieser Browser wird nicht unterstützt.\nBitte benutzen Sie Mozilla Firefox."/>
+	<lang name="msg_projectPriorityTooLow" value="Projekt ist geöffnet zum Editieren am Drucker-LCD.\nSie sind nicht berechtigt, das Projekt jetzt zu öffnen."/>
+	<lang name="msg_projectOpenedFromLCDWnd" value="Projekt ist geöffnet zum Editieren am Drucker-LCD.\nMöchten Sie das Öffnen erzwingen ?"/>
+	<lang name="msg_projectClosed" value="Projekt geschlossen, weil Editierung vom Drucker-LCD gestartet wurde."/>
+	<lang name="msg_printerDateTimeSetSuccessfull" value="Drucker-Zeit und -Datum erfolgreich gespeichert."/>
+	<lang name="msg_clipboardEmpty" value="Zwischenablage ist leer."/>
+
+	<lang name="msg_improper_poweroff" value="Achtung! Drucker wurde unsachgemäß ausgeschaltet, was Datenverlust oder Fehlfunktionen zur Folge haben kann. Befolgen Sie bitte immer die Vorgehensweise zum Herunterfahren."/>
+	<lang name="msg_printerNetworkEmptyFields" value="Bitte Druckername und IP-Adresse eingeben."/>
+	<lang name="msg_printerNetworkIPExists" value="Drucker mit dieser IP-Adresse ist schon in der Liste."/>
+	<lang name="msg_printerNetworkBadIP" value="Ungültige IP-Adresse."/>
+	<lang name="msg_cantDeleteCurrentUser" value="Momentan angemeldeter Benutzer kann nicht gelöscht werden."/>
+	<lang name="msg_clearStatistics" value="Statistiken werden gelöscht! Sicher?"/>
+	<lang name="msg_printerNetworkProjectExported" value="Projekt erfolgreich exportiert."/>
+	<lang name="msg_lineDividersMaxReached" value="Maximale Anzahl von Zeilentrennern erreicht." />
+	<lang name="msg_simulationPrintoutTooBig" value="Druck ist zu groß.\n\nAktueller Druck enthält: %s px\nMaximaler Druck darf enthalten: %s px\n\nBitte ändern Sie mindestens einen der folgenden Parameter und starten nochmal.\n\nHorizontaler Abstand: %s px\nVertikaler Abstand: %s px\nTropfengröße: %s px\nDruckbereichslänge: %s px\n" />
+</Messages>
+<StatusMessages>
+	<lang name="msg_E01000" value="(E01000) FEHLER: Internes Speicherverwaltungs-Problem. Drucker funktioniert nicht richtig. Bitte Projekt erneut öffnen, wenn das nicht hilft, Drucker neu starten oder Projekt neu editieren." />
+	<lang name="msg_E01010" value="(E01010) FEHLER: Projekt-Länge zu klein. Länge wurde automatisch korrigiert auf den kleinstmöglichen Wert." />
+	<lang name="msg_E01011" value="(E01011) FEHLER: Projekt-Höhe zu klein. Höhe wurde automatisch korrigiert auf den kleinstmöglichen Wert." />
+	<lang name="msg_E01015" value="(E01015) FEHLER: Projekt-Länge zu groß. Länge wurde automatisch korrigiert auf den größtmöglichen Wert." />
+
+	<lang name="msg_E1000" value="(E1000) FEHLER: Kann keine Root-Berechtigung einstellen um das System anzuhalten!"/>
+	<lang name="msg_E1001" value="(E1001) FEHLER: Projekt-Vorlage existiert nicht!"/>
+	<lang name="msg_E1002" value="(E1002) FEHLER: Projekt laden fehlgeschlagen!"/>
+	<lang name="msg_E1003" value="(E1003) FEHLER: Projekt laden fehlgeschlagen - Projektdatei nicht vorhanden!"/>
+	<lang name="msg_E1004" value="(E1004) FEHLER: Kann keine Root-Berechtigung einstellen um das System neu zu starten!"/>
+	<lang name="msg_E1100" value="(E1100) FEHLER: Vorgang kann nicht ausgeführt werden, weil kein Projekt geöffnet ist!"/>
+	<lang name="msg_E10100" value="(E10100) FEHLER: Projekt kann aus der gewählten Datei nicht geladen werden! Datei enthält keine Projektinformationen oder ist beschädigt. Vorgang abgebrochen!"/>
+	<lang name="msg_E10101" value="(E10101) FEHLER: Projekteinstellungen können nicht geladen werden! Werkseinstellungen werden benutzt... Benutzereingriff erforderlich um korrekte Werte einzustellen."/>
+	<lang name="msg_E10102" value="(E10102) FEHLER: Druckparameter für dieses Projekt können nicht geladen werden! Benutze Standard-Parameters...Benutzereingriff erforderlich um korrekte Werte einzustellen. (Werkseinstellung kann falsch sein für den aktuellen Schreibkopf)."/>
+	<lang name="msg_E11010" value="(E11010) FEHLER: Variables Feld 'Text-Datei': Datei öffnen nicht möglich!"/>
+	<lang name="msg_E11011" value="(E11011) FEHLER: Variables Feld 'Text-Datei': Problem beim Öffnen/Ausführen der Datei an der vorgegebenen Stelle!"/>
+	<lang name="msg_E11020" value="(E11020) ERROR: Variables Feld \'COM PORT\': Port kann nicht geöffnet werden!"/>
+	<lang name="msg_E11021" value="(E11021) ERROR: Variables Feld \'COM PORT\': Kommunikationsport nicht geöffnet! Kommunikation abgebrochen!"/>
+	<lang name="msg_E11022" value="(E11022) ERROR: Variables Feld \'COM PORT\': Schreib/Lese-Operation fehlgeschlagen!"/>
+	<lang name="msg_E11036" value="(E11036) ERROR: Problem beim Ausführen des Barcode-Generators! Bitte Barcode-Daten/-Einstellungen überprüfen und ggf. korrigieren."/>
+	<lang name="msg_D0100" value="Print off (bereit)"/>
+	<lang name="msg_D0101" value="Print on (warten)"/>
+	<lang name="msg_D0102" value="Print on (druckt)"/>
+	<lang name="msg_D0000" value="Treiber fehlt"/>
+	<lang name="msg_D0001" value="Sendefehler zum Drucker-Treiber"/>
+	<lang name="msg_D0002" value="Druckerstatus unbekannt"/>
+	<lang name="msg_D0003" value="Kein Projekt gewählt"/>
+	<lang name="msg_D0110" value="Längenmessung, folgen Sie den Punkten:1 - 2 - 3"/>
+	<lang name="msg_W1111" value="(W1111) WARNUNG: Fehlende Ausdrucke! Einige Ausdrucke können falsch sein. Druckgeschwindigkeit könnte zu hoch sein für das gewählte Projekt."/>
+	<lang name="msg_W1112" value="(W1112) WARNUNG: Projekt wird nicht gedruckt - es wurde ausgelöst bevor Druckdaten gesendet wurden. Fehlende Ausdrucke:" />
+	<lang name="msg_W2000" value="(W2000) WARNUNG: Datenpuffer-Überlauf, die nächsten Daten werden nicht mehr aufgenommen. Machen Sie Ausdrucke um den Puffer zu leeren" />
+	<lang name="msg_W2001" value="(W2001) WARNUNG: Drucker hat zu viele Daten empfangen, ohne Endzeichen! Überflüssige Daten werden in den nächsten Puffer eingefügt" />
+	<lang name="msg_W3000" value="(W3000) WARNUNG: Schmutzflasche überfüllt! Bitte leeren Sie diese Flasche. Der nächste Spülvorgang kann die Pumpe beschädigen. OK drücken nach Entleeren der Flasche." />
+
+	<lang name="msg_E10000" value="(E10000) FEHLER: Projektdaten können nicht aus Projektdatei geladen werden!" />
+	<lang name="msg_E10103" value="(E10103) FEHLER: Externe Druckparameter können nicht geladen werden! Verwende lokale Parameter!" />
+	<lang name="msg_E10104" value="(E10104) FEHLER: Projekt kann nicht gespeichert werden (Verzeichnisbaum kann nicht erstellt werden)" />
+	<lang name="msg_E10105" value="(E10105) FEHLER: Projekt kann nicht gespeichert werden (speichern ist an diesem Ort nicht zulässig)" />
+	<lang name="msg_E11023" value="(E11023) FEHLER: Variables Feld 'COM PORT': Fataler Fehler während der Verarbeitung empfangener Daten!" />
+	<lang name="msg_E11024" value="(E11024) FEHLER: Variables Feld 'COM PORT': Ausgewählter COM-PORT kann nicht zweifach geöffnet werden (z.B. Projekte die diesen COM-Port benutzen können nicht gleichzeitig zum Drucken und Editieren geöffnet werden. Sie können fortfahren, aber das variable Feld wird nicht funktionieren.)" />
+	<lang name="msg_E11030" value="(E11030) FEHLER: Falsche Barcode-Daten (unzulässige Zeichen für diesen Barcode-Typ)! Bitte korrigieren." />
+	<lang name="msg_E11031" value="(E11031) FEHLER: Unzulässige Barcode-Zeichenanzahl! Bitte korrigieren." />
+	<lang name="msg_E11035" value="(E11035) FEHLER: Barcode-Beschreibung kann nicht aus der Drucker-Datenbank geladen werden. Evtl. ist das Projekt auf einem neueren Drucker erstellt worden, der mehr Barcode-Typen verwaltet (oder die Barcode-Datenbank ist beschädigt)." />
+
+	<lang name="msg_I99000" value="(I99000) Neue Tintenflasche ist akzeptiert."/>
+	<lang name="msg_E99000" value="(E99000) Keine Tintenflasche angemeldet."/>
+	<lang name="msg_E99001" value="(E99001) Fehlerhafte Flaschendaten wurden vom IMS-Sytem empfangen. Tintenflasche nicht akzeptiert!"/>
+	<lang name="msg_E99002" value="(E99002) Fehlerhafte Flaschen-Parameter. Tintenflasche nicht akzeptiert!"/>
+	<lang name="msg_E99003" value="(E99003) Haltbarkeitsdatum abgelaufen - Tintenflasche nicht akzeptiert!"/>
+	<lang name="msg_E99004" value="(E99004) Tinte für anderen Schreibkopftyp - Tintenflasche nicht akzeptiert!"/>
+	<lang name="msg_W99005" value="(W99005) Andere Tintenfarbe als vorher benutzt – bitte spülen Sie den Drucker!"/>
+	<lang name="msg_E99005" value="(E99005) Andere Tintenfarbe als vorher benutzt – Tintenflasche nicht akzeptiert!"/>
+	<lang name="msg_E99006" value="(E99006) Anderer Tintentyp als zuletzt benutzt – Tintenflasche nicht akzeptiert!"/>
+	<lang name="msg_E99007" value="(E99007) Anderer Solvent-Typ als vorher benutzt – Kartusche nicht akzeptiert!"/>
+	<lang name="msg_E99020" value="(E99020) Tintenflasche schon benutzt in diesem Drucker. Tintenflasche nicht akzeptiert!"/>
+	<lang name="msg_E99021" value="(E99021) Tintenflasche ist deaktiviert (ist schon von einem anderen Drucker akzeptiert). Tintenflasche nicht akzeptiert!"/>
+	<lang name="msg_E99022" value="(E99022) Die registrierte Tintenflasche ist verbraucht und deaktiviert. Bitte neue Flasche anmelden!"/>
+	<lang name="msg_E99023" value="(E99023) Tintenflasche ist deaktiviert (ist aufgebraucht). Tintenflasche nicht mehr akzeptiert!"/>
+	<lang name="msg_W99023" value="(W99023) Tintenfüllstand ist sehr niedrig!"/>
+	<lang name="msg_E99024" value="(E99024) Flaschenfehler oder Keine Tintenflasche!" />
+	<lang name="msg_I99024" value="(I99024) Tintenkammer ist leer (keine Tinte)"/>
+	<lang name="msg_E99050" value="(E99050) Keine Drucker-ID (bitte befolgen Sie die ID-Programmierung für neue Geräte!)"/>
+	<lang name="msg_E99051" value="(E99051) Keine oder falsche Drucker-ID. Drucker kann nicht benutzt werden! Bitte kontaktieren Sie Ihren Händler."/>
+	<lang name="msg_I99070" value="(I99070) Flasche leer"/>
+	<lang name="msg_I99100" value="(I99100) Keine Tintenflasche angemeldet. Bitte melden Sie Ihre Flasche an um den Druck zu starten."/>
+	<lang name="msg_E99100" value="(E99100) Keine Tintenflasche angemeldet. Bitte melden Sie Ihre Flasche an um den Druck zu starten."/>
+	<lang name="msg_I99110" value="(I99110) Datei wurde mit per Code entsperrt. Restbetriebszeit: %s"/> 
+	<lang name="msg_I99111" value="(I99111) Der Freischalt-Code wurde erfolgreich akzeptiert."/>
+	<lang name="msg_I99112" value="(I99112) Tintentyp geändert – Neue Tinte kann angemeldet werden"/>
+	<lang name="msg_W99112" value="(W99112) Tintentyp nicht geändert – Bitte wiederholen"/>
+	<lang name="msg_E99120" value="(E99120) Geräte-Code wurde nicht erstellt. Bitte nochmal versuchen"/>
+	<lang name="msg_E99121" value="(E99121) Ungültiger Freischalt-Code"/>
+	<lang name="msg_E99122" value="(E99122) Zulässige Anzahl ungültiger Eingaben überschritten. Der Drucker wird ausgeschaltet."/>
+	<lang name="msg_W99123" value="(W99123) Code akzeptiert, aber Option kann nicht benutzt werden!" />
+	<lang name="msg_W99124" value="(W99124) Code akzeptiert, aber falsche Option war ausgewählt!" />
+	<lang name="msg_E99130" value="(E99130) Interne Batterie defekt. Wechseln Sie die Batterie und starten Sie den Drucker neu. Ist die Batterie gewechselt, starten Sie den Drucker neu"/>
+	<lang name="msg_I99130" value="(I99130) Interne Batterie defekt. Wechseln Sie die Batterie und starten Sie den Drucker neu. Ist die Batterie gewechselt, starten Sie den Drucker neu"/>
+
+	<lang name="msg_E99140" value="(E99140) Neue CPU-Platine kann nicht autorisiert werden!" />
+	<lang name="msg_I99140" value="(I99140) Neue CPU-Platine erfolgreich autorisiert!" />
+	<lang name="msg_E99141" value="(E99141) CPU-Platine ist nicht autorisiert! Bitte kontaktieren Sie Ihren Händler zum Autorisieren!" />
+	<lang name="msg_E99142" value="(E99142) Autorisierungs-Fehler: CPU-Platine kann nicht autorisiert werden! Kommunikationsfehler mit der CPU-Platine. Bitte kontaktieren Sie Ihren Händler." />
+
+
+	<lang name="msg_S90010" value="Aktiv" />
+	<lang name="msg_S90020" value="Deaktiviert" />
+	<lang name="msg_S90030" value="Kartusche fehlerhaft/nicht vorhanden" />
+	<lang name="msg_S90040" value="Kein Transponder registriert" />
+	<lang name="msg_S90050" value="Drucker freigeschaltet" />
+
+</StatusMessages>
+<Barcodes>
+	<lang name="bar_Code_11" value="[b]Zeichensatz:[/b] numerisch 0-9 und Bindestrich\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Wird in der Telekommunikationsindustrie verwendet."/>
+	<lang name="bar_Code_25_Industrial" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Auch bekannt als Code 2 of 5 und Code 25 Industrial. Veralterter Code für industrielle Anwendung."/>		
+	<lang name="bar_Code_25_Interleaved" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Auch bekannt als Code 2 of 5 Interleaved. Industrielle Anwendung."/>
+	<lang name="bar_Code_25_IATA" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Eine Variante des Code 2 of 5, wird in der Luftfahrtindustrie verwendet."/>
+	<lang name="bar_Code_25_DataLogic" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Eine Variante des Code 2 of 5."/>	
+	<lang name="bar_Code_39" value="[b]Zeichensatz:[/b] A-Z, 0-9, 5 Sonderzeichen\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Auch bekannt als Code 3 of 9. Häufig benutzter Code mit Selbstüberprüfung."/>		
+	<lang name="bar_Code_39_Extended" value="[b]Zeichensatz:[/b] ASCII (127 Zeichen)\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Auch bekannt als Code 3 of 9 Extended. Erweiterte Version des Code 39."/>
+	<lang name="bar_EAN" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] abhängig vom gewählten EAN-Barcode\n[b]Beschreibung:[/b] Der EAN-Code wird hauptsächlich in Supermärkten angewendet zur Produktidentifizierung am Verkaufsort. Er enthält Standards für EAN-2 und EAN-5 Add-on Codes, EAN-8 und EAN-13, die entsprechend 2, 5, 7 oder 12 Ziffern kodieren. Folgendes Beispiel zeigt einen EAN-8 Code mit einem EAN-5 Add-on: 1234567+12345."/>
+	<lang name="bar_GS1_128" value="[b]Zeichensatz:[/b] ASCII\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Der EAN/UCC 128 ist eine spezielle Form des Code 128. Er wird verwendet für Waren und Paletten in Wirtschaft und Industrie. Es kann mehr als ein Datenfeld in einem Barcode integriert werden durch die Verwendung von Application Identifiers (Beispiel: [01]2345 , 01 definiert den Application Identifier)"/>
+	<lang name="bar_Codabar" value="[b]Zeichensatz:[/b] 0-9, 6 Sonderzeichen\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Früher Standard von Transfusions-Diensten. Codabar kann jede Codelänge kodieren, die mit den Buchstaben A-D beginnt und endet und dazwischen die Zeichen 0-9, Bindestrich (-), Dollar ($), Doppelpunkt (:), Schrägstrich (/), Punkt (.) oder Plus (+) enthält. Beispiel: A$12+$34C"/>
+	<lang name="bar_Code_128" value="[b]Zeichensatz:[/b] Erweiterter ASCII\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Einer der am weitesten verbreiteten 1D-Barcodes. Moderner Barcode, enthält hochkomprimierte Daten (Beispiel: [1]2345)."/>
+	<lang name="bar_Leitcode" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] 14\n[b]Beschreibung:[/b] Der Leitcode wird verwendet von der Deutschen Post/DHL. Die letzte Ziffer wird automatisch berechnet (Prüfziffer) - nur 13 Ziffern müssen angegeben werden."/>
+	<lang name="bar_Identcode" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] 12\n[b]Beschreibung:[/b] Der Identcode wird verwendet von der Deutschen Post/DHL. Die letzte Ziffer wird automatisch berechnet (Prüfziffer) - nur 11 Ziffern müssen angegeben werden."/>
+	<lang name="bar_Code_16k" value="[b]Zeichensatz:[/b] ASCII\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Gestapelter Code, basierend auf Code 128."/>
+
+	<lang name="bar_Code_93" value="[b]Zeichensatz:[/b] A-Z, 0-9, 5 Sonderzeichen\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Gleicher Zeichensatz wie Code 39, aber kompakterer Code, der weniger Platz benötigt."/>	
+	<lang name="bar_GS1_DataBar-14" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] 14\n[b]Beschreibung:[/b] Neues GTIN Kodierungssystem. Die letzte Ziffer wird automatisch berechnet (Prüfziffer) - nur (bis zu) 13 Ziffern müssen angegeben werden."/>
+	<lang name="bar_GS1_DataBar_Limited" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] 13\n[b]Beschreibung:[/b] Neues GTIN Kodierungssystem."/>	
+	<lang name="bar_GS1_DataBar_Expanded" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Ersatz für GS1-128. Auch bekannt als RSS Expanded. Dies ist ein Code variabler Länge, der die Datenkodierung mehrererAIs in einem einzigen Symbol ermöglicht. AIs müssen in [eckigen Klammern] in den Daten enthalten sein. Beispiel: [01]1236[3202]0125[15]9874"/>
+	<lang name="bar_Telepen_Alpha" value="[b]Zeichensatz:[/b] ASCII\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Übliches Kodierungsschema. Häufig benutzt in Bibliotheken."/>
+	<lang name="bar_UPC-A" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] 12\n[b]Beschreibung:[/b] Der UPC A -Code ist die Standardversion des UPC -Codes und enthält 12 Ziffern. Er wird auch UPC 12 genannt und ist dem EAN-Code sehr ähnlich. Die letzte Ziffer wird automatisch berechnet (Prüfziffer) - nur 11 Ziffern müssen angegeben werden."/>
+	<lang name="bar_UPC-E" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] 8\n[b]Beschreibung:[/b] Dies ist die kurze Version des UPC-A für extrem schmale Produkte.Die letzte Ziffer wird automatisch berechnet (Prüfziffer) - nur 7 Ziffern müssen angegeben werden."/>
+	<lang name="bar_PostNet" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Dieser Code wird verwendet um die Sortier- und Liefergeschwindigkeit von Post zu erhöhen."/>	
+	<lang name="bar_MSI_Plessey" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Ein alter Barcode, ursprünglich verbreitet in der britischen Industrie."/>
+	<lang name="bar_Pharmacode_One-Track" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] -\n[b]Beschreibung:[/b] Pharmacode, auch bekannt als Pharmaceutical Binary Code, ist ein Barcode-Standard, der in der pharmazeutischen Industie zur Verpackungskontrolle eingesetzt wird."/>	
+	<lang name="bar_Pharmacode_Two-Track" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] -\n[b]Beschreibung:[/b] Pharmacode (eine 2-Zeilen-Variante), auch bekannt als Pharmaceutical Binary Code, ist ein Barcode-Standard, der in der pharmazeutischen Industie zur Verpackungskontrolle eingesetzt wird."/>
+
+	<lang name="bar_PZN" value="[b]Zeichensatz:[/b] numerisch 0-9\n[b]Länge:[/b] 7\n[b]Beschreibung:[/b] Pharmazentralnummer für Arznei. Spezielle Form des Code 39."/>
+	<lang name="bar_PDF417" value="[b]Zeichensatz:[/b] Erweiterter ASCII\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] 2D-Barcode Zur Kodierung großer Mengen Text oder Daten in nur einem Code. Gebräuchlich bei Kurierdiensten."/>
+	<lang name="bar_PDF417_Truncated" value="[b]Zeichensatz:[/b] Erweiterter ASCII\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] 2D-Barcode Zur Kodierung großer Mengen Text oder Daten in nur einem Code. Gebräuchlich bei Kurierdiensten."/>
+	<lang name="bar_QR_Code" value="[b]Zeichensatz:[/b] Erweiterter ASCII\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Hochkompakter Code zum Lesen mit Kamera-Handys."/>	
+	<lang name="bar_Australia_Post_4-State" value="[b]Zeichensatz:[/b] A-Z, 0-9\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Zur Identifizierung von Poststücken in Australien."/>
+	<lang name="bar_Royal_Mail_4-State" value="[b]Zeichensatz:[/b] A-Z, 0-9\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Der Royal Mail 4 State Customer Code (RM4SCC) wurde entwickelt für automatisierte Post-Sortier-Prozesse."/>
+	<lang name="bar_DataMatrix" value="[b]Zeichensatz:[/b] ASCII\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] 2D-Barcode Zur Kodierung großer Mengen Text oder Daten in nur einem Code."/>	
+	<lang name="bar_MicroPDF417" value="[b]Zeichensatz:[/b] Erweiterter ASCII\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Version des PDF417 für reduzierten Platz."/>
+	<lang name="bar_template" value="[b]Zeichensatz:[/b] ASCII\n[b]Länge:[/b] variabel\n[b]Beschreibung:[/b] Beschreibung"/>	
+</Barcodes>
+</EBS_EditorLanguage>
+	
+<EBS_LCDGUI>
+<WTitles>
+	<lang name="wtitle_cControlScreen" value="Druckerstatus"/>
+	<lang name="wtitle_cMainScreen" value="Drucker-UI"/>
+	<lang name="wtitle_message" value="Mitteilung"/>
+	<lang name="wtitle_error" value="Fehler"/>
+	<lang name="wtitle_warning" value="Warnung"/>
+	<lang name="wtitle_cProjectPreview" value="Projekt-Vorschau "/>
+	<lang name="wtitle_cProjectSelector" value="Projekt wählen"/>
+	<lang name="wtitle_cSetupScreen" value="Setup"/>
+	<lang name="wtitle_cServiceScreen" value="Service"/>
+	<lang name="wtitle_password" value="Bitte Passwort eingeben"/>
+
+	<lang name="wtitle_cNewObjectDialog" value="Neuen Objekttyp wählen"/>
+	<lang name="wtitle_cFontSelector" value="Font-Auswahl"/>
+	<lang name="wtitle_cFileSelector" value="Datei-Auswahl"/>
+
+	<lang name="window_title_wifi_status" value="Drahtlosnetzwerk-Status"/>
+	<lang name="wtitle_cPrintingParamsScreen" value="Druckparameter"/>
+	<lang name="w_title_edit_choice" value="Was möchten Sie editieren?"/>
+	<lang name="w_title_factory_tunig" value="Einstellungen und Service"/>
+	<lang name="window_title_printer_status" value="Drucker-Status"/>
+	<lang name="wtitle_Add_wifi_network" value="Drahtlosnetzwerk hinzufügen"/>
+	<lang name="wtitle_Edit_wifi_settings" value="Drahtlosnetzwerk-Einstellungen"/>
+
+	<lang name="window_title_alert" value="Achtung!"/>
+	<lang name="wtitle_cInfoScreen" value="Produktinformation"/>
+	<lang name="wtitle_cBatteryDialog" value="Batteriestatus"/>
+	<lang name="wtitle_cBottleDialog" value="Kartuschenstatus"/>
+	<lang name="wtitle_cPurgeScreen" value="Spülen"/>
+	<lang name="window_title_turnoff" value="Bitte wählen"/>
+
+
+	<lang name="window_title_file_presenter" value="Textdatei-Inhalt"/>
+	<lang name="wtitle_cDataTimeDialog" value="Bitte Datum / Zeit einstellen"/>
+	<lang name="wtitle_cDataTimeDialogShort" value="Datum/Zeit einstellen"/>
+	<lang name="wtitle_cEditorScreen" value="Editor"/>
+	<lang name="wtitle_cGeneralSetupDialog" value="Grundeinstellungen"/>
+	<lang name="wtitle_cPendriveScreen" value="Werkseinstellungen"/>
+	<lang name="wtitle_cPowerManager" value="Energie-Einstellungen"/>
+	<lang name="wtitle_cSoundSetupDialog" value="Sound-Einstellungen"/>
+	<lang name="wtitle_cUnclockScreen" value="Freischalten"/>
+	<lang name="wtitle_cUserManager" value="Benutzer-Einstellungen"/>
+	<lang name="wtitle_cUserScr" value="Benutzer"/>
+	<lang name="wtitle_firmware_update_detected" value="Firmware-Upgrade"/>
+	<lang name="wtitle_illegal_filename" value="Unzulässiger Dateiname"/>
+	<lang name="wtitle_image_selection" value="Bitte Grafik wählen"/>
+	<lang name="wtitle_LowBatteryAlert" value="Warnung! Batterie-Alarm!"/>
+	<lang name="wtitle_PrintHeadMismatch" value="Warnung! Keine Projekt- und Schreibkopf-Übereinstimmung!"/>
+	<lang name="wtitle_select_project" value="Bitte Projekt wählen"/>
+	<lang name="wtitle_text_file_selection" value="Bitte Textdatei wählen"/>
+	<lang name="wtitle_connection_error" value="Verbindungsfehler!"/>
+	<lang name="wtitle_cTurnOffDealyScreen" value="Drucker ausschalten in"/>
+
+	<lang name="wtitle_import_message" value="Projektimport-Report"/>
+	<lang name="wtitle_import_messageShort" value="Projektimport-Report"/>
+	<lang name="wtitle_export_message" value="Projektexport-Report"/>
+	<lang name="wtitle_export_messageShort" value="Projektexport-Report"/>
+	<lang name="wtitle_cExportSelectionDialog" value="Bitte Exportmethode wählen"/>
+	<lang name="wtitle_cExportSelectionDialogShort" value="Exportmethode wählen"/>
+
+	<lang name="wtitle_bt_devices_scan" value="Suche nach Bluetooth-Geräten"/>
+
+	<lang name="wtitle_firmware_ugprade_info" value="Firmware-Update Information."/>
+
+	<lang name="wtitle_cProjectPropertiesDialog" value="Projekteigenschaften"/>
+
+	<lang name="wtitle_cBluetoothDialog" value="Bluetooth-Status"/>
+
+	<lang name="wtitle_pm_message" value="Meldung"/>
+	
+	<lang name="wtitle_cMessagesDialog" value="Meldungen"/>
+
+	<lang name="wtitle_wifi_list_dialog" value="Suche nach Wifi-Netzwerken"/>
+
+	<lang name="wtitle_cPendriveDialog" value="Massenspeicher-Status"/>
+	<lang name="wtitle_cPendriveDialogShort" value="Massenspeicher-Status"/>
+	<lang name="wtitle_cUpgradeFirmwareDialog" value="Upgrade Drucker-Firmware"/>
+	<lang name="wtitle_cUpgradeFirmwareDialogShort" value="Upgrade Firmware"/>
+
+	<lang name="wtitle_PleaseSelectFileForImport" value="Datei für Import wählen"/>
+	<lang name="wtitle_cExportProjectSelector" value="Projekt für Export wählen"/>
+
+	<lang name="wtitle_cObjectListDialog" value="Objektliste/Zwischenablage/Papierkorb"/>
+	<lang name="wtitle_ProjectNotFound" value="Fehler"/>
+	<lang name="wtitle_EditProjectName" value="Projektname eingeben"/>
+	<lang name="wtitle_Confirmation" value="Bestätigen"/>
+	<lang name="window_kernel_missmatch" value="Internal software error"/>
+
+	<lang name="wtitle_cRestoreDialog" value="Wiederherstellung von Systemdaten"/>
+	<lang name="wtitle_new_directory_name" value="Gebe Verzeichnisname ein ..."/>
+	<lang name="wtitle_Select" value="Wähle"/>
+
+	<lang name="wtitle_firmware_ugprade_error" value="Fehler bei Softwareaktualisierung."/>
+
+</WTitles>
+<Labels>
+	<lang name="lbl_status" value="Status"/>
+	<lang name="lbl_project" value="Projekt"/>
+	<lang name="lbl_directories" value="Verzeichnisse"/>
+	<lang name="lbl_projects" value="Projekte"/>
+	<lang name="lbl_inklevel" value="Tintenstand"/>
+	<lang name="lbl_ipmodeselect" value="Drucker-IP-Adresse"/>
+	<lang name="lbl_dhcp" value="Automatisch (DHCP)"/>
+	<lang name="lbl_static" value="Manuell (Statisch)"/>
+	<lang name="lbl_ip" value="IP"/>
+	<lang name="lbl_netmask" value="Subnetzmaske"/>
+	<lang name="lbl_gateway" value="Gateway"/>
+	<lang name="lbl_dns" value="DNS"/>
+	<lang name="lbl_messages" value="mitteilungen"/>
+	<lang name="lbl_autostart" value="Autostart aktuelles Projekt"/>
+	<lang name="lbl_TxtRepetitions" value="Druckwiederholung"/>
+	<lang name="lbl_internalGenerator" value="interner Generator"/>
+	<lang name="lbl_externalSource" value="externe Quelle"/>
+	<lang name="lbl_edge" value="Flanke"/>
+	<lang name="lbl_level" value="Pegel"/>
+	<lang name="lbl_positiveEdge" value="positive Flanke"/>
+	<lang name="lbl_negativeEdge" value="negative Flanke"/>
+	<lang name="lbl_highLevel" value="high-Pegel"/>
+	<lang name="lbl_lowLevel" value="low-Pegel"/>
+	<lang name="lbl_normal" value="normal"/>
+	<lang name="lbl_hex" value="Hexadezimal"/>
+	<lang name="lbl_flipped" value="kopfstehend"/>
+	<lang name="lbl_reversed" value="rückwärts"/>
+	<lang name="lbl_internal" value="intern"/>
+	<lang name="lbl_external" value="extern"/>
+	<lang name="lbl_both" value="beide"/>
+	<lang name="lbl_currentuser" value="Akt. Benutzer:"/>
+	<lang name="lbl_editor" value="Editor:"/>
+	<lang name="lbl_printer" value="Drucker:"/>
+	<lang name="lbl_items" value="Begriffe"/>	
+	<lang name="lbl_one_time_code" value="Geräte-Code"/>
+	<lang name="lbl_unlock_code" value="Freischalt-Code"/>
+
+	<lang name="lbl_new_object_selection" value="Neuen Objekttyp wählen"/>
+	<lang name="lbl_text_object" value="Text"/>
+	<lang name="lbl_datetime_object" value="Datum/Zeit"/>
+	<lang name="lbl_counter_object" value="Zähler"/>
+	<lang name="lbl_comport_object" value="Übertragungskanal"/>
+	<lang name="lbl_texfile_object" value="Textdatei einfügen"/>
+	<lang name="lbl_line_divider" value="Zeilentrenner"/>
+	<lang name="lbl_image_object" value="Grafik"/>
+	<lang name="lbl_barcode_object" value="Barcode"/>
+	<lang name="lbl_quick_preview" value="Quick-Vorschau"/>
+	<lang name="lbl_image_path" value="Grafikdatei"/>
+	<lang name="lbl_transform_mode" value="Größenänderung zulassen"/>
+	<lang name="lbl_text" value="Text"/>
+	<lang name="lbl_printer_time" value="Aktuelle Druckerzeit"/>
+	<lang name="lbl_date_offset" value="Datum-Offset"/>
+	<lang name="lbl_time_offset" value="Zeit-Offset"/>
+	<lang name="lbl_object_properties" value="Objektparameter"/>
+	<lang name="lbl_object_name" value="Objektname"/>
+	<lang name="lbl_position" value="Position"/>
+	<lang name="lbl_size" value="Objektgröße"/>
+	<lang name="lbl_autosize" value="Auto-Größe"/>
+	<lang name="lbl_transparent" value="Transparent"/>
+	<lang name="lbl_object_rotation" value="Objekt drehen"/>
+	<lang name="lbl_text_properties" value="Textparameter"/>
+	<lang name="lbl_fontname" value="Schriftart"/>
+	<lang name="lbl_fontsize" value="Schriftgrad"/>
+	<lang name="lbl_font_constrain_proportions" value="Gleiche Proportionen"/>
+	<lang name="lbl_line_spacing" value="Zeilenabstand"/>
+	<lang name="lbl_must_edit" value="Bearbeiten vor dem Druckstart"/>
+	<lang name="lbl_advance_properties" value="Erweiterte Eigenschaften"/>
+	<lang name="lbl_date_separator" value="Datum-Separator"/>
+	<lang name="lbl_date_format" value="Datum-Format"/>
+	<lang name="lbl_time_separator" value="Zeit-Separator"/>
+	<lang name="lbl_time_format" value="Zeit-Format"/>
+	<lang name="lbl_formatting_string_edition" value="Benutzerdefinierte Edition zulassen"/>
+	<lang name="lbl_formatting_string" value="Benutzerdefiniert"/>
+	<lang name="lbl_barcode_properties" value="Barcode-Eigenschaften"/>
+	<lang name="lbl_barcode_type" value="Barcode-Typ"/>
+	<lang name="lbl_border_type" value="Rahmentyp"/>
+	<lang name="lbl_none" value="kein"/>
+	<lang name="lbl_bind" value="oben-unten"/>
+	<lang name="lbl_box" value="komplett"/>
+	<lang name="lbl_border_size" value="Rahmengröße"/>
+	<lang name="lbl_barcode_desc" value="Barcode-Kurzbeschreibung"/>
+	<lang name="lbl_counter_properties" value="Zähler %i -Eigenschaften"/>
+	<lang name="lbl_visible" value="Diesen Zähler zeigen"/>
+	<lang name="lbl_min" value="Min"/>
+	<lang name="lbl_max" value="Max"/>
+	<lang name="lbl_Start_mode" value="Startmodus"/>
+	<lang name="lbl_start_value" value="Startwert"/>
+	<lang name="lbl_last_value" value="Letzter Wert"/>
+	<lang name="lbl_step" value="Schrittweite"/>
+	<lang name="lbl_lenght" value="Länge"/>
+	<lang name="lbl_fillin" value="Führende Nullen"/>
+	<lang name="lbl_suffix" value="Suffix"/>
+	<lang name="lbl_space" value="Leerstelle"/>
+	<lang name="lbl_select_image_file" value="Bitte Grafikdatei wählen..."/>
+	<lang name="lbl_enter_text" value="Geben Sie hier Ihren Text ein..."/>
+	<lang name="lbl_font_preview" value="Font-Vorschau"/>
+	<lang name="lbl_font_set" value="Zeichensatz"/>
+	<lang name="lbl_factory_default" value="System"/>
+	<lang name="lbl_Users" value="Benutzer"/>
+	<lang name="lbl_enter_filename" value="Dateiname eingeben..."/>
+
+	<lang name="lbl_object_position_x" value="Objekt-Position x"/>
+	<lang name="lbl_object_position_y" value="Objekt-Position y"/>
+	<lang name="lbl_object_width" value="Objekt-Breite"/>
+	<lang name="lbl_object_height" value="Objekt-Höhe"/>
+	<lang name="lbl_font_width" value="Font-Breite"/>
+	<lang name="lbl_font_height" value="Font-Höhe"/>
+	<lang name="lbl_turnoffnow" value="Jetzt ausschalten"/>
+
+
+	<lang name="lbl_configure" value="Konfiguration"/>
+	<lang name="lbl_wifi_on" value="Ein"/>
+	<lang name="lbl_wifi_off" value="Aus"/>
+	<lang name="lbl_purge" value="Spülen"/>
+	<lang name="lbl_print_test" value="Drucken"/>
+	<lang name="lbl_tune" value="Einstellen"/>
+	<lang name="lbl_speed" value="Geschwindigkeit"/>
+	<lang name="lbl_drop" value="Düsennummer"/>
+	<lang name="lbl_bat_temp" value="Temperatur"/>
+	<lang name="lbl_capacity" value="Batteriestand"/>
+	<lang name="lbl_current" value="Strom"/>
+	<lang name="lbl_voltage" value="Spannung"/>
+	<lang name="lbl_bat_status" value="Batteriestatus"/>
+	<lang name="lbl_discharging" value="Entladung"/>
+	<lang name="lbl_charging" value="Aufladung"/>
+	<lang name="lbl_missing" value="nicht vorhanden"/>
+	<lang name="lbl_unknown" value="unbekannt"/>
+	<lang name="lbl_charged" value="aufgeladen"/>
+	<lang name="lbl_Unchanged" value="unverändert"/>
+	<lang name="lbl_wifi_signal" value="Signalstärke"/>
+	<lang name="lbl_wifi_bssid" value="BSSID"/>
+	<lang name="lbl_wifi_ssid" value="SSID"/>
+	<lang name="lbl_wifi_ip" value="IP-Adresse"/>
+	<lang name="lbl_wifi_status" value="Status"/>
+	<lang name="lbl_wifi_channel" value="Kanal"/>
+	<lang name="lbl_disable_this_network" value="Nicht mit diesem Netzwerk verbinden"/>
+	<lang name="lbl_wifi_security" value="Verschlüsselung"/>
+	<lang name="lbl_wifi_psk" value="Netzwerkschlüssel"/>
+	<lang name="lbl_wifi_psk_type" value="Schlüsseltyp"/>
+	<lang name="wifi_unknown" value="Unbekannt"/>
+	<lang name="wifi_scanning" value="Scannen"/>
+	<lang name="wifi_associating" value="Verbinden"/>
+	<lang name="wifi_disconnected" value="Getrennt"/>
+	<lang name="wifi_connected" value="Verbunden"/>
+	<lang name="wifi_waiting_for_ip" value="Netzwerkadresse beziehen"/>	
+	<lang name="wifi_sec_802.1x" value="802.1x(EAP)"/>
+	<lang name="wifi_sec_WPA2/EAP" value="WPA2/EAP"/>
+	<lang name="wifi_sec_WPA2/PSK" value="WPA2/PSK"/>
+	<lang name="wifi_sec_WPA/EAP" value="WPA/EAP"/>
+	<lang name="wifi_sec_WPA/PSK" value="WPA/PSK"/>
+	<lang name="wifi_sec_WEP" value="WEP"/>
+	<lang name="wifi_sec_none" value="Keine"/>
+	<lang name="wifi_psk_ascii" value="ASCII"/>
+	<lang name="wifi_psk_hex" value="HEX"/>
+	<lang name="lbl_edit_panel" value="Bearbeitung"/>
+	<lang name="lbl_service_panel" value="Service-Optionen"/>
+	<lang name="lbl_printer_version" value="Drucker"/>
+	<lang name="lbl_system_version" value="System-Version"/>
+	<lang name="lbl_pui_version" value="PUI"/>
+	<lang name="lbl_pm_version" value="Drucker-Manager"/>
+	<lang name="lbl_wifi_networks:" value="Drahtlosnetzwerke:"/>
+	<lang name="lbl_inkcolour" value="Tintenfarbe"/>
+	<lang name="lbl_expiration_date" value="Haltbarkeitsdatum"/>
+	<lang name="lbl_acceptance_date" value="Anmeldedatum"/>
+	<lang name="lbl_Login" value="Login"/>
+
+	<lang name="lbl_normal_level" value="Normale Helligkeit"/>
+	<lang name="lbl_turnoff_time" value="Display ausschalten nach"/>
+	<lang name="lbl_dim_time" value="Display dimmen nach"/>
+	<lang name="lbl_dimmed_level" value="Dimm-Helligkeit"/>
+	<lang name="lbl_never" value="nie"/>
+	<lang name="lbl_Date" value="Datum [JJJJ MM TT]"/>
+	<lang name="lbl_Time" value="Zeit [HH:MM]"/>
+
+	<lang name="lbl_enable_counter_section_number" value="Benutze Zähler %i"/>
+	<lang name="lbl_object_properties_page" value="Format"/>
+	<lang name="lbl_main_properties_page" value="Start"/>
+	<lang name="lbl_advance_properties_page" value="Erweitert"/>
+	<lang name="lbl_text_properties_page" value="Text"/>
+	<lang name="lbl_Bluetooth_settings" value="Bluetooth-Einstellungen"/>
+	<lang name="lbl_Communication" value="Kommunikation"/>
+	<lang name="lbl_General" value="Grundlegend"/>
+	<lang name="lbl_Basic" value="Allgemein"/>
+	<lang name="lbl_Basic_Settings" value="Allgemein"/>
+	<lang name="lbl_Advanced" value="Erweitert"/>
+	<lang name="lbl_Messages" value="Meldungen"/>
+	<lang name="lbl_Warnings" value="Warnungen"/>
+	<lang name="lbl_ascii_code" value="ASCII-Kode"/>
+	<lang name="lbl_Baud_rate" value="Baudrate"/>
+	<lang name="lbl_Bit_count" value="Datenbits"/>
+	<lang name="lbl_Bluetooth" value="Bluetooth"/>
+	<lang name="lbl_BatteryLowWarningSound" value="Batteriestands-Warnsound"/>
+	<lang name="lbl_Communication_properties_page" value="Kommunikationsparameter"/>
+	<lang name="lbl_Communication_type" value="Kommunikationstyp"/>
+	<lang name="lbl_Network_configuration_method" value="Konfigurationsmethode"/>
+	<lang name="lbl_Confirm_password" value="Passwort bestätigen"/>
+	<lang name="lbl_Current_password" value="Bisheriges Passwort"/>
+	<lang name="lbl_New_password" value="Neues Passwort"/>
+	<lang name="lbl_data_buffering" value="Datenpufferung"/>
+	<lang name="lbl_day" value="Tag"/>
+	<lang name="lbl_deactivation_date" value="Deaktivierungs-Datum"/>
+	<lang name="lbl_Do_nothing" value="Keine Aktion"/>
+	<lang name="lbl_Empty" value="Leer"/>
+	<lang name="lbl_Last_message" value="Letzter Text"/>
+	<lang name="lbl_Disabled" value="Aus"/>
+	<lang name="lbl_Enabled" value="Ein"/>
+	<lang name="lbl_Enable_sound" value="Sound ein"/>
+	<lang name="lbl_Errorsound" value="Fehler-Sound"/>
+	<lang name="lbl_FileModification" value="Datei-Änderung"/>
+	<lang name="lbl_File_path" value="Dateipfad"/>
+	<lang name="lbl_Group_name" value="Gruppenname"/>
+	<lang name="lbl_hour" value="Stunde"/>
+	<lang name="lbl_Image_preview" value="Grafikvorschau"/>
+	<lang name="lbl_ImageSize:" value="Grafikgröße:"/>
+	<lang name="lbl_IMSAcceptSound" value="'Tinte akzeptiert'-Sound"/>
+	<lang name="lbl_Keyboard_audio_feedback" value="Tasten-Audiofeedback"/>
+	<lang name="lbl_Language" value="Sprache"/>
+	<lang name="lbl_Laser" value="Laser"/>
+	<lang name="lbl_Letterspacing" value="Zeichenabstand"/>
+	<lang name="lbl_Line_count" value="Zeilenanzahl"/>
+	<lang name="lbl_Line_last_value" value="Endzeile"/>
+	<lang name="lbl_Line_max" value="max. Zeilen"/>
+	<lang name="lbl_Line_start_value" value="Startzeile"/>
+	<lang name="lbl_Line_step" value="Zeilenschritt"/>
+	<lang name="lbl_login_name" value="Benutzer Login-Name"/>
+	<lang name="lbl_MessagesSound" value="Meldungs-Sound"/>
+	<lang name="lbl_minute" value="Minute"/>
+	<lang name="lbl_month" value="Monat"/>
+	<lang name="lbl_No_data_action" value="Keine Daten"/>
+	<lang name="lbl_Port" value="Port"/>
+	<lang name="lbl_Power" value="Batterie"/>
+	<lang name="lbl_PrinterOffSound" value="'Drucker aus'-Sound"/>
+	<lang name="lbl_printing" value="druckt"/>
+	<lang name="lbl_printing_and_purge" value="drucken und spülen"/>
+	<lang name="lbl_Raport" value="Report"/>
+	<lang name="lbl_ready_to_print_after" value="Drucken nach "/>
+	<lang name="lbl_Rowmultiply" value="Reihenwiederholung"/>
+	<lang name="lbl_second" value="Sekunde"/>
+	<lang name="lbl_Sending_msgs_format" value="Übertragungsformat"/>
+	<lang name="lbl_set_date_time" value="Datum/Zeit einstellen"/>
+	<lang name="lbl_Shape_object" value="Form"/>
+	<lang name="lbl_Sound" value="Sound"/>
+	<lang name="lbl_StartPrintingSound" value="Druckstart-Sound"/>
+	<lang name="lbl_StopPrintingSound" value="Druckstopp-Sound"/>
+	<lang name="lbl_textfile_object" value="Textdatei"/>
+	<lang name="lbl_Time_interval_[ms]" value="Zeitintervall [ms]"/>
+	<lang name="lbl_Data_count" value="Zeichenanzahl"/>
+	<lang name="lbl_End_character" value="Endzeichen"/>
+	<lang name="lbl_TooFastPrintingSound" value="'Zu schnell drucken'-Sound"/>
+	<lang name="lbl_Touchscreen_audio_feedback" value="Touchscreen-Audiofeedback"/>
+	<lang name="lbl_unlock_and_restore" value="Freischalten und Wiederherstellen"/>
+	<lang name="lbl_User_icon" value="Benutzersymbol"/>
+	<lang name="lbl_Users:" value="Benutzer:"/>
+	<lang name="lbl_version" value="Version"/>
+	<lang name="lbl_WarningSound" value="Warnung-Sound"/>
+	<lang name="lbl_wifi" value="WIFI"/>
+	<lang name="lbl_year" value="Jahr"/>
+	<lang name="lbl_Locale_settings" value="Lokale Einstellungen"/>
+	<lang name="lbl_User_settings" value="Benutzer-Einstellungen"/>
+	<lang name="lbl_wifi_disabled" value="WIFI aus"/>
+	<lang name="lbl_Wifi_settings" value="WIFI-Einstellungen"/>
+	<lang name="lbl_wifi_mac" value="MAC-Adresse"/>
+	<lang name="lbl_btaddress" value="Bluetooth-Adresse"/>
+	<lang name="lbl_btname" value="Bluetooth-Gerätename"/>
+	<lang name="lbl_Disconnected" value="Getrennt"/>
+	<lang name="lbl_Pressure" value="Druck"/>
+	<lang name="lbl_Intensivity" value="Intensität"/>
+	<lang name="lbl_On" value="Ein"/>
+	<lang name="lbl_Off" value="Aus"/>
+	<lang name="lbl_Scan" value="Scan"/>
+	<lang name="lbl_Export_all" value="Alle Projekte"/>
+	<lang name="lbl_Export_single" value="Einzelnes Projekt"/>
+	<lang name="lbl_Export" value="Export"/>
+	<lang name="lbl_Import" value="Import"/>
+	<lang name="lbl_Upgrade" value="Upgrade"/>
+	<lang name="lbl_Enable_screen_lock" value="Touchscreen-Sperre"/>
+
+	<lang name="lbl_detected_bt_devices:" value="Erkannte Bluetooth-Geräte:"/>
+	<lang name="lbl_btremoteaddress" value="Remote-Adresse"/>
+	<lang name="lbl_Disconnect" value="Trennen"/>
+	<lang name="lbl_disconnect" value="trennen"/>
+	<lang name="lbl_Connected" value="Verbunden"/>
+	<lang name="lbl_Connecting..." value="Verbinde, bitte warten..."/>
+	<lang name="lbl_Connected_BT" value="Verbunden mit Bluetooth-Gerät"/>
+
+	<lang name="lbl_solventtype" value="Solvent-Typ"/>
+	<lang name="lbl_colourtype" value="Farb-Typ"/>
+	<lang name="lbl_Nonpigment" value="Nicht pigmentiert"/>
+	<lang name="lbl_Pigment" value="Pigmentiert"/>
+	<lang name="lbl_Acetone" value="Aceton"/>
+	<lang name="lbl_Ethanol" value="Ethanol"/>
+	<lang name="lbl_MEK" value="MEK"/>
+	<lang name="lbl_Glikol" value="Glykol"/>
+	<lang name="lbl_Water" value="Wasser"/>
+	<lang name="lbl_Mek+Eth++" value="MEK + Ethanol"/>
+
+	<lang name="lbl_Settings" value="Einstellungen"/>
+
+	<lang name="lbl_Size_unit" value="Größeneinheit"/>
+	<lang name="lbl_Workspace_width" value="Projektlänge"/>
+
+
+	<lang name="lbl_Resolution" value="Auflösung"/>
+	<lang name="lbl_scanning" value="scannen"/>
+	<lang name="lbl_FitFrame2Text" value="Feld an Text anpassen"/>
+	<lang name="lbl_FitText2Frame" value="Text an Feld anpassen"/>
+	<lang name="lbl_Without_scalling" value="Keine Skalierung"/>
+	<lang name="lbl_Scaling" value="Scaling"/>
+	<lang name="lbl_must_edit_counter" value="Zähler editieren vor Druckstart"/>
+	<lang name="lbl_Filled" value="Füllung"/>
+	<lang name="lbl_Invert" value="Invertieren"/>
+	<lang name="lbl_Line_width" value="Linienstärke"/>
+
+	<lang name="lbl_Shape_objects" value="Formen"/>
+	<lang name="lbl_Other_objects" value="Andere"/>
+	<lang name="lbl_Text_objects" value="Text"/>
+	<lang name="lbl_Shape_object_elpise" value="Kreis"/>
+	<lang name="lbl_Shape_object_line" value="Linie"/>
+	<lang name="lbl_Shape_object_rectangle" value="Rechteck"/>
+
+	<lang name="lbl_printer_id" value="Seriennummer"/>
+	<lang name="lbl_barcode_signature" value="Signatur"/>
+
+	<lang name="lbl_Modification:" value="Letzte Änderung:"/>
+	<lang name="lbl_EBSCloud" value="EBS Cloud"/>
+
+	<lang name="lbl_Errors" value="Fehler"/>
+	<lang name="lbl_Other" value="Andere"/>
+
+	<lang name="lbl_Media_size" value="Speichergröße"/>
+	<lang name="lbl_Media_used" value="Speicher benutzt"/>
+	<lang name="lbl_Media_available" value="Speicher verfügbar"/>
+
+	<lang name="lbl_avr_version" value="AVR-Firmware"/>
+
+	<lang name="lbl_Auto_turnoff_time" value="Drucker ausschalten nach"/>
+
+	<lang name="lbl_Objects_list" value="Objekte"/>
+	<lang name="lbl_Clipboard" value="Zwischenablage"/>
+	<lang name="lbl_Trash" value="Papierkorb"/>	
+
+	<lang name="lbl_Manage" value="Verwalten"/>
+
+	<lang name="lbl_basicStatistics" value="Grundstatistiken"/>
+	<lang name="lbl_report" value="Report"/>
+	<lang name="lbl_userInfoReport" value="Benutzer-Rep."/>
+	<lang name="lbl_serviceInfoReport" value="Service-Report"/>
+	<lang name="lbl_infoReport" value="EBS-Report"/>
+	<lang name="lbl_OperateTime" value="Betriebszeit"/>
+	<lang name="lbl_MadePrintouts" value="Ausdrucke"/>
+	<lang name="lbl_ExploitationStat" value="Nutzungs-Statistiken"/>
+	<lang name="lbl_ClearStatUser" value="Benutzer-Report löschen"/>
+	<lang name="lbl_ClearStatService" value="Service-Report löschen"/>
+	<lang name="lbl_pwrm_version" value="Energie-Manager"/>
+	<lang name="lbl_SimpleMenu" value="Einfach-Menü"/>
+	<lang name="lbl_tools_panel" value="Menü"/>
+	<lang name="lbl_Detailed_information" value="Ausführliche Informationen"/>
+	<lang name="lbl_param_tab1" value="Druckbild"/>
+	<lang name="lbl_param_tab2" value="Position"/>
+	<lang name="lbl_Clear_stats" value="Löschen"/>
+	<lang name="lbl_Enable_networking" value="Netz ein"/>
+	<lang name="lbl_Configure_network_with_DHCP" value="Automat. Netzwerk-Konfig. (m. DHCP)"/>
+	<lang name="lbl_Current_IP" value="Aktuelle IP"/>
+	<lang name="lbl_network" value="Netzwerk"/>
+	<lang name="lbl_ExpertSettings" value="Erweiterte Einstellungen"/>
+	<lang name="lbl_OnPrintStart" value="Am Druckanfang"/>
+	<lang name="lbl_OnDataProcess" value="Während der Datenverarbeitung"/>
+	<lang name="lbl_OnPrintFinish" value="Am Druckende"/>
+	<lang name="lbl_FormatString" value="Kommandozeile"/>
+	<lang name="lbl_connecting" value ="verbinde"/>
+
+	<lang name="lbl_enter_filter_string" value ="Please enter filtering string"/>
+	<lang name="lbl_message_repeated_n_times" value ="Message repeated %i times."/>
+
+</Labels>
+
+<Buttons>
+	<lang name="btn_mainmenu" value="Hauptmenü"/>
+	<lang name="btn_Start" value="Start"/>
+	<lang name="btn_Stop" value="Stopp"/>
+	<lang name="btn_maincontrol" value="Druckerkontrolle"/>
+	<lang name="btn_Setup" value="Setup"/>
+	<lang name="btn_Exit" value="Ausschalten"/>
+	<lang name="btn_Yes" value="Ja"/>
+	<lang name="btn_No" value="Nein"/>
+	<lang name="btn_Cancel" value="Abbrechen"/>
+	<lang name="btn_Ok" value="OK"/>
+	<lang name="btn_next" value="nächste Mitteilung"/>
+	<lang name="btn_prev" value="vorhergehende Mitteilung"/>
+	<lang name="btn_back" value="Zurück"/>
+	<lang name="btn_Preview" value="Vorschau"/>
+	<lang name="btn_Edit" value="Ändern"/>
+	<lang name="btn_Save" value="Speichern"/>
+	<lang name="btn_Apply" value="Anwenden"/>
+	<lang name="btn_Clear" value="LÖSCHEN"/>
+	<lang name="btn_Open_project" value="Projekt öffnen"/>
+	<lang name="btn_Purgeon" value="Spülen"/>
+	<lang name="btn_Longpurgeon" value="Lang Spülen"/>
+	<lang name="btn_Purgeoff" value="Stopp Spülen"/>
+	<lang name="btn_Service" value="Service"/>
+	<lang name="btn_Printer_control" value="Druckerkontrolle"/>
+	<lang name="btn_Logout" value="Abmelden"/>
+	<lang name="btn_creatependrive" value="Werkseinstellung !"/>
+	<lang name="btn_Retry" value="Wiederholen"/>
+	<lang name="btn_Printing_parameters" value="Druckparameter"/>
+	<lang name="btn_Create_new_project" value="Neues Projekt"/>
+	<lang name="btn_Unlock" value="Freischalten"/>
+
+	<lang name="btn_Save_and_exit" value="Speichern u. schließen"/>
+	<lang name="btn_Project_close" value="Projekt schließen"/>
+
+	<lang name="btn_printing_params" value="Druckparameter"/>
+	<lang name="btn_Project" value="Projekt"/>
+	<lang name="btn_Parameters" value="Parameter"/>
+	<lang name="btn_Create_project" value="Projekt erstellen"/>
+	<lang name="btn_Create_list" value="Liste erstellen"/>
+	<lang name="btn_Edit_project" value="Projekt editieren"/>
+	<lang name="btn_Edit_list" value="Liste editieren"/>
+
+	<lang name="btn_Purge" value="Spülen"/>
+	<lang name="btn_LongPurge" value="Lang spülen"/>
+	<lang name="btn_Restore" value="Wiederherstellen"/>
+	<lang name="btn_Info" value="Produktinformation"/>
+	<lang name="btn_Show_messages" value="Meldungen anzeigen"/>
+	<lang name="btn_Off" value="Aus"/>
+	<lang name="btn_Restart" value="Neustart"/>
+
+	<lang name="btn_confirm_upgrade" value="Upgrade bestätigen"/>
+
+	<lang name="btn_Accept" value="Übernehmen"/>
+	<lang name="btn_Factory" value="Factory"/>
+	<lang name="btn_Menu" value="Menü"/>
+	<lang name="btn_Mesure" value="Messen"/>
+	<lang name="btn_Reject" value="Verwerfen"/>
+
+	<lang name="btn_RemoteUnlock" value="Online-Freischaltung"/>
+	<lang name="btn_Upgrade" value="Upgrade"/>
+
+	<lang name="btn_Statistics" value="Statistiken"/>
+	<lang name="btn_Messages" value="Meldungen"/>
+	<lang name="btn_Tools" value="Menü"/>
+	<lang name="btn_Usb" value="USB"/>
+	<lang name="btn_Tuning" value="Einstellungen"/>
+	<lang name="btn_ShortInfo" value="Information"/>
+	<lang name="btn_LockScreen" value="Display sperren"/>
+	<lang name="btn_Continue_edition" value="Editierung fortsetzen" />
+
+</Buttons>
+<Messages>
+	<lang name="msg_D0100" value="Print off (bereit...)"/>
+	<lang name="msg_D0101" value="Print on (warte...)"/>
+	<lang name="msg_D0102" value="Print on (druckt...)"/>
+	<lang name="msg_D0000" value="Treiber fehlt"/>
+	<lang name="msg_D0001" value="Fehler beim Senden des Kommandos an den Druckertreiber"/>
+	<lang name="msg_D0002" value="Druckerstatus unbekannt"/>
+	<lang name="msg_D0003" value="Projekt nicht ausgewählt"/>
+	<lang name="msg_turnOffPrinter" value="Drucker jetzt ausschalten?"/>
+	<lang name="msg_projectDirDoNotExist" value="Fehler! Projektverzeichnis existiert nicht!"/>
+	<lang name="msg_projectDirPermisionError" value="Fehler! Projektverzeichnis nicht lesbar!"/>
+	<lang name="msg_notProjectFile" value="Fehler! Keine zulässige Projektdatei!"/>
+	<lang name="msg_useDefaultNetConfig" value="Netzwerkeinstellungen nicht gefunden. Benutze Werkseinstellungen"/>	
+	<lang name="msg_AccessDenied" value="Netzwerkeinstellung können nicht gespeichert werden - Zugriff verweigert"/>
+	<lang name="msg_canNotSaveNetConfigDiskFull" value="Netzwerkeinstellung können nicht gespeichert werden - Speicher voll"/>
+	<lang name="msg_canNotSaveNetConfigNoPendrive" value="Netzwerkeinstellung können nicht gespeichert werden - USB-Stick nicht vorhanden"/>
+	<lang name="msg_editValueError" value="Fehlerhafte Werte sind rot markiert. Bitte korrigieren und wiederholen"/>
+	<lang name="msg_wrongNetmask" value="Falscher Netmask-Wert ."/>
+	<lang name="msg_canNotReconfigureNet" value="Netzwerkverbindung kann nicht wiederhergestellt werden."/>
+	<lang name="msg_deleteAllMessages" value="Möchten Sie wirklich alle Mitteilungen löschen?"/>
+	<lang name="msg_confirmAllMessages" value="Möchten Sie wirklich alle Mitteilungen als gelesen markieren und dann löschen?"/>
+	<lang name="msg_reopenProject" value="Aktuelles Projekt wurde verändert. \nMöchten Sie es neu öffnen?"/>	
+	<lang name="msg_ipnotallocated" value="IP-Adresse nicht zugeordnet"/>
+	<lang name="msg_password_error" value="Falsches Passwort!"/>
+	<lang name="msg_cancel_edition" value="Sind Sie sicher, dass Sie die Editierung abbrechen wollen? \nAlle Änderungen gehen verloren!"/>	
+	<lang name="msg_paramsOutOfRange" value="Fehler ! Rot markierte Parameter sind außerhalb des zulässigen Bereichs ! Bitte korrigieren und wiederholen"/>
+	<lang name="msg_resetCounterVF" value="Achtung: Um diesen Vorgang durchzuführen stellen Sie sicher, dass das aktuelle Projekt nicht gedruckt wird. \nDer Vorgang überschreibt aktuell gespeicherte (letzte) Werte dieses Zählers."/>
+	<lang name="msg_editProjectWhenPrintOn" value="Achtung ! Das ausgewählte Projekt wird gerade gedruckt. Ein Zähler-Reset ist nicht möglich! \nFortsetzen?"/>
+	<lang name="msg_powerOff_in_x_sec" value="Drucker wird ausgeschaltet in %d Sek."/>
+	<lang name="msg_please_wait" value="Bitte warten..."/>
+	<lang name="msg_shutdown_in_progress" value="Herunterfahren..."/>
+
+	<lang name="msg_improper_poweroff" value="Achtung! Drucker wurde fehlerhaft ausgeschaltet, Datenverlust oder Fehlfunktionen sind möglich. Bitte befolgen Sie immerdie Vorgehensweise zum Herunterfahren."/>
+	<lang name="msg_open_project_error" value="FEHLER: Projekt laden fehlgeschlagen!"/>
+	<lang name="msg_editor_communication_error" value="Kommunikationsfehler. Editor-Modul antwortet nicht. Bitte System überprüfen und erneut versuchen. Wenn das System gerade druckt, bitte stoppen und erneut versuchen."/>"
+	<lang name="msg_edit_project_priority_too_low" value="Projekt ist geöffnet zum Editieren am WWW-Editor. \nSie sind nicht berechtigt, das Projekt jetzt zu öffnen."/>
+	<lang name="msg_confirm_forced_edition" value="Projekt ist geöffnet zum Editieren am WWW-Editor. \nMöchten Sie das Öffnen erzwingen ?"/>
+	<lang name="msg_projectEditedByWWW" value="Projekt geschlossen, weil Editierung vom WWW-Editor gestartet wurde."/>
+	<lang name="msg_long_purge_confirmation" value="Sie starten den langen Spülvorgang. Dieser ist vorgesehen um bei einer Neu-Installation das leere Tintensystem aufzufüllen. Dieser Vorgang verbraucht viel Tinte. Sie können ihn jederzeit stoppen \nindem Sie 'Stopp Spülen' drücken. \n \nSpülen starten?"/>
+	<lang name="msg_long_purge_in_progress" value="Spülen im Gange. \nVerbleibende Zeit: %d [s]"/>
+	<lang name="msg_restore_storage_data" value="Möchten Sie den Speicherinhalt KOMPLETT LÖSCHEN und die Werkseinstellungen wiederherstellen? Alle Projektdaten und Druckereinstellungen WERDEN GELÖSCHT !" />
+	<lang name="msg_stop_and_restore_data" value="Warnung! Druck ist eingeschaltet ! Möchten Sie den Druck stoppen und den Speicher auf Werkseinstellungen zurücksetzen? Projektdaten und Druckereinstellungen GEHEN VERLOREN !" />
+	<lang name="msg_pendrive_error" value="Achtung ! USB-Stick nicht vorhanden oder beschädigt.Sie können den Drucker herunterfahren und einen korrekten USB-Stick anschließen oder den beschädigten Stick auf Werkseinstellungen zurücksetzen. Drücken Sie 'Ausschalten' um den Drucker herunterzufahren oder 'Werkseinstellung !' um den Stick zurückzusetzen."/>
+	<lang name="msg_pendrive_restore" value="Bitte stellen Sie sicher, dass ein korrekter USB-Stick im Drucker-USB-Slot steckt. Der vorhandene Inhalt wird gelöscht und die Werkseinstellungen wiederhergestellt. \nZum Fortfahren drücken Sie 'OK', zum Abbrechen drücken Sie 'Abbrechen'."/>
+	<lang name="msg_pendrive_restore_ok" value="Werkseinstellungen erfolgreich wiederhergestellt. Neustart ist erforderlich. Bitte drücken Sie 'OK', Drucker wird ausgeschaltet."/>
+	<lang name="msg_creating_pendrive" value="Bitte warten... Werkseinstellungen werden wiederhergestellt... \n \nDRUCKER NICHT AUSSCHALTEN ODER SYSTEMDATEIEN WERDEN BESCHÄDIGT!!!"/>
+	<lang name="msg_resetCounterVF_warning" value="Achtung: Einige Zähler sind so eingestellt, dass sie auf ihre Minimal- oder Maximal-Werte zurückgesetzt werden. Für diese Zähler ist eine Änderung des Startwertes unmöglich. Solche Felder sind grau hinterlegt."/>
+	<lang name="msg_messages_alert" value="Achtung! \nDie Mitteilungsliste enthält neue Informationen die gelesen und bestätigt werden müssen."/>
+
+	<lang name="msg_deleteSelectedObject" value="Ausgewähltes Objekt löschen. \nSicher ?"/>
+	<lang name="msg_create_project_error" value="Fehler ! Projekterstellung fehlgeschlagen!"/>
+	<lang name="msg_confirm_file_overwrite" value="Datei %s schon vorhanden, \nÜberschreiben ?"/>
+	<lang name="msg_confirm_position_change" value="Positionsänderung bestätigen?"/>
+	<lang name="msg_confirm_size_change" value="Größenänderung bestätigen?"/>
+
+	<lang name="msg_confirmExternParamsFile" value="Achtung ! Projekt benutzt externe Parameter-Datei. Jede Änderung kann andere Projekte beeinflussen! Möchten Sie trotzdem die Parameter editieren ?"/>
+	<lang name="msg_externParamsFileNotFound" value="Fehler ! Projekt benutzt externe Parameter-Datei, aber die Datei ist nicht vorhanden ! Bitte korrigieren und wiederholen !"/>
+
+	<lang name="msg_confirm_wifi_network_delete" value="Möchten Sie die Konfiguration des gewählten Drahtlosnetzwerkes wirklich löschen?"/>
+
+	<lang name="msg_restore_storage_damaged" value="Warnung ! Speicherdaten beschädigt. Sie können die Werkseinstellungen wiederherstellen. Drücken Sie &quot;Ausschalten&quot; um den Drucker jetzt auszuschalten oder &quot;Werkseinstellungen&quot; um die Werkseinstellungen wiederherzustellen."/>;
+	<lang name="msg_restore_storage_confirm" value="Alle vorhandenen Inhalte werden gelöscht und die Werkseinstellungen wiederhergestellt. Drücken Sie &quot;OK&quot; zum Bestätigen, zum Abbrechen drücken Sie &quot;Abbrechen&quot;."/>
+	<lang name="msg_restore_storage_ok" value="Speicher erfolgreich wiederhergestellt. Neustart erforderlich. Bitte drücken Sie &quot;OK&quot;, Drucker wird neu gestartet."/>
+	<lang name="msg_restore_storage_warning" value="Bitte warten...Wiederherstellung im Gange... \n \nDRUCKER NICHT AUSSCHALTEN ODER SYSTEMDATEIEN WERDEN BESCHÄDIGT!!!"/>
+	<lang name="msg_firmware_upgrade_detected" value="Massenspeicher enthält Firmware-Upgrade. Die Upgrade-Prozedur erfordert einen Drucker-Neustart. Zum Fortfahren drücken Sie &quot;Upgrade durchführen&quot; und warten Sie bis der Drucker ausschaltet. Dann schalten Sie ihn wieder ein."/>
+
+
+	<lang name="msg_enter_new_password" value="Neues Passwort eingeben."/>
+	<lang name="msg_confirm_new_password" value="Neues Passwort wiederholen."/>
+	<lang name="msg_enter_login_name" value="Benutzername eingeben."/>
+	<lang name="msg_import_error" value="Fehler beim Import der Datei %s!"/>
+	<lang name="msg_import_ok" value="Datei %s erfolgreich importiert."/>
+	<lang name="msg_export_error" value="Fehler beim Export von Dateien!"/>
+	<lang name="msg_export_ok" value="Export erfolgreich ! Datei %s mit Export-Daten im Hauptverzeichnis des USB-Gerätes erstellt."/>
+
+	<lang name="msg_firmware_upgrade_reboot_info" value="Drucker ist bereit für Update. &quot;OK&quot; drücken um den Drucker auszu- \nschalten. Nach dem Herunterfahren bitte wieder einschalten, das Update wird abgeschlossen. Es kann einige Zeit dauern - bitte abwarten und den Drucker nicht ausschalten!"/>
+
+	<lang name="msg_One_time_code_generated" value="Gerätecode generiert. Bitte gültigen Freischaltcode eingeben und mit dem Freischalten-Knopf bestätigen."/>
+	<lang name="msg_OneTimeCodeError" value="Fehler beim Erstellen des Gerätecodes. Fenster schließen und nochmal versuchen!"/>
+
+	<lang name="msg_PrintHeadMismatch" value="Warnung ! Gewähltes Projekt ist für anderen Druckertyp erstellt (NICHT FÜR HandJet EBS260)!"/>
+	<lang name="msg_PrintHeadMismatchOpenFail" value="Warnung ! Gewähltes Projekt kann nicht geöffnet werden. Es wurde für anderen Druckertyp erstellt."/>
+
+	<lang name="msg_remote_unlock_transmitted" value="Drucker sendet Freischaltanfrage an Remote-Server. Freischaltprozedur kann ca. 5 Minuten dauern. Nach erfolgreichem Freischalten wird eine Bestätigung angezeigt."/>
+	<lang name="msg_RemoteUnlockTxError" value="Drucker kann keine Freischaltanfrage an den Remote-Server senden! Bitte überprüfen Sie Ihre Internetverbindung und versuchen es erneut."/>
+
+
+	<lang name="msg_unlock_successful" value="Drucker erfolgreich freigeschaltet."/>
+	<lang name="msg_unlock_error" value="Freischaltfehler ( Freischaltcode ungültig oder Verbindungsfehler ). Bitte erneut versuchen."/>
+	<lang name="msg_printer_in_purge_mode" value="Drucker ist im Spülmodus. Zum Starten des Spülprozesses drücken und halten Sie den Auslöser. Zum Beenden des Spülmodus drücken Sie &quot;Stopp&quot; oder schließen dieses Fenster."/>
+
+	<lang name="msg_autoPowerOff_in_x_sec" value="Drucker wurde längere Zeit nicht benutzt und wird in %d sec ausgeschaltet."/>
+	<lang name="msg_EmergencyOff_in_x_sec" value="Kritischer Batteriestand !!! Drucker wird in %d sec ausgeschaltet."/>
+	<lang name="msg_low_battery_warning" value="Warnung ! Niedriger Batteriestand. Batterie schnellstmöglich aufladen."/>
+
+	<lang name="msg_clearStatistics" value="Statistiken wirklich löschen ?"/>
+	<lang name="msg_resolutionOutOfRange" value="Fehler ! Auflösung außerhalb des Bereichs ! Bitte erneute Messung versuchen"/>
+	<lang name="msg_confirm_bt_device_delete" value="Soll das gewählte Bluetooth-Gerät wirklich aus den erkannten Geräten gelöscht werden?"/>
+	<lang name="msg_confirm_close" value="Fenster schließen ? Alle Änderungen gehen verloren!!!"/>
+	<lang name="msg_confirm_user_delete" value="Ausgewählten Benutzer wirklich entfernen?"/>
+	<lang name="msg_ProjectNotFound" value="Projektdatei %s nicht gefunden!"/>
+	<lang name="msg_IllegalCharInFileName" value="Dateiname enthält unzulässige Zeichen. Bitte benutzen Sie nur Zeichen des lateinischen Alphabets, Zahlen und folgende Sonderzeichen: &quot;_&quot;,&quot;.&quot;,&quot;-&quot;. \n \nNeuen Dateinamen eingeben ?"/>
+	<lang name="msg_kernel_missmatch_message" value="Warning ! Printer internal software is incomlete! \nPlease restore internal memory, or if it does not help do the last update once again. If the problem persists, contact the service center."/> 
+
+	<lang name="msg_Can_not_perform_operation_project_selected_for_printing" value="Error ! Can not perform operation ! Project selected for prining !"/> 
+	<lang name="msg_confirmFileRemove" value="Do you want delete file/directory %s ?"/> 
+	<lang name="msg_Error_setting_bluetooth_friendly_name" value="Can not set Bluetooth device friendly name - module communication error !"/> 
+	<lang name="msg_Illegal_bluetooth_friendly_name" value="Can not set Bluetooth device friendly name - name is invalid !"/> 
+	<lang name="msg_wasteBottleOverflow" value="Waste ink bottle is full. Please empty it !"/> 
+	<lang name="msg_wifi_connection_error" value="Wireless network connection error. Please check configuration and try again."/> 
+
+	<lang name="msg_PrinterFirmware2Old" value="Die Version der Druckersoftware zu niedrig. Direkte Aktualisierung unmöglich. \nInformation über Versionen: \nDruckersoftware: %s1 \nAktualisierungsdatei: %s2 \nMindest erforderliche Softwareversion: %s3"/>
+	<lang name="msg_UprgadeFileOlderThanCurrent" value="Die Druckersoftware hat einen höheren Stand als die gewählte Aktualisierung. \nInformation über Versionen: \nDruckersoftware: %s1 \ nAktualisierungsdatei: %s2"/>
+	<lang name="msg_UprgadeFileSameAsPresent" value="Die Druckersoftware hat bereits aktuellen Stand. \nInformation über Versionen: \nDruckersoftware: %s1 \ nAktualisierungsdatei: %s2"/>
+	<lang name="msg_UprgadeFileInvalid" value="Die gewählte Aktualisierungsdatei ist falsch oder defekt!"/>
+	<lang name="msg_ParamOutOfRange" value="Error ! Mesured value is out of valid range ! Please try again!"/>
+	<lang name="msg_beta_version_warrning" value="Please be aware that this software version is for development purposes only and as such may contain bugs causing problems.\n By pressing &quot;OK&quot; you are confirming usage on your own responsibility." />
+</Messages>
+</EBS_LCDGUI>
+<EBS_Common>
+	<Labels>
+		<lang name="lbl_Yellow" value="Gelb"/>
+		<lang name="lbl_Colorless" value="Ohne"/>
+		<lang name="lbl_Red" value="Rot"/>
+		<lang name="lbl_Blue" value="Blau"/>
+		<lang name="lbl_Black" value="Schwarz"/>
+		<lang name="lbl_Ultraviolet" value="Ultraviolett"/>
+		<lang name="lbl_White" value="Weiß"/>
+		<lang name="lbl_Green" value="Grün"/>
+		<lang name="lbl_statistics" value="Statistik" />
+		<lang name="lbl_Orginal" value="Original" />
+		<lang name="lbl_Recovery" value="Wiederherstellung" />
+		<lang name="lbl_saveRecoveryAs" value="Wiederherstellungsdatei speichern als" />
+		<lang name="lbl_continueEdit" value="Editierung\nfortsetzen" />
+		<lang name="lbl_distance" value="Abstand"/>
+		<lang name="lbl_spacer" value="Spacer"/>
+		<lang name="lbl_externalscript" value="External script name"/>
+		<lang name="lbl_Printhead:" value="Schreibkopf-Name:"/>
+	</Labels>
+	<Messages>
+		<lang name="msg_deleteRecoveryFile" value="ACHTUNG! Bestätigen der Auswahl löscht das Backup!" />
+		<lang name="msg_RecoveryFileSelection" value="Alte Versionen des Projektes gefunden. \nBitte wählen Sie, welche Version Sie editieren wollen. Original-Projekt oder wiederhergestellte Version ?"/>
+		<lang name="msg_ConfirmRecoveryRemoval" value="Wiederherstellungsdatei löschen ?"/>
+		<lang name="msg_DelRecoveryWithoutRescue" value="Fortfahren und Wiederherstellungsdatei OHNE Wiederherstellung entfernen? Dieser Vorgang kann nicht rückgängig gemacht werden !"/>
+	</Messages>
+	<WTitles>
+		<lang name="wtitle_cProjectRecoveryDialog" value="Projekt-Wiederherstellung"/>
+	</WTitles>
+</EBS_Common>
+</EBS_LanguageFile>
