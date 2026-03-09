@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_DeviceSettings>
+	<PrintingParams EncoderConstant="5000" ConveyorSpeed="200" Pressure=""/>
+	<Startup Autostart="0" RecentProject="/home/printer/projects//Example-1.prj"/>  
+	<Language>English</Language>
+	<ReportLevel>0</ReportLevel>	
+	<AutoLoginEnabled>1</AutoLoginEnabled>
+	<AutoLoginUsername>Administrator</AutoLoginUsername>
+	<DateFormat>%d:%m:%y</DateFormat>
+	<DateSeparator>:</DateSeparator>
+	<TimeFormat>%H:%M:%S</TimeFormat>
+	<TimeSeparator>:</TimeSeparator>	
+	<OfflineEditorPrinthead>EBS-Electromagnetic-32 nozzles</OfflineEditorPrinthead>
+</EBS_DeviceSettings>

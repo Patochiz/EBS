@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_EditorUsers>
+<User id="3" login="EBS" passwd="9994b9c95c8ba26eeb4344c966da06a9" image="logo_ebs.png"><Group id="4"/></User>
+<User id="2" login="Service" passwd="c0a32cee48b713cdb78214d2c97d387f" image="nobody.png"><Group id="3"/></User>
+<User id="1" login="Administrator" passwd="ec308451c1d095c528cfa3c009ea7235" image="logo_ebs.png"><Group id="1"/></User>
+</EBS_EditorUsers>

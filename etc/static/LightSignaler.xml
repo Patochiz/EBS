@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_LightSignaler>
+
+	!-- Definicja urządzenia będącego sygnalizatorem. Tylko urządzenia tu zdefiniowane zostaną 
+	!-- uznane za sygnalizator. --
+	!-- Pole puste ( czyli wartosc "" ) oznacza brak weryfikacji danego pola --
+	!-- Pola IdVendor i IdProduct wymagaja podania wartości w systemie dziesiętnym !
+	<Device IdVendor="1027" IdProduct="24577" Manufacturer="EBS-InkJet" Product=""/>
+
+	!--Sygnlizator 2 kolorowy--
+	!-- SignlerIdValue - identyfikator czyli wartość jaka bedzie uzyskana po odczytaniu bitu Id --
+	<SignalerDescrition
+		SignlerIdValue="128"
+		SignlerName="EBS 2 lamps LightSignaler"
+	>
+
+		!-- Pozycje bitowe poszczegolnych elementow ( dla 2 bitowych pol podajemy pozycje bitu mlodszego ) --
+		<Outputs Id="7" Transporter="6" Green="2" Yellow="0" Red="4"/>
+		!-- Dla 2-kolorowego czerwony kolor zajmuje miejsce zoltego - bo tylko 2 kolory --
+
+		!-- Definicje stanów, starszy bit miganie, mlodszy swiecenie (aby migal musza byc oba bity na 1 ustawione tj. 11)-- 
+
+		!-- uruchomienie transportera --
+		<START           Transporter="1" Green="XX" Yellow="XX" Red="XX"/>
+		!-- zatrzymanie transportera --
+		<STOP            Transporter="0" Green="XX" Yellow="XX" Red="XX"/>
+		!-- drukarka zgłasza błąd --
+		<ERROR           Transporter="0" Green="00" Yellow="00" Red="01"/>
+		!-- drukarka zgłasza ostrzeżenie --
+		<WARNING         Transporter="X" Green="01" Yellow="00" Red="11"/>
+		!-- drukarka zgłasza informację ( czyli komunikat który zamieni się w błąd jeśli uruchomi się druk ) --
+		<INFO            Transporter="X" Green="00" Yellow="00" Red="11"/>
+		!-- drukarka nie zgłasza błędów i druk jest włączony --
+		<OK_PRINTING_ON  Transporter="X" Green="01" Yellow="00" Red="00"/>
+		!-- drukarka nie zgłasza błędów i druk jest wyłączony --
+		<OK_PRINTING_OFF Transporter="X" Green="00" Yellow="00" Red="00"/>
+
+	</SignalerDescrition>
+
+	!--Sygnlizator 3 kolorowy--
+	!-- SignlerIdValue - identyfikator czyli wartość jaka bedzie uzyskana po odczytaniu bitu Id --
+	<SignalerDescrition
+		SignlerIdValue="0"
+		SignlerName="EBS 3 lamps LightSignaler"
+	>
+
+		!-- Pozycje bitowe poszczegolnych elementow ( dla 2 bitowych pol podajemy pozycje bitu mlodszego ) --
+		<Outputs Id="7" Transporter="6" Green="2" Yellow="4" Red="0"/>
+
+		!-- Definicje stanów, starszy bit miganie, mlodszy swiecenie (aby migal musza byc oba bity na 1 ustawione tj. 11)-- 
+
+		!-- uruchomienie transportera --
+		<START           Transporter="1" Green="XX" Yellow="XX" Red="XX"/>
+		!-- zatrzymanie transportera --
+		<STOP            Transporter="0" Green="XX" Yellow="XX" Red="XX"/>
+		!-- drukarka zgłasza błąd --
+		<ERROR           Transporter="0" Green="00" Yellow="00" Red="01"/>
+		!-- drukarka zgłasza ostrzeżenie --
+		<WARNING         Transporter="X" Green="00" Yellow="01" Red="00"/>
+		!-- drukarka zgłasza informację ( czyli komunikat który zamieni się w błąd jeśli uruchomi się druk ) --
+		<INFO            Transporter="X" Green="00" Yellow="00" Red="11"/>
+		!-- drukarka nie zgłasza błędów i druk jest włączony --
+		<OK_PRINTING_ON  Transporter="X" Green="01" Yellow="00" Red="00"/>
+		!-- drukarka nie zgłasza błędów i druk jest wyłączony --
+		<OK_PRINTING_OFF Transporter="X" Green="00" Yellow="00" Red="00"/>
+
+	</SignalerDescrition>
+	
+</EBS_LightSignaler>

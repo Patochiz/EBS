@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_EditorGroups>
+<Group id="1" name="administrator" image="nobody.png" priority="30"/>
+<Group id="3" name="service" image="nobody.png" priority="20"/>
+<Group id="4" name="ebs" image="nobody.png" priority="10"/>
+<Group id="5" name="operator" image="nobody.png" priority="40"/>
+</EBS_EditorGroups>
