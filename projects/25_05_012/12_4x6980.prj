@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EBS_PrinterProject>
+  <ProjectSettings DataFormat="10" PrintHeadName="EBS-Electromagnetic-32" FriendlyName="Undefined" w="1000" h="32" ObjectsCount="5" ManagerInfo="1" min_w="660"/>
+  <PrintingParams ExternParamsFile="" UseExternParamsFile="0" ImpulseGeneratorSource="1" TriggerType="0" TriggerSignalMode="0" PhotocellSource="0" Resolution="550" PrintDistance="0" TxtRepetitions="1" RepetitionDistance="0" RowMultiply="0" UpsideDownPrint="0" ReversePrint="0" ShaftDirection="0" TextHeight="0" CleaningRows="0" Pressure="35" DotSize="3"/>
+  <Object ObjectType="TextObject" ObjectName="Text 1" x="0" y="0" w="100" h="16" AutoSize="1" Transparent="1" Text="PERRIN / NIORT (79)" FontName="fonts/Default/Font_16x10.xml" FontSize="25" FontSizeY="25" FontBold="0" FontItalic="0" FontRotate="0" LineSpacing="1" LetterSpacing="1" RowMultiply="1" ObjectRotate="0" IsLinked="0" LinkedToObject="" MustEdit="0" Printable="1">
+    <EditorData Field0="" Field1="" Field2="" Field3="" Field4="" Field5="" Field6="" Field7="" Field8="" Field9="" Field10="" Field11="" Field12="" Field13="" Field14="1"/>
+  </Object>
+  <Object ObjectType="TextObject" ObjectName="Text 2" x="0" y="17" w="40" h="12" AutoSize="1" Transparent="1" Text="LEC ST GREGOIRE" FontName="fonts/Default/Font_12x7.xml" FontSize="7" FontSizeY="7" FontBold="0" FontItalic="0" FontRotate="0" LineSpacing="1" LetterSpacing="1" RowMultiply="1" ObjectRotate="0" IsLinked="0" LinkedToObject="" MustEdit="0" Printable="1">
+    <EditorData Field0="" Field1="" Field2="" Field3="" Field4="" Field5="" Field6="" Field7="" Field8="" Field9="" Field10="" Field11="" Field12="" Field13="" Field14="1"/>
+  </Object>
+  <Object ObjectType="TextObject" ObjectName="Text 3" x="200" y="0" w="110" h="16" AutoSize="1" Transparent="1" Text="4x6980" FontName="fonts/Default/Font_16x10.xml" FontSize="25" FontSizeY="25" FontBold="0" FontItalic="0" FontRotate="0" LineSpacing="1" LetterSpacing="1" RowMultiply="1" ObjectRotate="0" IsLinked="0" LinkedToObject="" MustEdit="0" Printable="1">
+    <EditorData Field0="" Field1="" Field2="" Field3="" Field4="" Field5="" Field6="" Field7="" Field8="" Field9="" Field10="" Field11="" Field12="" Field13="" Field14="1"/>
+  </Object>
+  <Object ObjectType="TextObject" ObjectName="Text 4" x="200" y="17" w="60" h="7" AutoSize="1" Transparent="1" Text="" FontName="fonts/Default/Font_16x10.xml" FontSize="25" FontSizeY="25" FontBold="0" FontItalic="0" FontRotate="0" LineSpacing="1" LetterSpacing="1" RowMultiply="1" ObjectRotate="0" IsLinked="0" LinkedToObject="" MustEdit="0" Printable="1">
+    <EditorData Field0="" Field1="" Field2="" Field3="" Field4="" Field5="" Field6="" Field7="" Field8="" Field9="" Field10="" Field11="" Field12="" Field13="" Field14="1"/>
+  </Object>
+  <Object ObjectType="SpecialObject" Type="0" ObjectName="LineDivider 1" x="190" y="0" w="5" h="32">
+    <EditorData Field0="" Field1="" Field2="" Field3="" Field4="" Field5="" Field6="" Field7="" Field8="" Field9="" Field10="" Field11="" Field12="" Field13="" Field14=""/>
+  </Object>
+</EBS_PrinterProject>
+
